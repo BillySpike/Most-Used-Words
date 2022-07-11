@@ -1,0 +1,276 @@
+Hi, I’m Joe Lansford, one of the level designers on VALORANT. Now that Fracture has entered the fray, the maps team wanted to take a moment to talk about its creation.
+
+As a refresher, our maps design philosophy since day one on VALORANT is to push each map in a specific direction, instead of trying to accommodate ideal situations for each of the wild number of permutations that our weapons and abilities create. We build each map with a different hook that presents unique scenarios for you to problem solve.
+
+We proposed the same challenge with Fracture and today Brian Yam, one of the lead artists on the maps team, will join me to break it down for you.
+
+EARLY FISSURES - THE DESIGN QUESTION
+
+You may have read by now that we started with the question, “what if attackers could pinch defenders from both sides of the map?” This exploration led to the “H-Shape” layout, ziplines, the four orbs, quadrants, and just about everything else that makes Fracture what it is.
+
+With the novel strategic layer, we didn’t want to do anything too far out there for the moment-to-moment gunplay though, so hopefully you’ve found all that feeling fairly familiar.
+
+It took us a while to get there though. We weren’t really sure what the H-shape was going to do and it required a lengthy iteration period to really lock it down. Here’s what the original looked like:
+
+10072021-HighresScreenshot-inline.jpg
+
+In this iteration, defenders only had a single rotation path through their spawn. There’s a very complex approach here through A Halls/Door area with an under-over (drop into A was also on this side), sites are completely different, there’s a path alongside ziplines, a wider map, etc. Lots of differences—I think the tunnel under B is about the only thing that didn’t change!
+
+But the “footprint” was there. The team was sold on the core promise of the map, enough to work through the problems.
+
+This led us to our next big breakthrough: a safer rotation for defenders through their spawn (it seems so simple in hindsight). This was critical for giving defenders more options in how they could set up and move. The previous version often ended in situations where post-plant attackers would have enough utility left to completely choke out defenders in their spawn.
+
+10072021-HighresScreenshot2-inline.jpg
+
+In the above image, you can see the defender structure start to take shape as well as both the sites looking much closer to what we have today. Not to mention some stand-in thematic development even as early as the greybox phase.
+
+At one point, we tried an additional set of ziplines (as seen in the below mini map image) linking Arcade and Dish areas as well as a second bridge cutting across the middle of the map for attackers.
+
+10072021-fracture_FogOfWar-inline.png
+
+Once the defender area got sorted, the next big task to take on were all the neutral spaces. As you can see in the minimap above, these areas were quite different.
+
+With the next few iterations, we wanted to make these areas a little more paced and desirable for defenders to take and hold—giving them an option to either push through and flank, or use as a retake position.
+
+One of those areas, the Dish, was actually an idea that came from some concept references I was looking at after we decided on the desert direction for A side. A radar dish broken down in the desert was such a striking image, I felt I had to try to make the gameplay work (it was originally a good bit more complex and open).
+
+10072021HighresScreenshot3-inline.jpg
+
+After that, it was just lots of fine tuning.
+
+For the visual theme, the team had a bunch of great ideas (one of our favorite parts of the map creation process is pitching visual themes), that I’m going to keep secret in case we use them in the future. But we were pretty excited about the idea of the dual biomes and it presented a great storytelling opportunity.
+
+There are two factions working together in secret. Something goes wrong and the world is ripped apart. The visuals and gameplay both came together to deepen the world of VALORANT. (And our first in-game narrative content!)
+
+WHAT HAPPENED HERE? - THE DESIGN QUESTION
+
+Hello, this is Brian Yam, and I’m one of the art leads on the maps team. Now that you’ve read Joe on the design side (and spent some time playing Fracture), I’ll guide you on the visual development of Fracture in a similar way.
+
+When Fracture’s theme was first conceived during the pitch phase, we wanted to push the idea that this map was visually split from it’s lore aspect, but also from a visual perspective. Since most of you generally identify a map through art visuals, the concept team wanted to capitalize on this.
+
+For art the big question was this: “How can we create a visually compelling map that prompts players to question what happened here? What caused the split on both sides?” This was also an opportunity to help hint at the presence of Kingdom Omega into the narrative.
+
+VISUAL DEVELOPMENT
+
+Below is a very early sketch of the overall map from the greybox. In the initial concepts, our goal was to establish a visual direction of what this place is and why it exists in this space.
+
+A compelling idea to us was to have a science facility sit atop of a canyon, partially hidden. To address the visual lore, we established two extreme contrasts that resulted from an experiment gone wrong. We went with a desert biome for Omega Sector and overgrown foliage with Alpha Sector, with the rift dividing both sides.
+
+Artistically, this created a visual contrast in color palette of warm versus cool, and desertification against forestation. We thought you would also appreciate this contrast for callouts and memorizing each side distinctively.
+
+10072021-Fracture_bluesky-inline.jpg
+
+One of the most important concepts we typically establish early on at the end of “blue sky” development (where anything goes) is to create what we call a dollhouse. The next image is of a dollhouse for Fracture created by our senior concept artist, Theo Aretos. This high level concept helped establish the shape language, color palette, and general direction of the mood we wanted.
+
+From there, the concept team starts to focus on more specific concepts within the greybox locations. The art team works closely with level designers to iterate on specific concepts within those locations.
+
+10072021-dollhouse-inline.jpg
+
+At this point we also want to get a clear concept of how the layout of the map will be from a top down view, which shows the overview of the map along with callouts noted with rough thumbnail concepts of where key locations are.
+
+In the example below, this type of information was helpful for an initial art block out where 3D artists build a more refined 3D blockout over the level design greybox to reflect compositional and silhouette shapes inspired by our concept art .
+
+10072021-Fracture_plan_layout_inline.jpg
+
+Key Concepts
+
+The following images are some of the key concepts that helped drive the artistic direction of the visual target for Fracture. These images are the final version of a concept for two areas (hopefully you recognize them) that provided a general direction for our 3D artists to hit.
+
+10072021-overcast-inline.jpg
+
+10072021-Asite_dish-inline.jpg
+
+Concept to Art Blockout
+
+For some background, the concept team initially completes the first stage concepts prior to initial “art blockout”. Typically, we establish roughly 70-75% completion of concepts in each area that are adequate for art blockout.
+
+Art blockout is where we start building a rough 3D shell which represents the shapes of the architecture, landscape, and environment composition from the concept art which is tied closely to greybox parameters. Here’s are some examples on Fracture—
+
+Greybox design mesh:
+
+10072021-HighresScreenshot46-inline.jpg
+
+Art blockout on attack spawn and dish:
+
+10072021-HighresScreenshot697-inline.jpg
+
+10072021-HighresScreenshot872-inline.jpg
+
+A lot of collaboration between the design and art team happens here. The reason for this is because the level design is still undergoing changes after the art blockout is created, and many adjustments and tuning still needs to be done.
+
+Art Production
+
+This is the fun part! Now that we have all the nuances for gameplay and initial art block out pretty much locked down, this is where we go into production to finish up the final 3D art. The final art typically represents the concepts, but they can change along the way if we discover improvements.
+
+It’s fun to watch players discover the lore and develop interpretations just through the art. In VALORANT tradition, how many tacti-bears can they find throughout this map?
+
+10072021-HighresScreenshot12-inline.jpg
+
+10072021-HighresScreenshot20-inline.jpg
+
+And for the next map...here’s Joe again with the final word.
+
+CHECK YOUR INBOX
+
+It’s been really fun watching you solve the gameplay opportunities of Fracture. The meta is barely starting to form and everyone on the team is eager to see how it evolves over time.
+
+As for what comes next on “map 8,” no spoilers, but you might find some clues in those Fracture emails. Hopefully they’re not lost in your spam folder.
+As a follow up to our discussion several weeks ago about the Creation of Split, we wanted to provide clarity on our overall map creation process with a focus on our latest map, Ascent. As you might imagine, it takes quite a while for a map to evolve from initial idea to landing in your laps. Ascent was one of the very first maps that we put together on VALORANT and was the place where we developed and refined much of the core gameplay that you experience today.
+
+It’s been on a long road...
+
+The whole map process kicks off with a stage called Incubation. This is where the designer builds a proposal that establishes a design goal, clear constraints to work within and a unique visual experience for players. These proposals usually include top-down plans of the map and often contain simple 3D models that can be experienced in our engine.
+
+Since Ascent was the foundational experience for VALORANT, the goal of this map was to create a traditional three-lane tactical experience that also allowed players to alter connections through the use of a mechanical door. It was designed to be a baseline experience for future maps to grow from.
+
+Ascent_InArticle_Image_1.jpg
+Once we have an idea that the team is excited about, we move into the Greybox phase of development, which can take anywhere from several months to several years. During this phase we build a rough model of the environment in our engine, set up all the core gameplay elements, roughly prototype new elements (like those mechanical doors), and then play it extensively.
+
+The key here is to fail fast, playing new iterations of the map several times a week. This is where we dial-in every sightline, encounter distance, opening width and all the other nuances that you see in our maps today. We only leave Greybox once everyone feels confident in the intended design direction and when the map is playing really well.
+
+Ascent’s creation coincided with the iteration of VALORANT itself, including further design on the impact of abilities, the power at range of each weapon, and even our IP direction—so Ascent stayed in Greybox for close to three years.
+
+old_asc_1_rev_v2.jpg
+This next phase of map development, Block-in, begins with concepts of the high-level vision for the visual experience. This two month process attempts to answer all lingering questions on the map. By the time this phase is complete, we want gameplay to be silky smooth and fully understand what every single structure and cover object looks like. Ideally, once a map leaves this phase all we are doing is executing on art. 
+
+Ascent_InArticle_Image_2.jpg
+During the early stages of Block-in we are also looking at the overall composition of the map and how it helps inform player orientation and navigation. Essentially we ask how can the art make the map play better? For example, how can we use architectural hierarchies in the map to reinforce the important parts of the game such as the objective sites and major routes of circulation?
+
+AscentComps.gif
+With Ascent, we started with the idea that a chunk of medieval Italy had been ripped out of the ground and thrown into the sky. We then needed to assess how this visual direction would integrate with the Greybox layout that was playing so well.
+
+This is where ideas such as the central tower came into existence and where we started accentuating Site A, the high point of the map, with the domed basilica and Site B, the low point of the map, with the drained canal and boathouse.
+
+Ascent_InArticle_Image_3.jpg
+While the artists and designers tag team the Block-in process, Art Production responsibility falls squarely on the shoulders of the amazing artists of the Map team. Here we use the concepts finalized in Block-in to build an environment experience that is memorable for players and that also makes the map play better.
+
+One rule that we try to adhere to is the idea of a clean gameplay zone across the map. This specifically means that we keep the majority of artistic detail of the map below about 1 foot in elevation or higher than 9 feet. The area in between, which we call the Clean Zone, then becomes a simplified space with high visibility. We want our agent silhouettes and especially the head to read very clearly as players putting rounds on target is key to winning the game.
+
+Ascent_InArticle_Image_4_v2.jpg
+Beyond this area, the artists can really use their talents to craft spaces that feel special. Art Production can last upwards of 6 months and also involves tasks such as adding ambient audio to help make each part of the map feel alive.
+
+On Ascent, and all of our other maps, we spent a good deal of time identifying key points of interest (POIs) through statues and murals that again helped players orient themselves.
+
+You can see this with callouts such as Courtyard, Garden and Market.
+
+AscentProgression_02.gif
+Although this process can take up to a year to complete, Ascent took close to five years as it continued to evolve along with the game itself. It has been a long journey but in many ways we are just getting started. In patch 1.02, we reduced some of the angle complexity on the map and we will continue to improve things with the help of all of you.
+
+As always, thanks for the continued feedback and we will see you out there on the floating isle!
+Howdy folks! My name is Chris Carney and I am the Lead Level Designer on VALORANT. Today, along with the legendary Level Designer Sal Garrozzo, we will be discussing the question: Where did the Split come from and how did we bring it from a loose, rough idea to a polished launch experience?
+
+Loading_Screen_Split_v2.jpg
+The design philosophy behind our maps on VALORANT is relatively simple. We have a wide range of characters with an array of abilities who can also wield a multitude of weapons. Instead of trying to create maps that all provide an equal number of ideal combat situations for the crazy number of permutations, we instead push each map in a specific direction.
+
+For example, on Bind we ask “what if we remove the middle area of the map (i.e. “Mid”), which typically provides flanking opportunities on a traditional two objective map?” How would that affect the way five-player teams play defense or how they attack? Can we even build a map that works well with this constraint? This becomes the design goal of the map.
+
+The intent here is not to have a “gimmick” for each map, but instead to center the map around a specific gameplay experience that we can create with the map geometry. We also evaluate new map mechanics, such as one-way teleporters or ascenders, and see how these can help us achieve this goal.
+
+With a clear target, we are then able to evaluate if this type of experience works well for VALORANT. If the map does not play well when we start playtesting, we can determine if we are just executing on it poorly or if our goal is wrong for the game. However, if it’s working well, we can then focus on how to make it better. Each map becomes a new challenge for players to solve. This creates gameplay diversity within our map roster while allowing certain characters and team compositions to shine.
+
+As you can imagine, it doesn’t always work out. There are greybox levels (a “greybox” is our earliest playable version of a map) that will never see the light of day. On the other hand, some levels have withstood the test of time and have gone through literally years of iteration to earn a spot on our final roster.
+
+Split is one of these experiences.
+
+THE BUILD
+For Split, the question focused on whether or not we could create an off-site position that was essential to defending or capturing each site. To put it even more simply, could a tactical map play like King of the Hill?
+
+01
+02
+The original design had a single tower in the center with bullet proof glass that allowed Defenders to see the approach of the Attackers. During playtesting, we found that the tower did indeed provide an off-site position that was critical to hold, but it was too powerful and pulled too much combat away from the objective sites themselves. So we decided to break the tower into two smaller towers that focused on each site.
+
+The next version pushed more of the action to the objective sites with Mid giving players access to the new smaller towers. Instead of looking at Attacker spawn, these two spots overlooked each objective site and provided strong overwatch as Attackers or Defenders. It started creating unique gameplay opportunities that worked well within the game. Taking a tower helped Attackers take the sites.
+
+We were onto something! However, Mid was still too critical and the overwatch positions were also too disconnected from the sites themselves.
+
+01
+02
+The third major revision firmly connected the towers to the sites which allowed them to be a core part of the combat around the objectives. Players could jump out of the towers onto the sites and use ladders to travel in the reverse direction. While these elements worked well, Mid unfortunately had become a large, porous mess of connections and was still the main hotzone on the map. We had some work to do.
+
+The best solution was to break Mid into two halves and then connect these directly with hallways, which became the “Vent” and “Sewer” that you experience today. This allowed us to divide Mid combat into focusing on attacking and defending each tower. In addition, we further crafted the objective sites where ignoring control of the tower would make holding the site itself more difficult. Our goal of creating off-site positions that were essential to each site was working.
+
+We finally had something that the team was excited about and it was time to move the map into Art Production.
+
+MAKING IT REAL
+While Split was undergoing all of these revisions, VALORANT had moved through several thematic directions and was now focusing on locations inspired by real places on Earth. The foundation of VALORANT’s combat model has always focused on tactical shooting using real world weapons with a few spectacular moments punctuated by the use of abilities. We wanted the world to reflect this as well.
+
+biggestboi_v2.jpg
+Split was now a Japanese city under a dramatic transformation as Kingdom transformed the daily lives of everyday citizens while increasing its footprint. This new direction provided city courtyards and alleys that would match up well with the layout of the map, while also adding a few futuristic moments of spectacular goodness. The Map Art team then went about creating an incredible old world city that lives under the shadow of a massive Kingdom R&D facility.
+
+Since we always want our art to help clarify gameplay, and each area around the towers and objectives needed to be clearly memorable, we divided up the map into two distinct sectors. B Site was to be the older district in the city, while A Site was to be part of an ever expanding, new Kingdom tech campus. Each part of the city would also be anchored around a Raidanite Generator which would identify the objective sites.
+
+01
+02
+Cities can be visually overwhelming and player orientation and navigation are always critical. We want players executing strategies and fighting enemies rather than fighting the layout of the map. By separating the map into two distinct visual themes we were able to generate unique places of interest (POIs) that complemented each side of the city. These POIs are critical to the design of any map and, along with a clean composition of space, help players build an easy mental map of how the places connect.
+
+In the end, Split was released and we continue to refine these ideas with the help of players. Patch 1.0 included further revisions to the Mid section connecting to B tower and we will still be watching and evaluating how everything is working.
+
+Look for more stories about the maps in our launch roster in the future. Meanwhile—see you in the city!
+Hey everyone! I'm Lydia Zanotti, a 3D environment artist on VALORANT. With the release of Icebox, I thought it was the right time to bring you in from the cold and discuss how we bring our maps to life, from the inside out.
+
+The VALORANT maps team is fairly small, and consists of level designers, 3D, concept, lighting, and QA. It's a real collaborative feat getting a map from greybox (the earliest playable version of a map) to a version that's ready for you, the player.
+
+Icebox_Splash_v2.jpg
+When it comes to maps, level design normally grabs most of the attention, and rightfully so, as designers spend months working on the greybox-playtesting and tweaking them until they are ready to hand off to the artists.
+
+Today you're going to hear from the 3D artist perspective. That's me, the person who works on models, textures, sculpts, paint, shaders, and building the overall visual world. I hope to give you some insight into the challenges, successes, and misconceptions of crafting map environments.
+
+If you want a closer look at how we approach level design, check out this story on the creation of Split.
+
+AFTER LEVEL DESIGN
+Icebox_Dollhouse_v2.jpg
+Before 3D artists can touch a map, our Art Lead and Creative Director work very high level with the concept artists to iterate on finding an iconic look for our maps using a series of blue-sky concepts. At this stage there's a lot of back and forth between the artist and project leadership to make sure the map follows the VALORANT narrative, is marked by visual variety, and most importantly, is something the team is really excited to be working on.
+
+After a high-level direction has been locked down, concept artists begin to tackle specific locations and call-outs on the map based on the greybox layout. At this stage, the concept artists try to get as much coverage on the map before the 3D artists jump in and begin modeling the basic shapes of the architecture.
+
+Icebox_ConceptB_v2.jpg
+MAP FOUNDATIONS
+Our map production pipeline can be broken down into several phases: greybox, art blockout, and art production.
+
+Our maps are completely built using Unreal Engine 4, and the majority of the team uses Maya for 3D modeling (though a few of us use 3ds Max).
+
+gif_IceboxProg3.gif
+As we start to model the maps, we try to playtest them on a weekly basis to get a feel for the spaces, check for bugs, make sure there is accurate collision, and to spot areas that are too noisy or compete visually with our Agents.
+
+The level designers can make changes to the spaces as we're modeling them, and we have to pivot to those changes when necessary. This often happens during the art blockout and early stages of building the maps. Since concepts and layouts can shift, it's better to work with simple shapes during the blockout phase to avoid having to re-do work.
+
+Two good examples of this can be seen in the Icebox blockout phases of "kitchen" and "mid," where changes were made to give some spaces more breathing room.:
+
+gif_IceboxProg2.gif gif_IceboxProg1.gif
+OUT OF BOUNDS
+Our main goal on the maps team is to not only provide the player with a beautiful looking map, but to provide one that also runs well. We may start with ambitious concepts, but at some point we have to reasonably limit how creative we can get. This is due to either having to adhere to the greybox layout, or because of performance constraints.
+
+Performance is super important in tactical shooters, and we spend a lot of time working with engineers when we finish a map to clean it up and have it running as smoothly as possible. There are many ways we do this and there are always trade-offs like having to sacrifice visual quality to get a small performance gain. Those small gains add up, and they matter.
+
+Optimizing a map is simple, however, as we can gather data to see what textures are taking up the most memory in the map, or which areas of the map have too many draw calls (or amount of assets in view). To help with this, we can "instance" meshes-meaning that if there is a pile of the same 20 rocks, we can instance them together, so that the engine reads them as one mesh. This helps us immensely as we populate the maps with a ton of props.
+
+CONSTRUCTION, MINUS THE HARD HATS
+For some insight into my personal work on Icebox, most of my time was spent on the B-site half of the map. When I began work on the Spike plant area, I was provided several concepts to work from to get an idea and feel for what I'm about to create. While we don't have to stick to the concepts 100%, we do make sure that we stick to the greybox.
+
+We often export the greybox meshes and then 3D model over them so that the walls and edges line up perfectly. This is especially important in areas with heavy gameplay (more on that later).
+
+Icebox_ConceptA_v2.jpg
+We try to model and get the basic architectural shapes into the map before starting to unwrap and texture them. When we start to add colors on the meshes, we make sure that they aren't too dark, especially in interior spaces. The objective here is to maintain gameplay integrity by making sure that the environment doesn't impede with clarity, and that the characters are always clearly visible.
+
+gif_IceboxProg4_reduced.gif
+As far as texturing goes, we primarily use tiling textures and trim sheets on our buildings and large structures. These are created using a variety of programs such as Zbrush, Substance Designer, Substance Painter, and Photoshop. We do use custom textures on props when needed, such as the coffee machine in the kitchen, or the forklift near A-site.
+
+MORE ON MAP CLARITY
+Again, while our artist goals are to carry out the look and feel of a map, it is always subordinate to gameplay clarity and making sure the Agents are always clearly visible when they should be.
+
+To help with visual noise, we make sure that our materials are similar in value and there isn't too much contrast or darkness. We can also improve clarity by using lights to illuminate dark areas, or to spotlight spaces where you would want the most visibility possible, such as a Spike plant site or a commonly peeked corner.
+
+01
+02
+MAP MOTIFS
+The sky's the limit on the maps we make -- for the most part. Adding graffiti, props, and small details to the map is how we tell a story to the players. When it comes to details, we try to keep the majority of it above player height so that the angles and peeks are simple and clear. We also consider designing areas in a way where it can actually help to guide your crosshair placement.
+
+For theming and call-outs on the maps, it’s best to come up with ones that are simple and easily understood to avoid the pain of hearing your teammates scream “over there!” when really they mean “garage” or “market.”
+
+We also consider callouts that are quick and easy to say while in the heat of a match. Some of our callouts are very obvious, such as “kitchen.” In other cases, we try to use colors as a way to help distinguish certain areas and structures, like the yellow shipping container on B-site.
+
+01
+04
+Fun with storytelling and worldbuilding is probably the best part about being an environment artist. Each artist working on the map gets to add their own flavor to their sections of the ma—and sometimes even secretly sneak in a Tacti-bear somewhere. We use our best judgement and follow concepts where provided, but if we have cool ideas or something inspires us, we let that creative energy out into the maps.
+
+One way we add more visual interest and story into the maps while sticking to greybox is to build outside of the gameplay space. An example of this would be the Bunker built into the glacier wall on B-site. Inside, I created an interesting storage space with a curving tunnel, without having to worry about gameplay since the player can’t go into this area anyway.

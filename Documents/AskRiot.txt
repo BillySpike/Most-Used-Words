@@ -1,0 +1,984 @@
+When is Vex coming out?
+As long as everything goes as planned, Vex should be coming out in September. We're working on getting her source of power (aka her shadow) just right in game, which is why she's releasing a bit after the Sentinels of Light event. In the meantime, we hope you enjoy getting to know the gloomy yordle who holds a special place in our goth kid hearts <3
+
+(In case you missed it, Vex is part of the Rise of the Sentinels story that you can play through in the client right now!)
+
+Reav3, Lead Producer of Champions Team
+
+Are Prestige skins canon? Does Prestige Ascended Pantheon's existence mean Atreus is now some kind of super being in the lore?
+Prestige skins are not canon. They're "what-if" style executions that try to answer the question: What might the biggest, most epic victory look like for this champ in this thematic?
+
+All the Prestige skins do this, but it's an especially topical question for Prestige Ascended Pantheon, since the Sentinels of Light event is based in core Runeterra canon. The real way the story ends is [[SPOILERS, GO PLAY RISE OF THE SENTINELS!]]. For Prestige Ascended Pantheon, we get to see Atreus kick Ruined Pantheon's butt and become more powerful than ever before as a result. That kind of self-actualization is a big part of what makes Atreus feel strong, and talks to the core themes that make him awesome. That’s the kind of space Prestige gets to explore.
+
+Riot Wilkingham, Sr. Manager Narrative Editing
+
+How do you pronounce Akshan?
+You’ve come to the right linguistics nerd! Akshan is pronounced /ɞkʃən/. The first vowel is not often heard in US English, but is common around the world.
+
+For folks without that vowel sound as a common feature of their speech, it can help to triangulate: The sound is more open/emphasized than the /ə/ sound (the second vowel in the name Akshan), but more closed/centered in the mouth than the /ɐ/ sound (the vowel US English speakers generally hear in “not”). Shaping the vowel is a bit like reserving enough space for a gumball in the very center of your mouth and filling that open space with the vowel sound.
+
+And just in case phonetics isn’t your one true calling, here’s a sound clip.
+How do you decide when a champion is manaless?
+Mana provides some important champion design values automatically.
+
+Mana naturally paces the game, especially during lane phase. The game works best when there’s an ebb and flow to the action. Most patterns are made less compelling if they don’t have good breaks in the action, but many otherwise very good spell designs would be correct to spam without a limiter like mana.
+
+This is especially true for very safe patterns—if a champion is consistently able to avoid any enemy harass and still succeed, or has excessive healing on their kit, mana is often the only reason they’d need to return to base. Very few ranged champions are manaless for this reason, and the amount of healing a manaless champion is allowed to have on their base kit is quite limited (we are nerfing Viego’s sustain, for example).
+
+Additionally, many spells want to be very high stakes when cast. Rocket Grab is a huge part of what makes Blitzcrank compelling, but he really needs to care about hitting every cast. It needs to cost him something important when he casts and misses, both to balance the spell and to really drive the impact of that moment. Cooldowns are a useful tool for this as well, but can only be pushed so far—how long would Rocket Grab’s cooldown need to be if Blitzcrank didn’t use mana? Mana lets us calibrate the stakes for each spell without needing to create a lot of additional rules.
+
+When making a new champion, we default to using mana. We only make a champion manaless when there are good reasons why they shouldn’t use it; even for patterns that don’t get as much value out of mana as usual (generally melee champions without strong fishing tools or poke, who need to expose themselves to ranged harass in order to lane at all), it’s usually still better to include it. With that said, there are some good reasons why we shouldn’t use mana for particular champions.
+
+Secondary resource bars like Grit, Heat, or Energy compete with mana in the UI. We can include both when both are important, but these secondary resources often cover the same values as mana, and we don’t include both when we don’t need both. Rumble’s Heat, for example, gates his ability to spam his spells and forces either downtime or conflict when he overheats, which naturally paces out his lane phase.
+
+Individual champions sometimes have their own important reasons not to use mana. In Viego’s case, mana would create a significant clarity problem around his transformations: Does he use mana during possession moments? If he doesn’t, what does he display for his mana bar? These could be learnable, but it’d put a lot of stress on the understandability of an already complex champion.
+
+In other cases, a more continuous pattern is important to the champion—it’s a lot of what makes Yasuo compelling to play as, for example. We need to be careful with these cases, as they put a lot of pressure on the rest of the champion’s kit to make the right tradeoffs and be balanced appropriately. This can often leave individual spells feeling underwhelming when balanced, but it’s sometimes worth that tradeoff.
+
+Riot Axes, Lead Champion Designer
+
+How do you decide when to micropatch a champion, versus waiting for the normal patch?
+In general, we’ll micropatch a champion if a balance change swings much harder than intended. For example, if we had a champion with a winrate that was only say 1-2% over Balance Framework bounds, but they were nerfed by 5-6%, we'll consider a quick correction. The last time this happened was at the end of 2020, when a nerf to Kayn dropped his winrate by about 6%, so we walked it back some. If it looks like a smaller overshot, we’ll generally wait until the next patch and reassess once there’s more data.
+
+For new or updated champions, we approach balance (and micropatches) a bit differently, as players are still learning the champ and there’s no existing data to go off of. In these cases, we’ll use a pre-established winrate range to determine whether a micropatch is needed. To determine these ranges ahead of time, we look at the type of mastery curve we expect the champion to have, then use that to set their winrate bounds. For example, we’d expect a more challenging champion (such as Aphelios) to start off at a lower winrate that climbs over time, whereas an easier champ (such as Neeko) may start off at a higher winrate that climbs less.
+
+We use this info to construct the likely day 0 (launch), day 1, and day 7 winrate bounds. If a champion ever falls well outside these bounds, then we’ll quickly micropatch as an immediate follow-up. As a recent example, Samira’s winrate on Day 0 was above 50%, which we know tends to mean she released too strong (50%+ is usually pretty high for any new champ), so we micropatched a nerf.
+
+And while we’re here, let’s talk bugs… The easiest way to assess whether we should micropatch a bug or wait for the next patch is a combination of 1) the probability of the bug happening (e.g. if it requires a 100 minute game, it’s probably not a big deal), and 2) how impactful the bug is (e.g. does it crash someone out of the game? Better micropatch it.).
+
+Jag, Lead Game Designer - Summoner’s Rift Team
+
+With information split across dozens of subreddits, twitter accounts, and sometimes news articles, it's incredibly difficult to keep track of Riot communications. Any thoughts on maybe reviving the "Red Tracker" from the Boards as an informal list of Riot comments?
+(If you haven’t seen it or have long forgotten its existence, the "Red Tracker" was a feed that showed every Rioter’s post made on our old Boards discussion forums.)
+
+I promise this wasn't a planted question, but very conveniently, we recently launched the @loldev twitter account which shares posts from devs, basically filling that "Red Tracker" function we used to have on the Boards—making it easier to find dev communication on Twitter. We'll also use the account to post links to blogs and articles like Quick Gameplay Thoughts and the Patch Notes. We're gonna keep the feed pretty focused, since we won't be signal boosting off-topic stuff. Sorry about it, food and sneaker and dog enthusiasts.
+
+To the broader sentiment, dev talk being scattered across lots of platforms is a drawback to Riot's approach of.... letting devs talk on lots of platforms. It’s not ideal, but we don’t see this as an urgent problem: Our stance is that talking with devs should make your League experience better, but shouldn't be required to get the info you need to play the game. Final gameplay changes always end up in the Patch Notes, for example, but PBE iterations don't hit must-know status because they're not what you end up playing in-game. We're alright with discussions about those iterations living exclusively on social media.
+
+It's also, weirdly, a nice problem to see called out in the sense that it tells us players find dev posts interesting, as opposed to not really caring. As long as there's a desire to hear more from the devs directly, we'll keep posting.
+I love champion animations in WR. Have any plan of doing them in League sometime?
+I love those introductory animations too! Beyond being cool to watch, they help introduce new players who have never played League of Legends on PC to the different champions. Each one tells a little story that conveys the personality and power of that champion. We've talked about doing something similar in League PC and we still might, but it'd require a lot of work inside our current Champion Select screen. Currently our priority is to improve that system so it's as responsive and accurate as possible. So until we're happy there we won't be adding features like this, but we'll certainly revisit it later.
+
+Riot Brightmoon, Lead Gameplay Producer
+
+When writing the music theme for a new character, what are the factors that are considered when making that theme?
+There are so many aspects of a champion that can inform their theme that it can sometimes feel a little overwhelming to choose which direction to head in. One thing that can help is determining the core elements of a champion alongside the teams we work with. This core theme is usually two to three words that uniquely describe them—-not enough to detail every little element, but enough to know who they truly are and what makes them different.
+
+Sometimes these things can be quite apparent, like for Nunu and Willump's theme. The flute and music in general plays a huge role in Nunu's life, so the flute is included in their theme. Other times these core elements manifest over the evolution of a theme. Fiddlesticks' theme is a good example of this, where a song is being sung about the signs of Fiddlesticks’ return; and while it's unsettling, it's not until the end of the song that the true terror of Fiddlesticks appears. Lastly, some core components of a champion can be hidden or reimagined in a theme. Sylas’ theme is an example of this, where the middle section is a darker and more tense reimagining of the recognizable string part we hear at the beginning of Demacia Rising.
+
+Alongside the core elements, there are three important considerations when writing a champion’s theme…
+
+Personality – Does the champion have a lighthearted attitude, or are they filled with rage? Are they fun to be around or do they inspire terror in their enemies?
+Backstory – Is the champion someone who's on a quest to understand what he has become? Do they have a tragic past, or an inspiring tale filled with heroic deeds? Champions' backstories have shaped who they are, so it's an important part of their music.
+Location – Different parts of Runeterra have different musical sounds and stylistic influences. If their home is an important part of their personal story (ex: they’re demigods from the Freljord), this may be an important part of their sound.
+We consider similar elements when working on skin themes as well. Generally, musical arrangement and styling is defined by the location or alternate world from which our skins originate. From there, the musical approach is very focused on tone. Asking questions like… “Are the champions included in this skin line fun, eccentric, and daring? Or perhaps is this skin line futuristic, gritty, and serious?” For example, we knew the PROJECT pillars to focus on were future technology, neon dystopia, and awe inspiring yet oppressive. Having pillars like this can help conjure up a clear direction to take the music.
+
+The Riot Music Team
+
+Which champion has the most pentakills?
+That’s a classic question! Looking at Ranked Solo/Duo games from patch 11.11, Samira has the most pentakills, followed by Master Yi and Katarina. That doesn’t account for popularity, though. Per game played, it turns out the pentakilling-est champ is… still Samira (.018 pentas per game), then Master Yi (.018) and Katarina (.015)—all three are similarly popular!
+
+Some other pentakill trivia:
+
+Unsurprisingly, you’ll want to avoid playing enchanter or tank supports if you’re chasing the pentakill high. Soraka, Braum, Rell, and Taric all had 0(!) pentas in the sample of Ranked Solo/Duo games.
+
+Every single champion had pentakills in ARAM! Master Yi beats Samira for the top spot in this game mode with an impressive .082 pentas per game, while Samira and Katarina score .071 and .054, respectively.
+
+Even high ranked players aren’t safe from the pentakill trio—Master Yi (.017), Samira, (.015), and Katarina (.011) still have the most pentas per game in Diamond and above.
+Are there plans to add new items to the shop?
+We are working on two new items and one heavily reworked one. Ideally at least two of these will make it to live during the summer; the third one we’re not sure about yet, as it may slip to preseason.
+
+First off, we’re introducing a new Legendary tank item that has a binding like Knight’s Vow or Zeke’s Convergence—but this time, the twist is that it’s enemy-targeted. The item grants damage reduction against just that targeted enemy, as well as a tenacity reduction aura against them if you’re close to them. This item should be fantastic for dealing with a fed carry or single-threat team composition, as well as matching a threatening split pusher.
+
+Second, while we’re talking about split pushing, let’s talk about Sanguine Blade. This item has an awesome solo operative fantasy, but its stat package has struggled to support it. We’re reworking this item and taking it out of the lethality space, broadening its appeal to any AD champion focused on side laning as their win condition. We’ll be shifting the item’s power so that it partially indexes in 1vX potential (which is fairly solo queue focused), but now it’ll also partially index into taking a tower that is being defended by a durable opponent (which is fairly pro focused).
+
+We’re planning to ship these items in the same patch, as they’re both pretty top lane/split push focused.
+
+Third, we have an enchanter support Legendary item in development. Historically, enchanters have been entirely defenseless when caught, making them exceptionally punishing to play when the enemy team has powerful aggressors. The new item will provide burst resistance in the vein of Zhonya’s Hourglass, but with a much more supportive bend.
+
+Finally, we’re considering item spaces that we think are worthy to work on for preseason. No firm plans there yet, but stay tuned.
+
+Jag, Lead Game Designer on Summoner’s Rift Team
+
+Do you plan to add in-game canon LGBT+ couples in LoL? Just like Lucian and Senna, or Rakan and Xayah.
+We see games as a forward-facing medium for a new generation of diverse storytellers. Because stories offer a window into someone else’s world, they provide an opportunity to connect and create empathy for one another. We want to encourage that connection for our audience and one way we can do so is by continuing to highlight LGBTQIA+ stories.
+
+Specifically, for LGBTQIA+ champions in League of Legends, our storytelling approach will vary. For some, their voice lines may clue you in. For others, there are a variety of stories in different mediums that we’re keen to tell. As an example, one that will be coming shortly after this post is centered around the “Festival of the Nightless Eve'' featuring Diana and Leona. 
+
+Whether or not our LGBTQIA+ champions are in relationships with one another will depend on the characters and where they are in their own personal stories. Some may be single, some couples, some may be ex-lovers/enemies, and others might have budding interests and are still discovering who they are.
+
+TL;DR
+
+We want our stories to be a place where all players can see themselves and have characters they want to relate to. Players make it clear that they want more of this, universally. So we want to continue adding in LGBTQIA+ champions in League (though they might not necessarily be a part of a couple). It paves the way for opportunity and allows us to be true to ourselves and our audience as well.
+
+Riot Yuujou, LGBTQIA+ Lead
+
+I like Xerath’s new skin, and I was wondering how you decide to make a non human champ into a human for a skin?
+So glad you're enjoying the skin! Turning champions into humans for skins lets us deliver on a totally new fantasy, which is super exciting. There can be a lot of challenges in this space, though, since we have to make sure we're hitting the gameplay clarity bar and creating something that will work with the existing rig and animations. In cases where we think the thematic fit for the champion works really well and brings something new, we'll do our best to come up with creative solutions to make it work. Xerath is a good example where we've been able to retain his overall silhouette while showing a very different side of him.
+
+We want to avoid doing thistoo often for a champion so that we don't undercut the core of their identity, but are excited when we can show them in a new light.
+Hi I just read your "Clarity in League" post and was wondering if you've considered adding an option to not show skins in game which one could toggle on/off as they please?
+Real talk here - cosmetics are how we pay our bills and fund ongoing development on League. Skins are a huge part of that, and many players like skins because they’re displayed to others. Introducing uncertainty as to whether anyone sees a skin you love and purchased risks significantly undercutting our ability to run as a business.
+
+It sounds kind of cold to put it like that, but really we want to keep League running for the long haul so you can keep playing and we can keep working on the game we all love. Our belief is that the “free-to-play model supported by power-neutral cosmetics” is quite player friendly overall, and we’ll keep working to level up gameplay clarity across the board so League can stick around for years (decades?) to come.
+
+Meddler, Game Director
+
+How do you determine clarity with chromas?
+Chroma clarity is measured by the same gameplay clarity guidelines as any other skin in League. You can read more about our approach here, but in short—as a player or spectator, you should easily and quickly be able to identify a champion, even when it’s using a skin. The same goes for chromas, because those are skins too after all. As such, they go through the same feedback channels and vetting process as skins.
+
+The guiding light and main pillars of a chroma, from a creative perspective, are that it remains in the same theme and universe as the “parent" skin—it should maintain the original thematic while being limited to only a texture change. In most cases, it should feel like this is just another outfit that champ pulled out of their closet on Tuesday, instead of Monday, with the same thematic shape language and design sensibilities.
+
+Lux_Lux_SpaceGroove_Chromas.jpg
+
+As skin catalogs grow and chroma catalogs grow with them, clarity does become more of a challenge. There are only so many colors in the color wheel, and we use a lot of the same color theory techniques when designing skins and chromas (complementary, analogous, triadic, tertiary color combinations). Sometimes there is visual overlap between a chroma and a base champion, or another skin, or even overlap between two skins in a champion’s catalogue. However, with the combination of materials, shape language, themes, and proportions of those colors we can use, we should see unique skins designs that are only limited by our imaginations.
+
+MechaHawk, Skins Art Director
+
+Why couldn’t Lancer Blitz have a new walk animation when Space Groove Blitz is piloted by literal cats and has a new walk animation?
+Great question! I would say it’s a combination of factors.
+
+First and foremost, from a product standpoint, Space Groove Blitzcrank is a Legendary skin, which typically includes animation changes, while Lancer Blitz is an Epic skin, which typically doesn’t. This is a pretty important factor, but it doesn’t address the fact that we once said Lancer Blitz couldn’t have a floaty animation for clarity reasons… and then we gave Space Groove Blitz a floaty walk. So what changed?
+
+
+Going back a few years to when Lancer Blitz was created in 2017, League didn't have as clear of standards for clarity. We knew that certain things broke it, but we hadn’t done as much of a deep dive, so sometimes we’d play it too safe and sometimes we’d go too far. Since then, we’ve solidified our approach, which includes overarching guidelines as well as craft-level considerations for champions and skins.
+Blitz_Silhouette_For_Loc-Ask-Riot-04-09-2021.jpg
+
+One of the things we now view as key for champion recognition in 2021 is their silhouette, which is basically their shadow. So when we were working on Space Groove Blitz+Crank, we put a lot of effort into making sure the silhouette was still quickly and easily recognizable at Blitz—if you were to give him the “who’s-this-champ?” test, his large hands read similarly to base, as do his head and shoulder pads. This combined with readable VFX and SFX made us feel confident we could give Space Groove a floaty walk without putting clarity at risk. His updated walk is still pretty jerky to mimic the base, but it’s much more stylized and “dance-y” now.
+
+Just-Shadow-Blitzes-Ask-Riot-04-09-2021.jpg
+
+Going back to Lancer Blitzcrank, we didn’t have these well-defined standards yet and were mostly going off of intuition. But if we apply our new frameworks retroactively, I still think we made the right call (as controversial as it might be). Lancer Blitzcrank’s silhouette is harder to read than Space Groove’s, particularly because he has pointy drills instead of “hands.” This muddies his silhouette when he’s standing in lane, running around, and when his Q is coming at you. He also has really large shoulder pauldrons. In short, we’d already pushed Lancer Blitzcrank to the limit in so many other aspects of gameplay and visual clarity that we had to pull back in other places.
+
+MechaHawk, Skins Art Director
+
+I understand some spells are super loud because it's important, like Sera casting her ult. But why is PsyOps Pyke's camouflage sound the loudest thing in the game? It's incredibly distracting and stressful, far beyond its importance, especially given how much it’s spammed in lane. Mecha Kingdoms Draven catching his axes is another example.
+This is something that happens from time to time in the process of sound designing a skin or champion. Like you said, there are moments we think certain abilities should be louder than others in priority of the sound set. But you, the players, are ultimately the ones that help us determine if we need to adjust certain sounds that could be distracting to gameplay. When these moments are identified, we try our best to discuss these concerns as a discipline to prioritize the issues to make sure the clarity and readability is there, and fix it if needed.
+
+In other words... Thank you for bringing these up! We’ll definitely look into it.
+
+OCRAM818, Sound Design Lead
+
+Can you address Storm Dragon Lee Sin? It feels terrible in terms of clarity.
+Ah, Storm Dragon Lee Sin. We talked a bit about this in the recent lol pls video, and while we don’t have much to add, we wanted to recap here.
+
+When Storm Dragon Lee Sin first went to PBE, we heard he was difficult to recognize and very flashy. With this info, we decided to make some changes before he went live, including cutting his ponytail. This was a case of us trying to make a kickass skin but going too hard, so we had to rein things in.
+
+This might be a little spicy, but we’re okay with the clarity level now. That said, we think Lee Sin and his skins across the board are suffering from a larger clarity issue, which is that Lee doesn’t really have a distinct character model silhouette. Most of his character recognition is carried through animation, which becomes particularly tricky when we’re making Legendary skins. At some point we’ll want to take a look at Lee Sin and adjust him across all skins and his base in order to define a clear and distinct silhouette, but we don’t have concrete plans to make changes any time soon.
+
+Bellissimoh, Director of Production
+
+I read the clarity blog, and I was wondering if VO was a part of it? Some champs have VO that’s repetitive and can be distracting.
+We have a LOT of VO in our game, and as the game evolves, older voice-over systems are in continuous need of modernization. Whether that is “stop saying 'throw another rock!'” or “stop calling me Summoner!,” we hear you when you say a champ is missing the Goldilocks sweet spot of enjoyable, aspirational champion fantasies and a clear audio mix that empowers rock-solid gameplay.
+
+To that end, we have a multi-faceted approach to clarity in the voice-over space. In particular, we're working on some new efforts that you can expect to see more of over the coming months:
+
+Refining our volume standards across our champion roster (both old champs and new) as well as consistency across languages.
+Starting a holistic modernization effort to address remastering, dialogue editorial, audio fidelity, and quality improvements, with a focus on clear intelligibility of lines. You can probably think of champions whose VO is hard to understand, and we’re looking to touch on those over time.
+Enacting standards around both line length as well as a performance emphasis on tighter, projected, MOBA-ready lines (actors shouldn't speak too slowly or quietly). Some of our older champions could get pretty long-winded at times, but hopefully our most recent projects feel better. We have put much greater emphasis on context sensitivity: Lines are brief when they need to be brief, and champs can open up and monologue a bit more when there’s a lull in action.
+Holding ourselves to a less-is-more approach, such as culling unnecessary or distracting lines and reining in spell casts to be consistent and recognizable. This is most important for ults, which should have immediately recognizable, memorable callouts similar in importance as the champ’s silhouette.
+Making strategic decisions around which players need to hear what information. For example, recall lines were moved to self-only and kill lines were moved to self/enemy team only.
+Using VGUs, VUs, and VO updates to refresh and modernize champ VO to benefit from much more variety (old champs like Teemo and Jax only have around 10 lines!), add new life and lore, and most importantly, to stop saying Summoner.
+We’re always looking to do what we can both to address the behaviors of currently existing champions and new products, so please continue to talk to us about what you like and don’t like. While we can’t address everything overnight (so many champs!), it’s invaluable insight for the team.
+I'm not sure if they talked about tahm kench mini rework but I would like to know when they would be releasing it. thanks daddy rito
+We’re still committed to the Tahm Kench mini update and are planning to ship it this summer. We’re feeling good about the gameplay changes, which you may have seen in the recent Arcana PBE video. This was sadly a bit of an oversight and not a secret teaser, as we still need to update some of Kench's animations before he’s unbenched. In case you missed it, our plan for Tahm is to address some long-standing issues around pro binding. In other words, a lot of Tahm Kench’s current power is best utilized by highly-coordinated teams, which means he ends up much weaker for the rest of the player base. To address this power discrepancy, we’re planning to move Devour to his ultimate (and buff it) and turn his W into a less-coordination reliant engage tool (think Abyssal Voyage, but shorter range and just for Tahm Kench… and with some added CC).
+
+RiotPetrie, Product Lead
+
+Can we get an update on what’s going on with server transfers?
+As many of you are aware, Account Transfers in League of Legends were disabled for several months. This has raised many questions: What was the reason for disabling the service? And why did it take so long to re-enable it? We hope to answer these questions here!
+
+Where We Are Today
+After almost 6 months down, Account Transfers are finally enabled again in all supported Riot regions, with a higher transfer success rate and better operational tools.
+
+Why Transfers Were Disabled
+The Account Transfer service orchestrates a number of things behind the scenes. A player's account has a ton of specific data associated with it, like your friends list and inventory. This data is distributed across multiple services, each responsible for managing different pieces of that information.
+
+When you transfer an account from one region to another, all of the data stored across services needs to move over. For most players, this process goes smoothly and transfers work as expected—things like their Summoner Name, champions unlocked, and skins purchased would follow them from one region to another. But towards the end of last year, we started seeing more players run into issues where only part of their information would successfully transfer.
+
+This is where things can get tricky; if any dependent service fails to transfer successfully, the entire transfer might fail, or worse, appear to complete successfully but miss crucial account data during the transfer. When this happens, it’s difficult to detect the root cause of the issue, as it could be caused by any one of the dependent services in the chain misbehaving.
+
+This meant that if a player ran into a problem with an Account Transfer, we’d have to manually dig into what happened every time. It wasn’t possible to solve in an automated way, which meant that players would have to submit a ticket to Player Support and wait for the various teams who owned the underlying services to figure out what was wrong. It was creating a pretty bad experience that took way longer than we’d like to resolve, especially as more players ran into these issues.
+
+We knew we needed a better system, so we temporarily put a pause on transfers to give the underlying service a refresh.
+
+Why the Pause Took So Long
+At the end of the year, we set out to create a more reliable server transfer experience, which meant upgrading the tools we use to monitor and deploy Account Transfers as well as surfacing some of the downstream errors that were causing problems. During this effort, we discovered some of these improvements could only be made by partnering with other teams at Riot, which took a bit more time—we didn’t want to disrupt their schedule and projects with unexpected work.
+
+In the end, it took a little longer than originally planned to revive Account Transfers, but we hope the backend refresh provides a noticeably better and more reliable experience going forward!
+Does "Your Shop" randomize what skin you get when you press the button, or is it predetermined?
+The skins in Your Shop are specially picked for you long before you hit that button! We actually dive into the details behind how your offers are selected and personalized in the Tech Blog article Stocking Your Shop with Data Science—check it out if you’d like to know more.
+
+Riot Aryeila, Senior Editor
+
+What are the flowers like in Bilgewater? If any grow there.
+Bilgewater itself is just one (large and grimy!) city, nestled away in the Serpent Isles. Since the population of paylangi outsiders is crammed in pretty tightly in their wooden shanties, there’s not much room for plants and wildlife—but wild tropical blooms definitely sprout up wherever they can, especially among the ruins of the older Buhru architecture. I imagine you might see particularly colorful lily or lotus flowers, as well as far less pleasant specimens like flytraps, or worse...
+
+But Bilgewater is a thriving port, and you can usually buy pretty much anything you want, if you have enough coin. I’m not going to actually use the words “black market florist,” but I bet you could find someone in Bilgewater who could hook you up with whatever you’re looking for, even if it takes weeks or months to arrive. Roses from Noxus? Dried spirit blossoms from Ionia? Hop vines from Demacia? All this and more can be yours, for the right price.
+
+But such things are generally considered pretty frivolous to the average citizen, and it’s probably only the wealthiest ship captains who could ever hope to maintain anything as ostentatious as a garden, in their private residences high, high up above the quays, wharves, and carving bays.
+
+Riot Scathlocke, Narrative Editorial Director
+
+Hello Riot, I have a question regarding the ARAM. Is Champ Select totally random? How do you make sure both teams don't get the same champion, even as people reroll?
+The logic for ARAM’s Champ Select is in a service we call TeamBuilder. The TeamBuilder server knows what champ every player has rolled, what’s on the bench, etc., for both teams. TeamBuilder prevents any player from rolling a champion that someone else has rolled.
+
+The League client’s Champ Select UI obediently gives you the champion that TeamBuilder tells it to give you. And when you click “Reroll,” the client tells TeamBuilder that you requested a reroll. TeamBuilder determines what champ you rolled, and tells the client, which displays it to you.
+
+In other words, the whole Champ Select process is server-authoritative. TeamBuilder is in charge. And every roll, reroll, trade, bench swap, and lock-in is transactional. That means it is impossible for two players to, say, reroll the same champion at the same time; TeamBuilder will carefully process one reroll, then the other.
+
+As for whether it is “totally random,” that depends on what you mean. Everytime you roll or reroll, the champion you get is randomly drawn from the set of available champions that you could roll at that moment, but that set is not random. In set-math terminology, it is:
+
+((A ∪ C ∪ O) \ R) \ D
+
+Where A is the set of 65 always-free-to-play ARAM champs, C is the current free-to-play rotation of champs, O is the set of champs you own, R is the set of champs that have been rolled by players on both teams so far, and D is the (hopefully empty) set of disabled champs. In simpler terms… You will always receive a random champion that isn’t already on a team or bench.
+
+The initial 10 rolls follow this process too; at the start of Champ Select, TeamBuilder simply does this once for each player, to determine everyone’s initial champion.
+
+Notably, champs that appeared in previous games, or even queue-dodged champ selects, have no effect on any of this whatsoever. That means it is entirely possible to get a streak of the same champ in different games, or a streak of champs you really like, or a streak of champs you really don’t like. When that happens, it can feel like it is not random, even though it is.
+
+So, when your mouse hovers hesitantly above the reroll button, all I can say is, “Good luck!”
+How do you choose which champions to make a Legendary skin for?
+When selecting a champion for a Legendary skin, there's a few factors that come into play. First, Legendaries take quite a bit more time to develop than Epic skins, so we tend to prioritize champions that are pretty broadly popular.
+Next, we take a look at our big thematics of the year and start going through each one, identifying potential Legendary skin candidates based on a number of factors, including…
+
+How recently a champion has received a skin: If a champion seems like a great fit but is getting another skin around that time, we’d probably pick somebody else.
+How well they fit into the thematic: This one’s pretty obvious.
+What their current catalog of skins looks like: We would want to avoid stacking a champion with nothing but sci-fi skins, for example. (Some overlap is okay, but we do try to diversify options.)
+How much we could elevate the fantasy by taking a skin to the Legendary level: Does being able to change more animations, voiceover, and exploring other Legendary hooks let us tell a more exciting story for this champion?
+One other less common way we might choose a champion for a Legendary skin is by concepting a broadly appealing champion in a prospective thematic we find really exciting for them. Then if it works well, we’ll build that thematic around them—Spirit Blossom Thresh and Ahri are an example of this. We really want Legendary skins to be the best expression of a fantasy for a character and skinline, so no matter how we choose them, we want to make sure that everyone is excited about it.
+Riot DevinSage, Producer
+
+Could we get an update on League Displays?
+Over the years, the teams who originally launched League Displays have taken on different projects, and working actively on those projects has taken priority over maintaining League Displays. Unfortunately, that means League Displays hasn’t been kept up to date, and the bug backlog has crept up (including issues with downloading).
+We'll be doing some investigation in the coming months to see if there's a more scalable way to maintain League Displays long term or provide alternative ways to enjoy League artwork.
+
+Botley, Development Manager
+
+Is there anything we as players can actively do to help with getting rid of toxicity in the game? Apart from not being part of the problem.
+In a highly-competitive game, sometimes tempers run high or mental kabooms take place. We know this can be one of the worst experiences in League (or any game for that matter), and when it happens to you, it can make you feel helpless.
+
+In addition to practicing your own rock solid mental game and continuing on in relentless pursuit of victory, you should use the report button in the post game lobby and Champion Select. We've done a fair amount of work to improve the qualitative and quantitative criteria for evaluating reports over the past year, which means they're more effective at identifying problematic behavior. This coupled with ongoing improvements to how we detect and address disruptive behavior outside of reports is moving systems in the right direction, though again, we expect combating toxicity to be something we all have to stay vigilant on for as long as competitive games exist.
+
+If you end up leaving the post game lobby without remembering to report, we also accept reports on our support site.
+
+In short, stay strong and report where you see disruptive behavior.
+Can you add more bans to champ select please?
+Bans are a valuable way for every player to have a choice and some control over stopping a particularly bad matchup or champion that they believe is too strong. Players sometimes (like right now!) ask if we could increase the numbers of bans in each game. When we look at the tradeoffs of going from 10 bans to say 20 (2 bans per person), it seems like we’d get more overall drawbacks than gains. Here’s how we’re thinking about it:
+
+Plus sides to increasing bans:
+
+More agency and control over frustrating or particularly bad matchups
+Small strategy increases: Building a sharp team comp and considering the counters in ban choices adds some depth to the pregame
+Downsides to increasing bans:
+
+Increased complexity and duration of champion select: We already have a fairly long and complex pregame, and we would rather get players into the game quicker with less possibility for restarts.
+Reduced ability to play who you want: One of the direct tradeoffs between banning difficult or frustrating matchups is that the champ you wanted to play may get banned. This can be especially devastating for newer players who only feel comfortable on a small number of champions or players who main champions or classes who tend to be banned out more (ex: assassins).
+Disastrous edge cases: Many of our positions and champion classes could be completely banned out with more bans. We think overall it would be bad for the game if all marksmen, enchanters, assassins, or tanks were unable to be played.
+Back when we increased the number of bans from 6 to 10, we felt there was clear positive net value. Complexity of Champ Select actually went down, and we moved up to a sweet spot of “every player gets 1 ban.” It didn’t put any classes at risk of being totally banned out while still increasing the overall level of player choice.
+
+Returning to the question, increasing the number of bans in League today feels more heavily weighted towards the negatives. But like everything, we will continue to reevaluate and our opinion may change in the future.
+
+Riot Scruffy, Game Design Director
+
+What does a health pot taste like? Is it even ingested? Champs seem to drink them instantly whether in battle or on their way to lane.
+From an in-world, Runeterran perspective, I suppose we actually know very little about what the League of Legends MOBA item might represent. I’m fairly sure there isn’t a factory somewhere churning out hundreds of identical potions and elixirs, and marketing them across the known world—and also, would a teenage human like Ekko respond in the same way to the same drink as an immortal god-warrior like Nasus, or a towering petricite statue like Galio?
+
+It would probably make sense that it’s more of a catch-all term for “anything that a person might consume, in order to heal themselves,” whether that’s magical or mundane. And as you pointed out, can we be sure that they drink it? Maybe they just rub it on their wounds or something… although that might take even longer…
+
+As you can probably tell, I’m trying to avoid saying that I don’t actually know! But whenever I’m getting my butt handed to me in a game of LoL (which is most of the time), I always imagine it tasting like a sweet fruit punch.
+
+The alternative would be that it tastes like the most revolting medicine you can think of—but that’s no fun for anyone.
+
+Riot Scathlocke, Narrative Editorial Director
+
+Why isn't botlane variety more of an issue, e.g., why do marksmen and only marksmen go bot?
+This is an interesting question where perception often has a tough time meeting reality. Some of the highest win rate champions in bot lane are not marksmen—like Swain, Karthus, and Heimderinger. Additionally, multiple mages’ highest win rates are in bot lane—like Veigar, Seraphine, and Ziggs. So the answer isn't just about systemic factors that influence who can go bot, but why it feels like only marksmen belong there.
+
+That of course begs the question, why do players feel that way? To a large extent, it’s social pressure. Marksmen in bot lane have been the overall dominating meta for years, so it can feel very daunting to go off-meta in Champion Select. On top of that, the duo lane requires both players to have a good understanding of each others’ moment-to-moment goals, and playing with unfamiliar champions adds to the difficulty. Finally, the statement itself is a bit of a self-fulfilling prophecy—if people hear that only marksmen go bot, then they'll reinforce that social standard every time it’s challenged.
+
+Changes in Pro play definitely reshape this opinion, as the recent advent of Seraphine bot as a viable competitive strategy has increased her pick rate bot lane in solo queue as well. “Fasting Senna” has also proven that there are unorthodox bot lane picks that can succeed. I’m sure we’ll see more meta-breakers in the future.
+Why were some items removed in the new season? (i.e. Rod of Ages)
+While we try to avoid removing items that players love, sometimes they violate certain principles which require them to be either removed or reworked. Items in the new season were typically reworked or removed if:
+
+They violated game health principles for counterplay, like Hextech Gunblade as a point-and-click tool for assassins.
+They had overlapping purposes with other items, like Statikk Shiv being very similar to Hurricane.
+They were near-mandatory first purchases for certain champions in a way that couldn't be shifted to be more flexible, meaning they'd still end up restricting choice for those champions if turned into a Mythic item (Rod of Ages was a necessity for mana champions who needed health and wanted to scale; Hextech Gunblade’s sustain and hybrid AD/AP stats made it a requirement for many hybrid damage dealers).
+Despite being very, very gold efficient, Rod of Ages was only used by a handful of champions due to its stat profile (Anivia, Twisted Fate, Ryze, Singed, etc.). Notably, it left out manaless champions like Mordekaiser, Rumble, Akali, and others who’d be interested in a hybrid damage/durability/healing option. It was also too powerful for the champs who wanted it to consider other options.
+
+We actually tested several versions of Rod of Ages as a Mythic item, such as featuring a transformation mechanic and cool unique passive like Seraph's/Muramana. However, when balanced, users felt like they were irrelevant for too long while waiting for their Mythic item to scale, and it was a mandatory purchase for champions that wanted to scale (rather than a choice). This ultimately violated two of the principles for Mythic items that we were aiming for—satisfaction and choice.
+
+The Rod of Ages Mythic iterations eventually became Riftmaker, which opened up the healing/durability niche for manaless champions. Mana users looking to prioritize survival should be able to situationally purchase Everfrost, although that item has been underpowered and is receiving buffs in the next patch or two.
+
+PhRoXzOn, Game Designer, Summoners Rift Team
+
+Are there any plans for making the ladder system more transparent? The ELO and the MMR make it a bit difficult to understand.
+We’ve discussed this a few times, and the reasons we’ve stated still hold true today. MMR is basically the current estimation of your skill—and for it to be accurate, it will at times over or underestimate your abilities. If you’re only watching MMR, losses can feel like the game telling you you’re getting worse, when the truth is just that the system was intentionally testing you against tougher opponents and learning how to match you more accurately.
+
+By adapting MMR into Rank, players progress through the system via Tier and Division milestones that put more focus on long-term growth than the result of any one game in isolation. One isolated loss won't knock you out of a rank, and one isolated win won't promote you into the next—your performance over time is ultimately what impacts your displayed Rank. This system also lets us include things like demotion protection, which keeps you from being overly punished for a streak of losses at an unfortunate time.
+
+We’re going to keep working on ways to make both the Rank and MMR systems feel smooth and accurate, but we don’t want to make either system do a job it wasn’t designed to do.
+
+Riot IAmWalrus, Lead Competitive Gameplay Designer
+
+What is your goal for individual roles at various points in a match? Should roles have similar strength at all points of the match or should some be stronger? Would love to hear thoughts on what seems like the developers trying to let ADCs have a strength curve more aligned with other roles.
+The goal is for each role to feel like it can meaningfully change the outcome of a match. Due to the shape of the map (dragons spawn earlier and are bot, Baron spawns later and is top, mid lane can roam to other lanes, etc.), exact parity at all points in the game isn’t something we strive for. In fact, we think unique power curves are a good thing. Slight advantages and disadvantages in power at different times make for a wider range of decisions and strategic elements to consider. 
+
+Likewise, different roles do and should index differently as to what kind of strengths they are bringing to a match. A support undoubtedly has less 1v1 combat power than a midlaner, but they often set the vision up for a battlefield and the utility in their kits becomes critically important as the game goes on. Put another way, they have less direct combat power so they get to index higher in strategic capabilities. 
+
+In addition to having some variance in power between roles, we find power-over-time is a healthy way to diversify the feeling of our champion classes. For instance, Marksmen have some pretty clear distinctions between early game bullies (Draven, Caitlyn) and late game hyperscaling champions (Vayne, Kog’maw). This helps players pick a style they enjoy or one that fits the team they’re trying to create. 
+
+  For the Marksman item changes in preseason, we thought their late-game-skewed power curve was slightly too sharp. This led to situations where games ended before they could reach and make use of their power spike. So we changed Marksman items to allow them to spike earlier, which was more to match the reality of the games than to sync them with other roles. That directionally has seemed like an improvement, but we still intend to keep their power curve skewed toward late game overall.
+Why are all of the skins you make now in a line (like Battle Queens) instead of unique ones for each champ?
+There are a number of reasons why we've had more releases that are a collection of skins within a single thematic. One is that we're investing more into the world building and visual development of our thematics. Spirit Blossom is a great example of this, where we develop the thematic for some time, invest a lot of effort to build a creative foundation, then want to build more than just a couple skins in order to make sure we explore the thematic sufficiently for its initial release. Doing bigger "drops," or more skins per thematic release, also gives us more opportunities to bring lower playrate champions into major or new thematics—Spirit Blossom Kindred is a great example here.
+
+This doesn't preclude us from making one-off skins. Sometimes there will be champs that just don't cleanly fit in the thematics we're developing, and we'll be keeping an eye out for single skin opportunities that we think players will really dig.
+
+Riot Eggo McLego, Product Lead, Skins and Personalization Content
+
+What happened to the VGU you announced that was going to come after Mundo?
+We ran into some unexpected delays and never really got started on the VGU we announced in September’s Champion Roadmap. As such, we decided to make good on our original promise, which was to let you all decide which champion we should update next.
+
+The poll results are nearly in, and we’re excited to announce the winning champion—who’ll receive the next VGU after Dr. Mundo—next week. The winner of the thematic vote will also be revealed then.
+
+Reav3, Lead Producer of Champions Team
+
+What is one experience with creating or reworking a champion that led to a drastic change in how all champions were handled?
+I don't know about a specific champion that led to a drastic change in how we handle ALL champs, but there was a VGU that changed how we handled all VGUs, and that was Aatrox.
+
+Prior to Aatrox, new champions and VGUs had the same primary goal, which was to drive engagement. In other words, both VGUs and new champions were designed to get lots of players to play them, that way League consistently has fresh new gameplay, whether you're playing with, as, or against the champion. This doesn’t mean every champion has to be super popular—we sometimes create champs who we know will be niche but who we hope will have a dedicated player base.
+
+New champions and VGUs had very different secondary goals though. For new champions, our secondary goal was (and still is) to expand League’s IP. For VGUs, our secondary goal was to build player trust in our dev team and keep League feeling up to date and modern.
+
+Because our primary goal for VGUs was getting people to play the champions, we’d sometimes make choices that we felt would make the champs more engaging and exciting to the broader playerbase, even if it sometimes meant we had to make drastic changes to the champion’s play pattern or style. It’s easy to see fault in this approach now, but those were the goals that we thought made sense at the time. In any case, this is how we approached Aatrox’s update.
+
+As such, we ended up with a champion with a much higher playrate amongst a dedicated playerbase, and if we were judging success solely based on our primary goal, then Aatrox was a success. However, the new engagement came at the cost of alienating a lot of old Aatrox players. It also made many players afraid for their favorite champions to get a VGU, in fear that we’d change them so far from what they love, they wouldn’t love them anymore.
+
+After Aatrox’s update, we swapped the primary and secondary goals for VGUs. Player trust became (and remains) our primary goal—even if that means the champ ends up being a little less engaging or exciting for the broader playerbase.
+
+In some ways, when we update a champion, we’re really updating something that’s no longer ours. It’s a character that sometimes millions of players have grown to love globally, and we want to make sure we do good by you all first and foremost.
+
+This is part of the reason we’ve begun doing VGU polls. It’s also why we release multiple dev blogs throughout development so we can get earlier feedback from more players on the direction we’re headed, and make adjustments based on that feedback. We hope this new approach is something that can be felt in our most recent updates, and we hope that we can continue building trust between you all and the Champions Team.
+Why did it take so long to get Star Shards for Little Legends?
+We’re constantly listening to player feedback and prioritizing what we want to bring to the table. When Little Legends were first released with TFT, we learned that you wanted more agency in buying both the species and variant of your Little Legend. That got us to the Little Legends Rotating Store. After learning that we still needed to do more to meet your expectations, we came up with “Little Legends Upgrade Token” (which eventually became Star Shards).
+
+Now the question was, when could we start on it?
+
+While we were brewing the idea of Star Shards, the team was shipping TFT Mobile (including the Tutorial and Store), the Galaxies set, the Galaxies mid-set update… not to mention a new galaxy each patch! Around June this year, we were finally able to kick off the project.
+
+How many ways can players get Star Shards? What will it look and sound like? How do we make it work with RP? These are just some of the many questions that our teams had to answer, and with those results transform it into a working feature.
+
+One of the goals for developing the Star Shards system was that it was independent, a new currency on its own, and not limited by the existing ones on League. This allows us to be more flexible, and we’ve also added automation on the way. We worked closely with our PIE (aka Skins and Events Team) Merchant Guild and Content Access Hub team to make sure the pieces came together smoothly.
+
+We did multiple demos and playtests to collect feedback and also ensure that things were running as intended. For example, we needed to make sure that the Star Shard system was hooked up properly to players’ inventories and that spending the currency properly upgraded your Little Legend.
+
+All of this took three months to develop, test, and ship.
+
+The team is still continuing to polish Star Shards (alongside the game!). We have a lot to do and we need talented people to do it, so If you are interested in joining our team to make the game even more awesome, check out Riot Careers.
+
+Riot FireNRain, TFT Producer
+
+What were the most popular Traits in Galaxies? Champions? Items?
+Did someone ask for data? Here are a few fun stats...
+
+Before the mid-set update, the most popular individual traits were 2-Chrono and Mercenary. After Mercenary’s timely demise, 2-Chrono and 2-Vanguard became the most popular individual traits. If you want even more fun data, the most popular 6-piece trait was 6-Blademaster throughout Galaxies. The most winning (and potentially overrated) individual trait was 9-Dark Star before the mid-set update and 9-Star Guardian after.
+
+Let’s break it down even more. Don’t keep scrolling, you asked for data, you’re getting data.
+
+The most popular champions by gold cost in the first half of Galaxies were:
+
+1 gold: Malphite (the rock solid choice)
+2 gold: Blitzcrank with Shen at a close second (grabgrabgrabgrabgrab)
+3 gold: Ashe followed by Vi and Ezreal in 2nd and 3rd (but Kassadin was the most likely to get you LP)
+4 gold: Wukong (Kayle was a close 2nd and more likely to get you LP)
+5 gold: Miss Fortune (There’s no competition for second. It wasn’t even close.)
+And after the mid-set update they were:
+
+1 gold: Jarvan IV (hail to the king)
+2 gold: Rakan (he must be lonely without Xayah)
+3 gold: Ashe (Jayce was more popular for early game, but fell off later)
+4 gold: Wukong (but Jhin was more likely to get you some LP… insert low effort number 4 joke here)
+5 gold: Gangplank and Thresh (The dynamic duo... or something. I dunno.)
+Did you think I was done? Lol nice try.
+
+The most popular items across the whole set were Infinity Edge and Guardian Angel. Guinsoo’s Rageblade was 3rd in the first half when Kayle was a dominant presence, but was overtaken by Seraph’s Embrace after the mid-set update.
+
+The most popular items weren’t the most likely to get you some LP though. If you wanted those fat LP gainz you needed (depending on the patch): Red Buff, Morellonomicon, Ionic Spark, and Statikk Shiv (as well as Demolitionist’s Charge, Battlecast Armor, and of course, Force of Nature if you could find the Spatulas for them).
+
+Ok, you can keep scrolling now.
+
+Riot Benobo, Insights Analyst
+
+Who was the most tricky champion to transfer from Summoner's Rift into the TFT World of Fates?
+One of the trickier champions for us to port over from Summoner’s Rift to TFT: Fates was Azir. He posed a series of design and technical problems:
+
+Designing Shurima’s Walls
+
+It was difficult for us to settle on a spell for him that would sell his SR fantasy but not contribute too much visual noise to late-game combat. Since we already used spawning soldiers as a 3-cost spell in Rise of the Elements, we knew we had to go bigger and better for him as a 5-cost, and there was no spell more iconic to him than his Shuriman soldier wall.
+
+One of the initial iterations of the spell had the wall knockback all enemies it passed through, then remain there as impassable terrain while his Emperor soldiers positioned themselves behind the wall to hit the enemies trying to pass through. Although we liked the anti-assassin properties of this iteration, it made a lot of late-game combats hard to follow—he was shuffling the enemy team, his team (who was chasing the knockbacked enemies), and his soldiers. We eventually moved to a version where his wall would only push back enemies near him and his soldiers wouldn’t move with it, significantly reducing the number of units that were displaced every time he casted.
+
+Making Guards for the Emperor
+
+His Emperor trait required us to change some of our core systems to accommodate the soldier properties. Much like Bard Meeps in Galaxies, we needed to add functionality to our drag-and-drop system to let players place Sand Guards only on the board. Additionally, we had to ensure the Sand Guards leveled up with Azir, didn’t contribute to the unit count, and didn’t show up in damage recap charts.
+
+Additionally, because when Azir dies his soldiers die too, clone army Azirs needed the ability to find their respective ghost soldiers to tell them when to die. This meant we couldn’t just do a surface level copy of Azir and his soldiers to make the clones—we had to give them something more. So we gave clone units information about the original unit they were copied off of, and then recreated the connection that the original Azir has to his soldiers with clone Azir and the clone soldiers.
+
+Honorable Mentions
+
+Aphelios: Spawning turrets such that they don’t interfere with unit pathing is always hard; we also had to do work to make sure that they inherited Aphelios’ item and trait buffs.
+
+Sett: Has a ton of movement logic to make sure that him and the units around him move and path appropriately for The Boss trait and his suplex.
+
+Lee Sin: We had to give units the ability to move outside the bounding box of islands so he could kick them off.
+
+(If he didn’t make an appearance as an Epic encounter in Galaxies, Kayn would probably also be on this list due to his different forms.)
+
+Shynkro, TFT Technical Designer
+
+Who is your favorite Little Legend and why is it Choncc?
+Riot Green Teej: A Choncc got that something that I need.
+
+Riot FireNRain: I like my Sugarcone Furyhorn and Original Fuwa. Sorry ʕ´•ᴥ•`ʔ
+
+Riot Benobo: Boom boom clap boom boom clap boom clap boom boom boom boom clap
+
+Shynkro: Boom boom clap boom boom clap boom clap boom boom boom boom clap
+I had a petal left when Spirit Blossom ended, and now it won’t let me give it to a champ. Is there a way I can still get the rewards?
+Don’t worry! We’re not going to pull a Teemo and try to trick you out of a hard-earned spirit petal. If you’ve earned a petal but were unable to give it to your chosen spirit, you can submit a ticket to Player Support, so we can help you cross over long enough to grab your emote.
+
+Whatacoolwitch, Player Support Writer
+
+Why were the Spirit Blossom petals so hard to get? I wanted to give them to more champs :’(
+It has been a challenge to get Vayne and Riven the petals they deserve from me, so I definitely understand where this question comes from. We’ve absolutely heard the frustrations about getting a hold of the petals, as well as the frustrations about there only being 5 while there are 10 very amazing characters you may want to grow close to. In short, we agree that petals ended up feeling a bit too hard to chase down, but I’d still like to take a moment to explain the intention behind them.
+
+Spirit petals were hard to get because they were supposed to represent something exclusive, rare, and challenging. They were the way for you to earn the most intimate connection with champions: the special scenes you get in the epilogue. Making such a connection with all of the champions would make those scenes feel lesser. In addition to the narrative reward, it also makes the lasting rewards for such an exclusive and difficult choice more meaningful—when someone flashes their Teemo emote, you know they were really best pals. All 5 petals were never meant to be fully collected, except by the most ardent and zealous players.
+
+While this explains why we wanted petals to be exclusive and challenging to earn, it doesn’t cover the pacing of earning them. We want decisions like this to have impact and meaning, but we don’t always want it to feel like such a slogging chore and want to do better in the future in that regard.
+
+Riot Gearhook, Game Designer
+
+Which champions got the most and least petals for Spirit Blossom?
+The champions that got the most petals were Yasuo, Teemo, and Ahri. This correlates pretty strongly with playrate, as the champions with the most “mains” seemed to generally be the ones that got the most petals. (I mean who wouldn’t give a petal to their main?)
+
+Also, in case you missed it, there’s an epilogue for any champion you gave a petal to. If you want to say goodbye to your true love super duper best pal spirit realm companions, head back to the Spirit Bonds tab in the client before the weekend ends—it’ll be taken down sometime on Monday, 9/7.
+Welcome to Ask Riot!
+This week, we’re talking about why some VGUs have more drastic kit changes than others, which champions get the most (and least) honors, and whether snow will ever return to the Rift.
+
+
+
+Are you going to bring back Winter Summoner's Rift or other changes in Rift appearance?
+The map updates we’ve made for events like Snowdown and Arcade have always been fun for players (and honestly, for us as well). The downside is that they don’t last very long and often lack depth. Instead of doing a handful of these smaller map reskins every year, we’ve instead been focusing our efforts on creating more immersive environments that players get to experience for a longer period of time.
+
+The most recent example of this approach is the relocation of Nexus Blitz—which will now be returning more often as part of events—to a beautiful (and mysterious) Ionian forest. Another example is the Elemental Rift update from last preseason.
+
+So… Will we ever bring back snow back to the Rift? The answer is maybe, but we don’t have any plans to at the moment. That said, we’re constantly improving the tools we use to make environment art (did you know that the first TFT Arenas were made from pieces of SR, but at the time we didn’t have a way to repurpose the map parts, so we had to figure out how to chop ‘em up and reuse them first?). Improvements like this will help us make more immersive maps more quickly than before. Perhaps one day we can create temporary maps to support events, but in the meantime, we hope you enjoy The Temple of the Lily and the Lotus.
+
+PS. Before y’all ask, “Why can’t you reuse the Winter map you already made?,” we’d like to remind you that the Rift LITERALLY CATCHES ON FIRE. (And grows flowers. And rocks. And… wind?) But in all seriousness, we’d need to make snowy versions of all four Elemental Rifts as well as snowy alcove areas. It’s not a technical challenge but would take some time to make the art for, and it’s not something we’re planning on this year.
+
+- Karadwe, Product Lead
+
+
+Why was Mordekaiser’s kit changed so much in comparison to Nunu’s and Fiddlestick's rework?
+Fair question! Since I was the designer on Nunu's rework as well as Mordekaiser's (with EndlessPillows), I'll explain how that process worked and how we arrived at the final ability kits that we did.
+
+When we do updates to champions, there are varying levels of what needs to be overhauled versus what needs to just be modernized or "touched-up." They vary from small updates like Ezreal’s in 2018 to massive overhauls like Mordekaiser's. It all depends on why we're doing the update in the first place and how much of their kit is iconic or essential to their strategic identity (more on this below).
+
+Just prior to their updates, Nunu and Mordekaiser were both at (or very near) the bottom of the roster in terms of play rate, which is what made them good candidates for VGUs. Having that low of a playrate is a good indicator that their kits are not resonant with modern players. Granted, we are completely open to having niche champions, but there's a big difference between "niche" and "most people really don't like this." In particular, even niche champions will be higher on the depth of play scale, which measures how many games the typical main plays that champion. Nunu and Morde were very low on depth as well, not just overall playrate (breadth). 
+
+Our process for updating champion kit’s is pretty consistent, and when simplified, it looks like this:
+Look for any iconic abilities that should be maintained and brought forward into the new kit.
+Ensure that the strategic identity of the champion is maintained.
+With what room is left, create the gameplay experience that you would expect as a player when you see their character art or read their lore.
+So for Nunu, that went like this:
+
+Absolute Zero is probably one of the best textbook cases of what an iconic ability is. It's been around since the beginning, and most players know what it does and even what its name is. To remove that in his update would be overly frustrating to players, even the majority that weren't playing him actively at the time.
+Nunu's strategic identity was objective control. How/why was he so good at that? Because of Consume. And so, since we didn't want to change his strategic identity, we brought Consume forward as well. (In both cases, we updated the abilities, but they were very similar to their original versions.)
+I wanted to make the act of moving around the map (especially the jungle) more fun, and we also wanted to tell the story of this playful friendship between a boy and a "monster," so the idea of rolling the snowball was born.
+In its simplified form, that looks very straightforward, but we did many iterations on his abilities and passive to end up where we did. In some ways, trying to keep 2 of his 4 abilities makes things more difficult because it doesn't leave a lot of room for creativity.
+
+Mordekaiser, on the other hand, didn't have any abilities that were as iconic. An argument could be made for controlling ghosts with his R, but that was a particular portion of the kit that most players didn't care for. We spent months trying to make that feel better and make it work, for what it's worth, but decided in the end we weren't going to meet our goals of making the champion more fun to play for more people if we forced pet control into the new kit. (We talk more about this in the behind-the-scenes video on Morde’s development.) Removing the ghosts also meant we had more power budget to put into the things we thought would be fun and feel good, which is why his Q hits so hard.
+
+Second, Mordekaiser didn't have as clear of a strategic identity as champions like Mordekaiser and Fiddlesticks did. We still wanted Morde to be an AP juggernaut that uses offense to power his defense, but at the strategic level, he didn't have a very clear purpose or strength. That meant we had an opportunity to come up with a new one, which is what sparked the idea of taking champions to the Death Realm to isolate them from their allies in a true 1v1.
+
+So with his whole kit largely open, we got to ask ourselves: When you see Mordekaiser's picture, or when you read about Mordekaiser's lore, what is the character you expect to get to play? And the answer was pretty clear: a heavily armored, huge mace-wielding badass that is lord of the death realm and wielder of its magic. His new abilities were born from wanting to actualize that fantasy—smash things with his mace, feel nearly indestructible at times, use magic to do things at ranges that aren't typical for a juggernaut, and ultimately take enemies to the place where you are strongest and destroy them.
+
+I know that's a long answer, but hopefully that gives you a better idea of the journey we go on when we explore updating champions. Each VGU has different goals, and some of those require a lot of change and others require less. If you want to dive into more specifics, you can check out these posts about Urgot, Evelynn, Fiddlesticks, and Volibear, and this video about Pantheon.
+- Riot Xenogenic, Lead Game Designer
+
+
+Which champions have gotten the most and least honors this season?
+The award for the “most honorable champion” in League goes to Yuumi (0.8 honors received per game, more than 20% higher than the average!). She’s followed pretty closely by Soraka, Lulu, and Nami.
+
+In fact, supportive champions tend to receive the most honors in general, with 13 out of the top 15 most-honored champions in League being champion primarily played in the Support role. The only two exceptions are Ivern (ranked 5th), and Kalista (ranked 14th). I found Kalista particularly interesting, since she’s an ADC that has more “direct” synergies with her support (due to her Oathsworn Bond), which may explain why she’s so high up in honors.
+
+On the flip side… the champion with the fewest honors received per game goes to Jayce (ranked 148th), followed very closely by Teemo and Quinn.
+
+Some more interesting data in case you’re interested:
+
+The highest-honored champion that is primarily played as a mid laner is Galio (at rank 30), followed by Orianna (rank 42).
+The highest-honored champion that is primarily played as a top laner is Shen (rank 53), followed by Sion (rank 55).
+The most-to-least honored roles seem to be Support -> ADC -> Jungle -> Mid -> Top. (This probably says more about the pattern of which roles tend to honor what other roles, like Supports and ADCs more frequently honoring each other, than the nature of the champions themselves).
+There’s some regional variance in who gets honored. Some examples include Lee Sin dropping from the 32nd to 96th most honored champion in North American servers, or Yasuo jumping 63 ranks when looking only at European servers (ranked 45th, compared to the global average of 108).
+Thanks for the question—it’s always a pleasure answering data questions that players have about the game!
+Can you add an option to auto allocate players into Clash teams? Or add a way to find them? Not everyone can find teams on their own.
+We’ve definitely recognized that one of the biggest things keeping people from playing Clash is not having enough people to play with. But we don’t want to just start throwing random folks together into Clash teams, because then the experience starts feeling a lot like “Solo Queue, But With Trophies.” So we’re looking into solutions that can help you find like-minded Clash players so you can make a Clash team that still feels like a team.
+
+We’ll be talking more about the upcoming new Build a Team feature later this year, which will be focused on helping you find teammates among your friends, friends of friends, and folks you won with in regular games of League. But if that isn’t enough, I’d also recommend checking out the Clash LFG Megathread on Reddit, r/TeamRedditTeams, or one of the other team finding websites that have started to crop up since Clash launched. There’s a lot of other folks out there who are looking for teammates too!
+
+RiotIAmWalrus, Game Designer, Competitive
+
+Why can't we have toggles for all of the skins with different forms?
+We know that toggles are a frequently-requested feature for skins, especially Legendaries. Just like any other skin feature though, it takes time to build and test, so we prioritize against other value we could be adding. Sometimes a toggle fits the narrative and we believe it’s worth it, but many other times we’ll choose a different route.
+
+Recently for Spirit Blossom Thresh, we really thought being able to freely swap between demon and human forms enhanced the power fantasy of our favorite soul-sucking heartthrob. For other skins, it might not fit the story to have champions switching back and forth between forms. We’ll always do our best to create skins that do as much justice as possible to the champion and thematic, but I hope this helps clear up why we don’t always offer a toggle!
+
+Riot Eggo McLego, Skins Producer
+
+Why do aspects need hosts? And what do they look like in their pure form? Like floaty balls of light?
+“Why couldn’t the Aspect go to the Runeterra party? Because he had no-body to go with! Hur hur hur.”
+
+In short, that’s the answer. Aspects, as entities of the celestial realm, do not have physical forms, and so require mortal hosts if they want to come down to our world and make things happen. Though they are undeniably powerful in their own way, they don’t seem able to actually create very much—in fact, Aurelion Sol’s lore refers to them as “dispassionate and incurious things, contributing little to existence.” Sick burn.
+
+As to their pure form… disappointingly, no one from Runeterra really knows. There have been countless legends about the Aspects among the people of Targon, over the centuries, but they can never seem to agree on the details. Some might believe they are literally the stars and constellations in the sky, which would likely make A-Sol pretty mad. Some might envisage them as god-like avatars striding across the heavens, which would probably cause Nagakabouros to laugh out loud. And some might dare to whisper that they are beings from another world altogether, which would almost certainly confuse the heck out of all the yordles, who are still trying to figure this one out.
+
+All we know for certain is that the Aspects are unusually focused on Runeterra, and have been for millennia. But they and their motivations aren’t “human,” so they’re unlikely to come down and grace us with a full explanation any time soon.
+What are your thoughts on Yuumi?
+There are so many ways to answer this, so let’s break it down into a couple of more specific questions based on what we’ve seen players talk about:
+
+Why is Yuumi a braindead champion that even a real cat could play?
+Why should she even exist?
+Do we think Yuumi is balanced?
+Why did we nerf her healing mana costs so hard this patch?
+Why is Yuumi a braindead champion that even a real cat could play?
+So actually… We think this is a misconception, and the most clear way to show you why we believe so is to share her champion mastery curve in comparison to other champs.
+
+A champion’s mastery curve is a way of looking at how much more effective a player becomes on a champion as they play them more, as represented by how much their win rate increases over games played. Here’s what Yuumi’s look like, along with a couple other champions:
+
+02_Ask_Riot_Mastery_Curves.jpg
+Yuumi’s mastery curve is more in line with champions like Akali and Qiyana, who continue to see win rate growth well beyond the first ~20 games, than it is to champions like Neeko and Mordekaiser.
+
+Many “easier to learn” champions are picked up more quickly because they test a lot of the same things other champions tested already. For example, every new ADC in some way tests your ability to last-hit with a ranged auto attack and stand in the right place to deal maximum damage.
+
+Yuumi tests things that no other champion in League does. This is both why she continues to see win rate growth for so many games, and also why we believe some players don’t see her as being “hard to play.” The things many players have associated with playing League well aren’t being tested on her—like positioning and moment-to-moment dodging—but new things are.
+
+If you’d like to get into the nitty-gritty details of some of those tests, here are a few of them:
+
+Identifying when it’s safe to hop out and use her passive in chaotic teamfights, which means tracking enemies’ cooldowns to know when to do so. Failure to use Yuumi’s passive at all means leaving a lot of value on the table in the form of shields and mana. Using her passive at the wrong time means getting CC’d and killed.
+Identifying who you should attach to because you can’t support more than one person at a time. Your heal has no range, and your exact positioning is beyond your control, so you need to be able to predict how your allies and the enemies will move. Otherwise, you might end up in a really bad place or forced to help the wrong ally.
+Weaving Q around targets that aren’t who you’re trying to hit, which is a more simple but still unique skill test.
+Managing vision control while being the slowest and squishiest champion in the game, which is a particularly challenging version of a skill test all supports have.
+All of this combines to make Yuumi a difficult champion to master, albeit in ways that look different from the rest of the champion roster. (You might compare this to someone like Singed, whose proxy playstyle is totally different from any other champion and takes ~100 games to master.)
+
+Why should Yuumi even exist?
+To be direct, we believe Yuumi fills a unique role in the champion roster—both in playstyle and thematic—and there is clear data showing that a lot of people enjoy playing Yuumi.
+
+When we look at champion popularity, we break it down into depth and breadth. Depth is a measure of the average number of games a player puts into a champion. Breadth is a measure of how many different players play a champion. Breadth and depth can be used as two axes of a graph to give us a more complete understanding of how popular a champion is.
+
+Here’s the graph showing Yuumi’s popularity since her launch. The thinnest part of the line indicates when she was released, and the thickest is from patch 10.12.
+
+03_Ask_Riot_Final_Yuumi_Popularity.jpg
+Note: This is a log graph that shows champion popularity relative to each other. If this were a linear scale, Yasuo would actually be outrageously far off the page. Head over to this article for more details on how we use graphs like this.
+
+If you look at Yuumi’s depth of play, you can see there’s consistently a large group of players who engage deeply, even when she’s objectively quite weak. When she has a reasonable win rate for most players, Yuumi is also one of our most broadly played supports. One of the goals of the Champions team is to fill out our roster in a way that gives everyone the perfect champion for them, and Yuumi’s depth and breadth of play indicates we’re delivering on this.
+
+We believe Yuumi players are generally more interested in the cooperative elements of League—the teamplay, coordination, and relationships you form with your allies. We’re pretty confident Yuumi delivers on that in a unique way with a resonant theme.
+
+Do we think Yuumi is balanced?
+Excluding the most recent set of changes (we’ll talk about that next), I think it’s safe to say that no, we don’t think Yuumi has been in a state that’s balanced or that she’s been in a good place in regards to game health.
+
+The biggest game health issue we’ve consistently faced with Yuumi is ensuring she has sufficient counterplay, which is probably why 1) she’s so frustrating to play against, and 2) she’s perceived as being “easy mode” or not deserving of her wins.
+
+We agree that Yuumi hasn’t been fair to play against. But this doesn't mean Yuumi shouldn't exist—it just means we have to get more creative to ensure she does have adequate avenues for counterplay. In practice, this means making sure that Yuumi has to exit the safety of an ally and interact with opponents regularly.
+
+Why did we nerf her healing mana costs so hard this patch?
+These changes are intended to force Yuumi to utilize her passive in order to be effective, which means she has to regularly detach from her ally and interact with opponents.
+
+When we last made large changes to Yuumi in patch 9.24, we tried making it easier and more rewarding for opponents to capitalize on her squishiness when she detached from an ally by adding a cast time to her W and putting it on cooldown if it was interrupted by CC. However, she’s been able to take items and runes that have kept her mana topped off without her needing to consistently use her passive, which obviously made the changes less effective than we wanted. The result was a Yuumi who could (basically) healbot an ally with no gating.
+
+In order for Yuumi to be a healthy champion in League, she has to give opponents opportunities to interact with her. Changing her heal cost to be a percent of max mana will give us a tuning lever that bypasses items and runes and allows us to force her to utilize her passive regularly—which is always what we intended, but she’s thus far found ways to avoid. We hope that by forcing Yuumi to open that counterplay window throughout the game in order to be effective, it’ll make her more fair (and less frustrating) to play against.
+
+So if we take all of this into consideration and answer the question:
+
+What do you think of Yuumi?
+Our answer is that we believe Yuumi is a successful champion because she offers a unique and resonant playstyle, but we need to ensure she has sufficient counterplay moments in order to say she’s a healthy addition to League.
+
+The Summoner’s Rift Team
+
+What’s the next featured game mode going to be?
+Up next is Nexus Blitz as part of the summer event. It’s on PBE for testing now and includes some new in-game events and rewards, plus a complete map reskin—Nexus Blitz is now set in an Ionian forest.
+
+The next featured game mode will be One-For-All during the following event.
+
+More broadly, we’ve been seeing a lot of questions about game modes in general, so we plan on talking more in-depth about our plans and approach in a blog later this year.
+Will there be a custom game feature for tft with the ability to choose which galaxy to play? (I would like to play with my friends but it is a waste of time when we need to surrender when it is without a galaxy we would like to try)
+The honest answer here is probably not any time soon.
+
+There’s a lot of work that goes into things like this. Enabling custom games of TFT, adding a new selector for the galaxy and other options, and ensuring this all comes together does take time. We also would need to ensure this work would function no matter what the set mechanic is. Once Galaxies goes away, there will be a different set mechanic, so it would need to work with future sets as well.
+
+As with any decision, there are trade-offs. The team is currently focused on other things: creating new sets, improving the pass experience, and more. However, itis the kind of thing we’d love to do someday. We will see what the future holds!
+
+Riot Mort, Lead Game Designer TFT
+
+I would love to see the lore and the game mix more often. Why don't you do more lore-based events?
+The short answer is: we are! 
+
+At the highest level, we believe League events should include (put simply): things to do, things to learn or discover like lore, things to earn, and things to purchase. Admittedly, in the past, we weren’t hitting the mark on all of these goals, which is something we acknowledged in 2019 and have been aiming to do better in 2020 and beyond.
+
+The Galaxies event earlier this year featured new lore from the Dark Star universe, including a fork in Lux’s path: would she continue to follow her duty to the Cosmic Court, or would she give in to her ambitions and embrace the power of the Dark Star?
+
+We decided we didn’t want to answer that question for players and instead, let them choose by participating in the event (spoiler: players ‘voted’ for her to go to the Dark Star). That player choice is now the official lore as featured on our Universe site.
+
+Going forward, we’re excited about giving players opportunities to learn more about these alternate universes or the core Runeterra lore, as well as having more opportunities to drive it forward through “voting” contests like Galaxies.
+
+Not every event will include such a choice, but even if they don’t, we’re committed to using events as a time to signal that new lore will become available. For example, in the current event (Pulsefire), we are releasing 5 stories across the event to dive more into the story of the Pulsefire universe and its characters.
+
+I won’t spoil anything now, but keep an eye out for the next event. The next event will be experimenting with different things for you to interact with individually as a player. It's one of our biggest events in the year and I can't wait for you to see it. As always, when that’s out, let us know what you think!
+
+Riot Xenogenic, Lead Game Designer for Personalization & Events
+
+How do you choose which skins get new chromas?
+For events where we’re working with an established thematic that already has a back catalog, chroma selection usually involves evaluating skin popularity and whether or not that skin already has significant chroma options. For events exploring new thematics, the process is much simpler: all the new skins get chromas!
+Why don’t events have new modes like Odyssey or Star Guardian did?
+Our goal for alternative game modes has changed a lot since Star Guardian: Invasion and Odyssey: Extraction. Modes like this put a really unique twist on League’s core gameplay, but they didn’t hold your attention for long. In other words, players were excited to try the modes but would quickly return to Summoner’s Rift after the novelty wore off.
+
+Game_Hours_Per_Mode.jpg
+Creating a new game mode that significantly deviates from League’s core gameplay—such as the PvE nature of Odyssey or alt-win-con of Dark Star: Singularity—takes a while to get right. And ultimately, we want to make sure that the amount of time we spend in development is worth the amount of time y’all get enjoying it.
+
+That said, we’ve heard the feedback around events lately, specifically that it feels like their quality has dropped over time. Beyond offering an alternative game mode with every event—which has included One-for-All and ARURF so far, with Nexus Blitz returning this summer—we’re still working on other improvements to things like the Event Pass system and mission variety. We hope to slowly make positive changes throughout the course of 2020.
+
+HBBONG, Modes Product Lead
+
+Are you gonna let us buy prestige skins from events at the end of the year? Will we get the schedule for the rest of 2020?
+Yes, all of the Prestige skins you could earn with event tokens this year will be available for Prestige Points at the end of 2020. The accompanying icon and border is only available when you unlock the skin during the event.
+
+We’ll be announcing the next batch of champions receiving a Prestige skin sometime after Zoe’s skin hits PBE in June.
+
+KenAdamsNSA, Product Manager
+
+So earlier this year you teased announcer packs. Any updates on when they’re gonna come?
+When we teased announcer packs earlier this year, we had hoped to release the first ones this fall, but we’ve decided to put them on hold for now. We’re facing unexpected production constraints due to COVID-19, and avoiding health risks is a top priority—we don’t want to endanger the safety of external partners like VO actors.
+
+This is impacting more than just announcer packs: Legendary skins and champions are also facing new production challenges. There’s no one-size-fits-all solution, as the needs vary by region, type of voiceover, and many other factors. That said, we’ve been able to find solutions for upcoming Legendary skins and champions thus far, and we’ll be sure to update you if anything changes.
+Why do some champions like lux and kai'sa get so many skins while others like ornn and bard get so few or even none?
+We often prioritize skins for our most popular champions, like Lux and Kai’Sa, because they reach a huge number of players. Not only does this mean we can delight a lot of people at once, but it also directly funds our ability to make skins for champs with small-but-dedicated playerbases. The often unspoken real talk is that… yes, we are a business, and we want to continue supporting League with new features and content through the years to come. Creating skins for popular champions allows us to do so, in addition to helping to fund things beyond the game, like the upcoming animated series Arcane.
+
+Reasons aside, we agree that it sucks to have to wait years for a skin for your favorite champion, so at the start of this year we promised that we’d be stepping up the number of skins we ship in 2020.
+
+With those extra skins, we’re going to hit a lot of the champions who haven’t seen skins for a while. So far, we’ve announced skins this year for: Skarner, Xerath, Mordekaiser, Kindred, Rek’Sai, Vel’Koz, Karthus, Sion, Twitch, Taric, Pantheon, Nautilus, Trundle, Bard, Ornn, and Taliyah. That list isn’t exhaustive, though, so don’t take the absence of your main's name to mean you definitely won't get a skin. Olaf, Zyra, and Renekton weren’t on the list, and we hope to surprise you with more as time passes.
+
+
+On a whole, our hope is to increase the number of skins we make over time, so that champion mains can count the time since they last got a skin in months instead of years.
+
+And as to Ornn and Bard specifically… we’ve recently previewed skins for both of them that will be released later this year! Here are the concepts, in case you missed ‘em. (And if you’d like to see a preview of Pool Party Taliyah, head over to our most recent Riot Pls.)
+
+Elderwood_Ornn.jpg Astronaut_Bard.jpg
+- Bellissimoh, Product Lead, Personalization
+I have been playing LoL for more than four years and it gives me a lot of fun. But since last season, my MMR is ass… I win at 17 LP and lose at -20LP. How can I change this.
+The short answer: Keep winning.
+
+The goal of the ranking system isn’t to just move people upwards consistently—it’s to try and get you to a rank that accurately represents your skill. That means that the climb gets harder as you get to higher ranks, both because those ranks are tougher and because your rank is getting closer and closer to your actual skill level. When the amount you gain on a win is about the same as the amount you gain on a loss, that means you’re pretty much at the rank the system expects for you.
+
+That doesn’t mean you’ve hit your peak and can’t climb any more, but it does mean that to keep climbing, you have to perform better than we’d expect. The more you win, the more our estimation of your skill will rise, and the more your rank will increase.
+
+- RiotIAmWalrus, Game Designer, Competitive
+I love the galaxies feature. But, why not have a galaxy for every round of TFT? It seems like I'm playing more normal games than galaxy games.
+There are several reasons.
+
+Many galaxies are cool because of novelty more than depth. Lilac Nebula stands out the first time you play it, but it might not hold up the 20th time as you’ve more or less figured out how to approach that first carousel and build a comp around it. When there were few galaxies in the pool, we had to keep the odds of rolling a normal game higher in order to limit repetition.
+
+Additionally, we want to keep touch with the base game—many galaxies distort the game in quite dramatic ways, but if you play them repeatedly, they can become the default expectation for what a game of TFT feels like. This results in the galaxies feeling less special and could risk making the normal game feel less interesting.
+
+That said, we’ve been ramping up the odds of rolling a galaxy over time as we add more of them. It’s now at 65% for patch 10.9 (up from 47.5%), and will continue to increase over the next couple patches. We intend normal games to remain the single most common variant and something you continue to experience reasonably often, but with the expanded pool of galaxies, we don’t need them to make up most of your games anymore.
+When will you add more galaxies to TFT? How’s this set going so far?
+We're adding new galaxies to TFT with every patch! This week we added the Trade Sector and Superdense galaxies. Trade Sector gives all players one free reroll every round, and Superdense galaxy gives all players a free Force of Nature when they hit level 5.
+
+In the next patch, we're adding the Treasure Trove galaxy where every NPC is guaranteed to drop a loot orb. The chance of getting the Treasure Trove galaxy will be much less than the others. We're also experimenting with a galaxy that will add two-star champions to the carousel. You can check out both of these galaxies now on PBE.
+
+Overall, we're excited about how TFT: Galaxies is going so far, and mostly that's because you're excited about it. While we had a rough first patch with Gangplank and the other legendaries, we seem to be in a better spot moving forward. The galaxies have landed well and added a bunch of new ways to play, and there seems to be a lot of creativity and exciting moments happening. Lots of comps are able to win, and we’re even seeing good counter comps developed. We’re looking to keep that momentum with the addition of Dark Star Xerath and even more galaxies, which we hope you look forward to. We’re also open to removing galaxies that aren’t adding new and interesting strategies to your gameplay, so keep letting us know what you think!
+
+- Riot Beernana, Communications Strategist, and Riot Mort, Game Design Lead
+
+So obviously Fiddlesticks’ update was amazing, but what made you want to turn Fiddle into such a nightmare when someone like Nocturne is a living nightmare? It feels like you set a new standard for darker thematic champs, so can we expect champions like Shaco, Cho’Gath, or even Karthus to receive monstrous transformations, if they get an update?
+I can’t say for sure what will happen when and if those champs get VGUs, since that will depend on where the creative process takes us and what makes sense for each of them. I can talk a bit about Nocturne and Fiddle since that was something we discussed a lot in the early ideation phase on Fiddlesticks. Both Fiddle and Nocturne are in the scary/horror camps with kits to support it. They both jump on you out of nowhere, so horror themes are a pretty solid thematic fit.
+
+When we talked about Nocturne and Fiddle, we wanted to make sure they felt separate and unique from each other. After a lot of discussion, we decided that Nocturne was more about psychological horror and Fiddle was more about physical horror. Fiddlesticks makes people physically terrified when they look at him, immediately fearing for their lives and fleeing as fast as they can, with almost zero chance of escape. Basically a “slasher flick” kind of horror.
+
+Nocturne is more about psychological terror, haunting its victims dreams, slowly building fear… the anticipation mounting. It’s more about breaking victims down psychologically and feeding off of their terror. He's much more in the “suspense/horror” camp. You know he’s out there. You know at any moment with the press of a button, the screen can go dark and he will be right next to you—but you don’t know when that will happen. That anticipation is horrifying in a very different way.
+
+Don’t worry, we plan on making Nocturne scary when we finally get to his VGU. I don’t know about you all, but the anticipation is killing me.
+
+- Reav3, Lead Producer of Champions
+
+Are there any plans on expanding or exploring other continents of Runeterra? I just want to see a world beyond Valoran, Shurima, and Ionia. I'm so curious what the other continents look like!
+As of right now, we’re working on the understanding that the “known” map of Runeterra represents about 1/6th of the world. We’ve still got plenty of those three continents to fill out and define, though—the map is nowhere near completion, yet.
+
+In terms of adding new lands to it, it’s not something we’d ever rule out, if those lands are proven to exist. But it would likely require us to actually set more stories outside of the three continents, and thus far that is something we have not done.
+
+But we definitely do know of events that have taken place outside of the known map. Many of the oldest civilizations in Shurima came from a westward cultural migration, meaning that there are (or at least were) much older civilizations in unknown lands far to the east. Neeko’s vastayan tribe, the Oovi-kat, also appear to have suffered some sort of catastrophe in fairly recent times, forcing her to flee into what is now known to be Ixtal. It’s also very likely that the original homeland of Hecarim, Kalista, and Ledros existed somewhere else, since there is no clear indication that this kingdom continued to exist anywhere in Valoran, after the Ruination of the Blessed Isles.
+
+Are any of these things linked? Right now, it’s impossible to say… but we will continue to explore them, and who knows where that will take us in future.
+Gameplay and Champions
+Aphelios now gains a new gun every time a player makes a thread about him on Reddit
+Missing a cannon minion will now automatically trigger the question mark ping
+Fixed a bug where choosing Soraka auto-swapped your position to top lane
+Put a “no smoking sign” in front of the alcove
+Use our 200 collective years of experience to ensure all champions launch with a 60%+ winrate
+Meta-Game Systems
+Fixed a bug where post-game reports were accidentally routed to someone who can do something about them
+Introduce forced "Clash: 1v1 Me" for players who rage at each other in solo queue. Winners are banned and losers are also banned, but we call their mom too.
+Clash: 1v1 Me is delayed in EUW due to unrelated server issues
+Explore further ranked changes to massage the fact that you're just not good enough to hit Plat
+Fixed a bug where your TFT rank wasn’t showing in your League Ranked match loading screen
+Personalization (aka Skins and Events)
+Every time someone posts a “it’s been x days since y champion got a skin” thread on Reddit, we delay production of a skin for said champion by one additional year
+Release the Bellissimoh ASMR announcer pack
+Release the Phreak "Still pronounces Nidalee wrong" announcer pack
+Fixed an issue where disabling Eternals would save between logins. The setting will now be cleared upon every login. Consecutive disables will increase the size of the Eternals Callouts in-game.
+Comms
+Many Rioters were harmed in the making of this post. Many more think they were harmed but in reality were not.
+We are surely going to get lit on fire in internal chat channels
+Esports
+Added role selection to G2 Esports lobbies
+Fixed a bug where TSM could only 2-0 or 0-2
+Fixed a bug where Doublelift was only able to select Senna
+Fixed bug that led to CLG having a good split
+Removed Yuumi from Sam "Kobe" Hartman-Kenzler's account
+Next patch will address LCK's recent low international win rate
+Fixed bug where building Morellonomicon broke Twitter
+Teamfight Tactics
+Change the direction champions move in the carousel (Note: high priority)
+Ask League to make enough skins for one champion to make a whole set from that champion (besides Lux)
+Bring to smartwatches
+Ban Iron players and send them a link to PlayRuneterra.com
+Legends of Runeterra
+Remove Shadow Isles as a region
+Add Elnuks as a region
+Add new keyword: TrueElusive (can only be blocked by TrueElusive units)
+Make Ruination automatically trigger the Braum Wave emote
+Increase base XP when playing from 1AM - 5AM
+Ranked queue has been split into “NETDECKERS” and “TROLLING”
+Ban Iron players and send them a link to teamfighttactics.leagueoflegends.com/
+League of Legends: Wild Rift
+Downgraded the minspec for Wild Rift to Nokia 3310
+New monetization feature: RINGTONES
+QA pass to ensure there are no black loading screens that might accidentally result in you seeing your own horrifying reflection
+VALORANT
+We spent our entire development budget on music and free 128-tick servers for everyone, so now we can’t afford memes
+It’s okay we never wanted to do memes anyway
+VALORANT, not Valorant
+Pretend there’s a Spongebob here saying VaLoRaNt (okay we bought one old meme)
+Riot Games
+Physical offices must add “S” to their signs before end of April
+The real autobattler is all of Riot’s games fighting for the same audience
+Have a question? Head here, drop your question in the box, and ask away.
+How’d you make the VO for Fiddlesticks? It’s spooky af.
+As you might expect, crafting the iconic voice of a champion begins with a compelling—and in this case, brilliantly spine-tingling—performance from the voice talent. When you start with a deeply evocative portrayal of the character through sublime voice acting, my job as a VO designer becomes a lot easier. It unlocks the ability to take a really interesting starting point and push it to the next level of the otherworldly, the unsettling, and the downright weird.
+
+As soon as I heard the early auditions for Fiddlesticks, I was hooked. Kellen Goff, the voice actor, brought a stunning range of dynamic textures and colors to Fiddle’s voice during records, which gave me an amazing performance to push and pull, splice and enhance to unearth those special and bone-chilling moments. The sessions with Kellen yielded gem after gem of self-contained horrifying textures that I simply needed to glue together into a mosaic of death.
+
+To see how Kellen does it, check out his video below (3:40 and 4:58 are both spooky spots.)
+
+
+When it came to the core design, it felt only appropriate that the voice of Fiddlesticks would serve as a sonic parallel to the creature itself: a dry, rattling, disjointed, vaguely humanoid form with a terrible demonic presence just out of sight, occasionally peeking through and threatening to burst forth. To this end, I started tinkering with a lot of different effects: some subtle, deeper doubled textures that would intensify on certain sinister words; a hint of a dark, cold, oppressive reverb; and even some inhuman animal and insect textures woven throughout. It was important that Fiddle never felt like it was utilizing the anatomical tools of a human with a voice: lips, lungs, or any other organic matter. It couldn’t get too wet, too gurgly, too feral. That’s not who Fiddle is. It’s a macabre, breathless monster driven by a deep need to hunt without truly understanding speech.
+
+00:08
+00:06
+00:03
+- Riot Zimerfly, VO Director
+
+Is item specific lore a thing that could happen? I don’t know about anyone else, but I personally would love to read a canonical short story involving the items of Runeterra. Rabadons, Lich Bane, etc.…
+For many folks, one of the most exciting things about League of Legends (the MOBA) is all the tiny little nuggets of lore scattered throughout it from the past ten years of development. And while some of the shop items are fairly unremarkable, others almost cry out for a proper backstory. Sometimes literally.
+
+However, it can be tricky—though not impossible—-to tell an interesting narrative entirely focused on a sword, or a piece of armor, or a magic gem. A weapon can’t generally be the protagonist of a story… unless it’s one of the five remaining Darkin, of course. But stories with great characters that also feature these artifacts in some way? Heck yes, sign me up. I want to learn more about this Doran fella…
+
+I’ve seen some fantastic theories out there about, say, the Lost Chapter, Tear of the Goddess, or the legendary Blade of the Ruined King, and it’s almost certain that we will tell more stories featuring items like this in the not-too-distant future.
+
+- Riot Scathlocke, Narrative Editorial Director
+
+
+
+Why do in-game models sometimes differ from splash art so much? For example, Nightbringer Aphelios is black and red in his splash, but has a lot of blue in his actual model. Aside from instances like Blood Moon Aatrox where the color saturation is upped for better gameplay clarity, what is the reason for these differences?
+While splash art and in-game models are closely connected, they have different goals. With in-game models, the top priority is gameplay readability. Since splash doesn’t have that consideration, our big goal is to create deep immersion and something we call “cinematic believability” in our illustrations. You can think of this the same way a comic book character translates to a big blockbuster movie. The movie version will have higher-detail fidelity in the costume, materials, and render, including invented details that didn’t exist in other versions. There will also be dynamic, moody lighting depending on the scene’s emotional tone or setting. We even think about things like camera distortion, lens flares, dust motes in the air, and film grain. All of this stacks up to make something more believable, and more cinematic, than other representations can achieve.
+
+Sometimes the mood and light can mean colors aren’t as punchy as they might be in the model textures—like Nightbringer Aphelios’s cool, dark scenario—and it can also make other colors really pop, like the bright red tassels on his jacket. That said, we don’t want the splash art to feel totally different from what you see in game, so we do take the time to compare the splash to the in-game model—we even try to “model” the character so they match the pose in the splash art.
+
+Nightbringer_Vladimir_Splash_Cohesion.jpg
+Ultimately, we want to make sure we’re keeping splashes and models close to each other while still hitting our unique goals.
+What are you doing to prevent smurfing in Clash?
+Smurfing in Clash is something we’re taking very seriously, but also something we know is very difficult to solve. We’ve already done some things to hinder smurfing, like requiring SMS verification, making players place in a Ranked queue, and running smurf detection behind-the-scenes to try and make sure we have the best possible skill estimate for every player. But these measures aren’t catching 100% of smurfs, so we’re going to keep adding in more measures to make sure Clash stays fair.
+
+This doesn’t mean you’ll never have a particularly stompy game in Clash, or ever bump up against someone who you suspect is better than their rank says they are. That said, we are going to continue implementing new ways to discourage smurfing. There are approaches we can take when we can conclusively identify that an account is a smurf, such as banning the account from playing in Clash again and revoking the rewards earned by that player’s team. We want to be VERY careful with those kinds of punishments, because punishing someone incorrectly would be awful, but we want to make sure that the teams winning Clash got there through fair play.
+
+- RiotIAmWalrus, Game Designer
+
+I'd love to know if you’ve considered making a ranked version of aram. I would like a version of aram that’s taken more seriously.
+Ranked ARAM is definitely something we’ve thought about and discussed in the past, but it has a number of issues that make us cautious. Part of what makes ARAM fun is the randomness (it’s right there in the name), so putting too much emphasis on competition can make the randomness go from fun to frustrating. The champs you and other players receive can massively affect the outcome of a game, and no one wants to feel like they lost in “champ select” with LP on the line.
+
+Additionally, while ARAM is popular, there aren’t as many people playing at any given time as there are in Summoner’s Rift. Ranked ARAM wouldn’t be right for everyone, and if we split the population of ARAM players up between Normals and Ranked, matchmaking would take longer for both queues. Then if people stop playing as much because queues take too long, it’d only make the problem worse.
+
+One other issue is that Ranked ARAM could push players to dodge more or create limited champion ARAM-only accounts—both of which we already see today in limited amounts, even without a Ranked system for people to care about.
+
+All this being said, you’re definitely not the only player interested in showing off your ARAM skill in a competitive environment, and we have put more effort lately into balancing champions and items for ARAM. There may be some ways to bring that more competitive feel to ARAM, but just opening up a Ranked queue is probably not the right answer.
+
+- RiotIAmWalrus, Game Designer
+
+How do I send you a picture for rp? i need 20rp for beemo
+If you only need a tiny amount of RP to get your favorite skin, we’re here for you! Create a quality picture—perhaps lovingly drawn in three minutes with MSPaint—to showcase your years of artistic training and talent and your love for League. Then reach out to Player Support and open a ticket asking about your desire, and don’t forget to include your recently drawn masterpiece. We’ll be sure to fix you up!
+
+(To submit your magnum opus, scroll down on the Player Support page until you see the “Submit a ticket” button. We suggest selecting “RP purchases, store issues” as the request type, but as long you include your artwork and how much RP ya need, we’ve got you covered.)
+Why is there autofill in ranked?
+When we make a game, we want to find ten players of equal skill in the positions they want to be playing. But unfortunately, not every position is equally popular, so we have to get people to fill in for those positions to make sure matches happen in a reasonable amount of time. Without autofill, finding matches would not only take longer, but they’d end up involving a broader skill range, as we stretch our search outward to find the 10th player we need. Our goal is to strike the right balance between making you wait for a game and making the fairest games possible, and autofill is a necessary part of that balance.
+
+While we probably can’t ever fully do away with autofill, we are looking to make changes to improve upon the system. We’re currently testing out “autofill parity” in some regions, which means that when we make a match with an autofilled player on one team, the opposing team also has an autofilled player so the matchup feels more fair. As soon as we know these changes are going well (hopefully within a few months), we will roll them out globally. And if it’s not going so well, we’ll roll it back and try again.
+
+
+Once these initial changes are in a good place, we can even try to get both autofilled players facing off in the same position. No promises here though—forcing autofills to be in the same position can make queue times explode if we’re not careful, so we’ll be doing a lot of testing first.
+
+- RiotIAmWalrus, Game Designer
+
+How do you plan to improve the top lane?
+Top lane is a position that I really love (it’s my main role), and we see it as a unique place where mostly fighters and tanks get to duel it out in the most isolated matchup on the map. So our focus here isn’t really on changing the experience or champ pool in the lane significantly (...besides balancing some very OP Enchanters). The area we think the lane could currently be improved in is having slightly higher overall game impact. In other words… how well can a great top laner carry the game?
+
+In upcoming patches, we’re exploring a few different ways to improve top lane impact:
+
+Carrying through items: We have a few potential changes to core top lane items like Black Cleaver, Sunfire, and the Hydra items to give fighters and tanks some more carry power later.
+Early strategic impact: In the past we saw top lane having a higher influence with a much more powerful Teleport summoner, so we’re seeing if we can recapture some of that access it gave top laners to the wider game without falling into the old problems (full team of TP, bot lane party, etc.).
+Turning leads into victories: Finding some ways to slightly amp up the payout in the early game for winning top lane can make it more comparable to the other positions. We’re exploring things like increasing melee damage to plates and making Rift Herald more comparable in value to dragon.
+- Riot Scruffy, Lead Gameplay Designer
+
+Why are you trying to make it so zed can jungle?
+We recently talked about this in Quick Gameplay Thoughts. At a high level, we’re trying to widen the jungle champion pool to help make the role more appealing.
+
+When we were digging into our results and follow-ups from this year’s preseason, we were really struck by a problem in the jungle role that we’d never been able to fix: Throughout League's entire history, low MMR players have preferred the jungle position least of all 5 positions, regardless of whether jungle is strong or weak relative to the other 4 positions. We think this will take a variety of changes to fix in the long term, but we want to also do some short-term work to improve jungle appeal.
+
+In terms of available viable champions in the role, jungle is fairly narrow. This makes jungling doubly hard to learn as a new(ish) player: Not only do you need to learn about clearing camps and ganking, you can't use the champions you're already familiar with. So, in 10.4 we added a handful of champs that see a lot of play in low MMR into the jungle pool. We made very focused changes that buff these champs' jungle clears but leave their lanes unchanged. If this strategy works well we may expand the jungle champ pool even more in further patches.
+What is the process for choosing which champions will get a prestige skin? Why would you give champions one when they already have legendary skins?
+I’m glad you asked! Once we decide on some of the upcoming skin thematics, we select several that match up with the timing for events or Prestige Point skin releases. By the time we start deciding which champion to make a Prestige skin for, the champs within that thematic have usually been determined for a while.
+
+When we are selecting a champion for a Prestige skin, we consider a number of factors… 
+
+Is there a Prestige skin that’d work well for one of the champions in the thematic? Arclight Brand for example, is a skin that would be hard to execute on because of the overlap in colors and materials. 
+How popular is the champion, and when was the last time they got a skin? So far we have released Prestige skins mostly for champions with higher playrates, but we are experimenting with lower ones in the future to see how much players like them. 
+Have they received a Prestige skin before? Ideally we don’t double up, but there might be exceptions if we don’t find a better fit and the skinline is part of an event that calls for one. 
+When it comes to the overlap with Legendaries, we try to stay away from doubling up when possible (at least in the same year), but it’s not a huge factor, as they serve different purposes. Legendaries are about creating a unique skin for a champion unlike anything in their catalog that is either an augmentation of who they are or a complete re-imagination of the character within a skin thematic fantasy. Prestige skins are about taking an existing skin and adding rarity and desirability through more expensive-looking (and often sparkly!) materials in the model and VFX as well as the ways you can get the skin.
+
+As far as ever creating a Legendary Prestige skin, that’s not something we are currently planning to do.
+
+I’d also like to call out that we are still experimenting around with a few different selection methods and executions and will update players as our approach evolves. With only just over a dozen of them out in the world, it’s still a new product for us, and we learn more about it with each release.
+
+In case you missed it, check out this post for a list of champions getting Prestige skins in the first half of 2020.
+
+IAMCARLOS
+Lead Producer of Skins, Personalization
+In TFT, why is there such a huge jump from milestone #10 (8500 points) to #11 (20,000 points)? It feels like such an impossible task to get there that i don’t even want to bother trying. Similarly, why are there only 6 missions (2 of which are just “play the game”) every two weeks?
+Many of you have different amounts of time to play TFT and complete missions. We really don’t want anyone who plays TFT on a regular basis to feel left out because they can’t play multiple hours a day, or because they missed some missions one week. This is why we set the target for milestone 10 at 8500 XP—hitting that amount is challenging and requires active play, but not a huge grind.
+
+We also know some of you are extremely engaged and play a ton of TFT, and we didn’t want you to get halfway into the season and have nothing left to work for. So we added milestone 11 as a “bonus” mission for highly invested players to progress towards. We had thought of it as a challenge, a huge jump in XP that would require dedicated work throughout the season but would be something to work towards even if you were progressing really quickly. From the reactions and responses we’ve seen, I’d say this hasn’t really gone as planned. I regret that so many people reach milestone 10, look to the next reward and are disheartened. Some rewards should be difficult to earn, but reaching a new milestone also shouldn’t be a disheartening moment. In response to this, we reduced the XP required for milestone 11 from 20,000 to 16,000.
+
+As for the number of missions we have in TFT, we usually run six missions a week. Over the holidays we imagined you would be more busy than normal, so we ran slightly less missions and made them worth more XP each to compensate. In general, we try to run a number of missions that sets a good balance between structured and unstructured play. It wouldn’t be super fun if all of your TFT games you were being pushed to do one strategy in order to get mission XP.
+
+RIOTWREKZ
+Senior Game Designer
+About the Season 2020 missions, one says “Let’s play ranked for 3 games”… Why can’t you have an option to play like 7 of any other game. I myself am 49 years old and I just don’t like how they troll you on ranked. I’m here to have fun not worry about every move I make, hence why I play aram exclusively. thank you!
+At the highest level, our missions fall into two buckets: 1) Give players additional rewards for playing, and 2) Serve as “calls to action” to motivate players to do or try things that they may not do or try otherwise.
+
+Examples of mission type #1 are things like earn gold, take structures, and get takedowns—actions that happen naturally through playing and aren’t gameplay warping or distracting. These are usually live during events so that playing is even more rewarding. 
+
+Examples of call-to-action missions include things like “watch some esports matches,” and in this case, “go play ranked.” Our hope with this mission is that it motivates some players to try ranked who may not have otherwise. We set the number of games needed pretty low so that if players who try ranked aren’t loving it, they don’t feel like they have to keep playing. We also aim to set the rewards for call-to-action missions “low” enough, so it doesn’t feel too bad or frustrating if you flat-out don’t want to do them. For example, the “esports watch missions” often just give some Blue Essence, as does the “play ranked” mission.
+
+In short… our hope with a mission like “play three ranked games” is that we can give you a nice reward if you decide to give ranked (or something else) a try, without setting the reward so high that you feel like you have to play.
+
+XENOGENIC
+Game Design Lead
+Do you plan on doing more work on ARAM this year?
+Yes!
+
+We currently work on ARAM in two ways. First, we take the pulse of ARAM’s balance and game health every 2–3 patches and make small adjustments as necessary. For the most part, these adjustments will be tweaks to champions’ damage-taken and damage-dealt, but we may sometimes make minor adjustments to items, runes, or other parts of the game.
+
+Second, we periodically make more impactful and experimental changes to ARAM shake things up as part of a major event. Most of these changes will only last the length of that event, but we’ll also try to include a few things that could become the new normal for ARAM. For example, AoE health packs, poke damage reduction, and the reroll bench all made their first appearances during a big event, and they improved the ARAM experience enough to stick around forever. 
+
+We expect to do an event like this roughly once a year (although this doesn’t guarantee an event like this every year). Right now, we are currently exploring some directions for 2020. The exact timing will depend on a lot of things, like the types of changes planned and which other game modes we’re working on. For more details on what an ARAM event might look like, check out some of the previous /dev articles, including where we announced the last ARAM event and talked about what we learned. And if there’s something you’d like to see, please let us know!
+What’s going on with Riot Accounts? Why did I have to change the username I use to log into League?
+In short: We have to update the account system so we can launch new games. When this update takes effect, it’ll cause problems for players with login names that aren’t globally unique (aka, someone else in another region has it as well), so we’re asking players with duplicate usernames to change them. This only affects the username you use to sign into League. Your Summoner Name will not be affected.
+
+The long version: In preparation for launching new games, we need to rebuild our account system. The old system linked accounts to specific regions, meaning we couldn’t release another game unless it has the same exact regional divisions as League of Legends. This is problematic as we might offer different regional configurations for future games.
+
+In order to fix this, every player needs a unique username, and there’s currently a lot of duplication across servers. As long as there are two people with the same username, neither will be able to log in when we activate the unique username system. We tried to find a way to make the system work differently, but couldn’t find a solution that would be reliable, secure, and sustainable for a multi-game platform.
+
+We wish this transition were less painful and inconvenient. We know it sucks to have to change a piece of your identity as a player, even if it’s one that only you can see. We’re asking players to change how they log in now—before the unique username system activates—so everyone’s experience with future games is as smooth as possible. We know this process hasn’t met your expectations, and frankly, it hasn’t met ours either. We’re working hard to make sure our new systems are as future-proof as possible to avoid situations like this down the line.
+
+In the meantime, we hope that being able to save your username and password to auto-login will make things a little easier. We’re also exploring allowing you to log in with your email address instead of your username, which we’ve seen a lot of players ask for. And for anyone who’s unhappy with the username they changed to, we’re planning on letting you change your login credentials again early next year.
+
+- MOSHIDOG, Senior Director, Player Platform Team
+
+Why didn’t you make it so the oldest account (or first one to log in) gets to keep the login name?
+We considered this, but it comes with a host of other problems.
+
+Let’s say you and one other person have the same username, but you had it first. Once the unique username system launches, there’s no way for the login system to know which account that username is trying to access. Is it you, the one who had it first, or is it the other person trying to log in?
+
+The only way around this would be to change the other person’s account for them, but that has the risk of locking players out of their accounts forever. Imagine not knowing your username was changed, trying to log in with the username you’ve always used, then getting the “wrong password” message over and over because the login system now thinks you’re trying to log into the other person’s account. And if you don’t have access to the email associated with your account, you wouldn’t even be able to recover the new username (plus you wouldn’t have gotten a notification about the change in the first place).
+
+- MOSHIDOG, Senior Director, Player Platform Team
+
+How are you going to balance Senna so she’s good as a support but not too strong as an ADC?
+It’s always been a goal for Senna to be playable as both a support and an ADC. To help make this a reality we added a few position-specific tuning levers to her kit during development. The primary place we’d look to tune is her Passive’s mist collection game. Mist stacks influence the power of nearly everything on Senna’s kit, and making a specific role get more or less of them has shown to have meaningful impact on that role’s effectiveness. This is why souls are less likely to drop from minions Senna kills—ADC Senna gets more gold and more items, so she needs less stacks to be effective. If ADC is too strong in the future we can make it less likely to see souls drop from cannon minions, whereas if support is too weak, we could consider upping the number of souls that drop from minions she doesn’t kill.
+
+Other adjustments outside the passive to consider are how Senna scales with the item system. Support Senna has access to AP builds, and buffing those ratios could help her in a way that ADC Senna cares less about. ADC Senna on the other hand has an easier time saving up for big AD items like Infinity Edge, which makes adjusting her Crit Damage ratio a potent tuning lever if her carry role needs changes.
+
+At the end of the day, we want ADC and support Senna to be close in power level, but they don’t need to have the exact same winrate. The dream is that they both feel viable without one being so strong that it requires us to destroy the other. I’m optimistic that we’ll be able to tune around and preserve both playstyles for years to come, but, if that proves impossible, we’ll prioritize support Senna over ADC.
+
+- AUGUST, Senna’s Designer
+
+Why’d you make two marksmen back to back?
+Generally we attempt to create a varied schedule for the year, with a bunch of different themes, classes, roles, kit complexity/difficulty, tone, regions, gender, etc. We balance this between new champs and VGUs, which is one of the reasons we haven’t released a new jungler in a bit, since quite a few recent VGUs were junglers.
+
+So why then did we release Senna and Aphelios back to back? To answer this, we have to go back a bit in time. We started early exploration on Aphelios before we began working on Senna. He was a complex champion that required a pretty long ideation period to get his kit right, and then also a longer-then-average production cycle to build due to the complexity of his kit. As we were working on Aphelios, we started thinking about which champions we could make for League’s 10 Year Anniversary, and we felt creating a champion that would be exciting to long-time League players would feel really good for that moment.
+
+After some brainstorming, we decided that bringing Senna out of the lantern would be impactful and feel nostalgic to all the players who’ve known about Senna since Lucian and Thresh were released. At that point it became more about doing what was right for Senna, and not what was right for the champion release schedule. We quickly came to the conclusion that it made sense for Senna to be a marksman since she was portrayed as one in all the previous lore. We also felt it would be important for her to interact and lane with Lucian, which is why we decided to build her as a support marksman despite the fact we had already released a support this year (Yuumi) and already had Aphelios planned for the end of the year.
+
+Bottom line is that while we like to keep to a varied champion release schedule, we are willing to sacrifice that if we feel there is a good opportunity that will be impactful and exciting.
+
+- REAV3, Lead Producer of Champions
+
+We’ll do our best to read every question, but we can’t guarantee they’ll all get answers. Some questions may already be answered elsewhere, and some won’t be right for Ask Riot. This isn’t the best place to announce new features, for example, and we might skip conversations on issues we’ve talked about in depth before (though we can clarify individual points).
+
+We are listening, though, so keep asking. We’ll make sure your questions are heard by the Rioters working on the stuff you’re curious about.
+You regularly offer events around themes, champions, or skin series (like Project), but these events have become less quality over time. The gaming experience doesn’t bring anything new to players (like game modes), and we have very limited tasks compared to former events, which makes it banal. Will you do more substantial and interesting events for players?
+Yes, absolutely! We’ve heard this feedback and wholeheartedly agree—events have become more stale this year. We want each event to feel like a unique experience that all players can be excited for, which is why our goal moving forward is to make participating in events more rewarding, more novel, and more memorable for everyone.
+
+Here are some of the ways we hope to achieve this:
+
+Bring back game modes (new and old) to events
+Improve how missions interact with events, similarly to Trials (ex: Trials gave you a progress bar you filled up by doing missions, which in turn gave you house-specific rewards for the event, so it all felt more cohesive)
+Deliver more missions and a greater variety of missions beyond just “farm minions,” “get kills,” or “earn gold”
+You’ll begin to see some of these changes soon, starting with our first small steps for the upcoming Worlds event, and we’ll continue making improvements into 2020. I hope you enjoy the Worlds event, and we look forward to hearing your feedback during and afterwards!
+
+- XENOGENIC - Game Design Lead
+
+Why can’t we play custom games of URF and the other game modes?
+We’ve talked before about the type of work that goes into keeping rotating game modes functional: Things like new and updated champs, abilities, items, runes, and skins don’t always play nice with modes. Changes or refactors to the game’s underlying code—like how damage is recorded or how textures are loaded into game—can be even more problematic, as the rapid development cycle of RGMs often means we’re building them with duct tape and bubble gum. Back when we were releasing modes more frequently, this type of upkeep work took about half of the Modes team’s total time.
+
+But what about customs? Wouldn’t it be okay for rotating game modes to be a bit buggy if there’s nothing on the line, and shouldn’t that make it easy for Riot to offer rotating game modes in customs?
+
+The answer is no. We aren’t willing to offer a knowingly—basically intentionally—buggy experience for customs because we want your League experience to be high quality regardless of how you’re playing. Principled stances aside, some bugs are bad enough that they can crash entire game servers, meaning hundreds of matches would crash, not just the customs they occur in. So even if we were willing to let players opt into a buggy experience in custom games, it’d still lead to risks for the rest of League players as well.
+
+That means it takes the same amount of work to bring a mode back for customs as it does to bring it back for queues, which takes us back to our previous discussions around why we’ve chosen to invest our time into developing new modes, rather than keeping older modes on rotation.
+
+- RIOT POPC0RNER & RIOT AETHER
+
+Any updates on Clash?
+In May, we shared a list of what we’d need to do to relaunch Clash globally. Here’s an update on our progress…
+
+Redesign: Done!
+More Internal Testing: Done!
+Regional Testing: This is where we’re at now, and it’s going well. We’ve run three regional tests using the new Clash model in Turkey, LATAM South, and NA. So far we’ve only run into minor issues, so we’re gonna keep moving forward. We’re tentatively planning to hit the rest of Riot regions over the course of a couple weekends between now and mid-October, but our schedule could definitely change depending on how things go.
+Global Beta: Once all of the regional tests run smoothly, we’ll run a bigger beta across multiple regions simultaneously. We’re currently hoping to do this at the end of this year or early next year.
+Launch: Once we complete a successful global beta—and see the new system works to scale and across all regions—Clash will be ready for prime time. Date is TBD.
+We’ll keep ya updated as we continue to make progress on the milestones above.
+
+- RIOTIAMWALRUS, Designer, Competitive
+
+We’ll do our best to read every question, but we can’t guarantee they’ll all get answers. Some questions may already be answered elsewhere, and some won’t be right for Ask Riot. This isn’t the best place to announce new features, for example, and we might skip conversations on issues we’ve talked about in depth before (though we can clarify individual points).
+
+We are listening, though, so keep asking. We’ll make sure your questions are heard by the Rioters working on the stuff you’re curious about.

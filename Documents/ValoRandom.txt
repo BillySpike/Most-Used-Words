@@ -1,0 +1,995 @@
+Hello! I’m Aaron Cheney, a software engineer on VALORANT’s Performance team. Performance is a key component to maintaining VALORANT’s competitive integrity, and our team is the one responsible for monitoring, maintaining, and improving both server and client performance.
+
+We’re excited to provide an update on a feature that has been in development for several months: Global Invalidation. We’ll get into the details of the feature shortly, but first let’s spend some time looking at how this feature has impacted client performance since patch 4.03.
+
+Spoiler alert: it’s pretty awesome.
+
+AskVal_March22_Global_Invalidation_Graph_3.jpg
+
+Global Invalidation has provided significant improvements for a large part of our player base. In fact, it’s the single largest performance gain for clients since launch.
+
+Although these charts are exciting—and we’re thrilled with the results—it’s important to understand exactly what you’re looking at. We work with large, complex data sets; organizing, filtering, and controlling the data helps us understand the player experience. Here’s what you need to keep in mind to understand the full picture:
+
+The chart plots “patch” vs. “average FPS”; higher numbers are better.
+Each line represents a common hardware configuration (CPU+GPU pairing) from among our player base. When analyzing performance data, we consider this pairing to be the most important predictor for expected performance. Machines with the same CPU+GPU pairing are aggregated together in these charts.
+The data samples are taken from two queues: Unrated and Competitive. Since these are the most popular game modes in VALORANT, we spend a great deal of effort to understand and improve performance in these areas.
+We’ve excluded games that don’t have exactly 10 players. This ensures outliers don’t skew the data (games with fewer players perform better).
+SUMMARY OF GLOBAL INVALIDATION
+global-invalidation-summary-flow.jpg
+
+Global Invalidation delivers up to 15% gains for CPU-bound clients (generally mid to high spec machines). Realizing these gains was an effort that spanned multiple teams and took many months to complete. Our process for identifying areas of the game ripe for optimization paid off, and managing risk along the way helped ensure a stable experience for players.
+
+WHO BENEFITS, AND CALIBRATING EXPECTATIONS
+Based on our live metrics, Global Invalidation has delivered up to <X>% improvement for client configurations that are CPU-bound (generally mid to high spec machines).
+
+While the upward trend is noticeable in the aggregate, it doesn’t represent moment-to-moment gameplay. Additionally, it doesn’t guarantee that every machine with matching hardware will see identical results.
+
+This means the baseline performance for VALORANT on CPU-bound machines has generally increased, but exactly how your specific machine will perform is dependent on a number of other factors unique to you.
+
+UNDERSTANDING GLOBAL INVALIDATION
+Before we can properly give an overview of Global Invalidation, we first need to explain a bit about UI elements in the Unreal Engine.
+
+WIDGETS AND TREE STRUCTURES
+UI elements (also known as Widgets) are created from smaller building blocks using a tree structure. The tree structure is analogous to the file system on your computer. A Widget can have any number of children (just like a folder can have any number of files).
+
+These building blocks can be combined to create complex Widgets. Our ammo counter, for example, consists of many parts, and the tree looks something like the following:
+
+Screenshot_2022-03-07_at_16-30-57_PRF_-_Global_Invalidation_article.png
+
+Putting it all together, the ammo counter building blocks look like the following:
+
+AskVal_March22_Valorant_UI_Elements.jpg
+
+(The green outlines above are exaggerated for clarity. In practice, many of the outlines would overlap.)
+
+Whenever one or more Widgets change within the tree structure, it can affect multiple other Widgets. For example, if a Widget moves to a new position on screen, all Widgets underneath need to recalculate their position as well. These changes are managed by a system called “Invalidation,” which we’ll talk about in the next section.
+
+INVALIDATION
+Invalidation is the mechanism the Unreal Engine uses to indicate when a particular Widget has changed and needs to be updated.
+
+A Widget needs to be invalidated for a variety of reasons: animation, color, opacity, size, ordering, text, images, and many other properties can change in response to something that happens in the game. When these changes happen to a Widget, it’s “Invalidated,” signaling that it needs to be updated.
+
+Complicating this process a bit more, a Widget can have multiple types of invalidation. A few types include:
+
+Layout - When the size of a Widget changes (very expensive).
+Paint - When the look of the Widget has changed, but hasn’t changed size.
+Child Order - When the order of Widgets has changed within the tree (also implies Layout, and is therefore expensive).
+Visibility - When the visibility of a Widget has changed, either becoming invisible or becoming visible (also implies Layout, and is therefore expensive).
+These types of invalidation are used to signify what kinds of operations must be performed to draw it properly.
+
+It gets even more complicated when one Widget depends on another Widget. Widgets are organized into hierarchies, and their layout is dependent on a number of factors. Invalidating a single Widget may require invalidating a number of related Widgets to properly draw. For example, if multiple Widgets are organized into a vertical layout (e.g. the Social Panel with your friends list), and the order of Widgets changes (e.g. a friend comes online), all Widgets within the vertical layout need to be updated.
+
+There are several goals with a system like this:
+
+Invalidate as few Widgets as possible. This reduces the number of Widgets that have to be updated in order to draw properly.
+Only invalidate a Widget when necessary. Improperly invalidating a Widget wastes precious CPU cycles.
+When a Widget isn’t invalidated, cache the result to quickly draw it every frame. If nothing changes, then CPU cycles can be saved.
+That’s enough of a look under-the-hood to understand how Widgets update and what kinds of things can cause invalidation. Next, we’ll look at how developers put this into practice.
+
+INVALIDATION BOXES
+Unreal Engine provides a component—called an Invalidation Box—to group multiple Widgets together. All Widgets contained within a single Invalidation Box are prevented from getting pre-passed, ticked, or painted. Instead, the result is cached into a vertex buffer.
+
+Whenever one of the Widgets within the Invalidation Box is invalidated, the cached data is discarded and the Widget gets updated and painted again. While refreshing the cache may be expensive for a single frame, the amortized result is far better in the long run.
+
+Invalidation Boxes are a key part of making VALORANT’s UI performant, especially as we worked toward launch. However, they’re not entirely free:
+
+Developers need to understand which Widgets are good candidates for grouping together with an Invalidation Box. Any Widget that updates regularly isn’t suited for this.
+Placing Widgets within an Invalidation Box takes manual work on the part of a developer. It’s not feasible to do for every Widget in the game, and therefore developers must also understand which Widgets are worth putting into an Invalidation Box.
+To read more about Invalidation Boxes, check out Epic’s documentation.
+
+Now we have enough context to talk about Global Invalidation!
+
+ENTER GLOBAL INVALIDATION
+By this point you may be thinking to yourself, “Why not just put every UI element into a global Invalidation Box?” Well, that’s precisely what Global Invalidation does (more or less).
+
+Global Invalidation aims to significantly improve UI performance across the whole game while also reducing manual work required of developers to place Widgets in individual Invalidation Boxes. It’s the best of all worlds.
+
+However, as of UE4.25 (the version of the Unreal Engine that VALORANT uses), Global Invalidation isn’t universally supported for all Widget types. Later versions of the Unreal Engine have made improvements, but VALORANT couldn’t take advantage of that right away. Additionally, we didn’t have a great understanding for how much faster Global Invalidation would make VALORANT.
+
+Here’s where our work began.
+
+WHY DID WE DECIDE TO DO THIS WORK?
+In late July of 2021, the team decided to take Global Invalidation for a testrun during an internal playtest. Minor changes were made to fix a few bugs so the playtest could successfully complete. However, we knew bugs would surface during the playtest… and we certainly found bugs.
+
+By the end of the playtest, we’d collected around 20 bugs—and those were just the obvious ones. It was likely more subtle, insidious bugs were waiting to be found, not to mention several edge cases that hadn’t been specifically tested.
+
+But… did Global Invalidation deliver performance gains? It absolutely did.
+
+Analyzing the data generated from that single playtest, it was determined that UI was ~35% faster. (Note: UI is only part of the cost for a single frame.)
+
+However, we still had many open questions:
+
+How much time is needed to fix all of the bugs?
+Which team(s) should be responsible for the work?
+Does this take priority over other planned work? To meet regular content releases, our schedules are often set months in advance and emergent work–even something as exciting as this–is hard to fit in the schedule.
+Would fixing the bugs take away from the performance gains? Fixing all of the bugs would require many code changes, each of which has the potential to cause UI to become more expensive.
+When should we do this work? Knowing that Global Invalidation was being actively developed in later Unreal Engine versions meant we needed to consider our timeline for integrating changes from Epic.
+Ultimately, we decided the work was worthwhile for a couple reasons.
+
+UNREAL ENGINE INTEGRATIONS AND TIMING CONSIDERATIONS
+Although Unreal Engine 4.26 and 4.27 have made significant progress on Global Invalidation, VALORANT works on a delayed integration schedule. The reason we don’t work on the “bleeding edge” is to manage risk and ensure stability for our players.
+
+Since our schedule meant we would stay on Unreal Engine 4.25 for many more months, this meant players wouldn’t get to benefit from these performance gains for well over a year. That didn’t sit well with us.
+
+For more details on how VALORANT thinks about Unreal Engine upgrades, check out this Twitter thread from VALORANT’s Tech Lead, Marcus Reid.
+
+KNOWN PERFORMANCE GAINS
+Global Invalidation represented something really unique in terms of performance work: measured value. We measured the potential gains during an internal playtest, and the path to deliver that value was (mostly) clear.
+
+Performance work is difficult. It’s a game of inches, not miles; incremental changes help generally improve performance over time, and it’s rare to find a single change capable of delivering double-digit gains. This was too juicy of an optimization to leave on the table.
+
+Even after accounting for diminished gains due to bug fixes, Global Invalidation was the best chance for us to deliver significant gains for players within a reasonable amount of time.
+
+HOW DID WE ACCOMPLISH THIS WORK?
+Although initial experimentation around Global Invalidation began in late July 2021, earnest effort on stabilizing the feature didn’t start until late September 2021.
+
+SELECTIVELY INTEGRATING EPIC’S CHANGES
+Fully integrating Unreal Engine 4.26 and 4.27 was off the table, but since we knew Epic had actively worked on Global Invalidation, we decided to dig through thousands of changes and identify which changes were likely to get us closer to a stable, fully-functioning Global Invalidation.
+
+Partially integrating changes was a challenging task. It was important to modify as few core engine features as possible to maintain stability while pulling in the right changes from Epic. All of this work was done in a separate branch from the main VALORANT branch to prevent impacting other developers.
+
+After selectively integrating Epic’s changes into our engine, we spent several more weeks fixing as many bugs as possible while we prepared to introduce Global Invalidation into the main VALORANT branch. Along the way a toggle was created to let us quickly enable and disable the feature (should anything catastrophic occur).
+
+With many bugs fixed, and with many of Epic’s changes from 4.26 and 4.27, we merged from our isolated branch back into the main branch.
+
+FINDING COMMONALITIES BETWEEN BUGS
+Although many of the bugs with Global Invalidation manifested in different ways, the root cause could often be traced back to a single issue. These were the most valuable bugs to fix, as doing so could eliminate multiple issues with a single change. One change, for example, fixed 10+ bugs that were scattered throughout the game. Careful analysis of the root problem led to robust solutions that improved the reliability and stability of Global Invalidation.
+
+IDENTIFY BUGS, FIX BUGS, PLAYTEST, RINSE AND REPEAT
+The following weeks and months involved a regular cycle of enabling Global Invalidation before a playtest, identifying a series of bugs, disabling Global Invalidation after the playtest, and fixing those bugs.
+
+developer-bug-fix-flow.jpg
+
+
+Fewer bugs were reported with each iteration of the loop. We continued doing this until the steady stream of bugs turned into a slow drip, and eventually stopped.
+
+By the end of November 2021, all of the major issues were resolved and Global Invalidation was largely stable.
+
+NOTABLE BUGS
+Astra crashes the game - At one point, every Astra player was greeted with a crash upon loading into the game. This bug was fixed after integrating changes from Epic.
+Multiple inheritance crash - Multiple inheritance in C++ is a tricky subject. Without getting too far into the weeds, the order of destructors in a particular class did not execute in the right order, causing a crash. Simply swapping 2 lines of code to change the inheritance order fixed the problem. To read more about multiple inheritance, check out this page.
+Infinite chat audio - While in the menus, the chat bar plays a sound when you hover over it with the mouse. To the annoyance of everyone, a bug caused that audio to play multiple times a second. Fixing this bug involved understanding the timing of how Widgets receive mouse events multiple times a frame.
+TESTING METHODOLOGIES
+One element of Global Invalidation that made us particularly cautious (and therefore thorough with our testing) is that it affects every aspect of the game. Literally.
+
+Your friends list? Absolutely. The button you press to queue up? That too. The settings menu? You betcha. My headshot percentage? Well…
+
+The point is that UI elements exist throughout the game, and they often convey critical information to players. Breaking even one of those UI elements was unacceptable.
+
+To that end, our QA department created a testing plan with multiple strategies to build confidence that Global Invalidation was working as intended.
+
+VERTICAL SLICE TESTING
+A “vertical slice” of VALORANT represents the main path players generally take, from launching the client, to queuing up for a match, to playing a full game, to interacting with the end-of-game screen. By focusing on the critical elements of the game, QA could quickly test the most used elements of the game and identify problems early.
+
+DESTRUCTIVE TESTING
+Where vertical slice testing leaves off, destructive testing picks up. This type of testing is intended to identify off-nominal issues, often by modifying external factors (such as network ping, frame rate, alt-tabbing, etc.). Armed with a set of internal tools, QA spent several weeks doing destructive testing.
+
+EDGE CASE TESTING
+Many parts of VALORANT are only experienced by a small percentage of the player base. Some parts of the game are only ever experienced once (e.g. the New Player Experience). Just because those parts of the game are less traversed, it doesn’t make them less important. Identifying and testing all of our edge cases helped catch hidden errors.
+
+PBE (PUBLIC BETA ENVIRONMENT) TESTING
+PBE was a major milestone for Global Invalidation.
+
+It was the first time outside players could test the feature. This meant that Global Invalidation could be tested under “real world” conditions.
+PBE represents a variety of hardware specifications. PBE intentionally covers the range from low to high specs, and testing with such a large range of player devices helped us build confidence in how well Global Invalidation would perform across the wider player base.
+After testing on PBE during the weekend of Jan. 22, 2022 - Jan. 23, 2022, we had confidence that Global Invalidation didn’t interfere with integrity and that performance gains were in line with our predictions.
+
+RELEASING GLOBAL INVALIDATION
+After launching Global Invalidation with Patch 4.03, we closely monitored player reports for bugs. We also kept a close eye on the performance data to confirm our estimations matched the results. In the end, Global Invalidation was a huge success for players, and we hope you enjoy the improved frame time.
+
+Now that Global Invalidation is out in the world, the Performance team is going back to work on delivering even more gains. Until next time, happy fragging!
+Hey, it’s David ‘Milkcow’ Cole, VALORANT game designer. We shipped a game! We have a live game! And with going live to you, we now have a responsibility to maintain the live experience— most importantly—game balance.
+
+From as far back as our Alpha, there has been a group of Content Designers, QA, and Insights setting up the foundations of game balance and health, so that when we hit the live phase of VALORANT (that’s now), we would have a rough understanding of what is healthy, overpowered, underpowered, etc. Hopefully this article will shed some light into how we’ve been approaching balance and where we want to end up.
+
+BALANCE DO’S AND DON’TS
+Game balance is something that every player feels and may have some opinions about. The experiences all of you have and feel shape your perceptions of the game—your perception is your truth. It’s our job to provide an experience that is fair for every player. With that being said, here’s what we will and won’t do:
+
+We’ll prioritize audiences that we think take the game in the right direction in its current state. We’ll have to make tradeoffs with which audience we’re aiming to balance for—it won't be every player
+We won’t make every player happy with our changes. Sometimes we’ll need to make or not make changes that go against what our players want for the greater game.
+We’ll rely on human judgement to contextualize game data. We won’t be entirely data driven.
+We won’t seek a perfect 50/50 balance. When everything is 50/50 across the board the decisions per session become less meaningful—you could say.. robotic and formulaic. The human element of making decisions provides decision points that players can weigh the tradeoffs of.
+We’re holding true to our guiding principles—what we call “the tac cycle.” No matter what, the game must uphold the values of the tac cycle in order to be healthy.
+
+Balance_Tac_Cycle_Image.jpg
+A quick breakdown of the tac cycle: Intel → Plan → Execute → Repeat.
+
+Intel
+Who and where are your opponents?
+What has taken place up to the current state of the game?
+What territory of the map do we own? Do the opponents own?
+Which Agents, abilities and guns are in play?
+What have your opponents done previously?
+Plan
+With the information we’ve gathered from intel what is my plan?
+Execute
+Timing
+Coordinating to implement the plan
+Abilities
+Critical part of reducing the risk of your plan
+Shooting
+Click heads to close out engagements.
+VALORANT is a game where every decision in this loop matters. You are aware of the decisions you’ve made and their outcomes. You can have the perfect intel and plan, but mechanically fail to execute. You can have no plan, yet win by mechanically executing the impossible. Your skill matters.
+
+It's important that this loop happens for every player at every level of play. It starts when you find a match and your map is shown, the characters you pick as a composition, the round you're about to play, and when you’re in that 1v2 clutch on B site.
+
+BALANCE RADAR
+Our group has been working to set up a process for how we make decisions and gather information over the last 6 months—kind of like building our own balance radar. This has consisted of creating a process of diverse information inputs.
+
+Balance_Inputs_Process_Image.jpg
+On the balance group, we have three primary sources of information that we take in to inform our decisions. Each of them are incredibly important to help to determine whether the live state of the game is healthy or whether we need to intervene and nudge it back on track.
+
+Game Data: These are data that tell us what’s actually happening in the game on any given patch - match winrates, defender/attacker round winrates, agent pickrates, weapon purchase rates, etc. It paints the picture for us from which to make decisions.
+
+Sentiment Data: While we are committed to ensuring VALORANT is a balanced game for our players, we also want to make sure that we’re creating an experience that is enjoyable for players overall. To ensure we’re meeting our goals here, we send player surveys periodically to understand how they feel about the current state of the game: what’s fun, what’s frustrating, etc. This helps us interpret game data, but also lets us understand if there are experience issues that aren’t represented in the game data.
+
+Design Philosophy: Finally, the balance team leverages its own design philosophy when making decisions to drive the game towards what we feel is the right direction. Ultimately, game and sentiment data help us understand the state of the game and our playerbase on any given patch, but our design philosophy fundamentally informs how we feel about that state—it defines the goals we’re aiming to hit.
+During our time together as a balance group, we’ve used a combination of game data, sentiment data, and our design philosophy to align on a set of “bounds.” Think of them as borders—when our metrics live inside the borders, we feel the game is fairly healthy. If something dips outside of these borders, it raises a flag and we investigate. We’re not ready to share the numbers of these bounds yet, but the graph below has an example of how we think about bounds on different types of content.
+
+These are examples of statements, not true facts!
+
+ALERTS
+
+Agent overall
+
+Agent by map
+
+Agent by side
+
+Start side winrate
+
+Round side winrate
+
+Upper bounds
+
+“Sage is busted”
+
+“Raze on Split is too strong”
+
+“Cypher is too good on defense”
+
+“If I start on attack on Split I have a higher chance of winning the match”
+
+“Split is too defender-sided”
+
+Lower bounds
+
+“Viper is trash”
+
+“Jett is bad on Bind”
+
+“Cypher can’t do anything on offense”
+
+Weapons. Where do I begin? Weapons are incredibly complex when contextualized in-game. The data itself does not tell you the story of their impact and we’re still figuring out the exact details of them.
+
+Another part of this process is developing a voice and communicating our changes and reasons in patch notes:
+
+.47+
+.49
+.50
+1.0
+1.01
+And lastly, we embed ourselves into the ecosystem. We have people on the team playing at a high level, communicating with key individuals for feedback and constantly reading any feedback we can get.
+
+CASE STUDY: RAZE
+Here’s an example of how all the above pieces come together: Raze was released as strong vs other Agents and lots of vocal sentiment grew about her existence in VALORANT.
+
+This is how the team used the steps above to get to our changelist for Raze in the .47+ patch.
+
+Excal, Morello, and the rest of our balance group were aligned that Raze’s kit fits the tac cycle and did not break the loop. She was one of our first kits that this project had designed, and she had helped shape the cycle itself.
+We immediately looked at the data. She had a high match win rate of ~51% and 53.5% in non-mirrored matches, especially on defense against enemies that were grouped up charging her position. This did not trigger our initial alerts that we had set in Closed Beta. We quickly realized that power in our game was in the measures of .1%’s rather than 1%’s. We tightened the bands later on as the conversations internally around Raze were that she was OP relative to other Agents.
+We looked at player sentiment. Streams, surveys, anecdotes, forums—anything we could find. There was a lot of frustration about being rocketed and naded but when we dug into it, we realized that players were not reacting to the audio cues of her abilities and had a hard time understanding what was happening to them outside of the fact that they were now dead.
+Excal did an analysis writeup with the information we had acquired and proposed some changes:
+Having two grenades that she could throw back to back created an oppressive scenario for players trying to push into her. Raze players were getting a lot of kills which in turn gave her access to her Ultimate more often.
+Players were not reacting to the counterplay cues of her abilities which caused more frustration.
+We made changes and tested them internally.
+Grenade charges went from 2 to 1 and became a reset on kill. This change lowered the frequency in which opponents would run into the nades but still give the Raze player the opportunity to continually blow stuff up. It was a great change that fit her core identity—kill them.
+The audio attenuation of her Rocket fire and equip were changed drastically to really tell players that they needed to vacate the area.
+We put them into the patch notes and added context to our reasonings.
+We monitored the player's reaction and sentiment to the patch notes. They liked the direction we were taking her but were still skeptical about Raze in general. Her win rate directly took a hit but not by much. Yet, the perception was that she is in a much more balanced state.
+We followed up in later patches using the direction we had set in .47+.
+There have been countless amounts of iteration on all of these pieces above to get them to where they are today and we’ll continue to evolve these as we learn how you're playing VALORANT.
+
+Thank you for reading my Dave Talk and if you enjoyed reading, there’s more to come in the future!
+With the recent release of our DUALITY cinematic, I wanted to talk about where it sits within the wider VALORANT Universe, answer a few popular questions, and give tease where we’re headed.
+
+It's been a year since we launched VALORANT! I think it’s safe to say it’s been a wild year for all of you as well. Now, take a moment to reflect and go back in time with me to the moment that VALORANT launched.
+
+DUELIST, introduced two of our Agents, Phoenix & Jett, in a high stakes chase across the rooftops of a European city, for control over a mysterious “package.”
+
+
+At the conclusion, we witnessed the IGNITION of this package, creating a significant reality distorting effect on a major city, triggering battles across the globe.
+
+Our latest cinematic, DUALITY, starts where DUELIST left off and sheds light on VALORANT’s underlying conflict.
+
+The day after IGNITION, the world is in shock. VALORANT PROTOCOL—a covert operation set up to prevent just such disasters—scrambles to make sense of the unfolding events. Analysis of Venice and the remnants of the package suggests the detonation of a device harnessing the power of Radianite, previously thought to be a clean and safe source of energy.
+
+VALORANT Agents locate another of these devices at a Kingdom site in Morocco. When placed into the ground, this “Spike” goes through its activation sequence. With short time, can our Agents work together to neutralize the device, and prevent another disaster?
+
+Can they overcome their biggest foes, which turn out to be...themselves?
+
+
+As the Creative Director on VALORANT, I help make sure that we present a distinct and cohesive universe that sets up a central conflict, stakes, and goals that map the experience and stakes for you. I work with all our teams to ensure the content we release feels connected and that over time, reveals more and more about the VALORANT universe, in and outside the game.
+
+“Narrative Dissonance,” is a term in videogame development that is used to describe games that have characters and a story that feel out of step with the actual gameplay.
+
+For example, think of a game with deep lore, sophisticated backstories, and then you jump into the game and you smash each other or shoot each other. Believe me, it’s not necessarily a problem, some of my favorite games get along fine and they're amazing!
+
+However, we wanted to do something special for VALORANT that would add dimension to the lore. Could we ground our 5v5 defend/attack conflict, between the ‘same’ pool of Agents experienced in the playspace, and craft a central conflict in which it would make sense?
+
+This is all to say, I’m excited to peel back the layers more, as we explore this theme of Duality and ponder these questions together:
+
+Who are these ‘mirror’ Agents?
+Are they two sides of the same coin?
+Why is one side seemingly acting as the aggressor?
+What is the meaning of that final shot of Earth that seems almost split in two?
+We are one year in but the journey is just beginning. We can’t wait to share more with you over the next year as we answer more of your questions and no doubt pose new ones!
+We’re Sara (Producer, aka “Riot necrotix”) and Lea (Strategist, aka “Riot aeneia”), part of the crew that leads the Social and Player Dynamics team (S&PD) on VALORANT.
+
+Our team owns all the social features in-game, and we work together with other teams to address issues and opportunities with player behavior. Last year, we promised to address some of the pain points you’ve experienced in-game with other players.
+
+Today is our long-awaited update: We’ve taken all of your feedback to heart, and we are at the point where we can confidently share what we’ve been up to.
+
+Before we dig in, we want to acknowledge the obvious: we still have a lot of work ahead of us. These changes are just the start, but they set the stage for the work we’ll continue to deliver in the months and years ahead. We hope you're as excited about it as we are.
+
+Now, let's get started:
+
+AFKs (Target Patch: 2.04)
+
+Over the past several months, we’ve focused much of our efforts on a problem we know is painful to you: AFKs. Even one AFK’d player can turn the tide of a game, and it’s discouraging to know that you’ll have to carry twice as hard for a chance to win. We’ve spent some time working on several features we’re confident will reduce AFKs (both in-game and pre-game) in VALORANT.
+
+We’re implementing improved detection of AFK-type behavior.
+
+Our old system had a few loopholes, and it sucked to see some players slipping through the cracks. Those loopholes will be patched, and in the future, we’ll broaden this detection to encompass other types of disruptive behavior and non-participatory play.
+
+(We can’t go into too much detail on the specifics of this, but know that we have vastly improved our system, and we will continue to iterate on it as new types of exploits turn up in the game.)
+
+We’ve completely revamped our penalty structure for AFK offenses.
+
+Rather than apply generic penalties on an “as needed” basis, we’ll track the behavior of your account over time. This means that your occasional “what the heck happened to my internet” moment likely won’t be punished too harsh (if at all).
+
+On the other hand, if you’re a player who consistently drops out of games...the hammer will come down on you, friend. These penalties are varied, and they scale based on several different factors.
+
+Penalties can include the following:
+
+Warnings
+XP denial for the games in which you were AFK’d (see ya later, AFK farmers!)
+Small deductions from your ranked rating for pre-game dodges
+Deductions from your ranked rating for in-game AFKing (Patch 2.03)
+Increased queue restrictions
+Barred entry from ranked games
+VALORANT game bans (but only if you’re really, really persistent)
+Simply put, we’ve leveled up our detection and management of AFKs. And we’re eager to bring these to your game.
+
+CHAT-BASED OFFENSES (Target Patch: 2.04)
+
+We’ve been heads down for a while, and there’s a good reason for that. In addition to AFK’s, we’ve been hard at work improving your experience of communicating with other players in-game.
+
+Say goodbye to “comms bans for all.” To date, we’ve released text moderation for over 11 languages, and we’ve revamped our penalty system for text-based offenses. We’ve introduced more nuance to the system, and penalties escalate with both the frequency and severity of the offense.
+
+Penalties can include the following:
+
+Warnings
+Comms bans
+Extended comms bans
+Ranked queue bans
+Game bans
+Extended game bans
+(Don't forget: tentatively aimed for Patch 2.04, players who are comms banned will be barred from Competitive queue.)
+
+Let us be crystal clear: there is no room for violence, threats, or targeted harassment in VALORANT—those behaviors will not be tolerated. Certain offenses (like those listed above) are categorized as “zero tolerance,” and they warrant a game ban, full stop.
+
+That said, we want to give you a fair warning: our current text evaluation systems can’t discern who started the rage war. If we see you saying awful things, you’ll get flagged, no matter who threw it down first. If someone is verbally harassing you, do not harass them back or repeat what they have said. Report them, and trust that our systems will take care of it. (You also have the option of muting their text chat, voice chat, and pings). We don’t want you getting punished for someone else’s wrongdoing.
+
+REPORTER FEEDBACK (Target Patch: 2.05)
+
+Along with all the above, we’re rolling out feedback to your reports. With this feature, players will be notified when their reports have been actioned on.
+
+We understand it's frustrating to send a report and not know if we ever even saw it, let alone took action on it. Believe us that we’re listening, and your reports do matter—in fact, they’re absolutely essential in making sure we know what you’ve experienced. Version 1 of this will require you to be logged into the game client to receive the feedback, but we’re on our way to a system where we can notify you outside the game.
+
+Ultimately, we just want you to know that we take these issues as seriously as you feel about them, and we are not afraid to punt the bad actors out of our game. We have a long journey ahead of us, but we are thrilled to work with you on making VALORANT a great social experience for all.
+
+ON THE HORIZON
+
+These types of detections (and associated penalties) will come to voice comms as well. In the meantime, please continue to report offending players until we finalize our tech.
+
+Once we extinguish the fires of problematic play, we want to spend more time exploring the brighter side of our VALORANT players: “pro-social” gameplay.
+
+We’re investigating ways to detect positive behavior, and to give players visibility and recognition for their pro-social play. As a little added bonus, we’re introducing a new feature which allows you to invite players to games with only their Riot ID (rather than having to add them as a friend first). This will give you the chance to test out new teammates, without the commitment of adding them to your friends list.
+
+We hope you’ll discover new friends to play through this feature.
+
+WRAP THIS UP
+
+Thank you! Thank you for your feedback, for your patience, and for your unending enthusiasm and dedication to the game we all love. While we’re proud of what we’ve been able to accomplish so far, there’s clearly plenty more work to be done. These are just a few steps on a much longer journey. We’re dedicated to making VALORANT the social experience you deserve, and we’re looking forward to working on that goal together.
+
+With that, we’ll include some helpful links if you want more information on any of the topics we’ve just discussed. We’ll chat with you all soon :)
+Hi I’m Brian Chang, an analyst on VALORANT’s Insights team, here with Insights Researcher Coleman “Altombre” Palm. We’re here to talk to you about our approach to using data to help keep our game balanced and enjoyable for you.
+
+In this article, we’ll first cover our general philosophy behind how we use data to help inform changes to our game. We’ll then walk you through an example that shows how past data was used to inform changes to an Agent.
+
+DATA IN GAME BALANCE PHILOSOPHY
+On the balance team, our primary goal is to make sure that the game is a fair experience for every player. You can read David “MILKCOW” Cole’s insightful post on game balance in VALORANT here.
+
+One of the major roles that data plays during the game balance process is to help inform designers about the state of the game. Data can tell us when your experience appears to be in a non-ideal state.
+
+Data in this case is used as a diagnostic tool to tell us which parts of our game might need tuning. This data could come in the form of in-game telemetry (e.g. a particular Agent’s winrate is too high/low), or it could come in the form of player research (e.g. a majority of players view an Agent to be frustrating to play against).
+
+However, we go out of our way to not be completely data-driven when making balance decisions in the game, especially early on. VALORANT is still relatively fresh in your hands, and we ourselves don’t yet fully know what “balanced” looks like in our game.
+
+For example, we don’t know how far away from 50/50 attacker/defender-favored a map has to be before player experience becomes unfun. Furthermore, there’s complexity in the fact that Agent strength and popularity affects map balance. A Sentinel-heavy meta would likely lead to more defender-sided maps, whereas a Duelist-heavy meta would likely make maps seem more attacker-favored (things get even messier if you think about how Agents affect maps on a map-by-map basis). Data won’t be the “be-all and end-all” of game balance, but rather one of the many tools we can use to understand the state of the game.
+
+That being said, we’re constantly monitoring both our in-game data as well as your direct input via surveys, so that we can refine our understanding of how data correlates to in-game states of balance. Our aspiration is that in the future, this refined understanding will help us more rapidly understand what aspects of the game seem off, and how we can adjust.
+
+WHAT WE’RE TRACKING
+Today, we have a number of data points we look at for each part of our game in order to assess the strength/health of various parts of our game. Split by system, here are some of the metrics we track:
+
+Agents: Winrate (by rank, map), presence (how often an agent is picked), mastery curves (how many games of an agent it takes for a player to hit the “true” winrate of that agent), breadth vs. depth (broad popularity of an agent vs. how deeply each player engages with an agent)
+Maps: Round winrate by side (by rank), average round outcome by map (if/where spike was planted)
+Weapons: Weapon popularity by round, weapon matchups (e.g. how well a Vandal user does against a Phantom user in a duel)
+This isn’t to say that we use only the above metrics to assess the health of our game, but hopefully the examples give you a picture of some of the things we track.
+
+Agent Balance: A Sage case study
+
+For the rest of this post, we’ll focus on Sage, an Agent who has been on the nerfing block quite a few times since our June launch. What led to us making continued changes to Sage, and how did those changes affect her strength?
+
+WHICH AGENT IS TOO STRONG?
+The first thing we need to establish is what metrics we use to assess Agent strength. In League of Legends, the primary metrics that are used are presence (how often a champion is picked) and winrate (% of games won per champion). This gets split into a number of different skill brackets, ranging from the average player all the way to the pro level.
+
+Immediately, we observed a major issue when trying to apply League’s metrics for balance in VALORANT. Our game has mirror matches, so an Agent that is very strong (or generally picked in almost all games) could appear to have a 50% winrate (since every time that Agent wins, they also lose).
+
+To resolve this issue, we decided to look at an Agent’s non-mirror winrate (that is, an Agent’s winrate when going against a team without that Agent on the enemy team). This helps us remove the “guaranteed win AND loss” games where the same Agent is on either team. There are some potential risks to this (some amount of selection bias is introduced, which we won’t get into now), but we determined that this non-mirror winrate was our best proxy to understand an Agent’s power from an in-game data perspective.
+
+Here’s what non-mirror winrates looked like in the first patch with Competitive queue live (in patch 1.02). Keep in mind that Sage was nerfed twice before this patch, in Closed Beta patch 0.50 as well as launch patch 1.00. 
+
+valorant_graph_1.jpg
+During that same time, here’s what presence looked like for Agents in competitive queues. Some amount of this is related to the fact Sage was one of five free agents when a player joins VALORANT, but her presence was still consistently very high. 
+
+valorant_graph_2.jpg
+WHY IS AN AGENT STRONG?
+It was clear from the data that Sage was in a tier of her own. The winrate numbers Sage was putting up merited further discussion about what we could do to tone her down.
+
+So far, the data had told us which Agent was too strong. But we wanted to better understand why she was so strong. There are a number of data points we could look at to understand why:
+
+Direct feedback from you about why you believe Sage is strong, both in surveys and in direct conversations
+Breakouts of Agent strength by side (to understand how much of Sage’s strengths are pronounced on attack/defense)
+Breakout of Agent strength/presence by rank (to understand if there are discrepancies across skill brackets)
+Ability-specific data (average amount of healing Sage does in a round, round winrate when Sage uses her ultimate, compared to when other agents use their ultimate, etc.)
+All of these data points are intended to give more context on what components of Sage are strong and potentially overtuned. The tricky part is to make sure that we nerf an Agent without compromising their identity as a part of VALORANT. If we nerf the strongest part of every Agent, we risk losing what makes them special. Equipped with this data, our designers explored options to make Sage not a “must-pick”, while keeping her identity as a premium stall/support utility character. 
+
+It’s important to keep in mind that data is but one of the tools that can be used to assess Agent strength. A huge part of understanding and refining an Agent’s kit is more related to the vast amount of knowledge and experience that the designers bring to the table. Our design philosophy is ultimately what drives our game forward, and no amount of data is useful unless we keep our core design principles at the forefront of game balance.
+
+Ultimately, the direction that the balance team ended up going is to hit both her healing and stalling, but in different ways. Healing potential was cut across the board (longer cooldown, less healing per cast), while stalling was changed to allow for more counterplay (Barrier Orb took some time to fortify, Slow Orb size reduction).
+
+WHAT THINGS LOOK LIKE TODAY
+So after we made those changes, what do things look like? Here’s what Sage’s numbers looked like in patch 1.11 competitive queues: 
+
+valorant_graph_3.jpg
+valorant_graph_4.jpg
+Sage is still quite strong; in fact, she has never fallen outside of the top three strongest at any point, in any skill bracket, since launch. Her presence is in a more reasonable state as well (hovering around 50%). However, public perception is that Sage was nerfed too hard; 38% surveyed believe that Sage is currently too weak in patch 1.11.
+
+valorant_graph_5.jpg
+MOVING AHEAD
+Currently, we feel like Sage is in a relatively healthy state, according to our data. There are, however, a number of factors that we’ll need to refine our understanding on moving forward:
+
+Release of Agents, maps, and how those affect Agent strength: With the release of Icebox and (more importantly) Skye, we may see a shift in the meta such that Sage becomes too weak. Hypothetically, the introduction of another Agent that can heal allies might provide choice competition that renders Sage more obsolete (for the record, we don’t think this will happen, but it’s possible).
+Pro-play data: One thing that we’re still refining in our understanding of the pro-play meta, and how data from the highest level of VALORANT should affect our balance philosophy. If we compare the data from the professional matches happening around the world to Radiant-level matches, there’s still a huge discrepancy in both Agent presence and non-mirror winrates.
+Public perception: Despite our in-game telemetry telling us that Sage is in a good spot balance-wise, survey results tell us that players feel like Sage feels too weak. We’ll have to track how perception changes (if at all) over time, and assess what steps need to be taken should perception remain dubious about Sage’s strength.
+If you made it this far, thanks for sticking with us through this small example of how data is used over on the VALORANT balance team. We hope this gave you some visibility into how and why decisions are made (and hopefully can convince you that Sage isn’t completely useless…).
+The Battlepass is a path of various rewards for the time you spend tapping heads and planting Spikes in VALORANT. It’s a feature all players engage with, so we (the Premium Content team) want to make sure the pass is broadly appealing. That doesn’t mean every player will love everything; however, every player should love at least something.
+
+We draw inspiration from lots of sources—the Maps, meta gameplay memes, fun references to items from the previous Battlepass, etc.—and go into each creative brainstorm with an open mind.
+
+Although this dev diary will focus on creative considerations behind the Battlepass, improvements for our cosmetics are always top of mind. The recent pick-any-variant change, experimenting with melee variants, and taking an honest look at the work needed for skin level toggling are recent examples. You can also look ahead to Act III Battlepass for upcoming changes driven by your feedback. Keep that coming
+
+
+THERE’S LEVELS TO THIS
+chicken.png	PlayerCards_SchematicVandal_L1.png	tactibear.png
+
+From the start, the Battlepass was built with a free track so free-to-players can also earn rewards and commemorate their participation with a feeling of “I was there!”
+
+There are also some rewards that we couldn’t imagine not letting everyone earn, such as the Tactibear Buddy, or the ultimate Chicken spray/title/card combo, to name a few. Look, you all need some way to show your Vandal love or celebrate your opponents’ salty tears.
+
+For players who purchase the Premium track—our aim is to create a diverse array of options for cosmetics. Something scifi, fantasy, sci-fantasy (yes…), artsy, edgy, etc. This is especially important because we know there are a lot of you who never purchase skins in the Store directly but still want to earn lots of in-game items.
+
+(That’s why in Act III, we’re also offering variant upgrades for the Surge skin, since many Battlepass-only players had tons of Radianite Points in the bank but no way to spend them.)
+
+opcrimson.png	PlayerCards_GTease_L1.png	coffee.png
+
+The tier order changes every Act so that the most popular cosmetics aren't always artificially locked until the last few tiers. That way, if you’re the type of player who only buys the Battlepass, you can find a skin for your favorite weapon regardless if you completed all 50 tiers or not.
+
+For example, in Act I the Vandal skin was in Chapter 9, but in Act II, it showed up much earlier. We want players to feel like they’ve earned something special as they level up through the Battlepass, but we also gotta be fair.
+
+WHAT’S THE IDEA?
+A smiling toaster. A record player, but with a VALORANT spin. A griefing Scuttle Crab. Froggie Hat. Where does this all come from?
+
+toaster.png	vinyl.png	froggy.png
+FUN ON COMPANY TIME
+How do we come up with ideas for what to put in the Battlepass? Whatever insane creative process you’ve pictured in your head is probably close to the truth. A small team of us brainstorm (virtually, these days) big, no-constraints, blue-sky ideas for hours.
+
+Believe us, there’s no such thing as a bad idea so early in the creative process. Similar to our weapon skins approach, we encourage wild ideas and a safe place to pitch them. Our team can always narrow the final ideas later, but at this stage we optimize for quantity rather than quality of ideas. If it’s just too big for our team to tackle at the moment, we save it for later.
+
+THEME SONGS
+Because the Battlepass content is exclusive to the Act it’s released in, we want to make sure the content feels like it feels like a cohesive package. Step one is to look at what else is happening in that Act:
+
+Who’s the new Agent getting released?
+Are there any new maps?
+Are there any global events or holidays happening?
+What do we want to tease about the lore of VALORANT?
+What’s the current meta?
+What are players saying about VALORANT lately?
+Melee_hive.png	Vandal_hive.png	ares_hive.png
+
+NO DREAMS, ONLY TIERS NOW
+It’s no surprise that we strive for thematic diversity within the Battlepass skins. This can start with a nebulous intent, such as a desire for a pure fantasy design. Take the Act III Battlepass: the Ruin collection leans into the fantasy genre, whereas Surge is more clean and graphic, and Serenity is aimed at the luxurious.
+
+guardian_ruin.png	bucky_charge.png	phantom_serenity.png
+
+It also helps when you tell us what you loved from previous Battlepasses. The popularity of Tactibear led to the creation of their peer, Tactisquirrel. Many of you equipped the Octopus Player Card, so we started to lean heavily into Octopus-related content.
+
+The content should also be relevant and topical to the VALORANT community. For example, the seemingly ongoing debate of “which is better, the Vandal or the Phantom” may never be solved, so we wanted to commemorate that argument with a card. 
+
+(A card memeing on the unfortunate abundance of Guardian skins is overdue.) 
+
+For holidays, we try to capture the spirit rather than something more abstract. A cute jack-o-lantern Gun Buddy is alright, but too much spooky content probably isn’t something our global audience would appreciate.
+
+And then there’s something we can all relate to, a “moment in time.” Many of us are feeling the effects of quarantine, so the Viper “Stay Safe” spray is a nod to something we are all surviving together.
+
+wash.png
+Maps are probably our best source of Battlepass inspiration. Even we have a blast running and searching got map easter eggs created by the Maps team! The Chilly McFreeze snowman, Gelato Cutie, Immortal Rose, and all the Tacti-animal gun buddies originated from the Maps themselves. Even the infamous Octopus is based on a mural from Ascent. 
+
+The folks on the Premium Content team also love playing VALORANT together. That’s why we try to reference some of our funny anecdotal in-game experiences (like the “No Time” spray) or stuff we see in highlight clips online. 
+
+The randomized “Pick my Strat” spray is for when we’re tired of straight rushing long B only to die to something-that-should-have-been-obvious-like-Raze-ult and wish fate would tell us how to play our next round. And the “Piece of Cake” spray is our polite alternative to call something “easy,” instead of spamming GGEZ in the chat. 
+
+Internal design contests help us gather pitches when we are short on inspiration. You can thank members of the VALORANT team for items like the “Scuttle Trash” Gun Buddy, suggested by a person who wanted to celebrate how “trash” she and her partner are at VALORANT. “Potato Aim” is another example—you can guess what that represents.
+
+tader.png	trash.png
+SPRAY-TO-SPEECH
+Sometimes a post-clutch spray says more than any celebratory chant could. Our sprays, titles, and Gun Buddies are also an opportunity to let players non-verbally express themselves in a creative and practical way that is often better than a mic or text chat. 
+
+For every spray we create, we ask ourselves “what is a player saying when they use this?” and how do we make this feel like a VALORANT spray? Or we start with the expression first and ask “how do we express this with a spray?” Some examples of our favorite spray communications/pairings:
+
+Tell the world “I suck at this game!” - Pair the “Sad Crab” spray with the Potato Aim or Scuttle Trash Buddy, your pick
+Toss out a casual “That was easy!” - “Piece of Cake” spray (also, maybe a future idea: a GG button, or a GGEZ button spray)
+One-tap the enemy with a Sheriff? - Drop that “Cheaters Never Prosper” spray because who needs hacks?
+Say it with pride: “I’m a filthy camper.” - Pair the Bucky card with the “Pumped” title and spam the “Camper” or “Cheesy Shot” spray after you blast an unsuspecting enemy with the Polyfox Judge
+Hi, I’m Kevin Lee, a software engineer on VALORANT’s Game Systems team. Our team is responsible for developing many of the core systems that support VALORANT’s gameplay, including movement, combat and input. In this post, I’ll be going through one of the systems that’s core to FPS gameplay: Hit Registration.
+
+In a game like VALORANT, hit registration is arguably one of the most important systems given that the difference between a win or loss can come down to a single headshot. Our goal as developers is to ensure that when a player fires a shot, the outcome of the shot is clear, feels right, and is above all else, correct.
+
+We’ll sometimes see posts or receive messages from players with clips where hit reg appears broken. We take all of these reports seriously, and go through each video frame-by-frame to validate that the system is working as expected.
+
+That being said, we think hit registration in VALORANT is in a pretty good spot right now. Yes, there may still be edge case bugs out there and we will always take those seriously. We’re constantly looking to improve the quality and clarity of all of our systems.
+
+CORRECTNESS VS CLARITY
+In beta patch 0.50, we saw a spike of reports around issues with hit registration. After looking through player reports, videos and extended internal testing, we were able to identify a few edge case bugs with hit registration, but none of them severe enough to explain the amount of reports we received. Upon closer review, the majority of the clips had issues not with correctness, but with clarity. The shots were being properly processed, but the visual feedback of the shot was presenting a misleading outcome to the player. This highlights an important distinction between correctness and clarity.
+
+While both are important in ensuring the “feel” of a shot...
+
+Correctness refers to the outcome of a shot being wrong (i.e., bullets hit the head but registers as body or enemy players appearing differently on the client compared to the server)
+Clarity refers to the presentation of a shot being hard to read (i.e. bullet hit the shoulder, but visual feedback made it look like the bullet hit the head)
+Correctness bugs are much worse than clarity bugs
+We hope this article will shed some light on the system so everyone can look back at their gameplay and understand what’s happening on their screen, with respect to their shots. I’ll go over how the system works at a high level, and explain what happens from the moment the fire button is pressed, to the headshot being displayed.
+
+For a more detailed technical deep dive, check out this article about VALORANT’s netcode on the Riot Tech Blog.
+
+I’ll also go into some common cases we see when it comes to reports of “broken hit reg” and try to explain what’s going on and what we’re doing to improve clarity in those scenarios.
+
+FROM CLICK TO HEADSHOT
+Before we dive into what happens when a shot is fired, it’s important to understand how the game simulates what’s happening. VALORANT’s gameplay is simulated twice: once on the server (the authority for how the simulation plays out) and once on your client (predicting server results to make the game feel more responsive).
+
+The game simulation includes everything that makes up the world including all player’s positions, any abilities flying through the air, and any smokes on the battlefield. Each frame, the game takes a snapshot of the simulation and uses that to render a frame on your screen. The server also does this for each of its frames (skipping the render step since there’s no one watching the server).
+
+Ok so, an enemy peeks out from a corner, and with your amazing crosshair placement you’re already locked onto their head, so you hit the left mouse button to fire— What happens?
+
+hit_reg_flow.jpg
+The moment you press a key, the input is sent to our input system (subject to a small amount of hardware/operating system latency). Each game frame, the input system will process all the inputs it has received since the previous frame. When you fire a shot, that “fire” input is sent to the server alongside a timestamp for what frame in the simulation the shot happened.
+
+It’s important to note that this timestamp is according to what is currently rendered on your screen at the time of the input being received by VALORANT. We now have to follow the shot on two different simulations: the client’s and the server’s.
+
+Let’s start with the client, or your local machine. Immediately after the shot has been sent off to the server, the client starts working on displaying a muzzle flash and tracer for the shot. At the earliest, this will happen one frame after your input has been fired since the game needs to render a new frame to your screen. This is important because it means the frame a shot is processed is NOT the same frame that a tracer is displayed, it's actually at least one frame before.
+
+This can sometimes lead to a failure in shot clarity. The common way this desync could be solved is to delay the bullet. We don’t do this because delaying the bullet adds input latency which we want to minimize in VALORANT. With respect to hit confirms, the client waits until it hears back from the server on the result before displaying a hit-confirm. In order to guarantee consistency across all users and to prevent cheaters from hacking their clients to give false shot results, shot results are entirely server authoritative.
+
+Meanwhile, the server eventually receives a message from the client that a shot has been fired. Due to internet latency, time has passed since this shot has been fired. To ensure the shot is fired against the same simulation that was shown to the player, the server rewinds the simulation to the timestamp given by the client before evaluating hit registration. This includes rewinding player positions and animation poses. It then sends the result of the shot back to the client. For the sake of this example, let’s say it was a headshot!
+
+The client will receive a message from the server with the result of the shot and then plays the VFX and audio that’s appropriate. In this case, it would be headshot VFX and audio. Because the client has to wait for the server to tell it the result of the shot there is a delay between the tracer and the hit effects equal to your connection’s round trip time (i.e. 40 ms to the server = 80 ms delay between tracer and hit VFX), plus a minor amount of processing time. With higher latencies, this delay can become noticeable in real-time.
+
+This is something we’re actively working on improving from a clarity perspective.
+
+CASE STUDY 1: HITTING MOVING TARGETS
+Case_Study_1.gif
+
+In a lot of reports regarding hit registration, we see that the target of the shot is running. Let’s take a closer look at what visually happens when a shot successfully hits a running target. We see the player gets a successful headshot on the running player. To more easily illustrate this issue in this example, the client is running at 60 FPS. You can see that in the frame before the tracer is fired, their crosshair aligns with the enemy’s head.
+
+case-study-1_frame-1.jpg	case-study-1_frame-2.jpg
+However, the frame where the tracer comes out, that is no longer the case.
+
+case_study_1_part_2.gif
+The second clip shows the same scenario, but with the shot barely missing the target. When you look at the video frame by frame, you can see that the opposite is true: their crosshair is off the head on the frame before the tracer, but on the head the frame the tracer comes out. On first glance, you might think to point to the frame with the tracer and say “See, this was clearly a headshot!” When reviewing video or replays, we actually need to be looking at the frame before the tracer to get an accurate picture of when the shot was fired.
+
+case-study-1_part2_frame-1.jpg	case-study-1_part2_frame-2.jpg
+case-study-1_part2_no-hit-vfx.jpg	
+Let’s go back to the example where the shot hit and look at the frame when the hit VFX is rendered. There is a noticeable gap between the player’s current location and the location of the hit VFX due to the delay caused by internet latency. This can be confusing when you’re trying to understand what happened with your shot, since you’ll most likely be focused on the enemy's current location, not their location at the time of the shot. This can also lead to additional confusion in crouching/strafing scenarios (which we will look at in Case Study 2).
+
+case-study-1_part2_frame-where-hit-vfx-rendered.jpg
+This case study illustrates a lack of clarity with the current hit registration system. Ideally, you don’t need to understand all this background information to be able to read the situation clearly. As developers, we acknowledge this and are investigating ways to improve clarity in these cases.
+
+CASE STUDY 2: CROUCHING INTO SHOT VFX
+So you’ve entered a gun fight at long range. To your future self’s regret, you hold down left click and spray your gun. At least one of those bullets will be a headshot, right? But no, you hit 3 body shots with your Vandal, dealing 117 damage, before receiving a headshot in return.
+
+Furious, you go to review the footage after the game, certain that bad hit reg was at play. You see the enemy player was spamming crouch in an attempt to dodge your shots. To your surprise, you see a hit VFX right on top of their head while the player is crouching. But your combat report only showed body shots! What gives??
+
+Here’s a link to a real post on reddit titled “Headshots not registering when a player crouches” of the hypothetical.
+
+When our team goes to investigate reports of bad hit reg, situations like this one are the most frequent cause for what appears to be incorrect hit registration. In fact, hit registration is working correctly—shots are going where you're aiming (ignoring spread or movement error) when you press the fire button, and that shot is accurately registering on the server
+
+However, a few different factors cause this particular case to be visually misleading:
+
+Hit VFX are delayed due to internet latency
+Hit VFX are displayed at the location of the original shot impact
+The target player is moving (most often crouching)
+Case_Study_2.gif
+For another example, let’s say the player has 50 ping. The player hits a shoulder shot on the enemy player. Because we need to wait for the server to confirm the hit, it’s 100 ms later when the hit VFX starts to play on the location of the body shot. But during that 100 ms, the enemy player has started to crouch, moving their head right behind the newly spawned hit VFX. At long range and in the heat of a gunfight, a body hit VFX can be confused for a headshot hit VFX.
+
+case-study-2_cursor-on-body.jpg case-study-2_hit-VFX-on-body-correctly.jpg case-study-2_player-crouches-into-vfx.jpg
+This was especially bad during beta patch 0.50 when blood was unintentionally disabled for everyone, and our spark VFX has less visual clarity in distinguishing headshots and body shot VFX. We’ve always had separate VFX to indicate body shots vs headshots, but we realize they didn’t always read clearly in combat.
+
+This is a failure in hit registration clarity that we are actively trying to improve. One of the things we’re experimenting with is tying hit VFX to the body part of the character where the hit occurred, so that there is a clear relationship—even with high latency.
+
+Comparison of our current non-blood headshot hit VFX compared to body shot VFX:
+
+headshot-VFX.jpg	body-shot-VFX.jpg
+PLANNED CLARITY IMPROVEMENTS
+The two case studies highlight some areas where our current hit confirm VFX falls short. One of the changes we’re iterating on is to have blood and spark effects spawn on the character’s current position, according to which part of their body got hit, and follow them as they move. This greatly increases the clarity in situations like in case study 2 with crouching enemies, because the visual effect will move with their body movements.
+
+One trade-off to this approach is that it would be possible for hit confirm VFX to move behind cover alongside its attached character. Consider the case of a player with 100 ms of ping shooting at a player jiggle peeking a corner. If they land a shot on the enemy and they immediately move back behind a corner before the hit confirm arrives from the server, the shooter may not be able to see the hit confirm when it spawns.
+
+We’ve considered adding multiple particles, some that follow the character and others that spawn immediately at the hit location, based on the client simulation, to mitigate this issue. However, this in turn can cause confusion if the client and server simulations ever disagree on the outcome of a shot: The effects need to be clear in what they represent so it’s easy to understand the outcome of a shot.
+
+We’re continuing to iterate on this and other improvements to clarity and hope to have a set of clarity updates to share soon, in a future patch.
+
+KEEP SENDING VIDEOS
+Hopefully this post has helped you better understand how hit registration works in VALORANT and better understand why shots resolve the way they do. Please keep sending us videos any time you think hit reg is misbehaving, we do try our best to look at all of them.
+
+Even if there’s no issue at hand, it helps us track down hit registration correctness bugs faster when they do happen (my heart rate also jumps each time I see the word “Hit Reg” on a top voted reddit post).
+Hello, I’m Brandon Wang, a software engineer on VALORANT’s Content Support team, pairing up with Weapon Artist Chris Stone today for a look at the development of our recent Spline weapon skin, and generally, how engineers and artists collaborate to deliver memorable content for you all.
+
+Spline was another challenge to do something different. Skins like Elderflame and Prime were really out there but we’ve yet to attempt a line for those who prefer a subtle weapon skin but still wanted unique geometry and some subtle VFX. With concept art in hand, the Content Support team tested the design with players—and lucky for us, they dug it. Maybe it was the strange and abstract shapes not typical for FPS designs. Take a look:
+
+Spline_Concept_1920x1080_V1.jpg
+Getting those orbs to come alive was a special challenge unto itself because the depth we were pursuing couldn’t be done through VFX alone. The fantasy that tested so well would fall flat if the orbs were only emissive. 
+
+And thus, the beautiful partnership between Content Support and Premium Content teams came in for the save. With help on the engineering end, our artists experimented with our awesome in-game shader to not only create the Spline orb shader but other shaders that you all see in VALORANT today.
+
+ART, MEET ENGINEERING
+Early in VALORANT’s life, I (Brandon) was working on a lot of foundational and fundamental work to optimize shaders (the programs behind what most people consider a game’s graphics) and help drive the art style. 
+
+Once we solidified our art style and the game was performing close to where we liked on the GPU side, I jumped to help out other teams with very specific needs in my specialty: engineering in rendering and materials.
+
+unnamed.gif
+One of the materials I helped develop was the Sage Orb. We wanted to have a gem-like power-source for Sage, so I built a prototype using parallax to make it look like there’s a flowing, floating, cloudy core inside.
+
+orb_concept.gif	orb_final.gif
+(Left: My original prototype, right: production version)
+
+VFX artists took the prototype and the workings behind it, tuned the look and topped it with their own take to hit the final version you see in-game. 
+
+For weapon skins in particular, I added a touch of interesting tech. Prism, Avalanche, and Nebula were all originally experiments and prototypes on the base weapon models to see if unique effects, in a similar vein to Sage’s orbs, would make exciting skins.
+
+But it’s not enough to make an interesting effect—we need to build one that’s “tunable” in an artist-friendly way. For Prism, we used gradients to tune the effect and colors.
+
+
+Avalanche began as a hodgepodge of different effects combined to try and make a pink Himalayan salt lamp (as inspired by the lamp on the desk of VALORANT’s PR manager). That didn’t look quite right. Then our artists saw the blue version and drove the skin to the direction you see today.
+
+unnamed_(1).png
+unnamed_(2).png
+[Original Avalanche prototypes]
+
+
+
+Avalanche_Asset.jpg
+Nebula started off as a simple “portal to another world,” but we needed a decent amount of engineering effort to reduce the texture to fit into our performance budgets, even for players running on low spec machines (these limits make it so the game will run as fast as possible, even when using fancy skins).
+
+We ended up using a single face of a cubemap, tiled horizontally to be seamless, and added a “detail” texture on top. Unfortunately, this version caused some players motion sickness, and we didn’t want to ruin any keyboards. So, our artists drove the fantasy further and reduced the effect to prevent nausea. And then we ran some extra playtests with VALORANT devs who said they’re prone to motion sickness IRL and in games.
+
+early_nebula.jpg
+
+These engineering prototypes are nowhere close to production-ready skins. All of these prototypes end up as tools for artists to select from in their own work. Whereas Prism, Avalanche, and Nebula directly became the main portions of their respective skin lines, Spline marries the tech behind Sage’s orbs to support the rest of the skin. Speaking of Sage’s Orbs, I reme— Wait, don’t take my keyboard away, I built that, it’s my ke—
+
+—ENGINEERING, MEET ART
+HEY, it’s Chris jumping in now. Oh, this is a sweet keyboard. That actuation force...
+
+So the original Sage shader as mentioned above was fantastic, no doubt. But it missed the fantasy of the Spline Orb that we had in our original concept. I hit up Bwang (that’s Brandon) and asked him to break down the Sage shader a tad. After he explained how the shader network was set up in our game engine, I was able to make some slight adjustments on my end to better support our artistic goals for Weapon Skins. 
+
+After I made the adjustments, I hopped into Substance Designer, a node-based texturing software, to work on some new textures that would better fit with the style of the conceptual orb while also working within our performance and shader constraints (the ones about making the game run as fast as possible).
+
+Below is a snippet taken from the process of creating new textures. By the end of the process, we were able to create something more abstract from the Sage orb to match the fantasy of the Spline concept.
+
+cstone_spline_sagecompare_02.gif
+As a bonus, let's quickly look at another collaboration with the Content Support team: the custom shader used on the Prism skin line. After a few Bwang lessons, we were able to go in and add some custom controls that could modulate the orb’s Iridescence effect.
+
+Take a look:
+
+Prism_Asset.jpg
+MORE COLLABS ON THE WAY
+These are just a few examples of Premium Content and Content Support working closely together to develop new shaders for VALORANT that lead to distinct skins for everyone.
+
+Spline_Collection.jpg
+We do carry other day-to-day responsibilities that make it so not every skin line can go through this process, but it’s always exciting when we’re able to prototype new shaders for you all. Hopefully this shows the power that comes from cross-team collaboration, when both teams are invested in making something cool. 
+
+It’s easy for us to have a common goal when we try to think of what would excite you. We always have artists and engineers working closely together, and we’re learning new workflows as we go!
+As we near the end of VALORANT Act I, we want to lay out our plans for the Competitive experience at the end of an Act, and discuss new features starting in Act II.
+
+Currently in our Competitive system, your rank is very closely tied to your skill (MMR) and it can move up or down fluidly depending on if you are having a good or bad day of competitive play. We want you to have an accurate representation of your current skill in matches. We also want to build a ranked system that promotes growth and engagement over ‘peaking’ at a top rank, getting anxious about losing it, and stuffing it in the fridge.
+
+Let’s talk about our next steps!
+
+COMPETITIVE ACT II UPDATE & ACT RANKS
+The takeaway: After an Act, all that matters for your Act Rank are your 9 best ranked wins of the act, and how many wins you’ve gotten in the act. So if you peak at Diamond but drop down to Gold, your act rank will only remember the good times. Take another run at Immortal, push those lower rank games out!
+
+Let’s break down the details:
+
+Your rank will still be a close reflection of your current rating
+We are now introducing “Act Ranks,” which track your ‘proven skill’ (this is new!), highest ranked win, and # of competitive wins in the Act
+At the end of the act, your Act Rank will be preserved as a badge on your player card in Competitive Games (and in your career history)
+Your ‘proven skill’ is your 9th best ranked win of the Act, to demonstrate you can consistently win at that level
+Your highest ranked win is self-explanatory: It’s the highest ranked win you’ve achieved in the act (right at the top of that triangle)
+Your Act Rank border is the surrounding border that evolves based on your number of competitive wins in the Act
+You’ll also be able to review past Act Rank info in your Career Tab
+ACT RANK
+act_2_ranked_article_1_v2.jpg
+As you play, your Act Rank fills with smaller triangles. Each triangle represents your ranked match wins (Gold, Immortal, etc.) over the course of an Act based on the rank you entered the game with (hence your rank for that match).
+
+Wins at higher ranks visually replace your lowest wins to display the best of your Competitive games. For example, more wins at Radiant will push out your earliest wins at Bronze (very aspirational!).
+
+The border also changes as you hit these win thresholds: 9, 25, 50, 75, and 100.
+
+Starting in Act II, your friends will be able to inspect your Match History, including both your rank and overall Act Rank progress.
+
+ACT RANK BADGE
+act_2_ranked_article_2_v2.jpg
+You can view your progress toward your Act Rank Badge anytime in the career page.
+
+Your Act Rank Badge shows off your proven skill (best ranked match wins) for that Act. This is based on your top nine ranked wins. Remember, you will have to prove your skill at that rank if you want to finalize it as your Act Rank.
+
+For Act I, we’ve decided to not award an Act Rank Badge because we figure you want to know what you’re getting into before commemorating it with a badge. Again, for Act II, you’ll be able to earn that Act Rank Badge, which memorializes your Act II competitive skill and will display on your player card during Act III Competitive games.
+
+While we always plan to allow you to view your prior Act Rank progress in your Career Tab, your Act Rank Badge will represent your latest Act Rank and proven skill, so other players have a good indication of how you’ve been playing in the past two months.
+
+COMPETITIVE & END OF ACTS
+act_2_ranked_article_3.jpg
+With each VALORANT Act, we plan to deliver a host of fresh content as well as balance changes. As the game evolves, we want to give both new and returning players an opportunity to jump back in and see how their skills stack up in the new Act.
+
+Here’s what happens at the end of an Act for Competitive:
+
+Your prior Act Rank will be saved and locked in your Career tab
+Act 1 Competitive data will be saved
+You will be put back into abridged placements.
+It will take 3 games to display your rank instead of the initial 5
+These placements are quicker as we will reference your MMR from the prior Act, so we can quickly assess your skill for the current Act.
+Your rank will be a conservative placement where we are confident you are able to compete at that skill level—or higher.
+Typically, your Rank will land a couple of tiers below where you ended the prior Act, but we’ll be increasing how heavily we weigh performance in your early games so you can quickly improve your rank if you play well and win
+Placement games don’t count toward earning your Act Rank.
+WHAT’S AHEAD
+We look forward to hearing your thoughts and feedback on Competitive and Act Ranks.
+
+As we get closer to the end of Act II, we’ll share another update on our next steps for evolving the Competitive experience. Right now a couple of the top priority areas we are looking at is improving transparency and clarity into your rank changes, along with solving some pain points for high rank players. We also always welcome hearing from you all other features and improvements you want to see.
+Hey VALORANT competitors, ahead of our global launch of Competitive Matchmaking during patch 1.02, we wanted to give you an update on what to expect when you queue up.
+
+A huge thank you to all of you for the feedback during VALORANT Closed Beta, your input helped inform our next steps. So, based on that feedback, we targeted a few areas to level up for Competitive launch.
+
+On that note, it’s worth saying that this ranked system is a living work in progress, so don’t stop your comments. Expect us to continue to make improvements based on your feedback.
+
+Changes for launch:
+
+Updated rank iconography and top rank name
+Easier to play with your friends
+Soon after patch 1.02:
+
+Rank Progression
+RANK ICONOGRAPHY
+VALORANT_ICONS_2.jpg
+We knew going into Closed Beta we wanted to take another pass at rank iconography and taking your feedback into account we’ve made the following changes:
+
+Clarity pass for rank colors so it's easier to distinguish between each rank
+Visual polish pass for each Match Rating
+Additionally, although we still really like having our top rank be something unique to our game and aligned with our IP, we’ve decided to remove VALORANT as the name of our top rank to help reduce potential confusion of the game vs the rank. 
+
+The new name for our top rank will represent Agents infused with powers, known as Radiant.
+
+PLACEMENT MATCHES & PREMADES
+We really believe in VALORANT teamplay, playing and competing with your friends. So we’ve made it easier to play with teammates in placements, and will continue to work to further optimize for balanced matches, regardless of your premade size. This is an ongoing commitment from us.
+
+You can now matchmake with your friends during placements even if they have a fairly large skill discrepancy—to a certain extent. For example, if you’re an elite player, and your friend is still learning the ropes, our Competitive Matchmaking will still prevent you from being able to queue in order to protect the competitive integrity and experience for the other players in that match.
+
+We also are continuing to optimize our matchmaking to ensure that, regardless of your premade size, you are put into fair and balanced matches. By the end of closed beta, we were narrowing in on matches being about 50/50 fairness for the vast majority of skill groups (outside of our most elite players in our top two ranks).
+
+For Immortal and Radiant players, we’ve made some improvements to our matchmaking, but we know that for this specific tier of play, there is still a slight advantage to being in a 5-stack vs playing solo in these top ranks. We are looking into tactics to help address this problem, and plan to share more later this year.
+
+RANK PROGRESSION
+In every VALORANT Act—which spans about two months—you’ll have the opportunity to track your rank progress throughout the Act. We will start tracking your rank progress as soon as we launch Competitive with patch 1.02 behind the scenes, and soon after we will be providing you visible info in your Match History, and eventually in other locations in the client, around your overall performance for the Act. Rank progress we are looking at tracking are stats such as how you’ve climbed in rank over the Act, your number of wins, along with your wins at your highest achieved rank.
+
+THE BEYOND
+We’ve seen a ton of demand for competitive-related features that support teams, in-client tournaments, fairer overtime handling, and more granular top rank comparisons - such as leaderboards. For now, we are primarily focused on getting Competitive Matchmaking globally launched. However, we do want to eventually address these needs.
+
+Our vision for the future highlights teamplay as a critical part of the VALORANT Competitive Ecosystem. We want to create the opportunity for all players to come together and compete at high stakes as a team, with the hope these team-oriented competitive matches will be memorable and rewarding events.
+
+Expect to hear more on this topic later in 2020.
+Hey it’s Paul “Arkem” Chamberlain, your VALORANT anti-cheat lead here again with a quick spotlight on the importance of player reports.
+
+One of the most powerful tools in the fight against cheaters is player reports. Reporting gives players a way to directly tell us, your faithful anti-cheat team, what suspicious activity is going on in their games. Unlike Vanguard’s automated systems (Riot Vanguard is our anti-cheat system) reports bring human insight to our anti-cheat efforts at an otherwise unobtainable scale and bring with it a direct look at everyone’s experience in game. It’s really important that players use the in-game reporting tools everytime they see something suspicious, it’s the best way to help us keep the game fair!
+
+I promise some spicy numbers at the end.
+
+REPORTS LIFE CYCLE
+Reports feed into many of our team’s processes both automated and manual. On the automated side, the Vanguard backend uses reports to decide whether or not a player should receive additional scrutiny, such as a higher intensity game integrity scan. Vanguard also uses the number of reports (more specifically the number of unique reporters and number of games in which the player was reported) as an indication of confidence in its findings—which helps us ban players faster and, in many cases, without manual review.
+
+Our anti-cheat analysts also use reports to drive the manual review process. Each day the analysts (sometimes guest starring myself) review the most suspicious players, usually starting with the most reported players. These manual reviews help us find cheats that aren’t automatically detected that we then use to improve Vanguard so that automatic detection (and bans) will happen in the future. We also use these manual reviews as an opportunity to remove the most disruptive players ahead of schedule. We often use “ban-waves” to keep cheat developers guessing as to whether or not their cheat is currently detected but we’re happy to early-exit the most disruptive cheaters to better protect the game.
+
+Finally, we use reports as a measure of the health of the game as well as the effectiveness of Vanguard. If the overall number of reports is going up then that’s a sign to us as developers that players are feeling bad about the integrity of the game (regardless of the accuracy of each individual report). Likewise one way we can assess the effectiveness of Vanguard is by comparing the percentage of players reported for cheating versus the percentage of players detected by Vanguard.
+
+BY THE NUMBERS
+I know everyone likes stats, so I asked our anti-cheat data science friends to find some juicy numbers for you all to see.
+
+First of all, 97% of players have never even received a single report—no one has ever found their behavior suspicious enough to comment on. Of these 3% of players that have been reported for cheating, more than 80% of them have only ever been reported by a single player. 90% have been reported by fewer than 3 players.
+
+To put this another way, only 0.6% of players have received more than 1 cheating report and only 0.3% have received 3 or more. However, reports and cheaters aren’t perfectly correlated, many reported players are innocent and not all cheaters get reported before they’re banned. Right now only 53% of banned cheaters were reported before their ban and only 60% of players with 20 reports get banned after review.
+
+But even without a perfect correlation, reports are extremely helpful.
+
+So why am I telling you this? I want you all to report more, whenever you see something suspicious in your game please use the report system so we can see it too. Your reports are invaluable to us, your view from the ground is the best intelligence we could ask for and when we work together great things are possible!
+Hi everyone, Paul “Arkem” Chamberlain, VALORANT’s not-at-all-scary anti-cheat lead, here to talk to you about anti-cheat (surprise). I’ve popped up a few times already to talk about specific anti-cheat systems and give quick updates or high level overviews on cheating topics—but I wanted to take some time today to go over our anti-cheat strategy from top to bottom.
+
+Consider this the What, Why, and How of VALORANT anti-cheat.
+
+Firstly the “Why,” as in, why am I talking about this so much and why are we collectively spending all this effort fighting cheating? Frankly, it’s because I believe that it’s what players (that’s all of you) expect and demand from their tactical shooters. Along with our other commitments to competitive integrity, anti-cheat is a core requirement, the “table stakes” for a serious competitive experience.
+
+Next the “What.” What exactly are we trying to accomplish for anti-cheat in VALORANT? The goal is to build a trustworthy gaming experience by making cheating as rare as possible. This means that we aim to prevent as many cheats as possible and detect anything that we can’t prevent. We know that we can’t stop all cheaters immediately but we believe we can deal with them to the point that most players rarely, if ever, encounter a cheater.
+
+So, “How” can we achieve this? How do we think we can protect the game experience from cheats? It’s fundamentally a defense in depth approach. We first build the game to be as cheat-resistant as we can (e.g., Fog of War, and server authoritative movement netcode). Next, we make the cost of developing cheats as prohibitive as possible (e.g., Vanguard and other anti-tamper measures). Finally we detect, ban, and remove cheaters from the game as efficiently as possible using Vanguard cheat detection, hardware bans, player reports, data analysis, and machine learning research.
+
+Yes, cheats are still possible in VALORANT—there are already some examples out in the wild. But this strategy makes those cheats much more difficult to develop and maintain. This in turn makes them more expensive to buy, which limits how many cheaters there are in the game. The smaller community of capable cheat developers also makes their cheats easier to keep track of and enables us to take other approaches—such as legal avenues—to keeping them out of our ecosystem.
+
+fogofwar_off.jpg	fogofwar_on.jpg
+This leads us to the real big questions: How do we know if we’re winning and what does success look like?
+
+There are a lot of ways to measure success. Often we hear reports of “X number of players banned” and game studios using internal metrics like “percentage of players cheating” or “percentage of games impacted by cheating.” While those numbers are useful indicators, they’re of secondary importance to VALORANT.
+
+Our anti-cheat for VALORANT is designed to make sure players can trust the game and have a positive experience while playing. So our primary success criteria is how well you all think we’re doing. We track the number of player reports for cheating, we ask players directly via surveys for their impression, and we keep track of player sentiment on social media (hi twitter!).
+
+In short, if you’re not happy with us... then we aren’t successful. Anti-cheat is here to serve players, so please let us know how we’re doing.
+
+We’ve talked about how we design Agents in the past—and we talk about making League champions a lot. This time we want to share more about how we made Neon because it’s a bit different from how we usually do things. But first, a quick refresher.
+
+We design Agents through a process called DNA. A game designer, narrative writer, and concept artist are assigned to an upcoming Agent, and in the beginning, there’s just a starting seed—like a design, narrative, or diversity goal. This could be making another Radiant, or adding another duelist to the roster, or exploring a different region of the world with a character who calls it home.
+
+From there, the core team (because there are a lot more folks involved than just DNA) brainstorms... a lot. They toss around ideas, create paper prototypes, write flash bios, and draw spreads of concept art.
+
+Slowly we have someone who feels unique, cohesive, and adds something exciting to the current roster. Then bam, you have 500 files named finalfinalFINALIPROMISE, hundreds of animations, meshes breaking in places no one knew possible, sound effects playing randomly, wait why is their face texture on their hands... Oh look, we have an Agent!
+
+They release, armchair designers come out of the woodwork on Reddit, Twitter explodes with an overabundant amount of fan art, and everyone turns on all chat to flame Rioters in-game.
+
+Except, that’s not Neon’s story.
+
+Listen, we go on the internet. We’ve seen your fan theories and side-by-side comparisons of Neon and Zeri, League’s newest champ. And to officially set the record straight: No, they’re not the same characters, no they’re not related, but they were made in tandem by the League and VALORANT teams.
+
+“How did it get started?” You ask. As many things do, the Agents Team Lead John “Riot MEMEMEMEME” Goscicki and League Champions Team Lead Ryan “Reav3” Mireles were scheming.
+
+011422_NeonChampionInsights_Sprint.jpg
+
+MIGHT MESS AROUND AND MAKE CHARACTERS TOGETHER
+“A long time ago we were brainstorming what we could do for the launch of Arcane (League’s new animated show on Netflix—go watch it). It was a huge moment for all of us at Riot, so I messaged Goscicki to ask if he wanted to co-launch a champion and Agent together during the event,” recalls Mireles.
+
+“It made a lot of sense, a lot of the VALORANT Agents team worked on the Champions team before—Goscicki included—and we share a lot of the same processes. And a lot of Riot players play both League and VALORANT. So we thought it’d be cool if they could play these two characters in both games,” Mireles shares.
+
+“I actually remember that even before that conversation, you and I would message each other and say, ‘One day we’ll co-launch characters. One day we’ll collaborate and it’ll be cool,’” laughs Goscicki. “And then when this opportunity came up we were like, ‘IS TODAY THE DAY???’ And yes, it finally was the day.”
+
+But before they got started, the team needed to figure out what they were actually making.
+
+League and VALORANT are very different games in very different IPs. Sure, they’re both online competitive games developed by a small indie company with a penchant for nerfing your main. But League’s set in a fantasy world where champions actually use abilities to get kills, whereas in VALORANT, shooting matters and you don’t kill with abilities (allegedly). They just create tactical opportunities to take the right shot.
+
+That meant Mireles and Goscicki needed to do a bit of groundwork before development really began.
+
+“When either of our teams get started, we generally have a pretty good understanding of our goals. But when it came to Zeri and Neon we just... didn’t really know what that space looked like,” admits Mireles.
+
+“In League we have diversity goals in terms of role, region, gender, and playstyle. VALORANT has most of these as well—but they’re very different from what we do in League. So we needed to make sure we found a space that was good for both of our games, and was exciting for players. Because if no one wanted to play these characters, what was the point?” Mireles asks.
+
+That meant the characters needed to stand on their own. Sure, a bunch of us play both games, but the majority choose one and stick with it. And while adding a mute K-pop heartthrob who assassinates people with magical moon weapons gifted from his twin sister who lives in space to VALORANT just because Aphelios exists in League might be a fun idea, that doesn’t mean it works.
+
+Old friends and good intentions aside... how the actual f*&^ do you design a champ and an Agent together? The answer is surprisingly simple: Combine teams.
+
+LIGHTNING CAN STRIKE TWICE
+“I’m a huge fan of VALORANT. When it first released, I talked to a few of the game designers on the team like, ‘You know, I’d love to make an Agent some time...’ And so when we were told about this opportunity I just jumped at it,” Game Designer August “August” Browning laughs. “Making two characters in tandem meant we faced a bunch of new constraints, which is fun and exciting as a designer. We needed to find a shared power source—but something that works in both League and VALORANT. We needed to figure out if their personalities were similar or opposite and complementary... There were so many questions that needed to be answered.”
+
+Let’s start with the power source.
+
+League’s a world of endless possibilities when it comes to sources of power for its champions. There’s a space dragon who created the cosmos, a doll with magic scissors, and a literal mountain (whose ultimate is to move really fast—don’t ask). VALORANT has two: Tech and Radiants.
+
+Raze throws grenades, Killjoy uses bots, and Cypher is Great Value Inspector Gadget. Phoenix throws solar fire, Jett uses wind, and Sage resurrects her allies in front of a cracked enemy with an Op. So the team decided to brainstorm some ideas for a shared power source across both games.
+
+011422_NeonChampionInsights_Run.png
+
+During brainstorms, Concept Artists Konstantin “Zoonoid” Maystrenko, Nancy “Riot Sojyoo” Kim, and Gem “Lonewingy” Lim talked about the common denominators between League and VALORANT. The first being speed.
+
+VALORANT rewards you for good rotations, ego peeking, silent flanking, and flash banging your entire team as they push the point. Whereas League’s about running it down mid setting up flank TPs to enable your fed top laner to push a side lane while you goon squad mid. And while there are plenty of Agents who are really mobile (nerf Jett), there’s no one who literally embodies speed.
+
+“Neon’s constant access to speed means she’s the most mobile Agent in VALORANT,” Game Designer Ryan “rycou” Cousart explains. “She completely shatters what we know about speed and mobility in the game and will heavily test players’ moment-to-moment decision making as a duelist. With great risk comes electrifying rewards.” :) LOL (Addition insisted upon by Cousart.)
+
+But “move fast” isn’t a power source. Sure, running laps on the enemy team is fun, but other than “run really fast” what can they do? So the team took a step back to find a source of power, something that explains why Neon and Zeri would go fast.
+
+“We landed on the idea of electricity, which lent itself to the speed idea,” shares Lim. “But it also had this nice tie-in to where we wanted these characters to be from in the real-world: the Philippines. I grew up in Manila, and we were planning on making Filipina characters—something that means a lot to me, personally. And in Manila we have a lot of blackouts, and electricity problems in general. It just felt like a nice little nod to life there.”
+
+011422_NeonChampionInsights_Portraits.png
+
+Neon’s negative charge bandage and Zeri’s positive charge bandage were added to further illustrate their “opposite charges” narrative theme
+
+Lightning also fit who these characters became.
+
+“We latched onto this narrative concept of positive and negative when we saw the electricity concept art. Both Neon and Zeri have this feeling of fighting for their communities, but we still wanted them to be their own people,” explains Narrative Writer Michael “SkiptoMyLuo” Luo.
+
+“Neon’s the negative charge and Zeri’s the positive. Neon’s prickly and a bit more guarded—blunt, sarcastic, slightly biting. It seems like she doesn’t care about you, but deep down she does care and wants to do the right thing. Compared to Zeri’s warm, bright—but still stubborn and impatient at times—personality, we just felt like it was a cool way to tie their electricity theme into who they are,” Luo adds.
+
+011422_NeonChampionInsights_Expression.png
+
+Both Neon and Zeri come from big, supportive families and communities—something inspired by the “Bayanihan Spirit” in Filipino culture—but what makes them different is their reaction to it.
+
+“Neon comes from a big family in the heart of Manilla,” explains Narrative Writer Joe “Riot ParmCheesy” Killeen. “Unlike Zeri, who embraces the love and support from her family, Neon is overwhelmed by it. She still loves them, and has a strong sense of service and duty for her community, but she’s more withdrawn. It’s just a different reaction to a similar upbringing, which we thought was a cool opportunity to explore while making these characters.”
+
+“WHY NOT?”
+But combining forces to make characters together still had its challenges. And while we’re one company, we’re still talking about two wholly different games.
+
+“August had some really... interesting ideas for gameplay early on in development,” laughs Cousart. “We knew we wanted to go with speed, and he pitched the idea that Neon had full access to a sprint at all times. With no cooldown.
+
+Speed’s one of the ways we can create consistent learnability in VALORANT. Pros and high-level players can tell you the exact amount of time it takes to go from site-to-site, so the idea that we should just shatter that honestly gave us night terrors,” he continues.
+
+011422_NeonChampionInsights_KeyArt.png
+
+“The reason I gave Neon finger guns is because August wanted Zeri to be reliant on a VALORANT-style gun, so I wanted to try making Neon not have a gun,” says Cousart
+
+Another early game design idea for Neon was a one-shot LIGHTNING HANDS mechanic that was completely accurate while running and reset (don’t ever complain about something being OP again, thanks). And while this was certainly a unique take on an Agent, it was too much. So the team pulled back and put some design constraints into place: No one-shots, sure. Cooldown on sprint? Ehhh... About that.
+
+Neon’s fantasy is to run fast and zap people while doing it. And restricting her access to speed left her feeling pretty sluggish. That meant August and Cousart needed to ask themselves a hard question: Is it worth challenging what we know about movement in VALORANT?
+
+“We decided to go with giving Neon constant access to speed, at all times, with no cooldowns,” August shares. “Instead of going with the cooldown we restricted the strength of it in other ways. Like making it so her guns are down and she can’t jiggle peek at high speeds. This means you’re at risk whenever you want to use her speed, a stronger knife run in many ways. We just felt like, overall, this made more sense for her power fantasy, which is to run fast for extended periods of time.”
+
+
+“Something August really helped with was challenging the way we think about designing Agents overall, not just Neon,” Cousart shares. “Every time he encountered a guardrail we’d had in place for VALORANT design he just asked us ‘Why not? Why can’t we do this thing?’ It taught us a lot of things: Why VALORANT is different from League, sure. But it also helped us realize where the similarities are.
+
+Cousart continues, “I’m not saying that every guardrail should be smashed, but it taught us to test what we thought was our limit previously, instead of pushing to try new things. It made us learn more about our own game, and changed the way we think about design on Agents in the future.”
+
+But don’t worry. If you’re really concerned about what this means for our next Agents, rest assured that the next one’s definitely not a duelist
+Hi, I’m Suke, Principal Illustrator on VALORANT. We’d thought it would be fun to show you a little of what goes into the VALORANT illustration process, our style, and how we tell the story of Astra through art.
+
+But first, watch this!
+
+
+As part of Episode 2 Act 2, we just added Astra, our newest VALORANT Agent. Like gameplay, it’s not enough just to have something new. Each Agent illustration should really stand on its own while maintaining a style and coherence with the rest of the VALORANT world.
+
+Every Agent illustration starts with a “thumbnail” as shown above.
+
+Thumbnails are quick and simple. We use them so we can explore multiple options without committing, making the whole process time effective, since we can’t go back once we move on to the next steps.
+
+During this process, we keep in mind who the character is, what their attitude and personality are like, if they have distinct features, e.g. a gauntlet. We strive to emphasize what is most important for the character so you can understand them at a glance.
+
+One thing that is always important is focusing on keeping the shapes really cool and exciting. It’s more about that, and less about rendering them realistically—and it’s a pretty tough balance to manage!
+
+VALORANT “KEY ART”
+3_9_21_AstraA15KeyArtBTSArticle_embed.jpg
+
+When it comes to what we consider our VALORANT “key art” (the image you see everywhere to promote new stuff), the process begins with thinking from your perspective: what feeling do we want to give you and what do you want to experience?
+
+For Astra, we wanted to show her Controller role in some way. From a character perspective, she is an Agent defined by her source of power. She also has a youthful intensity and playful personality.
+
+So, how do we visually represent these vibes through composition and pose? It starts with a couple of rough sketches, where we pick the direction she’s floating in the air, and give a subtle understanding of her role. This way, the viewer (you) understands that her power is related to the sky.
+
+In the second round, we picked a version of the sketch where her body is slightly tilted. We wanted to give you an idea of how she gains control while also showing hints of that playful personality. As you can see in the video above, it got pushed even further in the next phase, when I angle her face toward the “camera” with a very subtle smirk.
+
+A very fun part of her design is mixing her aura of power with an African Futurism element. I really enjoyed playing with the golden arm effects, especially when the lower arm pieces start to float and her “true” form is revealed.
+
+3_9_21_AstraA15KeyArtBTSArticle_Astra_Wallpapers_purple.jpg
+
+She also has a really powerful ultimate in-game that we are definitely excited about. Even though we couldn’t show all of her abilities in one piece, we can still display her power casting in a really vibrant way.
+
+After all, when everything comes together, she comes alive. The progress from thumbnail to finish even caught me by surprise! Hope you guys like it too!

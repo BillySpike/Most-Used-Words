@@ -1,0 +1,332 @@
+Guess what time it is. If you guessed “time for another Champion Roadmap” then pat yourself on the back (unless you read the title already like most people, then I’m not nearly as impressed). But yes! It is time for another exciting edition of the League of Legends Champion Roadmap! In written form this time because as much as I love talking, it’s way easier to hide subtle teases in text, which makes these fun to write. But enough about me, let’s talk about what you all came here for: champions!
+
+It’s been a little while since Renata Glasc took to the Rift in all her power-suited glory. In our last Roadmap I mentioned we were going to slow down new champion production a bit. We want to make sure every champion gets the time and attention they need before they’re shipped, even if that means we don't hit every position in a year. While we don’t know exactly how many champions we’ll release this year, it should be pretty similar to last year.
+
+That being said, we think the champions currently in development are pretty exciting, and that’s exactly what we’re here to talk about. I’ll also go over a couple upcoming VGUs, as well as a new project we’re trying out called a Comprehensive Gameplay Update (CGU)—I know, another acronym, but I promise we’re not adding more just to see how many you can keep track of—but more on that below. So let’s get into it.
+
+A Whole New World
+Don’t you dare close your eyes! The Champions Team has something coming soon. Something beautiful, something inevitable, something foretold. A new skirmisher for all those jungle players out there. A new Empress to submit to… and you will submit.
+
+Those who do so willingly will be rewarded by becoming part of the ever-expanding Lavender Sea, crashing like waves against the enemies’ defensive structures. Give in to your Empress and let her feed on your essence, so you may become part of the new evolution of Runeterra. And as an added bonus, if you succumb to her you will also bear witness to her true elegance, her true beauty, and the true face of the Void.
+
+Who wouldn’t want that? I already submitted in January. And while there wasn’t cake, it was still a good time. So what are you all waiting for?
+
+041822_ChampionRoadmapApril2022_01_Empress.jpg
+
+A Joyous Occasion
+Next up the Champions Team would love for all of you to join us down at Oyster Bill’s Oyster Shack! Grab some of the best oysters in all of Runeterra while you listen to one of Oyster Bill’s tall tales!
+
+In fact, just last night we stopped by and saw the place was a wreck. Tables smashed, bottles broken, strange glowing puddles all over the place. According to Oyster Bill it was caused by a colorful but deadly stranger who came to Runeterra from a land across the seas.
+
+He claimed some Noxians were getting rowdy and one of them accidentally knocked over the stranger’s oysters. The colorful one laughed a most joyous laugh as they stood up from their table. The Noxian looked confused at first, then, thinking the stranger was making fun of her, got in their face. The rest of her war band stood to join her, grabbing their weapons when mist suddenly filled the restaurant. Oyster Bill said all he heard was joyous laughter and the sound of splashing water. When the mist cleared all ten of the heavily armed and armored Noxians were dead and the stranger was nowhere to be seen.
+
+We laughed as we always do when Bill tells one of his famous stories, sure it was just a random bar fight that caused the mess—but hey that’s not nearly as exciting! When one of the other customers doubted the story, Bill doubled down on his claim that it was true, and that the mysterious stranger was, in fact, living in a room above his restaurant. He said that if any of us wanted to go talk to them ourselves we were welcome to.
+
+We passed that night, but who knows. Maybe if you join us next time we can go and see if this stranger from the land of a thousand colors is real or not.
+
+041822_ChampionRoadmapApril2022_02_Oyster_Bill_nicetry.png
+
+Guarding Spirits
+There isn’t much to say about Udyr that wasn’t covered in our last update—he’s still a big boi hanging out in the Freljordian wilds, communing with spirit animals. Base Udyr is finished at this point and now we are focusing on his skin catalog, with most of the team working on his Spirit Guard skin. We really want to pour a lot of love and attention into that skin, with it being an Ultimate and all.
+
+One of the goals for Spirit Guard is to keep some of the essence of old Udyr, so to do that it will represent the time he spent training in Ionia, and will also use the same animals as pre-VGU Udyr (Tiger, Bear, Turtle, and Phoenix). We wanted Spirit Guard to immortalize his old animal forms, while also cranking them up to 11. I don’t want to spoil everything yet, but I will leave you with concept art and an early model of his Spirit Guard skin before he channels one of his animal spirits.
+
+041822_ChampionRoadmapApril2022_03_spiritguard_udyr_body.png
+
+041822_ChampionRoadmapApril2022_04_SpiritGuardUdyr_01.jpg
+
+Star-Forging a New Dragon
+Let’s talk about Aurelion Sol. Back when we announced the Star Forger, a lot of you were super hyped for his release. So hyped that he had one of our highest purchase rates on day one. Tons of you really loved and wanted to play a gigantic, arrogant star dragon. Unfortunately, we didn’t really deliver on a gameplay kit that matched that excitement, as most of you dropped him after just a few games. His playrate plummeted to one of the lowest in the game, where he has been ever since. That said, he still comes up in the top ten most liked visuals whenever we do champion surveys, even though his gameplay always ends up near the very bottom of the list.
+
+We’ve tried some small tweaks to ASol, but when we discussed what we should do to help him out, we came to the consensus that we should just start his gameplay over from scratch.
+
+We didn’t think patching up his kit with small changes would deliver on his promised thematic fantasy, so we decided to try a new type of champion update: a Comprehensive Gameplay Update or CGU.
+
+The goal of a CGU is to update gameplay for two types of champions: Those that have high quality art and narrative, but whose gameplay just doesn’t quite deliver on their fantasies, or champions with more complicated gameplay issues that can’t be solved by changing one or two abilities (like the small adjustments to Tahm Kench were able to accomplish). We then rebuild the champion’s kit from scratch with the same model, theme, and narrative. ASol will be the first champion to go through a CGU, and if you’re happy with the results we may take a look at other champions that fall into these categories in the future.
+
+Anyway back to Aurelion Sol. Our goal is to give the space puppy an entirely new kit with massive changes similar to VGUs like Urgot’s or Sion’s, while making sure that it’s still thematically cohesive with who he already is.
+
+We want to emphasize his dragon fantasy, as we don’t think he currently delivers on that part of his persona very well. We also think our new take on his star forging gameplay will be both spectacular to see and more intuitive to play. While things can always change, we’re currently targeting some time at the end of the year to get a new and improved Star Dragon in your hands. We really hope he’ll finally deliver on the fantasy you all were excited about many moons (stars?) ago.
+
+041822_ChampionRoadmapApril2022_05_champion_aurelionsol_splash.png
+
+Digging Deep Beneath the Sand
+Let’s talk about the champion that won the VGU poll earlier this year: Skarner. We haven’t yet officially started on Skarner’s VGU (it will start very soon), but that sure didn’t stop Larry “BravoRay” Ray from doing some high-level sketches for inspiration. BravoRay is a huge fan of Skarner and couldn’t help himself so I thought it would be worth sharing some of his explorations.
+
+041822_ChampionRoadmapApril2022_06_Skarner_Ideation_FIN.png
+
+The first two rows are attempts to keep Skarner’s theme pretty much the same as live while making him more unique on the League roster by adding other fantastical elements rather than just a traditional scorpion body structure.
+
+The third row contains explorations of a full reboot of the Brakern. It explores them as ancient protectors of the old Shuriman civilization before it was lost to the sand. The idea is that they are constructs built from crystals housing thousands of elite warriors' souls.
+
+The last row is an exploration of a version of Skarner where his current lore is continued. We haven't committed to this yet, but in those versions he is captured by Piltover and experimented on in order to create a Hextech guardian they can control. But he regains his memories, escapes Piltover, and is now hellbent on destroying the city for what they did to him and his people. And now he has sweet Hextech augments to help him do it. Piltover will soon have a taste of their own medicine, and it is bitter.
+
+Keep in mind these are all super early ideas coming out of BravoRay’s crazy head, so we aren't locked onto anything yet.
+
+Shortly after we officially start working on Skarner we will do a bigger /dev blog with a lot more information from game design and narrative as well. For now let us know what you think of these explorations and if anything sounds exciting to you.
+
+Outro
+Well that’s about it for today. Hope you are all as excited about the upcoming champions and champion updates as I am. Look out for another Roadmap later this year where I will cover The Pride of Nazumah, a new high skill top lane tank from a region of Shurima that hasn’t been seen yet! See you all then.
+Hey all, it’s been a while since we last shared an update on our plans for champions. We’ve got a bit to talk about in this post, including an update to this year’s release schedule, a peek at the next few champs, and a small update on Udyr’s VGU. So let’s get started with the champ release schedule.
+
+Last year, we shared our goal to deliver one champion per role each year, with the exception of mid lane where we target two—one for assassin and skirmisher players, and another for mage players. We planned to continue that this year, but sadly it looks like we won’t get there.
+
+Both of the champions we planned to release towards the end of the year were originally meant to tie into an event, but as development went on it became clear they didn’t quite fit. We felt good about both champions’ directions and didn’t want to change them to fit in with the event, so we decided to stay true to their characters. As such, we’ll be releasing the ADC early next year and the support a few patches after.
+
+We’re not sure how this will affect our schedule for 2022 yet, but it’s possible we may release an extra champion next year. We should have a better idea by the next Champion Roadmap and will share more then.
+
+On the bright side, I can finally share a bit about a project we’ve been working on that will finally be releasing later this year: our first Art and Sustainability Update. These are pure visual updates, which we haven’t done in... forever (the last one was Alistar in 2015). And while we aren’t quite ready to share who’s receiving the first ASU, we do have some information about what a “pure visual update” means and what you can expect.
+
+Art & Sustainability Updates
+League’s personalization team—aka the crew who works on skins, events, and other cosmetics—have started working on a new type of champion update called an Art & Sustainability Update, or ASU. The goal of ASUs is to help bring some of League’s older champions up to our modern quality standards, fix older technical issues, and make it easier to make new skins for those champions in the future.
+
+An ASU is a visual refresh that allows us to bring a champion closer to modern expectations (or sometimes better match their representation in other areas of our IP). As such, these updates won’t heavily reimagine a champion’s lore or have any changes to their gameplay, which you’d normally see with a full VGU. With ASUs, we can fix certain elements of older champions that you’ve given us feedback on over the years—like broken necks and wrists, outdated animations, gameplay clarity improvements, outdated outfits and VO, etc. Also, ASUs are in addition to full VGUs, which the Champion Team will continue doing as usual.
+
+With ASUs, our goal is to update the most critical elements of some of our older champs, that way they’re brought up to our current art and visual standards. This means that the base champion and the oldest skins for that champion will likely undergo the most change, and more recent skins or Legendaries are less likely to be updated.
+
+We hope that by introducing ASUs, we can modernize more of your favorite champions and lay a better foundation for future skins. You can expect to see our first ASU launch later this year.
+
+Ride The Lightning
+We’ll have an electrifying start to 2022 with a brand new bot lane marksman who has been charging up and is rearing to finally get on the Rift. We wanted to create a kinetic marksman who’s always on the move, pulsing with sparky determination. A champ who plays the game at a machine gun pace and brings the feeling of a shooter game to the roster. We also really wanted to explore more unique basic attack concepts in League.
+
+Marksmen are auto-attack champions by nature, and we’ve experimented with altered autos in the past with champs like Graves, Xayah, and Jhin. For this new champ, we wanted to re-explore the role of the basic attack in a marksman champion’s kit and see if we could completely turn its purpose around. I’m getting amped just thinking about it, and if you are as well, get ready for a hyper new champion very early next year.
+
+092721_Marksman_Tease.jpg
+
+Cash Rules Everything Around Me
+Money runs this city. Technology, power, people. All can be bought when you have enough cash. Technology to reach out and take what you want, discarding it like trash when you're done. Power to turn your enemies against each other, watching them kill the very ones they swore to protect. And people to manipulate with your terrifying charisma, sending them to almost certain death, only being saved if they fulfill your wishes.
+
+In the end they will know your name, the one that truly ran this game, the one calling the shots… the “support.”
+
+092721_Support_Tease.jpg
+
+The Latest on Udyr
+We’ve made a lot of progress on Udyr’s VGU since we last checked in. We’re planning to do another blog early next year with a lot more info, but we wanted to talk about a few small things before then.
+
+First up, let’s talk about his antlers.
+
+When we shared our last update, many of you liked where his hair landed, but there was some uncertainty with his antlers. We discussed your feedback and decided that it was important to keep the antlers because they add a unique differentiator for his silhouette and readability, and because they provide a focus for his druidic power. However, we agree that the designs needed work because they were large and demanded a lot of attention. So we started with a new spread of smaller antlers.
+
+092721_Udyr_Antlers_Riot_Earp.jpg
+
+We thought option B was the most promising here, so we pursued that design. We think we’ve landed on something cleaner, more natural, and a little more “druidic focus” and less “sharp weapon.”
+
+We also wanted to add something to Udyr’s design that expressed the friendship he cultivated with Lee Sin while in Ionia. To do this, we added a headwrap given to him by Lee Sin that he now uses as part of his hand wraps.
+
+092721_Udyr_Mood_Riot_Earp.jpg
+
+In Udyr’s last dev blog, we shared our idea of evolving Udyr’s theme by making each of his stances associated with a Freljordian demigod. Your response was overwhelmingly positive, which got us even more excited by the prospect of connecting Udyr to Runeterra in a much stronger way! We’ve decided to lock in this direction, and we can’t wait to talk to you more about it in the next blog. In the meantime, here’s some concept art that Justin “Riot Earp” Albers has been working on for Udyr’s demigod-inspired stances.
+
+092721_Udyr_Stance_Riot_Earp.jpg
+
+Until Next Year
+That’s all we’ve got for today. Our next update will be at the start of next year where we’ll have a lot to share, including more details on the new villainous support, the next VGU planned after Udyr, as well as an overwhelming new jungler that should fill a void in all your hearts.
+It’s been a while since the last roadmap where we officially kicked off the return of the Ruined King. While we don’t have a ton of new information to share at this moment, we do have a lot of updates on things we announced at the beginning of the year.
+
+In January, we said that the next three champs after Viego would all tie into his return story. Gwen is the first of these champions, but her future remains a mystery. She definitely has a role to play in this twisted tale, but what exactly that is remains unknown… for now.
+
+4_26_2021_ChampRoadmapApril2021Article_02_Freljord.jpg
+
+But enough about Viego and Gwen and the encroaching doom—let’s go on a wacky detour into Dr. Mundo’s VGU. Then we’ll get into the next two new champs, including an update on the gloomy mage’s release timing. Finally, we’ll take a pit stop at Udyr’s VGU, which you all chose at the beginning of the year.
+
+Enter the Mundoverse
+It’s been a bit since the last Mundo dev blog, but I can finally say we’re getting pretty close to re-releasing the Madman of Zaun. Thanks for everyone's patience (man this champion has a lot of skins).
+
+4_26_2021_ChampRoadmapApril2021Article_03_Mundo_Tease.JPG
+
+First off, we wanted to share some of Mundo’s new voice lines. New Mundo's VO comes across as a shade or two smarter than current Mundo—it was basically impossible for that not to be the case since live Mundo's lines don't even acknowledge the fact that he's a "doctor," let alone his reasoning (questionable as it might be) for the methods he chooses. As we’ve mentioned before, though, we want to preserve Mundo’s dark yet extremely comical (...and dumb) personality, and his VO is an important part of that.
+
+00:02
+00:07
+Another thing we thought would be cool to share before his official launch is the final Rageborn Mundo splash art. In the last dev blog, we showed the final concept art for that skin, and since then we’ve finished it.
+
+4_26_2021_ChampRoadmapApril2021Article_04_Rageborn_Mundo_Splash.jpg
+
+Finally, we’re currently putting the last bit of polish on his Legendary skin, Corporate Mundo. We want to make sure that skin hits the quality bar and expectations for modern Legendary skins. The team is having a blast working on it, as you can see by this fun animation Drew “Sandwichtown” Morgan put together to inspire the team.
+
+
+… okay, we’ll also share a bit of Corporate Mundo’s new VO:
+
+00:02
+00:05
+Now that we have gone through that maddening detour, let’s get back to those dark and edgy champions coming next in the return of the Ruined King saga.
+
+From Street Rat to Sentinel
+During the Season 2021 roadmap, I talked briefly about a charming new Sentinel of Light that will swing onto the Rift this summer. Now that there’s a lot more to grapple with, let’s talk in more detail.
+
+4_26_2021_ChampRoadmapApril2021Article_06_Mid_Marksman_Teaser.jpg
+
+Our goal with this champ was to create a marksman that would primarily be played mid lane. While champions like Lucian, Corki, and Tristana have seen play mid, none of them feel like they were made specifically for that position, with the traits you often see from champions in that lane—like intentionally-designed roaming patterns and a dueling focus. We felt a marksman designed for mid would both add a unique champion to the roster and could also be pretty appealing to a lot of mid lane assassin and skirmisher players.
+
+Things are looking pretty bleak for Senna and Lucian right now, but maybe some new Sentinels can revive their hope.
+
+4_26_2021_ChampRoadmapApril2021Article_07_Shurima_Streets.jpg
+
+Life Can Be So Vexing
+Yes, yes it can be, so can video game development sigh.
+
+Last we chatted, the new mid lane mage was scheduled to release ahead of the marksman. Since then, we’ve decided our gloomy new yordle needed a bit more time in development as we needed to create some new tech to visually sell her source of power. Also, as her gameplay kit developed, she’s moved away from being an artillery mage and is now closer to a classic mage. She still gets annoyed as hell with hyperactive champions dashing all around her, that hasn’t changed one bit. It’s enough to make her get serious and start clobbering all lifeforms full of irritating happiness dashing around her like pesky flies.
+
+Even with the delay, this champ still has a big part to play in Viego’s story, so expect to see her cast a shadow across Runeterra a few months before she finally decides to get out of bed and begrudgingly deal with all the colors on Summoner’s Rift.
+
+4_26_2021_ChampRoadmapApril2021Article_08_Yordle_Tease.jpg
+
+The Many Forms of Udyr
+As many of you know, Udyr won the player choice VGU poll earlier this year. Since then we’ve started giving the old spirit walker a huge makeover. We’re still super early in development, so we don’t have quite enough content to fill an entire blog, but we should have one coming in a few months.
+
+In the meantime, we wanted to share some rough sketches Justin “RiotEarp” Albers has been working on to see what’s resonating with all of you.
+
+4_26_2021_ChampRoadmapApril2021Article_09_Udyr_Exploration.jpg
+
+See You on the Other Side
+That’s all for today—we should have a lot more to share after we start ramping down Viego's saga. And after going through such a grim story, what else is there to do but take the next leg of the year head on. Get ready for a new marksman (bot lane this time) that will give you an electrifying glimpse into one of Runeterra's most tenacious regions, one that never knows when to quit
+Hey all, now that Samira’s made her stylish debut, we wanted to take a minute to talk about some of our upcoming plans for new champions and VGUs.
+
+In the beginning of the year, we said we wanted to bring more champions from League’s lore to Summoner’s Rift. Creating champions like this helps make the world of Runeterra feel more alive and allows us to tell really compelling stories around the new champs.
+
+We recently did this with Yone, as we brought him out of the pages of Yasuo’s story and into battle alongside (and against) him during the Spirit Blossom event. Yone's return from the grave helped us set new stakes for Ionia, where the azakana are growing in numbers and will continue to be a problem for the region. Players seemed to really enjoy the extra depth Yone's release added to Yasuo's character as well, especially in “Kin of the Stained Blade.”02_Yone.jpg
+Because the reception for Yone and Senna have been so positive, we're going to bring another character players have been longing for to the Rift next year.
+
+Another strategy we discussed in our previous Champion Roadmap was our renewed focus on releasing more new champions. Specifically, we said that our goal was to release six new champions per year: One for each position with the exception of mid lane, where we’d target two (one mage and one melee champ). So far in 2020, we’ve released…
+
+A top laner (Sett)
+A jungler (Lillia)
+A melee mid laner (Yone)
+And an ADC (Samira)
+This leaves us with a mid-lane mage and a support to round out the year, which I’m happy to say we’re on track for (but as always, things could change). Also, just because we are focusing on new champions doesn’t mean we have forgotten about VGUs. Dr. Mundo’s update is in full swing right now, as is early work on another unannounced champion update.
+
+With that, let’s jump into the mage and support that’ll round out our champions for 2020, as well as an update on Mundo’s VGU and a little sneak peak on the first champion to set sail in 2021.03_Boat.jpg
+Become a Fan
+I don’t know about all of you, but I have become a fan of so many champions over the years. Have any of you become so charmed by a champion, that you hang posters on your walls, play their theme on repeat, and lock them in every game you possibly can?
+
+Regardless of your current level of fandom, when Piltover and Zaun’s new rising star finally hits the promenade, she might convert you into an instant mega-fan. I hope you’re all ready to crowd around her and cheer along!
+04_Mage_Teaser.jpg
+WANTED! MUST BE ALIVE FOR REWARD!
+Attention!
+
+The empire will pay greatly for the capture and detainment of this runaway criminal. The fugitive is EXTREMELY dangerous, so approach with caution. They are heavily armored and will attack if even slightly provoked. Wear light armor, as reports show warbands have been killed with their heavy gear twisted and shattered, littering the ground around them. The criminal’s been known to mount a quick retreat when cornered, so bringing a highly-trained team is recommended.
+
+If you somehow manage to detain this criminal, please bring them directly to the closest empire building marked with a black rose.
+
+05_Support_Teaser.jpg
+Twisted Obsession
+What would you do for love?
+
+Would you go to the ends of the world?
+
+Would you give up everything you have?
+
+Would you go to the brink of life and death?
+
+If you are willing to do anything, you may just find yourself falling for our romantic new jungle skirmisher, who will be twisting hearts and possessing minds early next year.
+06_Jungler_Teaser.jpg
+I Need a Doctor?!
+We’ve made a lot of progress on Mundo’s VGU since the last time we shared an update, which covered his early ideation phase. At the time, most of what we shared was exploratory, but we did know three things we wanted from his update:
+
+We want to make big upgrades to Mundo’s visuals and theme, not only to look better, but to better fit in with how League's visual style has evolved.
+We want to make significant gameplay improvements to Mundo’s kit, while maintaining his super-tank regeneration and the ability to chuck cleavers.
+We want to keep Mundo a very simple champion.
+After the post went out, we read a lot of your feedback about what was or wasn’t exciting from our early explorations. We saw that a lot of people wanted us to keep Mundo as a fun and comical champion, so that’s definitely something we plan on keeping. We really want Mundo to embody a kind of “dark comical” theme that we feel would be very unique to League’s roster of champions.
+
+On the gameplay side, we tried a lot of different things, but the one that really stuck was pushing further on the feeling that Mundo goes wherever he pleases. We’ve decided to move forward with making Mundo an extremely difficult champion to lock down. This direction requires us to give him meaningful trade-offs—having CC-immunity in any form is a powerful tool—so Mundo will remain a champion with no hard CC or mobility on his kit.
+
+Overall, we’re going to keep Mundo’s gameplay pretty similar. There will of course be tweaks and changes to many of his abilities to add more skill expression, satisfaction, and counterplay, but he will still feel like the same old Mundo we’ve grown to love.
+
+We’ll dive much deeper into our progress on Mundo in his next /dev blog, which you can expect sometime next year. In the meantime, I’ll leave you with his latest concept art.
+07_Mundo_Concepts.jpg
+Until Next Time
+One last thing before we go. Earlier this year, we said we were going to hold another poll where you’d get to vote for League’s next VGU. We ran into some problems getting the poll up and running on the new website, and we had to get started on the next VGU before we were able to fix them. The champion we chose wasn’t on the previous voting poll, but I think it’s one that many players will be excited about when we announce it (which we hope to do in the next Roadmap). We’re still planning on doing another VGU poll, which will happen next year and be for the following champion update.
+
+With that, I hope you’re all as excited as I am for some of the up and coming champions. We’ll be back at the start of next year to share our plans for 2021. In the meantime… See you all on the Rift!
+Adapting Our Approach
+As I mentioned in the Season Start Champion video, we’ll be focusing on new champions for the rest of the year. Back in 2018, there were a lot of champs in need of a full-scale rework, so we put our resources into bringing champs like Swain, Irelia, and Nunu up to modern standards. Since 2018, we’ve updated 12 champions, and we feel like we’ve gotten through most of the champs in critical need of a VGU. Of course, there are still champs that can be improved, but the amount they can be improved has lessened. This has caused us to rethink our overall champion strategy.
+
+02_Nunu_Willump.jpg
+For one, we thought more about the role of new champions and what their main purpose is in League. The main reason we continue to release new champs is to add new gameplay for people to engage with. For many players, new champions are like mini-expansions packs for League, and we always see huge playrates on new champions when they’re first released. Even if you don’t pick them up yourself, seeing new champs in your games adds more to learn and master.
+
+That being said, we think it’s important for all players to get at least one new champion in their role a year, that way they have something new to try and can maybe even add a new champ to their rotation (... or find a new main). With that goal, we felt it was important to try and release at least six new champions a year—one for each position, with the exception of mid lane, where we’re targeting two. Mid lane is the most popular role in League, and mid lane assassin players are looking for something quite different than mid lane mage players. Since so many people enjoy mages and assassins, we’re aiming to release a champion for both audiences every year.
+
+We may not always hit these goals, as we don’t want to push champions out that don’t meet our quality bar just to hit the target, but it’s what we’re aiming for starting in 2020.
+
+We will also still be working on VGUs, just at a slightly slower cadence, as we see a lot of value in bringing older champions up to modern standards while (hopefully) exciting champion mains. In fact, we’ll be announcing an update for a champion who goes where he pleases later this blog…
+
+And with that, why don’t you pull up a mat as we get right into the next three champions coming this year.
+
+03_Pull_Up_a_Mat.jpg
+Dreams of a New Jungler
+04_Forest.jpg
+Jungle mains have been longing for a new champion for a while now, and it just so happens that we’ve got one blooming soon! In the last update, I told you we couldn’t decide if we wanted the new jungler to be an assassin or a skirmisher, but the dream dust has settled and behind it was a mid-range skirmisher, frolicking in and out of the fray.
+
+Eep! I shouldn’t say anything else… But maybe, possibly... We can find her instead! Be very quiet, though, she can be quite shy, and if we startle her she may prance into action, darting off as our vision starts to get blurry… and… hazy. The world around us is becoming slow… NO! We have to stay awake! But… it’s so warm and safe… Must… sleep…
+
+ZzZzZzZzZz...
+
+05_Jungler_Tease.gif
+An Out of Body Experience
+AH—! D-did I fall asleep? Am I dreaming? The last thing I remember was purple dust and the sound of someone skittering away.
+
+Where am I? I feel a presence inside me—something dark yet dormant. Something I subdued. Is that masked figure in the distance... me?
+
+I’m holding two weapons. I recognize one of them, and the presence inside me recognizes the other. I temper my rising anger into something cold, like the steel in hand. Suddenly I feel a spiritual tug from the direction of the masked figure—from me? The tug becomes a yank, and I feel my subconscious pulled toward my body, accelerating until—
+
+I slam into it!
+
+06_Assassin_Tease.jpg
+Whoa—what just happened? I feel like I just stepped out of another world. Or perhaps a tale told long ago? Now that I’m back, let’s get back to the roadmap.
+
+After the jungler we’ll be releasing a new assassin. You’ll get a chance to form bonds with both champions in a big summer event coming next month.
+
+07_Summer_Event.jpg
+Calling All Thrill-Seekers
+Do you like to laugh in the face of danger? Do you enjoy stringing together abilities, creating stylish new combos? Does the idea of diving straight into the fray, firing a whirlwind of blades and bullets, then hopping back out with a sliver of health excite you?
+
+08_Marksman_Tease.gif
+If you answered yes to any of these questions, then we may be releasing just the champion for you. A new marksman, dressed to slay, coming later this year.
+
+A VGU That Goes Where It Pleases
+The next champion update will be none other than the Madman of Zaun himself, Dr. Mundo. This project is very early in development and is scheduled for 2021, so expect to see a few more new champs in between the marksmen and Mundo.
+
+The reason we’re sharing so early is because we saw a strong positive reaction from players when we did the /dev blogs for Fiddlesticks and Volibear, so it’s something we want to do for Mundo as well. We aren’t going into any more detail on Mundo’s VGU here, as we'll be releasing a full post next week that’ll cover the super early exploration phase for his gameplay, narrative, and art.
+
+09_Yes_Mundo_Can.jpg
+Outro
+That about covers everything we wanted to talk about today. Sorry we weren’t able to find the new jungler—what a weird experience that was. I'll make sure to keep my wits about me for the roadmap later this year, where we’ll talk about two of the other new champs in development. Tune in next time to hear about a sensational mage and an ultra-heavy tank support, which will round out our goal for releasing one new champ per role each year.
+
+We’re also still planning to hold another “Choose a VGU” poll since the last one went so well; expect to see that either later this year or very early next year.
+
+We can’t wait to get all these champions out of our hands and into yours. Until next time!
+Hey all, with League’s 10-year anniversary underway, it seems like the perfect time to talk about the new champions and VGUs we’re working on. Let’s jump right in, starting with the champion we just previewed: Senna.
+
+
+The Redeemer
+As many of you recently saw, the next new champion will be Senna, a very non-traditional marksman coming to League soon. When we were creating Senna, we knew she should be a marksman, but we also thought she should be able to lane with Lucian. We felt there was a great opportunity for them to work together, with Lucian up close and personal and Senna backing him from a distance with a massive Relic Cannon. With this in mind, we went about building a supportive marksman with a blend of damage and utility.
+
+To go along with Senna, we’ll be adding new voice lines for Lucian as we progress his character and story with Senna’s return. Make sure to tune in during the second day of Worlds Quarterfinals for the first look at Senna’s gameplay, and check out her Champion Insights the following day for a behind-the-scenes look at her development!
+
+02_Senna_Concept_Art
+And the Faithful Shall Be Rewarded
+What will you sacrifice for your faith? Only the devout will master the next champion we have prepared for you. A new marksman, raised since birth with only one purpose: to protect the faith from those who stand in the sun. Constantly training, mastering diverse weapons of faith, swapping through them like cycles of the moon with nothing but that one lone voice, pushing, comforting… loving? If you are up to the challenge, you too must train hard and achieve zen-like focus in order to reap the rewards.
+
+So I ask again: What will you sacrifice for your faith?
+
+03_Teaser_One
+Welcome to the Underground
+Out of the Ionian underground comes a smokin’ hot new juggernaut. It’s been a while since we made a more straightforward, accessible juggernaut, with Darius being the last, so we felt it was time to add something new to that space. This new champion will thrive in the center of a brawl, laughing as they take hit after hit then furiously punching back, releasing all that stored aggression on their enemies’ faces. If you like letting your fists do the talking, getting into the heat of a pit fight, and smashing your opponents’ heads together, this may be just the champion for you.
+
+04_Teaser_Two
+An Ancient Evil Begins to Take Form
+We’ve made a lot of progress on Fiddlesticks since the last dev blog, using your feedback to iterate on and polish its new visual design. A lot of you were excited about Fiddle being this terrifying thing with a bunch of different voices, so this is something we want to try and make work one way or another for its VO.
+
+Fiddlesticks’ new kit will be centered around the concept of fear, but it’ll include much more than a point-click status effect (which is staying on the kit). Experienced Fiddlesticks players will wreak mental havoc on their victims as they question what is real and what is merely a terrifying effigy. Horror will fill the Rift whenever Fiddle is in the game, and if it finds you before you find it, only death will follow.
+
+05_Fiddlesticks_Concept
+A Storm is Brewing
+In the last dev blog, I mentioned that we were still exploring directions for Volibear’s gameplay design and hadn’t settled on anything yet. Today I’m happy to say we’ve found an exciting direction for Voli’s update, one that preserves Volibear’s current gameplay identity while also giving him some unique new tools. We moved away from the permanent unstoppability idea and have instead been testing a new direction, making Volibear feel more like a god of storms, bringing thunder down on his enemies and the structures they hide behind.
+
+06_Volibear_Concept
+One common thing we heard—especially from Volibear mains—was that the more grotesque-horror visual designs felt like they strayed too far from live Volibear, so we’ve refocused our explorations on versions that feel more true to current Voli. The horrific version of Volibear from recent lore was seen through Udyr’s perspective, where Volibear was called forth by the most extreme Ursine. For his VGU, we want to show Volibear as he is to himself, in his most prime, original, godlike form.
+
+A Jungler and a Solo Laner
+That’s about all we have to share for today. There are a few other champions in very early stages of production, including a whimsical new jungler as well as an edgy solo-lane melee carry. More on them in the next Roadmap though, which will come sometime next year.
+
+In the nearer future (like a couple months), look out for another dev blog on Fiddlesticks and Volibear, where we’ll share more work-in-progress visuals like the proxy model and idle animation below. And with that, happy 10 years of League!

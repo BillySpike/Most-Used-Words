@@ -1,0 +1,949 @@
+Q: Now that there are 7 maps in the rotation, will you be adding a map pick/ban system?
+
+This is not something we're currently planning for regular Competitive queue play, because at this time we really want to reinforce learning how to play all maps (instead of always avoiding specific ones). That being said, we do believe a map pick/ban system is worth exploring in an environment fit for complex team strategizing like our planned tournament mode. It's still a work-in-progress, but we see its potential in a space where teams will have planned plays and Agent compositions for various maps—or maybe they just want to avoid yay's Chamber on Bind.
+
+—Jon Walker, Competitive Designer
+
+Q: Are you still working on a Gifting system?
+
+We are definitely as excited about this idea as we were the first time we talked about it—initially targeting gifting by the end of 2020. That being said, the work behind a potential system is currently in our backlog mostly due to prioritizing other in-game changes, as well as exploring more comprehensive ways to bring it to VALORANT. No timeline as of today.
+
+—Stephen Kraman, Product Manager
+
+Q: Any updates on a possible in-game replay system?
+
+Shortly after VALORANT’s launch we told you we were very much interested in exploring the feasibility of an in-game replay system to discover the best possible execution given a wide range of potential uses. The shortest answer today is that there is no plan for a player-facing version of a replay system, as of now.
+
+We know this is a frequently requested feature from all types of players. Our exploration is continuous against developing our other VALORANT features (like new ways to track and reward Agent progress, player behavior tools, different ways to collect in-game items)—all to measure what makes the most sense to prioritize based on what serves the most players and has the most long term impact on game health.More directly, this exploration has helped us discover how we might use some of what we've learned to help improve observing in matches as well as evolving our live esports broadcasts.
+
+—Steven Eldredge, Game Production
+
+Q: How come I report this clearly AFK player and never get reporter feedback?
+
+Currently, reporter feedback only works when the reason why a player was punished is due to text/voice toxicity. For example, if you report a player for AFK-ing, and they get punished, you won’t receive a penalty message. We're working on this now! No exact date to share, but we’ll fix this so that if you report someone and they get punished, you will always receive a message. That does mean that as a result of this issue, there are cases where you may not have received a message that a player you reported was punished, even though the punishment may have actually happened.
+
+But please, please keep the reports coming!
+
+—Social & Player Dynamics team
+
+Q: Thoughts on alternating skins when on attack or defense?
+
+We've seen an appetite for getting additional use out of your current collection, so we're actually already exploring the feasibility of an idea like this. There are no commitments to share today and here is why. The team needs to first understand/test the limits of performance and memory so that you don't see any negative impacts in and out of the game. We would also need to consider making any potential updates to the collections page to properly showcase/support this in the current collections menu. Finally, among some other unknowns, are there already other concepts in progress that may compete with this idea in some way.
+
+—Sean Marino, Art Lead, and Preeti Khanolkar, Lead Producer, Cosmetics
+
+Q: Arcane was amazing—will we see a VALORANT Netflix series?
+
+Arcane was amazing! We'd be lying if we claimed not to have hopes and dreams of one day delivering something of that stature in the VALORANT Universe but wow, our LoL cousins set an insanely high bar with the series!
+
+From the outset, we set out to create an expansive universe with depth of characters to support any potential future experiences that we believe players would want, including premium entertainment.
+
+BUT…don't expect anything too soon. We’re going to remain hyper-focused on the game for quite some time and we have plenty we still want to do to keep expanding the universe in support of VALORANT the game.
+Will you make it so we can hide account levels?
+
+A
+
+We’ve seen the feedback on account levels sometimes used as fuel to be toxic to another player (be it their rank-to-level ratio, or something else). We hear you and we're working on it right now (along with some other minor improvements to Account Leveling). It'll take a couple of patches to wrap development and release the change, but we intend that those of you who don't wish to share your Account Level can obscure it.
+
+—Naoise Creaven, Senior Producer
+
+Q
+
+I’m usually Gold, but this Episode I’m Silver. When I look at ranked population websites it seems like a lot of people are Silver, why are people lower rank in this Episode?
+
+A
+
+A good place to start is to look at the changes made in Episode 3 intended to refine our matchmaker. These changes have improved match fairness, and we’ve seen fairly positive data results from them. Unfortunately, these same changes also affected everyone's MMR. To be clear, this change hit all of you the same, so everyone's actual MMR number went down by a small percent.
+
+Now that we have gathered enough data, we can comfortably say our lower ranks have too many people in them, and our higher ranks not enough. This is what we call Ranked Distribution: the population of players in each rank. Since your rank is tied to your MMR, this led to the whole playerbase situated in a rank lower than intended (by a small amount).
+
+Lots of websites track this data, so we are just going to show you what our current ranked distribution looks like in Act 1 in the next image (remember, Radiant is always top 500, so it is not shown here):
+
+08272021-AskVal_August_2021_Graph_1-inline.jpg
+
+Our target now is to adjust the distribution so as to reduce the amount of players in Silver, and move everyone up to the ranks they belong. Below is our goal for ranked distribution in Act 2:
+
+08272021-AskVal_August_2021_Graph_2-inline.jpg
+
+To reiterate, the above data is our goal for ranked distribution. But because the community is always shifting in skill slightly, it may not be exact. This is a complex subject, if there is anything to take away from this post it’s that it should be a little easier to climb a few ranks in Episode 3 Act II. See you out there!
+
+—Jon Walker, Competitive Designer
+
+Q
+
+Will you ever release skins again via the rotating shop?
+
+[Editor’s Note: This answer originally appeared via Joe Lee’s Twitter, which you can follow here.]
+
+A
+
+There's always a lot of discussion around VALORANT's rotating shop but we made a key strategy change about a year ago when we released Sakura in the rotating store for the first time. Many of you loved the aesthetic and were rabid to acquire it.
+
+We originally planned to release almost half of our skins via the rotating shop, but seeing the hype around Sakura we wanted to make sure that all of you had access to a skin line when it was released. So, we turned all of our rotating releases into Featured releases after that.
+
+Yes, the rotating store still exists but all of you have equal access to new skins at the launch window (when demand for that skin is at its highest).
+
+Finally, this isn't to say that we will never have skin lines that are introduced exclusively in the rotating store. There are some exciting ways in which it could make sense for a skin line to be released that way, but those will be few and far between.
+What are you doing about performance? Why is my Frames Per Second (FPS) unstable sometimes?
+
+A
+
+VALORANT has an entire team dedicated to maintaining and improving the performance of the game. In VALORANT, lower spec machines tend to be GPU bound (rendering is the bottleneck for your FPS), whereas mid to high spec machines tend to be CPU bound. Because many of you are CPU bound, adjusting graphics settings may not help performance because the CPU is limiting FPS, not the GPU.
+
+Maintaining performance involves setting budgets (data, not finances) for new content that is added to the game, such as maps, characters, and modes—as well as monitoring client and server performance internally across a variety of specs prior to a patch, and externally once a patch is released. This allows us to either catch an issue before release or, in the worst case, track down issues that you are experiencing in the live game.
+
+Currently, we are focused on improving CPU performance. This can be done by either improving baseline performance, which results in an average higher FPS or by removing hitches, which will reduce how much FPS drops when there is a more expensive workload.
+
+We’ve identified issues with Viper and Astra and will be working on optimizations to their abilities over the next few patches. We will be doing a pass on performance for all Agent abilities over the coming months. The overall goal is to increase the lowest FPS you see regardless of what is going on in a match. We are also working on VALORANT’s ability to make use of multithreading to better leverage modern CPUs.
+
+FPS can seem unstable at times because of how rounds play out. Early parts of the round are spent gathering information and watching fights between a fewer number of players. Later in the round when players are attacking or retaking a site, we tend to see many bodies fighting each other and increased ability usage, all of which can decrease FPS.
+
+Additionally, performance can vary between modes. For example, performance on the Shooting Range is often high because there is only one player being simulated. Deathmatch can see worse performance than the standard Unrated/Competitive modes because there are more players in Deathmatch and most of the game is spent fighting each other.
+
+If there’s one take away for you it’s this: Whether you’re on the latest hardware or VALORANT’s min spec, we want all of you to be able to focus on playing the game and not fighting performance.
+
+—Brian Fischer, Performance Engineer
+
+Q
+
+When’s 5-stack coming back?
+
+A
+
+We’ve heard the feedback, and we agree that VALORANT is at its best when played in a group. We have two ways we are thinking about this space:
+
+How can we enable five-stacks, with wide ranges of skill, to compete in ranked?
+How can we create a high-stakes competitive experience for teams?
+When thinking about the first question, we have significant concerns regarding splitting queues. We don’t believe splitting the queue—or doing a flex queue—is the best solution for VALORANT. We fear that one ranked queue would become “The Real Ranked Queue” and the other queue becomes less prestigious.
+
+Our other concern is match fairness. By having one ranked queue, we have a bigger pool of players lowering queue times and enabling stricter matchmaking. So while designing for this issue, we want to make sure whatever solution we go with maintains competitive integrity.
+
+For the second question, we are excited to announce…. Oh hey, Hiko posted a video with ranked feedback. Yeah, I need to go watch this. Sorry! I can tell you more at the beginning of Episode 3, as it’s a little early to talk about what we are doing to solve that issue.
+
+—Jon Walker, Competitive Designer
+
+Q
+
+Why can’t you kill the crabs on Breeze? (via Freddiepon)
+
+A
+
+The crabs on Breeze have been living and breeding near some Radianite fallout and have likely developed fortified exoskeletons. We advise against any crab battles, unless you’re prepared to lose an eye. Doesn't matter much anyway, within a few years time they’ll probably take over the island. But I'm no crab expert.
+My matches sometimes feel like a coin flip. I feel like I go against players that don't belong in my rank, are smurfs common?
+
+A
+
+Smurfs and Smurfettes, while relatively small in number, are absolutely real and are frustrating to play against. We’ve been collecting and incorporating feedback from all our channels, and have since spun up an investigation into the current state of smurfing in VALORANT.
+
+Because we’re currently deep in this investigation, there is no actionable plan to share just yet. However, we want to at the very least provide insight into the fundamental questions our team is actively tackling:
+
+
+How do we identify smurf in our systems, and how often are players running into them?
+Why do players smurf?
+Is there a need, that isn’t being met, that is forcing players to smurf?
+What changes do we need to make in order to combat smurfing?
+
+For those that encounter smurfs, we know it’s tough to stomach that there’s no immediate solution today, but we have to make sure that we are approaching this complex space in the right way without screwing up other systems. We want to understand exactly what your needs are and how we can better serve you all!
+
+For example, we’ve noticed that a big chunk of smurfs do so with no malicious intent—they’re trying to play competitively with friends outside of their rank. Whereas, there may still be a minority who create smurf accounts with bad intent.
+
+Combating smurfing is not only about punishment, it’s also about making VALORANT more accessible so those without bad intentions no longer feel the need to smurf. Once we are at a point where we feel comfortable with the solution we have in place and feel like we have mitigated these reasons, that’s when we will be able to put a foot down on the remaining folks—potentially booting them from our game.
+
+We want to emphasize that this is one of the competitive team’s primary focuses at the moment, and although we are in the investigation phase, and it will take us some time to act on our findings, know that we are listening and agree that this is a problem worthy of heavy resources.
+
+Hey, while we’re here, it’s probably good to note that although playing against players who appear to be “boosted” can be a tilting experience, our findings show that smurfing isn’t actually as prevalent as some of the community might have you believe. Yes, sometimes you may have just happened to stumble across someone who was simply having a really good game. To be clear, we are not denying or diminishing the severity of the smurfing problem space and are fully committed to working with you all on combating it. But next time you see a player doing really well, remember that maybe, just maybe, they’re simply poppin’ off.
+
+—Jon Walker, Competitive Designer, and Sara Dadafshar, Producer
+
+Q
+
+Any updates on the replay system?
+
+A
+
+Talks are ongoing with multiple internal teams interested in a VALORANT replay system. No, we can’t share any updates as of now, but know that these early discussions are in earnest and we should have an update for you all soon™ :^)
+Can you explain the reasoning behind the regional slot distribution for Masters: Reykjavik?
+
+A
+
+One of our biggest goals for 2020 was to launch international events as quickly as possible. As planning was going on for the League of Legends Mid-Season Invitational, we were presented with an opportunity to utilize that event’s infrastructure to execute an international 10-team VALORANT LAN earlier than anticipated. With this team limit, our first priority was to make sure each of our seven VALORANT regions was represented at our first global event.
+
+Subsequently, we had to make some tough decisions with the remaining three slots. As we were trying to make these decisions, we looked at each region’s playerbase, viewership, esports infrastructure, and team participation within regional VCT tournaments; criteria that EMEA, North America, and Brazil all scored especially high on. Ultimately, we chose to grant an additional slot to each of those regions to optimize for regional diversity at the first international event. We think this will lead to a more exciting tournament, but we may make changes to future slot allocations based on learnings from Reykjavik.
+
+We’re also really excited about the future of LATAM, JP, KR, and SEA. As our events grow, you'll see more teams from those regions at future international events. We think the future is bright in all of our regions and we’re looking forward to having bigger international events with even more regional diversity.
+
+-     Alex Francois, Global Head of Competitive Operations for VALORANT Esports
+
+Q
+
+How are casters for regional broadcasts selected? Who can cast in which region?
+
+A
+
+This year there has been a lot of discussion on how regional broadcasts select their casters, and whether casters from one region could cast VCT matches of another region.
+
+Early on in VALORANT Esports, some broadcast teams experimented with utilizing casters from regions that were geographically distant from the participating players and production hubs. This led to a large variance of audio delays, as signals travelled back and forth across the Atlantic Ocean, and then to distributed broadcast teams.
+
+These delays were especially pronounced during live matches which involved casters hailing from different continents. For regional broadcasts, there are technical limitations that impact broadcast quality when using casters who are very geographically distant from each other and Riot’s broadcast teams.
+
+After First Strike, to optimize for the best available broadcast quality, we opted to build VCT shows around casters that were geographically close to the competition and broadcast team. For Masters: Reykjavik, we are planning on producing a unified English broadcast that will feature representation from multiple regions. This is a similar approach to League of Legends, where we utilize casters that are near to each other. 
+
+-     Stefan Richardson, Senior Manager of Global Broadcasts at Riot Games
+
+Q
+
+What is the philosophy behind the Masters points structure for this year?
+
+A
+
+When determining how teams would qualify into Champions this year, we had one main goal - make it the most competitive tournament possible. To do that, we needed to weigh a variety of factors. First, we wanted to ensure that we were rewarding teams who have shown consistent results throughout the year. However, we also wanted to ensure that we were valuing the recency of results - finishes closer in time to Champions are likely a better indicator of success than finishes months earlier. Finally, we considered the fact that as we move to international competition, the difficulty of winning Masters grows.
+
+This all resulted in our existing Masters points structure. We believe that the balance of lower points at the Regional Masters events, followed by an increase in available points heading into Masters: Reykjavík, and an additional increase in points heading into Stage 3 Challengers (along with the automatic qualification into Champions for the winning team) will help us meet our goals.
+
+It's important to remember that Championship Points will also count towards seeding at the Last Chance Qualifiers, pan-regional tournaments that will select the final teams for Champions, not just for qualification into Champions itself.
+
+For those of you who want to read more, we recently published a detailed breakdown on the 2021 VCT that offers more specific details.
+
+Ask_VAL_Esports_April_Current_Point_StandingsV2_04152021.jpg
+
+-     Alex Francois, Global Head of Competitive Operations for VALORANT Esports
+
+Q
+
+Will regions who are currently not participating in official VALORANT Champions Tour events be able to qualify for Champions?
+
+A
+
+As we welcome new players into VALORANT, we want to expand competitive opportunities in their regions. Tournament circuits like Strike Arabia, that while not part of the VCT, will allow for players in the Middle East and North Africa to participate in the EMEA Last Chance Qualifier (and have a path towards Champions). We want to take a similar approach with other new regions, leading to larger, more competitive, and more inclusive LCQs later this year. 
+
+-     Kasra Jafroodi, Global Strategy Lead for VALORANT Esports
+
+Q
+
+When are coaching slots coming to VAL?
+
+A
+
+It’s official, coaching slots are coming in patch 2.08! As an esport, we continue to be excited at the prospect of coaches playing a larger role in matches and plan to provide more analytical tools in the future.
+
+Overall, we see the coach and player relationship as an important dynamic in our esport. We have some ideas on where we want to take this and will be talking with players (specifically In-Game Leaders) and Coaches in the near future to solidify our plans. 
+
+What you’ll see in 2.08 is the basic foundation of this feature and something we plan to continuously innovate on. We look forward to evolving coaching and its supporting features with help from VCT participants.
+What is your approach when you see abilities not being used as intended? 
+
+A
+
+We've seen a lot of Agent abilities used in unintended ways by players, sometimes with awesome outcomes and sometimes in ways that we've needed to address. Sage's Barrier Orb is a fantastic example—we've seen countless creative boosts, sideways tube walls, and ability combos that we wouldn't have expected. On the flip side, we've seen floating walls creating one-ways, single wall segments hovering over the Split B bomb site, and more Omen teleport bug combos than I'd like to remember.
+
+We walk a pretty constant line between the sandbox nature of abilities that keeps each game exciting, and trying to determine if newly discovered interactions are enriching or breaking the tactical game we've promised. VALORANT is definitely a game that we're building and exploring hand-and-hand with our community. We know you all approach each match with creativity, and the best thing we can do is keep an open dialogue about what's discovered.
+
+—Jay Watford, Lead Character Designer
+
+Q 
+
+Can you add the ability to change settings during Agent selection? 
+
+A
+
+We agree, this should be doable and we'll add it to our backlog. To be frank though, it's behind some much more urgent priorities on our list. We'll keep you updated.
+
+—Naoise Creaven, Senior Producer
+
+Q 
+
+Did HRTF lower the volume or the ability to hear the footsteps? It seems far away steps are now harder to hear but you can pinpoint them easier. 
+
+A
+
+
+
+HRTF does not affect attenuations (volume change over distance) or occlusion (filtering change based on objects between the emitter and the listener). Adjusting to HRTF does take time and practice.
+I get less Ranked Rating per win and more per loss, and it feels like the system is holding me down. Why is that?
+
+A
+
+Buckle up, this answer will take you on the wrinkle brain highway. We are going to get a little in the weeds, and have to explain how our ranked system functions in order to answer this!
+
+VALORANT MMR AND WHY IT’S NOT THE SAME AS RANK RATING (RR)
+VALORANT uses a Match Making Rating (MMR) system to target your performance skill level. MMR is a giant ladder, consisting of all players. If you win, you climb up and push others down. Alternatively if you lose, you get pushed down by others. No two players can tie, or take up the same spot on the ladder. This is the core concept for most matchmaking systems, and the math that determines how fast you climb up (or push others down) is the hard part. 
+
+MMR is a fairly fluid system that can potentially change substantially game to game. We’ve kept this slightly decoupled from your visible rank and RR so we can make sure that you don’t experience wild swings in your rank or instantly demote after a promotion.
+
+That’s your base understanding of MMR, so now let’s explain how that relates to your Ranked Rating gains and losses.
+
+To start, we need to reiterate that your Rank is separate from your MMR. You will never see your MMR—it’s what we use to create fair matches. When you queue into ranked for the first time, or after an Episode reset, we have an idea of where your “Rank” belongs because we rely on your MMR as a guideline. Unfortunately we only have an “idea,” so we place you on the low end of where we think you belong.
+
+CONVERGENCE
+We place you on the low end mainly to reach what’s known as “convergence.” We believe it’s better to place you on the lower end of our rank estimate, and then test whether that is actually low by asking you to prove you belong at the higher rank. You pass, and your Rank Rating (RR) will reflect this. You’ll see more RR per win, and less per loss—all on the way toward the high end of the Rank you are being “tested” for. Voilà! You are now “converging” to your MMR. 
+
+Eventually your Rank will converge very close to your MMR (unless of course, you begin to lose, then your MMR will begin to drop). When this happens you will get a relatively even amount of RR per win/loss. Now that you’ve reached your MMR, you’ll need to improve in skill and win against your opponents more than you lose in order to climb above our original estimates. When you are at your MMR, we’ve most often seen you with a 50% win rate. Even with a 50% win rate, you could go on a long winstreak and promote to a rank above your MMR.
+
+Just because a player has a good winstreak, or a few good games, does not change the fact they are still only maintaining a 50% win rate and now have promoted above their MMR. This, along with demotion protection, will sometimes lead to players sitting one rank above their MMR.
+
+PROTECTING COMPETITIVE INTEGRITY
+If you do end up with a rank above your MMR, the system will try to push you back to your intended rank—this is what losing more RR on a loss, than gaining on a win, looks like. This is something you can fix by winning more matches than the players above you who are around your current MMR. This was an issue seen even by top players on the leaderboard. When there are very few players ahead of you it can become very difficult to climb. If your MMR isn’t truly above a player ahead of you, the system does not want you to take their leaderboard spot. 
+
+We believe the integrity of Competitive play would be compromised if we let those on the leaderboard “out grind” their MMR and pass someone they don’t truly belong in front of. So all players are held to the same standards: In order to climb you must prove you are better than those above you. So, if you are winning slightly over half your games and have 200 wins, but another player is winning the vast majority of their games but only has 100 wins, that player with 100 wins will likely sit higher on the leaderboard because of their MMR.
+
+Ranked is about finding your true skill and we will hold you accountable to the skill level you are playing. If you truly outperform your opponents and win more than you lose, you will climb that ladder and increase your MMR. Again, when you raise your MMR, you’ll then increase your RR gains and open the door for an easier climb!
+
+031821_AskVALArticle_ValCompet.jpg
+
+TL;DR
+If your MMR is higher than your rank, you’ll gain more RR on wins than you lose on losses
+If your MMR is even with your rank, you’ll gain and lose closer amounts of RR for wins and losses
+If your MMR is lower than your rank, you’ll gain less RR on wins and lose more on losses
+Increase your MMR by outperforming your opponents and winning more consistently!
+
+THE END, WE SWEAR
+Whew, that was long. MMR and Ranked systems are necessarily complex given the sheer amount of skill and performances it must handle. This is just a small example of the calculation, and there are lots of reasons why we chose to go this direction with ranked currently. 
+
+That being said, we know it can feel frustrating to lose more RR then you are gaining. We are investigating solutions to prevent your Rank from pulling well ahead of your MMR, as well as trying to figure out if we can make it feel better when it occurs. Due to issues like these, you may see minor math tweaks to RR gains in future Acts. We are also always listening and will continue to communicate our changes in patch notes and social, but hopefully not in another Ask VALORANT.
+Can you explain the reason for the planned Rank Rating penalty for queue dodge? Sometimes I have real good reasons to dodge and I don't think I should lose RR.
+
+A
+
+We understand a Ranked Rating deduction—no matter how small—can feel like a painful penalty, so we want to be extremely clear with how this system works and why. First thing’s first: these changes target players who repeatedly queue dodge, and will have minimal impact on players who only queue dodge occasionally. We hope having a small (3-point) rank rating deduction provides additional deterrence for players who frequently dodge—without being too punishing for the person who rarely dodges. We've also kept it quick to earn back your rank rating, while not impacting your MMR with these penalties. However, repeated queue dodges will add up, and repeat queue dodgers will feel the intended pains of this.
+
+For reference, our data says that more than 50% of dodges are caused by less than 2% of players, and the vast majority of players very rarely queue dodge, if at all. Targeting those repeat offenders should have a massive impact on how frequently you encounter queue dodges in your own games.
+
+All that said, we recognize that queue dodging is an important tool to avoid really painful situations (like toxic teammates). And even if most queue dodges are caused by a small group of people trying to manipulate their competitive experience, we don’t want to take that safety net away from you. That’s why our systems have high forgiveness for infrequent offenders.
+
+A final note: we will be watching the impact of these changes closely when we ship them (targeted for patch 2.05). If we missed the mark—whether we don’t reduce queue dodging enough, or we punish our more well-intentioned players too harshly—we’ll make adjustments to the system. Simple as that. And we’ll keep you updated with any changes.
+
+—Jon Walker, Competitive Designer, -Ian Fielding, Producer, and Lea Hughes, Strategic Advisor
+
+
+
+Q
+
+When are devs going to make knife hit detection system more accurate? Escalation revealed some of its shortcomings.
+
+A
+
+Our knife is a bit of a meme right now. It’s serving the purpose of either psychological-driven kills on unaware opponents or a last resort when out of ammo—but it's rarely a decent (or reliable) choice to use in any other situation.
+
+The hitbox is static, unintuitive, and only active for a very brief period of time. This leads to frustration and confusion when combined with visuals that imply the knife does damage during the entire slash motion. These are things we'd like to improve, but other weapon balance issues generally take priority over this work because the knife isn't intended to be a critical part of our combat model. We don’t think it should ever be the best choice in a fight, but we would like to make it feel better to use by improving its reliability and hit satisfaction, as well as allowing it to be a viable (but not necessary) weapon choice in some situations.
+
+For Escalation, we were hoping to take a pass on the knife to give the knife level an extra "oomph,” but we ran out of time and to do so would have significantly delayed the mode. So, we shipped "BIG KNIFE" instead, hoping that a speed/jump boost, a longer range, and more damage would make that level at least bearable if not good. We hope to come back in the future and give the knife a closer look and the love it deserves—we just need to figure out when it makes the most sense.
+Last year, you mentioned looking into Agent-specific keybinds. Do you have any updates?
+
+A
+
+While we have no specific timing to give you today, believe us that this has not dropped off our long list of priorities for this year. Our hope is to find a version of this around Episode 3.
+
+Q
+
+Are you considering extending the period for a match remake vote?
+
+A
+
+We recognize there are some problems with the remake system and are actively looking at improvements. We were relatively strict in our initial approach to ensure competitive integrity and avoid any matchmaking abuse, but agree that this has limited the feature’s usefulness. 
+
+Extending the available window, automating the remake function in particularly fast AFK cases, and creating clarity on when a remake is being initiated versus a surrender, are all pieces that we’re considering. We still want to maintain competitive integrity as our number one priority, so our approach will reflect that. We’re hoping to have some changes on this soon and will give you more updates when we can.
+
+Q
+
+Would you consider reducing the Agent selection time for Spike Rush? A short mode feels like it should have a short start time.
+
+A
+
+We saw this discussion bubble up in some places, but to put it plainly, we're happy with player satisfaction and play time for Spike Rush, so we’re going to leave the Agent select time as is, for now. FWIW, a shorter Agent select window might result in significantly more dodges, which may (at a macro scale) actually increase the length of the mode for all of you. Also worth noting that the current time is to help account for different load-in times per player.
+Last month, you mentioned you’re working on decreasing the running+shooting accuracy, can you update us on the progress or what you are looking to adjust?
+
+A
+
+We have some changes planned for Patch 2.02 that should help address sentiment on running accuracy with rifles. Keep in mind, we're making sure not to change too many systems at once to ensure that shooting doesn't feel so dramatically different that you’ll have to relearn habits. As always, we'll keep an eye on the change and will continue to adjust as necessary.
+
+Q
+
+At the start of the Act, it seems like I can rank higher and faster with my alternate accounts, whereas I’m stuck in the much lower ranks for longer with my main account. Is the new ranked system working as intended?
+
+A
+
+We saw this weird pattern developing soon after launch and made changes to help solve this with Patch 2.01. It should actually be optimal now for the highest ranked players to use their main account instead of their alternate due to the now reduced queue times—and their higher MMR will actually help them earn rank rating faster.
+
+We will also be increasing the effectiveness of convergence, expected to hit in one of the next patches. This will make it so previous season Immortal+ players, that still have a high MMR, will start to earn more Ranked Rating per win and less per loss then their lower MMR counterparts. Ultimately they will climb the leaderboard faster, and make it so that the most effective way to climb the leaderboard is to have skill and high MMR. This will affect all ranks, so if you really are hardstuck Silver—but your MMR says you should be Gold or Plat—you will get there quicker.
+
+Unfortunately, one week under the slightly wonky Patch 2.0 system was enough time for top players to rally behind the effort to rely on their alternate accounts for quicker rank. When people played on an alt, they may have been finding matches quicker and ranked up faster. Now, in the long run, their alt will be at a lower MMR and earn less ranked rating per win then they would have if they were on their main account (with higher MMR).
+
+That being said, we know there are a few recent Competitive changes around Episode and Act starts that some of you are unhappy about. We’re looking at adjusting how we place you at the start of a new Act and how quickly leaderboards become available. We’ll also have a more detailed follow up to share ahead of Episode 2 Act II.
+The ranking system feels harsh right now, it seems hard to climb out of lower ranks and easy to derank. What are you doing to address this?
+
+A
+
+We hear you on this, too often one bad day of play can result in significant rank loss and a good day doesn’t help you climb as much as you’d like. Our rank distribution bands are unforgiving and we have limited protection against rank demotion. We’ve been feeling this ourselves, and we’ve made some changes to address this with Patch 1.14, and more substantive changes will follow at the start of the year with the launch of Episode 2.
+
+To be specific with Patch 1.14’s updates, we updated our rank distribution to make it easier to climb out of the lower ranks, significantly reducing the number of players in Iron and increasing the players at Bronze through Diamond ranks (Immortal+ will stay roughly the same). With patch 2.0 (early January), we’re going to add increased protection for rank demotions, while giving you some initial buffer room after you gain ranks. There are also going to be a TON more changes to the rank system with Episode 2, and we’ll have more info on that to come in early January next year.
+
+—Ian Fielding, Senior Producer
+
+Q
+
+I know we only get one surrender vote per half, but in the case of a disconnect after the first vote, can we get an extra surrender attempt?
+
+A
+
+While we don't see an issue outright with getting a sort of buffer between votes rather than just the one-and-done, we're going to be frank and say this is not at the top of our to-do list for now (AFK, Smurf, etc are hoarding that spot). We'll review and see if this makes sense, but no promises just yet.
+
+—Sara Dadafshar, Producer
+
+Q
+
+Is there any way to hide my crosshair from anyone observing me? I get harassed for my crosshair in almost every game, and it's really putting me off from playing.
+
+A
+
+Sorry to hear you're getting harassed over crosshair choice. We allow players to spectate other crosshairs so they can get inspiration for their own, but I can definitely see how the consistent comments could become annoying. I think being able to hide your crosshair is a great idea— we'll try to fit it into our future plans and keep you posted on any changes.
+
+—Matt Le, Producer
+
+Q
+
+Will there be a “story mode” for VALORANT?
+
+A
+
+It's definitely our goal for players to discover more about Agents and their stories in the future. Right now, some of those details are seeded into the game itself, in Player Cards, Character VO, etc. —there are a lot of places where you can find and piece together snippets! However, a traditional story mode is not in our current plans but....never say never. Our goal is always to listen to players and so we will continue to adapt and create experiences based on what you are telling us you want.
+I would love to know what exactly are you going to do about the AFKs/throwers situation? Harsher punishment? Adding a “leaver rating”?
+
+A
+
+Getting an AFKer in your match is definitely tilting, and we're looking into ways to lessen this type of behavior in game. To start off, you'll notice that we are implementing an update in 1.14 that changes the requirements to unlock ranked mode to "games won" rather than "games played." We hope this will force players who are just spam farming matches to actually participate in play and strive for wins. Look for more details in the upcoming patch notes.
+
+Second, we are working on better detection of this type of behavior that will lead to harsher punishment. We're looking into things like rank penalties, experience mitigations, longer queue time restrictions, and even bans if it comes down to it. We want to distinguish between disruptive behaviors that stem from comms and gameplay, and then penalize accordingly. I can't give away our secrets in terms of what our plans for detection are, but know that we are actively working on a way to make the game more enjoyable in this regard! Hopefully you’ll be able to see some meaningful change in the coming year as we roll out these changes incrementally.
+
+—Sara Dadafshar (Killjoy), Producer
+
+Q
+
+You mentioned before that part of the way you fight smurfs is to boost players who overperform. Is there any way to flag players who lose 20 games in a row?
+
+A
+
+If you legitimately lost 20 games in a row trying to win then my heart goes out to you. That being said, it’s far likelier that if someone has lost this many games in a row then they are intentionally feeding. You should report players for this, and this can lead to penalties for the player such as chat and voice restrictions and potentially even bans for repeat behavior.
+
+—Ian Fielding, Senior Producer
+
+Q
+
+Would you consider adding the ability to block players so we can never queue with them again?
+
+A
+
+Interesting idea! There's some nuances we'd have to work through to ensure queue times don't significantly increase, but we understand how frustrating it is when you get matched up with someone who you just reported in the prior match. We'll think on this a bit, but know that we are currently working on better detection of disruptive behaviors in hopes of being able to appropriately administer penalties and hopefully lessen the number of players you wouldn't want to play with to begin with.
+I’d really like to know how many hours my friends and I have spent in the game. Is it possible to add this feature?
+
+A
+
+We want players to have ways to show off their investment in VALORANT whether that's their ability to climb the ladder or to showcase how long they've been playing. We're still exploring the most exciting way to do so but rest assured there will be ways to display your dedication in the future.
+
+—Miles Metzger, Revenue Strategist
+
+Q
+
+Will we ever be able to transfer account regions without losing hundreds of dollars of skins and hundreds of hours of progress?
+
+A
+
+This is something we definitely know is important, and it’s on our list behind a couple of other critical priorities for VALORANT. We'd like it to be sooner, but it's looking this option will be available towards the middle of 2021.
+
+—Naoise Creaven, Senior Producer
+
+Q
+
+Have you thought about having certain patches for tournaments exist on their own servers?
+
+A
+
+Tournament Realms (basically, a private server) are something we're actively pursuing and are coming soon™. For First Strike, we were only planning to use a separate patchline (consider this Tournament Realm-lite) for the main event, but ended up launching this early to allow tournaments to continue on the same patch they started on. This has allowed us to keep esports on a separate patch from live and is something we're bringing back globally for the First Strike main event Dec. 3–6.
+
+In the future, we'll have fully flushed out Tournament Realms that will give us even more control over the environment that esports is played on. We'll have specific rules around what patches cab be used for certain tournaments to help create the best environment for competitive play. We're extremely focused on competitive integrity and will continue to adapt our plans in collaboration with both devs and players.
+Patch stability has been really bad these days. What’s going on?
+
+A
+
+Oof, yeah this one stings. Our day zero patch stability has honestly been far below our own expectations recently. There are many different reasons for this, from internal process improvements we have to make, to some philosophical changes we should consider, investment in tooling and infrastructure. Honestly, we could even include maybe slowing down a bit.
+
+We’ve been rigorously keeping to the two week patch cadence since even before we started our Closed Beta. Even with the logistical challenges of working from home, the team has been—and continues being—incredibly passionate to get content and features out as quickly as possible, including moving up our maps release schedule. But it’s time to take a breath and take stock of what we need to do internally to make sure that our efforts are sustainable and hitting the quality bar you, our players, deserve.
+
+Now that the biggest fires from the 1.11 deploy (and rollback and redeploy) are out, we’re going to take a few weeks to do a thorough investigation into our processes and tools as well as make sure we have a roadmap for improvements that allow us to continue shipping all the amazing stuff we have planned—sustainably and at a higher quality bar.
+
+We want this to be as transparent as possible so you know what improvements to expect and what to hold us accountable for, so we’ll get back to you before we leave on holiday break with an overview and roadmap of what actions we’ll be taking.
+
+Until then, thank you for your patience, understanding, and support.
+
+—Arnar Gylfason, Senior Producer
+
+Q
+
+I noticed that the latest patch dropped during the NA Qualifiers for First Strike, but then got rolled back. Are you thinking about esports tournaments as you patch? What if these patches are too disruptive?
+
+A
+
+First: thank you for your patience with all of this. Timing esports events in between game patches is a pretty complicated process, especially since VALORANT updates...every two weeks. The dev team did think they made all the changes in time for the qualifiers (see the foreword they wrote for the patch notes), and we’ve been working closely with them to sync schedules. However, this got too squishy and some of the NA Qualifiers ended up on the wrong side of a Tuesday.
+
+This should have been a better experience and we’re definitely looking to improve with the lessons we’ve learned. So here’s what happened: going into the end of the year, both the development and esports teams badly wanted to unlock true Best-of-Fives for the First Strike Main Event by releasing the fifth map, Icebox. We felt Icebox would need four weeks in the ranked queue to provide pros enough time to practice on the map before including it in competition.
+
+We also wanted to keep the next patch (1.12)—which would drop midway through First Strike—light in order to minimize potential disruption. To account for all of this, the VALORANT dev team frontloaded a lot more than the usual amount of content into patch 1.11 and released a map earlier than planned. This led to an unstable experience, and ultimately the patch was rolled back.
+
+As to the timing of the patch: Due to the super dense qualifier schedule happening around the world in the month leading up to the First Strike main event, we had few dates that could both avoid being disruptive to qualifiers and provide the runway of four weeks for Icebox. We erred on the side of releasing patch 1.11 before most of the qualifiers kicked off, but it ended up not quite stretching to account for the NA Qualifiers. We considered it painful but ‘okay,’ given all of the constraints we were working with (and shared patch notes early to those competitors). Smash cut to today, and I think we’re dealing with the worst-case scenario of disruption.
+
+Anyway, to avoid having the first NA Qualifier played on two different patches, we’ve unlocked a separate instance where the remaining 16 teams will conclude the tournament on patch 1.10. In the meantime, the live game was updated to patch 1.11 on Nov. 2. These are definitely some growing lessons we’re learning as we stand up the esport scene and game at the same time.
+
+—Riley Yurk, Manager, VALORANT Esports Strategy
+
+Q
+
+I know you now have Forced Name Change to punish players who violate the Code of Conduct with an offensive name, but what about dealing with the awful stuff in the chat?
+
+A
+
+We knew that chat would be a problem before launch and our new systems weren't going to be ready, so while we worked on finishing that, we put an interim system in place that has been running since launch.
+
+Today we issued chat and voice comms restrictions to the worst of the worst, focusing on language and behavior that’s so obviously bad that it’s easy to detect. We’ve recently deployed a new chat evaluation system that is running in English, which means you might run into more players who’ve received text or voice restrictions. Over the upcoming months, we’re expanding our supported languages and improving our detection so it does more than catch only the most egregious offenders.
+
+It’s important to remember that your words have a meaningful impact on your teammates, and what you say in the confines of a match can have lasting effects on the people you’ve said it to. Hate speech, slurs, and any type of threat or bullying is not welcome in our games. Players that receive chat restrictions are reminded to use in-game comms constructively—we win and lose together!
+
+For the rest of you: Keep reporting players who aren’t following the Code of Conduct. Each report is sent into our behavior systems to review, and having the reports helps us continue to improve our machine learning models and get better & better at dealing with disruptive behavior.
+This week’s Ask VALORANT covers weekly challenges, filthy smurfs, and...wait, did you say “test server”?
+
+Q
+
+Thoughts on adding more weekly challenges?
+
+A
+
+The goal of weekly challenges was to provide a bulk source of XP progress and tie some playful texture to the progression experience. To be frank, we're not happy with the current state, as some of them can be a grind. It's also been difficult to strike the right balance between interesting missions and not promoting unhealthy play patterns (eg. playing only to harvest orbs and use your ult).
+
+Our short term outlook is to reduce the completion requirement for many weeklies in Act III and remove the worst offenders completely. So hopefully these changes, along with the extended length of Act III, many more of you will progress further and faster into the Battlepass.
+
+Long term, we want to revisit how to keep game-to-game progression engaging. It's still early, but we have a design that seems promising for further exploration.
+
+—Naoise Creavan, Senior Production Manager
+
+Q
+
+Smurfing is inevitable in ranked games, but I’m curious what you’re doing to discourage smurfs in VALORANT?
+
+A
+
+Smurfing always sucks, especially when you have rank on the line. While it’s hard to stop smurfing entirely in a free-to-play game, we are taking action to combat it. Right now we have a behind-the-scenes system for Unrated as well as one that applies to Iron through Diamond ranked players. The latter tracks an individual’s performance and notices when a player makes a highly disproportionate impact in a game. We then quickly boost them to harder matches and higher ranks in Competitive.
+
+We stop leveraging this system for Immortal+ players because there isn't a ton of room to smurf or play down when you are already near the top ranks. Longer term, we’re also looking at ways to further accelerate placing smurfs into appropriately skilled matches. But right now we are prioritizing some improvements to our core rank system and leaderboards ahead of that.
+
+—Ian Fielding, Senior Producer
+
+Q
+
+Is VALORANT going to get a test server, like League has PBE?
+
+A
+
+Yes! We will be creating a selectively updated pre-release environment, or PBE, some time in the first half of 2021. Specific features/queues will be advertised or limited and patches will be targeted for a certain length of time in advance of going live.
+
+For those that are familiar with the League of Legends PBE, this will serve a similar purpose. We hope to expand on what we have learned and provide an early access experience that does not drastically differ from the live version of VALORANT, but still allows for a glimpse into what we are working on. This will also help us to gather more information so we can capture performance changes and expose bugs early that players might run into.
+You should allow an in-game pause per team, because sometimes we have to pee or poop.
+
+A
+
+We've done some rough experimentation with team pauses in-game and pre-round. Pausing mid-round can introduce a number of gameplay concerns that may compromise the competitive integrity of a match. And since we view the competitive integrity of each match as a fundamental part of VALORANT, we've opted to not support mid-round pauses.
+
+We know that sometimes you will need to “pee or poop,” as you so elegantly put it. To make sure everyone has a chance to handle their business, we'll be exploring different ways of possibly incorporating a pre-round pause. This would allow you to pause the match without the possibility of impacting the outcome of engagements.
+
+It'd be rude of us to ask you to hold it while we plan out the details, so you should probably just go to the restroom now while we work this out.
+
+—Steven Eldredge, Senior Producer
+
+Q
+
+Will we ever get a system to share crosshair settings, like the deck system code in Legends of Runeterra?
+
+A
+
+We definitely have plans for more crosshair customization in the future, and a good extension of that feature is to allow you to share your customizations with teammates and friends. I mean sharing is caring after all, right?
+
+—Steven Eldredge, Senior Producer
+
+Q
+
+Will we ever be able to play on the practice range while queueing?
+
+A
+
+The tech is feasible to let you jump into the practice range while queuing, but we’ve been reluctant to pursue this because it is straight up not efficient for what it’s accomplishing and we’re more excited about alternatives, like an aim trainer you could access while in queue.
+
+Here’s why: A practice range “match” is currently  just as expensive for us to run on the server side as a standard 5v5 match, but the effort is about 10x less efficient per player because it is only serving one player at a time. We prefer to preserve our server horsepower for bread and butter competitive matches.
+
+Now about those alternatives. I mentioned a possible simple aim trainer that can scratch the trigger itch, and that could be a step to a future solution where you queue for something like FFA Deathmatch.  There is a bunch of prerequisite tech we need to figure out there before we could do something like this, but an early step we are taking toward this is to implement the ability to join FFA DM games in progress—which we hope to get done early next year.
+Are there any updates regarding a “Left Hand View model”?
+
+We know that this is something that a lot of players have been asking for and we've been doing some exploration into this. We're currently in the process of validating how this would work from not just a technical side but from a competitive and artistic front as well. While this may seem like a small technical challenge, we want to make sure this is done right for players. To do this we need to validate a couple of different things:
+
+The first thing we want to consider is how we maintain the art fidelity of our awesome weapon skins, character models, and abilities. We don't frequently get to see different camera views of our first person weapons and viewarms so we'll need to make sure our art still holds up when we switch hands for players. We'll need to make sure that abilities still originate from the same place and that our hot fire still looks like... well... hot fire.
+
+The second aspect we need to consider is how this might impact the competitive integrity of the game. We want to ensure that there are no advantages or disadvantages to playing with a left handed view model and that we maintain a fair competitive playing field. We want to make sure that left hand view isn't the new meta or that players with this preference aren't nerfed.
+
+While this is something on our radar, we still need to ensure that we meet the criteria mentioned above and to do so we'll need to put these changes through rigorous competitive and artistic testing. With all that in mind, we unfortunately don't have a date we can share for when we think this will be available to players.
+
+—Steven Eldredge, Senior Producer
+
+Q
+
+Are you open to updating existing skins, like adding effects for Spline?
+
+We’re open to it! We’ve stated before that we’re potentially open to adding Variants to melees, so it’s not out of the question for us to update an existing skin line. It all comes down to how much players want it, how much work it is, and what things we don’t make as a result (weighing the trade offs). We’ve done little stealth updates that are pretty fast, like changing the gun buddy mount colors on the Agent skins. But going back to add effects to a skin line like Spline is definitely not fast or easy!
+
+So, as of right now, we don't have plans to add feature-based upgrades (like VFX, new animations, or audio) to existing skins. Before we take on something like this, we want to make sure we're making changes players actually want, and that what we're doing is sustainable. That requires more research and testing, which takes time and resources to complete. So even if we did decide to pursue this, players probably wouldn't see it for a while. Going back to work on something we’ve already released means that we aren’t working on the next awesome thing that you’re all waiting for. This is a trade off we don’t take lightly, because ultimately we want to prioritize the content you all want most.
+
+—Sean Marino, Art Lead, and Preeti Khanolkar, Producer
+
+Q
+
+Will the map rotation changes in patch 1.08 result in longer queue times?
+
+These changes will not impact queue times! That's the main reason we didn't hard restrict players from getting the same map multiple times in a row, but instead made it so we significantly reduce the chance of that occurrence. This way, we maintain a little bit of flexibility to keep queue times popping at the same pace.
+
+—Ian Fielding, Senior Producer
+
+Q
+
+This is probably frustrating to hear but: it feels like my experience with VAL on a game-to-game basis is inconsistent, like sometimes I'll have problems landing basic shots but other times everything will feel buttery smooth. I'm not trying to make excuses for my own performance, but something just doesn't always feel right. Do you feel this or see it? Are you investigating?
+
+We’re not dodging this, but understanding what’s going on has been a real hoot. I’ll also say it’s not just you: we’re constantly pulse-checking where players are at on the “reliability and consistency of combat” though surveys, gameplay analytics, and yes, social media (hi, Reddit). Over the past couple months, we noticed some less than inspiring trends on perceptions of shooting reliability (namely, declining positive sentiment around “My bullets reliably hit targets when I expect them to”), so that prompted us to dig deeper.
+
+As I bring up what some players are saying, keep in mind there is a team on VALORANT that is chasing down issues with hit registration and clarity, and they've shipped changes throughout VALORANT's existence so far. But for things like "VALORANT feels different game to game," it can be hard to nail down exactly what that means. For these types of situations, we like to sit down with players (in this case, ranging from Gold to Immortal+) to hear in their own words what's going on.
+
+In our conversations, these players said (broadly) that shooting felt reliable and consistent the vast majority of the time—however, there was also clear room for improvement. They highlighted these opportunities for improving reliability in combat: increasing hitbox clarity, improving readability and predictability of states of movement inaccuracy, and minimizing the difference in gameplay feel across different ping conditions. Those sound like good spaces to investigate, so we are!
+
+We’re now in the process of digging into each one of these, while also trying to build a more holistic picture of gameplay reliability—one that blends player sentiment, gameplay analytics, and a deep technical analysis of our underlying systems. Ensuring the game respects you and your opponents’ skill is critical to delivering on the promise of VALORANT, and we won’t be setting this to the side any time soon. Keep the feedback coming, and we’ll keep on digging.
+I understand it means I’m doing something right, but what exactly does it mean when I have stars in my performance history?
+
+A
+
+If you’ve ever received a gold or silver sticker in your life for doing well, then this system likely speaks to you. In the performance tab, a star indicates if you’ve played better than we anticipated. That is, if you were regularly beating someone in combat and/or closely competing with someone of a higher rank than you, expect to have that acknowledged via a star.
+
+A silver star means you exceeded expectations and a gold star means you’ve really punched above your weight. Pat on the back not included.
+
+—Ian Fielding, Senior Producer
+
+Q
+
+Is it true that there’s an extra importance on frags when it comes to getting a good combat score? If so, do you plan on increasing the recognition of assists and other forms of contributions to your team (spotting or slowing enemies, healing allies, etc)?
+
+A
+
+Your combat score is not just based on kills, although that is a big factor in the score. We also look at damage inflicted, meaning that assists where you help kill an enemy are taken into account, as well as utility that does damage.There are some other factors that help inform your combat score, such as first bloods and streaks. These are called out on the combat score tool tip. Longer term, we are looking into ways to incorporate non-damaging assists into your combat score as well.
+
+Regarding competitive, while your combat score indicates how well you performed in core combat during the game, it’s not 1:1 with the performance calculations we use for your rank updates. Rank updates leverage some, not only, of these data points. Simply put, the focus of whether or not your rank updates is primarily focused on wins and the decisiveness of these wins.
+
+—Ian Fielding, Senior Producer
+
+Q
+
+I'm really interested in getting a specific weapon skin variant but it feels bad to have to get a variant I’m not interested in so I can unlock the one I want. Will I ever be able to buy a variant directly?
+
+A
+
+Yes! Starting with Patch 1.10 players will be able to select any variant they want. Weapon skins will still need to be fully evolved to unlock variants, but after doing so, you’ll be able to pick whichever one is most appealing to you.
+
+—Miles "Riot Usury" Metzger, Revenue Strategist
+
+Q
+
+Why don’t any of the melee skins have variants? I think this could look really good, especially on Sovereign and Spline. The melee skins cost more than regular skins but they don't have variants. Personally, I would love to have a green Spline dagger and don't see why we can't.
+
+A
+
+"We've read the frequent posts asking a version of this question and it's definitely something we'd like to have in VALORANT too. So for one of our upcoming skin lines, we're going to test out variants on melee weapons. Consider it a limited test to see whether this is something desired by enough players for our small team to commit to. We'll evaluate and determine what is needed from our end to pursue variants on future melees, if it's something that players really want."
+
+—Sean Marino, Art Lead, and Preeti Khanolkar, Producer
+
+Q
+
+About that audio question last time...can you just tell us if HRTF is coming?
+
+A
+
+First—sorry if it seemed like my original response came across as "we know better!" or that we didn't hear you in wanting HRTF. I just wanted to explain our limitations and challenges we wanted to solve, rather than making it seem like they were more important than your requests. Second, I'll say that we agree that HRTF is a worthwhile endeavor, and plan to begin work on implementation. There are a few preemptive steps we need to take (e.g. engine version updates), but are hoping that we can start in October.
+What are your thoughts on the opinion that “the Operator is too OP”?
+
+A
+
+We think the Operator isn't "too OP" but do believe that the feeling sometimes comes from a lack of personal agency against the weapon (for Agents that don't have tools to break line of sight for themselves), coupled with an overwhelming amount of team coordination to effectively counter an Operator. We're looking into a lot of avenues to help smooth out the experience but we do believe the Operator should be powerful and should encourage a team to thoughtfully enter a space where it might be in play.
+
+To give an anecdote: we've tried iterations of the game where the Operator's strengths weren't as sharp as they are today (especially in holding defensive angles). We discovered that without moments where a team was forced to sit down and plan how to play against (or around) a good Operator, a lot of gameplay became about who could rush faster.
+
+The Operator—like all weapons, maps, Agents, etc.—is a part of our continuous holistic review of the state of the game, and we’ll make changes in the future if we feel it’s needed. No changes now doesn’t mean no changes ever.
+
+—Nicholas “Nickwu” Smith, Game Designer
+
+Q
+
+Why do EU/CIS/TR regions get patches and features later than everyone else (like Deathmatch)? Why can’t you just turn things on for everyone at the same time?
+
+A
+
+[Editor’s note: For anyone who wasn’t aware, when we ship major patches, we typically patch in 3 regional chunks. The NA/LATAM/BR regional cluster first, then the KR/JP/SEA/OCE regional cluster, then the EU/TR/CIS regional cluster last.]
+
+There are two things we consider when we select the time to ship new content: server stability and game stability. For server stability, if there’s high demand for a new feature (as there was with deathmatch), we see massive amounts of players logging in simultaneously to play. If we launch a high-demand feature on top of peak login time (typically around 4-7pm anywhere), we’re deliberately DDoSing our servers by creating the largest possible spike of logins. This is why we try to ship ‘off’ peak playtime (which we know is a little frustrating for people who want to play when they get back from school or work). This lets us spread out logins for those who just want to play a game normally vs. those who want to try new content as soon as possible. This might not explain why the EU/TR/CIS regional cluster goes last, but it does highlight why we don’t like to ship highly anticipated patches everywhere at the same time: it’s always peak play time somewhere in the world.
+
+Game stability is the main reason EU/CIS/TR regions typically get big, complicated patches last. We want to make sure if we do hit a critical game-breaking bug, we don’t have to hotfix it across every region simultaneously. EU/CIS/TR regions tend to get more stable patches of all 3 clusters because we can quickly integrate hotfixes before the main patch goes out, rather than having to triage it while it’s already out there. EU/CIS/TR also happens to be the largest population of VALORANT players, so major disruptions have an objectively bigger impact.
+
+Finally, if it makes sense that we need to ship patches ‘off’ peak hours in every region and we want to be able to put in hotfixes before the next region gets a patch (if necessary), then the last consideration is that we’re a Los Angeles-based developer. We try to make sure we ship all patches across a single day (in Pacific Standard Time), because if we have to wait overnight (or work overnight), we’ll have less developers available to fix things at any time. So we start patches as soon as we get into the office (off peak hours, so we can’t start with the EU/TR/CIS regional cluster because EU is right at peak play time), and try to ship our last patch before the end of the night.
+
+This is a long explanation, but hopefully it highlights that we’re not playing favorites.
+
+Q
+
+Sometimes it feels like sound is off in the game, like footsteps are much closer than they really are, or I hear them in the wrong direction! Am I going crazy? Does VALORANT do something different with sound?
+
+A
+
+The footstep radius is set up to give players who hear enemy footsteps time to use an ability and re-equip a weapon before they are in danger.
+
+I've also heard feedback around the fact that people have a hard time telling how far away a footstep is, which there is truth to. We optimize for making sure footsteps are heard, as opposed to optimizing for portraying distance. What this looks like is an attenuation curve that is somewhat flat, versus one that drops off a lot over distance. There are a couple reasons we do this. One is that under chaotic conditions where abilities are being used and you are probably hearing a lot of VOIP from your team, it is essential that you don't miss a footstep.
+
+Based on internal playtests, not hearing a footstep and getting killed by someone you knew had to run to get to you is very tilting. This feels especially bad for players who have internalized rotation times on the map and have good communication and callouts on their team.
+
+We also know our game will be played in a variety of contexts. NA players may be used to playing in a quiet room and hearing every detail, but players in China or Korea may be playing in a loud PC Bang, where a footstep that was quiet but gave more information on distance would be lost. I have never played professionally, but I imagine clarity would also be appreciated for esports players who may be in a noisy stadium (hopefully someday!)
+
+Another reason for this is that we don't want to give players the incentive to turn their volume up to painful levels because they have to listen for faint audio cues to be competitive, or to add external DSP to compress their audio (which happens for some other FPS games.) If the game designers want you to have the information, we want you to clearly have the information.
+
+While there's a drawback from having the attenuation curve flatter, I think the advantages are more important.
+
+As far as panning direction goes, we have heard reports of this both internally and on live. When our design playtest has investigated this in the past using videos of multiple viewpoints, the panning has turned out to be correct.
+
+We currently mix the game in stereo, meaning there is no difference between a sound 45 degrees to your left in front of you and a sound 45 degrees to your left in back of you. Some people expect to be able to hear this difference, but that is not currently possible.
+
+Also, engaging the “7.1” mode on various headphones does not help. There is no way for the headphones to decode our stereo sound into 7.1 and may even make spatialization much worse!
+I heard someone at Riot once say that “abilities don’t kill” in VALORANT, but... there are clearly ones that do, like Raze. Are you breaking your promise?
+A
+
+This statement isn't completely accurate—especially in a game that already had Raze and Killjoy's gameplay locked in before our announcement... Anyway, that was our mistake—a big part of that mistake was in missing the nuance (specifically that tactical fundamentals—not just “abilities don't kill”—are a key component).
+
+Guns provide the vast majority of kills, and even our damage abilities are designed with the goal of creating threat. When well-played against, guns should be the primary method used to finish off opponents that are preoccupied with a distraction, or trying to avoid the damage. In cases where that isn't holding up—like mid-combat Blast Pack usage—we'll fix those as part of our ongoing commitment to tactical gameplay.
+
+If this promise (abilities never kill) was the thing that made you come to try VALORANT, we're sorry if we misled you, even unintentionally. But our position is, and has been, that abilities that deal damage are a core part of tactical games—whether it be VALORANT or other tac shooters. We can unpack this topic more in the future if you’re interested!
+
+—Ryan “Morello” Scott, Character Design Lead
+
+Q
+Are there any abilities or kits that are a no-go in VALORANT? How far is too far for?
+A
+
+Specifically, we try to avoid abilities that would remove the high-consequence gunplay. Increased maximum health tends to be a no-fly zone, as do abilities that replace guns (that aren't an ultimate, like Jett or Raze).
+
+—Ryan “Morello” Scott, Character Design Lead
+
+Q
+Hi anti-cheat team! We haven’t heard much from you these days, just wondering how things are going. Can you tell us how many cheaters you’ve banned so far?
+A
+
+Hi! We've been toiling away in the anti-cheat mines but we've missed talking to you all.
+
+So far we've banned a bunch of cheaters (and their computers) from the game, and have generally tried to keep the miscreants out. We can always do better, but I think we're doing well overall.
+
+I don't have a total number of bans to share but I didn't want you to leave empty handed so I brought something for you number fans out there: 1802
+
+That's the number of manual bans the anti-cheat team has issued after investigating suspicious players. While the overwhelming majority of bans are automatically applied by Vanguard, me and the rest of the team manually review suspicious accounts. This helps us find previously unknown cheats and also lets us evaluate Vanguard's performance. It also gives us an opportunity to manually accelerate the ban for the most disruptive players.
+
+What’s that like? Personally, I like to start my day with coffee and a list of suspicious players sorted by most reported. I start drinking my coffee and go through the list manually reviewing accounts until I've had enough. Coffee, not reviewing. And I really like coffee, which is probably why I am currently top of the team leaderboard for most accounts reviewed. I doubt I'll hold the position for long though because we've recently expanded the pool of people investigating—so I have a lot more competition.
+Have you considered an option to disable the special animations / sound effects of gun skins? While the aesthetics of the skins are pretty nice, all the effects around them can be distracting.
+
+
+
+A
+
+Yes, we discussed this a lot before launch. There are a few things that we had to consider first before we started building any tech to support something like this, including how players would react to custom effects, animation, and sound.
+
+First of all, we’re committed to fixing anything that compromises the competitive integrity of the game. If it’s objectively interfering with our players’ gameplay, we’ll fix it (like we did for the equip animation and sound priority on the Elderflame Operator). We try to build all of our skins so that they aren't something that players will want to turn off, but we realize that players will always have different tastes. For example, when the Oni skins released, we had lots of players tell us to turn up the audio because they couldn't hear the subtle ghostly sounds in the middle of combat. And, of course, many other players begged us to keep the volume as it is because it was perfect for them.
+
+In terms of the feasibility of turning off different skin elements individually, the possibilities become infinitely complicated. What if I want animations but not the effects? How does that look? Or I don't want the audio, but I want the animations and/or effects? If we played the base audio, it wouldn't sync up to the animations anymore. With so many possible combinations, we can't feasibly ensure a quality, cohesive experience for players. And that's not something we want to compromise.
+
+What is more feasible is enabling the option for a player to toggle between all the levels of a skin they own. This way, if you own a Level 4 Elderflame Operator, you can still toggle down to Levels 1-3, rather than being stuck only using Level 4. A system like this takes time to build and means that the engineers working on it aren't tackling other equally important gameplay needs. All that said, we recognize the value in Skin Level Toggling, and it's something we want to invest in.
+
+—Preeti Khanolkar, Producer, and Sean Marino, Art Lead
+
+Q
+
+When do we get more lore?
+
+
+
+A
+
+Are you asking why a chunk of Italy is in the sky? If it can go twice as high? You'll start to understand more as things unfold, but Italy rising into the air is the inciting event for the conflict of VALORANT.
+
+We've always believed that art, creative, and story should serve competitive gameplay first. Now, this doesn't mean we can't tell stories in the world of VALORANT, but that we should pursue other methods—hints and connections buried within the game—while building on a foundational universe that we may never fully explain. We hope you'll join us!
+
+Q
+
+Would you consider the option to create custom keybinds for each Agent?
+
+
+
+A
+
+Agent-specific keybinds are very high on our priority list and we've already started work on the feature. Exact patch timing is still unknown, but it's something we want to deliver to players ASAP.
+
+—Jason Falcone, Principal UX Designer
+
+Q
+
+A while back there was a "known issue" with crouching and hitboxes. I was wondering if you fixed it, because sometimes I still see headshots register as body shots?
+
+
+
+A
+
+Short answer: Yes, we found and fixed a hit registration bug caused by crouch synchronization in a previous patch.
+
+Long answer: We don't believe there are any major issues with hit registration correctness currently in VALORANT. However, we understand that visual clarity on the result of a shot (particularly in the crouching case) isn't always the best. In this specific example, it’s confusing because a player can crouch their head behind a body shot particle effect, making it look like a headshot.
+
+We're currently iterating on ways to improve readability in this and other scenarios. We're aiming to share an article soon that takes a closer look at the state of hit reg and what we're working on improving, so stay tuned!
+Will VALORANT have a gifting system like League has?
+
+A
+
+Yes, gifting will be coming to VALORANT (soon™)! We want to give players the ability to gift content as a way of celebrating victories, holidays, or any occasion that calls for it. We're aiming to enable gifting by the end of 2020, but timelines may shift as we get closer to the date.
+
+—Miles "Riot Usury" Metzger, Revenue Strategist
+
+Q
+
+Is VALORANT going to get an in-game replay system?
+
+A
+
+Yes! this is something that we're interested in exploring soon. Whether it's to study previous matches for tactical advantages or to create spicy memes, we know that players will find a wide range of interesting uses for a system like this.
+
+—Steven Eldredge, Senior Producer
+
+Q
+
+Will there be a map select/playlist option?
+
+A
+
+From a Competitive perspective, we really want to ensure we’re able to not only put players in fair matches but do so in a reasonable queue time. Splitting up matchmaking into separate map pools would reduce the overall players in our matchmaking pool, which not only slows down matchmaking, but makes it more difficult for us to produce fair matches. Given that, we currently don't have plans to enable map specific selection for Matchmaking.
+
+—Ian Fielding, Senior Producer
+
+Q
+
+What does VAL want out of their observing client as it relates to esports?
+
+A
+
+We know the esports observer tool currently in VALORANT is a little bare-bones, but it’s something that we’ll be building together in the coming while. We’re taking notes from each set of Ignition series tournaments (happening every weekend!) and getting active input from organizers, spectators, and audience members so we make sure we prioritize the right tools.
+
+Long-term, the observer client is a tool to enable storytelling and to capture the action and style of the game played at the highest level—everything we love about VALORANT from an esports perspective. We believe VALORANT has the potential to be a sport watched and enjoyed by gamers everywhere, but in order for that promise to be realized, we have to craft a viewing experience like no other, and the foundation for that is with the observer client.
+
+We know the game has complexities that add a lot of context to what's happening in a match. Things like Agent locations, what abilities haven't been used, what weapons everyone’s purchased, and so on, are very important in telling a competitive narrative. We want to ensure the observer client can support an entertaining broadcast, both for players that are familiar with VALORANT and those that may be watching it for the first time.
+
+This is a necessary tool that unlocks a broadcast team’s ability to craft amazing viewer experiences. However, it's not just building a great observer client but ensuring there's easy access to real-time data that unlocks a bunch of features and experiences at the broadcast level, as well as experiences like fantasy sports adjacent to the broadcast.
+
+We'll need to build not just the tools you see available today but also dream up what more could be done to unlock broadcast teams in the community and at Riot. We'll have more to share on this in the coming months.
+
+—Whalen “Magus” Rozelle, Snr. Director of Global Esports, and Kasra Jafroodi, Global Business Esports Strategy
+
+Q
+
+How many Radiant-tier players are there in the world?
+
+A
+
+We’ve designed Radiant to represent the most elite players, with anywhere from 20 to 150 players having earned the rank per region, depending on player population size. Earning the Radiant rank is meant to be challenging and a significant achievement for VALORANT players. You also have to remain as an active player to stay in Radiant, if you haven't played in 14 days, you will have to re-earn it.
+Do you have any plans to change the aim punch? Like, each weapon getting a different amount of aim punch?
+
+A
+
+Not at the moment, but I do think there’s an opportunity to lessen aim punch in extreme cases, for example, a long fire from a pistol or shotgun that is inflicting minimal damage with lots of fall off.
+
+—Trevor Romleski, Senior Game Designer
+
+Q
+
+Many of us are wondering, will there be a deathmatch mode?
+
+A
+
+Deathmatch is absolutely a mode that is coming to VALORANT in the future. We don't have a timetable yet, but it's something where we're actively working on the underlying technology as well as designing, iterating, prototyping, and playtesting right now.
+
+—Jared Berbach, Lead Game Modes Producer
+
+Q
+
+Are there any plans to make the VALORANT client a non-full screen application?
+
+A
+
+"There are no plans at the moment for menus to have their own display mode setting like the League Client where it launches an executable ‘game’ in full-screen from a news/store/friendlist client. This is mostly due to the fact that VALORANT is an all-in-one executable, whereas League’s is two separate ones. Players can currently put the game into windowed and windowed fullscreen which will also apply to their in-game experience.”
+
+—Steven Eldredge, Senior Producer
+
+Q
+
+Will there be a pick and ban system with Agents and maps?
+
+A
+
+We've considered a draft phase for agents, but the current thinking is that we would not have bans. For some more reasoning around bans: first, we expect teams to have set plays and strategies that will require very specific agents. Banning an agent would invalidate that entire strategy, and we don’t want to discourage practice.
+
+Second, bans often remove a players’ star agent and we want players who are exceptional at certain agents to be able to play them and show off their skills with them. Finally, because VALORANT doesn’t have hard counters in the form of agents (this isn’t our design philosophy), we think the game state is healthier if we’re held accountable to ensuring no agent or agent-facilitated strategy becomes so oppressive or unsolvable that a ban is the only choice.
+
+—Trevor Romleski, Senior Game Designer
+
+Q
+
+Will it be possible to play in other regions? Example, playing on NA servers while being on EU?
+
+A
+
+While we know that some friendships can be easily sustained across thousands of miles, a fast internet connection can’t. All games of VALORANT must be hosted on a single game server located in a single physical location, so even if we allow someone in Japan to queue up with someone in the UK (for example), one of them has to connect to a game server that’s very, very far away. This also means that 8 other players in the game will have to play with someone with a bad connection—and they didn’t sign up for that! We’re going to keep an eye on demand here, but for a game as precise and demanding as VALORANT, we have to focus on keeping all matches fair.
+Why can't I earn VALORANT Points in the Battlepass instead of Radianite points?
+
+
+
+A
+
+“I sense two separate questions here—why you can’t earn VP and why we give out Radianite Points in the battle pass— I’ll break them out.
+
+So first, why can’t you earn VP in the battle pass? Our goal is that when you buy a battle pass, you buy it for the total value of it rather than buying it as a way of getting enough currency to buy the next one. We want the battle pass to be the highest value product we offer as well as a compelling experience, but by adding VP as an incentive we hurt our ability to fund our long-term vision for the battle pass. We'll be doing more studying on the current battle pass to make sure that you feel like it offers great value and will continue to make sure that the content within it justifies the price.
+
+Now the second question: long-term, what are Radianite points for? Our plan is to have Radianite Points become the evolving currency of VALORANT. So as we develop new features, we hope you'll be able to use it to buy more Gun Buddies, upgrade Player Cards and Sprays in addition to what is currently just weapon skins. We'll make sure to offer ways to spend your Radianite Points on content that is unlocked within the battle pass. It’ll take us some time to get there but that's our long-term vision for the product.”
+
+—Joe Lee, Revenue Lead
+
+Q
+
+Some unrated games have felt really unbalanced, is it because unrated has looser matchmaking?
+
+
+
+A
+
+"Our goal with Unrated Mode is to allow players a way to play the core VALORANT game mode with any of their friends. Given this, it means there is going to be a wider range of skills in games, and that can lead to matches feeling less fair. We still have strategies to make sure we keep stomps low and matches competitive, but Unrated will generally have a slightly higher range of skills. We have taken some steps at the cost of a moderate increase to queue times in order to reduce the average disparity in matches. We hope this leads to matches feeling more balanced.
+
+Comparing Competitive and Unrated, we actually have a pretty similar matchmaking configuration, with the biggest difference being that in Unrated, there’s no limitation on who you can party up with skill-wise. As it turns out, lots of folks have friends of varying degrees of skill they'd like to play with!
+
+Right now, the majority of our Unrated matches are still within the skill disparity constraints that Ranked games would allow. For the high skill disparity matches, the skill gaps come directly from the premade, while the matchmaker adds zero or very limited skill disparity to the match. We are working on launching our Competitive mode in patch 1.02, which hopefully will help players in both queues, and Competitive will continue to have hard limits on skill disparity.
+
+As a final note, we do track matchmaking ‘quality’ in many ways, including match balance (the final round score) and skill disparity (the difference in skill between the best and worst player in a match), and so far haven’t found huge balance issues, but we’ll continue to monitor this data at scale."
+
+—Ian Fielding, Senior Producer, and Yilin He, Senior Data Scientist
+
+Q
+
+Will there ever be new guns introduced to VALORANT? Ever is a kinda long time, maybe, are there short-term plans to introduce new guns?
+
+
+
+A
+
+“This quote from the article on the VALORANT arsenal sums it up nicely: ‘No weapon should feel like it only exists to troll, or have no imagined use scenario. Likewise, guns that felt redundant were also removed.’
+
+There are no immediate short term plans to add new guns. We've had the current 17 guns in the game for some time now (internally) and feel that the balance is in a good spot as of today. And as noted in the article, we removed some guns along the way in early development if we felt they were redundant or didn't serve a clear purpose.
+
+We'll learn a lot more about the gun balance through the many players playing our game, so I'm sure we'll discover potential gaps in the arsenal we could fill in the coming months.Adding a new gun isn't totally out of the question, but it's also not something we're planning for the short term.”

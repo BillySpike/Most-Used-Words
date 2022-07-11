@@ -1,0 +1,437 @@
+Hey VALORANT sharpshooters, I’m VALORANT Art Lead Sean Marino here to talk about everyone’s favorite topic: the guns! Specifically, discussing what defines a VALORANT weapon and how we brought these principles to life in the game. First, let's start with this quote from Trevor Romleski, lead game designer.
+
+“BULLETS STILL KILL WIZARDS”
+
+This phrase was something that we latched onto early to help define the gameplay pillars and visuals of the VALORANT weapons. It was the foundation for how we would flesh them out within the game.
+
+First came a pledge to uphold certain standards of the genre. With a tactical shooter, there are expectations around gameplay and weapons that we strived to sustain, regardless of what the VALORANT IP would become.
+
+Then we cemented a “gameplay first” approach. Let’s create a gun for every situation. There should not be an overpowered or “best” weapon in the arsenal. It should be all about trade-offs between power and economy. No weapon should feel like it only exists to troll, or have no imagined use scenario. Likewise, guns that felt redundant were also removed (ask us about the Otto!)
+
+CORE WEAPON PILLARS
+Vandal-Concept.jpg
+Very early we tried an approach where every weapon had to be more radically different than the last, in terms of art, functionality, etc. But we had lots of weapons to build and this was not sustainable. Out of this trial, we came to these four weapon pillars:
+
+GROUNDED/IDENTIFIABLE
+Players should be able to look at a VALORANT weapon and make a connection to what may have inspired it—either visually from the real world, or gameplay-wise from games within similar genres.
+
+BALLISTIC/LETHAL
+Bullets. No lasers. No “pew pew.” Yes, gameplay has to be taken into account for balance in terms of damage and such, but ultimately, audio, muzzle flashes, and animations need to reflect a tool that delivers bullets into objects.
+
+TACTICAL
+As it relates to weapon animation, the player’s interaction with the weapons are meant to depict intention and precision. Picture how a professional knows their way around a weapon—reloading, handling, etc., every movement reflects thousands of hours of training.
+
+COHESIVE
+The origins of our weapons can be traced. That is, we avoided creating mixed “factions” that would show disparate design languages. This was an early decision to not have “A vs B” sided gun designs for VALORANT.
+
+DESIGN PROCESS
+Frenzy_evolution_r1.jpg
+ART
+We began each weapon’s visual design by creating a mashup of guns that fit the gameplay, and made sure to callout key identifiable features that separated each gun from the others. Simply put, players should be able to look at the full arsenal and not confuse one gun for another.
+
+In both first-person and third-person perspective, there should be a unique visual marker per weapon that tells the player immediately what it is. This includes something as basic as the silhouette shape, or smaller details like magazine placement or charging handles.
+
+ANIMATION
+Similar to what we discovered early on by trying to reinvent the wheel with weapon identity, we realized we slightly overcorrected and swung too far in the opposite direction. This led us to create animations—and associated audio cues—that are both recognizable and learnable.
+
+Sean McSheehan, lead weapon animator, helped design each weapon to have its own recognizable “beat” pattern. Some weapon equip animations have a two or three-beat step for reloads, for example. It’s case-by-case, but something players can watch out for. See, but also listen. These beats indicate to a player what state their gun is in, and when it is ready to fire.
+
+VFX
+muzzle-flash-concepts.jpg
+In the same vein as weapons, lead weapon VFX Artist, Stefan Jevremovic, wanted to include a visual differentiation for effects like muzzle flashes in both first-person and third-person perspective—sort of like a language dialect for each that reflects the shape, use, and power of the weapon.
+
+AUDIO
+VALORANT is a game of angles. With the help of VALORANT Audio Director Peter Zinda and Sound Designer Isaac Kikawa, we recorded weapon audio so that their third-person perspective sounds change based on their direction of fire. Simply, guns give off a different sound based on whether they are firing toward you, to your side, or away from you.
+
+How did we do this? Well, if we’re using the real world as inspiration, you know we had to include the obligatory audio capture sessions to gather as many sounds as we could for each. Hammer strikes the firing pin? That’s a capture. Magazine releases? That’s a capture. You get the idea.
+
+We also used Riot's foley stage to capture all the surface based sounds, like footsteps, bodyfalls, shells dropping, magazines dropping, etc. We wanted to make sure they sounded consistent, because recognizing sounds on surfaces provides clues to the direction of the noisemaker.
+
+REFINING GAMEPLAY
+ATTACHMENT SYSTEM
+Some weapons were designed to have an attachment, such as silencers, scopes, and such. For this, some of our team members felt it might be an interesting system if we allowed attachments on any weapon.
+
+But after many rounds of testing, we found that certain guns had “preferable” or best-in-slot attachments, and players never really changed them once they found the ones that yielded the best gameplay results. That’s when we decided to take the stat benefits from those and just bake it directly into the weapon.
+
+Voilà, now the Ghost has a silencer.
+
+Speaking of which, Silencers were the last baked-in attachment we made. Not only do they allow for further visual differentiation between weapons, they include some gameplay benefits. Silencers give a weapon's firing sounds a smaller attenuation than the other guns, unless they are firing toward the listener, in which case they are audible at any range. This prevents situations where players could be killed by a gun they didn't hear, but also gives silencer users some information denial.
+
+Another example. There’s a meaningful differentiation between the Vandal and the Phantom, which helps one not be the definitive "better" of the other and is instead based on gameplay decisions. In other words: it depends on what you want. Like shooting through smokes? Buy a Phantom. Prefer to one-tap at a distance? Vandal is your friend.
+
+ADS CONTENTION
+A fairly large point of contention on the team was whether we would allow for aiming down sights, or ADS, with our attachments. In modern shooters, this is a common and mostly expected thing, but in traditional tac shooters this was not.
+
+Trust us, many post-team dinner chats were dedicated to the value of ADS. We left as friends but there were clear "ADS" vs. "hip fire only" divides in some cases. Obviously, we had to solve this, not just to accommodate different shooter players, but find a solution that didn't disappoint advocates on either side.
+
+The solve was done in two parts: One, allow for players to opt into an ADS playstyle if they chose, providing no clear gameplay advantage over hip-fire like you may see in other games. Two, we would keep the attachment design minimal, so that it did not interfere with the visual real estate of the weapon.
+
+We also found that adding big “red dot” or ACOG-like attachments made the guns feel bulkier, and ultimately covered more area of the screen during hip fire, making it feel disadvantageous to the shooter. Our first “tech” attachment was born, a red dot that projected a holographic sight picture. While not quite a grounded-in-reality type device, we felt like we were far enough along with the VALORANT IP to know how technology would organically manifest, and this sort of gadget attachment felt like an appropriate compromise for our visual as well as gameplay concerns.
+Hey, VALORANT! I’m Preeti Khanolkar (Producer), and I’m here to talk to you about how we bring weapon skin fantasies to life while staying within the boundaries of VALORANT’s competitive integrity. Together, Sean Marino (Art Lead) and I run the Premium Content team, which is responsible for all the cosmetics you see in the game: weapons skins, gun buddies, sprays, and more. But today, we’d like to focus just on weapon skins!
+
+Last week, Marino outlined our principles for weapons: A gameplay-first approach with a gun for every situation. And that’s not changing, even when your Vandal spits molten fire or blasts sleek sci-fi energy. Our goal for skins is to give players another way to express who they are and what they love without ruining another player’s gameplay experience.
+
+We'd like to give you a behind-the-scenes peek at how we work so you can see how we design skins not just for personalized expression, but for appreciation—to immerse you in your chosen fantasy. And if you want to dive even deeper into your skin’s fantasy, we’ve created evolutionary tracks for several skins that add custom anims, effects, audio, and more to strike the right emotions and feeling—your fit, your choice.
+
+Our rules:
+
+A skin’s model, art, visual effects, animations, and sounds are fully immersive in 1st-person only
+Only a skin’s model is seen from another player’s perspective (3rd-person)
+No pay-to-win. No pay-to-lose. Nope. Never.
+If we find any skin that breaks these rules, it was accidental and we’ll fix it! Sorry, only some of us are robots—the rest of us make mistakes!
+THE FIRST DROP OF INK
+Alistar_Soul_Stealer_AK.jpg
+A fresh coat of paint on your favorite weapon is great, but what more can we do to make you feel an alternate fantasy. And how far can we push it? This far? Yes. That far? No, stop it. That’s the balance we’re always looking to strike.
+
+But before we fall in love with a skin idea, we ask ourselves how we’d execute something like that in VALORANT and whether or not that’s something players even want.
+
+Who’s this for? We don’t make skins for us; we make them for you! That’s why our amazing research team combed through tons of player surveys and lab feedback to see what kinds of themes you want to see in VALORANT. For example, should we lean into traditional sci-fi, high fantasy, sleek modern aesthetics, or create something totally abstract?
+
+PC_Brainstorming
+
+
+Then the idea. Sometimes a random piece of art will grab us, or a quick sketch from a concept artist, or maybe we expand on something we’re already passionate about. The whiteboards covered in over 130-sticky notes prove no idea is too wild. We take inspiration from improv and always ask “yes, and?” (and never say “no, because”) when we’re in the earliest stages of brainstorming. Still, how do we distinguish between guns that get the "all-in" fantasy treatment and those that don't?
+
+Five questions. A small group from our team—the ones who feel most passionate about the idea and are willing to fight for it—kicks off the ideation process. This is where we flesh out the vision based on the imagined world and desired fantasy. We found that answering a few questions at the outset helps our guide our thinking:
+
+What are some adjectives to describe it?
+What theme song sets the mood?
+Is there a single key piece of art that captures the universe?
+In this alternate universe, who’d use this weapon?
+What materials is the weapon made of?
+How do we want a player to feel when they use this weapon? What’s their mood?
+What’s the “oh sh*t!” moment a player experiences the first time they see this skin?
+Without answering these, we’re stuck in a place where we’re thinking “Is this a rock? Is it an alien? Is it futuristic technology? Or is it futuristic technology that aliens made out of rocks?” We don’t want to start making a skin line without clarity on what we’re actually trying to make. That’s why answers to these questions help align the team around a cohesive, unified vision that ties the whole experience together.
+
+Simply, this helps us make better skins.
+
+KICK IT TO THE TEAM
+Soul_Stealer_Revolver.jpg
+Concept and model
+
+First, our talented concept artists take the team’s abstract (and sometimes insane) idea and references to create the skin’s first concept. Through some back-and-forth, they arrive at a final concept for the skin line.
+
+The modeling process begins in earnest after we bring the concept to completion and agree that it hits the desired fantasy, is something we can actually create, as well as fits within our strict gameplay constraints. For example, we make sure that the skin model matches both the 1st-person and 3rd-person silhouette of the base weapon, and it’s recognizable when on the ground.
+
+Animation
+
+Animation on a skinned weapon should also mirror the beats of the base weapon. The goal here is that no skin makes a weapon feel unfamiliar. Using a new skin should never mean having to relearn a weapon: it should fire the same way, never feel slower (feeling faster is okay, but actually being faster is unacceptable), and it shouldn’t take up less (or more) space on your screen.
+
+In extremely rare cases, we make an exception and break some of these rules if the fantasy absolutely requires it (you’ll see what we mean!). For example, maybe the skin takes up just a little bit more of your screen during the equip animation. But we only do this after lots of debate, tons of testing and iteration, and after we have explicit design approval. And as always, it’s never pay-to-win.
+
+VFX
+
+
+Your focus in VALORANT is to frag, plant or defuse the Spike, and take home the win with style. This should not change with weapon skins (except maybe some fun pre-round spamming and inspects). Thus, any visual effects tied to a weapon skin should look really awesome, but never distracting.
+
+Weapons will keep their base muzzle flash shape and scale, bullet tracers can only be seen from the shooter’s 1st-person perspective, and aiming reticles will stay clean and easily readable when you ADS.
+
+Audio
+
+Audio is one of those things that really cements the entire fantasy of a skin, but it’s also one of the most important parts of VALORANT’s gameplay. We never want you to think you failed to clutch a round because a skin caused you to miss a critical sound cue.
+
+This means that if new audio is part of a skin, we make sure it’s not any louder or quieter than the base version, but it still pops in a noticeable way. If you’re relying on audio for your spray control, we don’t want new firing sounds to mess with that.
+
+We always make sure there's a sound paired with gameplay-relevant points in the animation, for example, when ammo is loaded into a gun. We do our best to maintain the timings of when these animations make sound, and when they go quiet.
+
+If we're adding sounds during what are otherwise moments of silence in the base version, we do it to delight you and bring something awesome to the skin's theme. However, these purely cosmetic audio elements have their volume ducked by more important gameplay cues around you.
+
+What does this mean? Let’s say you’re hiding behind the truck on Bind A site. You want to reload your Reaver Vandal, but you’re worried that the ghostly reload sounds might block out the enemy Sova’s footsteps as he approaches the site from spawn to defuse. WORRY NOT! Go ahead and reload that Reaver Vandal, knowing that the right audio cues are always being prioritized.
+
+DESIGN PLAYTESTS
+Soul_Stealer_Kit_Concepts.jpg
+We test everything, and we mean everything, with the team in our Design Playtests (DPT)—our twice-a-day playtest where designers experiment with all of our new features like maps, characters, and you guessed it, skins.
+
+This is where the imagined skin fantasy and commitment to gameplay go through extra scrutiny. Every skin enters rounds of feedback to narrow in on the fantasy without pushing it so far that it violates our commitment to competitive integrity. The DPT crew are our harshest critics, and we love them for that. Here are some examples of helpful feedback we’ve received that helped us make our skins better:
+
+“This was so distracting that it made me not want to buy the Phantom all game.”
+“The run animation doesn’t feel as fast/fluid/responsive as the base run melee.”
+“It doesn't feel like a Classic. The damage output I get doesn't match up to the sound/vfx that comes with it. I think it’s really cool, but it messes with me gameplay-wise a bit. It’s also a pretty large model."
+Apart from DPT testing, we also identify “expert consultants” on the VALORANT team who love the aesthetic we’re hoping to hit. If we’re making a high fantasy skin, we want to make sure our most dedicated fantasy nerd who should like this skin actually likes it. And if they don’t like it, or think it could be better, we want to hear more.
+
+DID WE DO IT RIGHT?
+Ultimately, we’ll only know if we’ve made the right skin in the right way once you tell us. VALORANT is still in closed beta, so we’ll learn so much more once we’re actually a fully live, global game.
+
+In the meantime, the glimmer of hope we get is when Sal Garozzo (Volcano) interrupts us at 9pm to tell us just how much he loved a certain special firey melee he used in DPT that evening.
+
+If Sal likes it, maybe we’re on the right track.
+Hi again everyone! I’m Chris Stone, a weapons artist on the VALORANT Premium Content team. I last wrote about how our team collaborated to build the tech behind the Spline skins. Now that both League of Legends crossover skins are in-game, the team wanted to share how we got Ruination and Sentinels set off the ground, as well as how we used this as an opportunity to develop new “materials” for VALORANT skins.
+
+OUR NEW MATERIALS
+Sentinels of Light is Riot's big summer event, bringing the “Ruined” and "Sentinel" thematics to each of our games. Although VALORANT doesn’t occupy the same space as League of Legends, it was a fun opportunity to bring the “Black Mist” that is taking over Runeterra to our weapons.
+
+Bringing this theme to life offered an interesting challenge: How do we visualize the Black Mist within the crystal while preserving both the competitive integrity of the weapons and creating something that fits within our tight performance constraints?
+
+I knew we had to create something that the League team (and you) would be excited for while also satisfying VALORANT players (like myself) who don't know the first thing about League.
+
+Right away I worked with our team’s FX artist to learn about the signature shapes that make up the Black Mist effect. I was even able to utilize one of his textures for the custom material I was making, which in the end, saved time and made the gun skin feel more cohesive!
+
+King_Phantom_Concept.jpg
+
+Materials here refers to a custom shader built inside of Unreal Engine Material Graph. Through an interesting combination of some light math and 2D painted textures, an artist is able to create some unique special materials, like the Black Mist effect. We experiment with creating these custom materials when we feel that they will add a nice visual bump to our skins.
+
+After studying the concept to understand how I wanted to translate it to the final 3D in-game model, I decided that having the Black Mist effect flowing inside of the crystal material would be a great thematic tie-in to the larger Ruination set, and would hopefully be really hype to look at too.
+
+King_Crystal_Gif_Optimized_02.gif
+
+SO FRESH, SO CLEAN
+OK, going to get technical here for a sec.
+
+One challenge when creating any new special material for our weapon skins is authoring it in a clean way so that other artists can take and use it for other gun skins in the line, or building on top of it for an entirely new skin. Pro tip: leaving comments in Unreal Engine material graphs is incredibly helpful when someone else has to take a look at your work—I highly encourage every artist to use them!
+
+After I finished prototyping out the material, I spoke with the FX artist working on the FX smoke trails on the skin to see if he had any thoughts before I called it final. We worked together to make it so he could match the intensity of my custom material with the intensity of his visual FX during the equip and reload animation—two big beats when players can really admire the overall skin.
+
+Speaking of keeping work clean, this effort helped us quickly prototype and make the “Relic Stone” on the Sentinels of Light skin!
+
+SpecialMaterial_Skins.jpg
+
+SENTINELS OF LIGHT
+For the Sentinels of Light skins, our lead artist on the project was looking for a way to represent the Relic Stones (these hold the power to keep the Black Mist at bay). The desire was to build the powerful relic intol the SoL skins so that they could hypothetically fight off the “Ruination” running wild in the League universe. The other goal was to make it feel cracked, yet beautiful and powerful —think Forsaken vibes.
+
+Let’s focus on the Vandal for now.
+
+I managed to turn some extra free time into quickly prototyping a material based on the tech I created for the Ruination skins. My first pass was on the rough side, but it was enough to get the rest of the team excited about the concept.
+
+The lead artist on SoL skins took my prototype and added enough awesome new features and textures to make it something that really stood out while still representing the Relic Stone and it’s lore. One of the big visual features added is the ability for the crystal to change states when the gun is fired and reloaded.
+
+This was combined with the great work our outsource managers were already doing with the weapons. They worked directly with our external partner to help guide the other SoL skins from the 2D concept all the way to the final 3D models that you see in game. This tight collaboration between artists and outsource managers really helps to create a large volume of complex gun skins like this set!
+
+Sol_Crystal_Gif_Optimized_02.gif
+
+SPOT THE TECH IN K/TAC
+As a Senior Artist on VALORANT, I try to have a holistic view on the quality of weapon skins and search for opportunities where we can level them up, so to speak.
+
+The K/TAC skins are an example of extending the life of new weapon skin tech such as the one in Ruination. While our outsource team was working with our external vendor on the K/TAC skin line, I felt that the materials we were using could be improved to deliver a super clean Battlepass skin for players.
+
+The 2D concept for the K/TAC skins included an interesting faceted (like a gem!) material in the magazines. To try to mimic that, I developed a custom Normal Map, which is a special type of texture that can bend light that hits the gun in unique directions. The final Normal Map pulled that inspiration from the concept and the final gun model. Finally, I created an additional texture that could flow like water through that custom Normal Map to create a magical and oily effect to serve as an energy source.
+
+When looking at real world brands, and then looking at Kingdom and the lore we’ve established in the VALORANT universe, I knew we needed to add some branding on the weapons to really tie these skins together. For that, I worked with our art director on Premium Content to create the brand for the K/TAC skins to add that extra finish polish.
+
+Kingdom2_Before_After.gif
+
+FUTURE TECH
+I hope this gives you all a bit of an insight into the less visible work we do behind the scenes to develop fresh and exciting new skins! As always, we carry other day-to-day responsibilities that take up time, but it’s always a great feeling when we can work on developing new tech like the type explained here to help level up VALORANT gun skins.
+Hey VALORANT competitors. My name is Ian “Brighteyz” Fielding, and I’m writing as part of the Competitive team today to guide you through VALORANT’s Competitive mode, show you how it all works, and share some of the ‘why’ behind our team’s decisions. Competitive mode will be available soon after patch 0.49, starting with EU and NA.
+
+VALORANT’s Competitive mode uses the same in-game rules and format as the Unrated mode, but with a focus on higher-stakes competition. VALORANT's competitive system is still in its early stages, and we plan to evolve it over time, but we have a core experience we wanted to share with you all in closed beta so that we can build and evolve the mode together. While we plan to keep Unrated mode always available, Competitive matchmaking may be disabled for short periods throughout the closed beta as we work to refine the mode and incorporate your feedback.
+
+Our system aims to solve some of the common pain points we've seen players experience with competitive modes and ranked systems. We're taking your personal skill into account so we can recognize when you're crushing it, combat smurfing, reduce players with ‘boosted’ ranks, and ensure that for most of your matches, you and your teammates are placed into a fair fight.
+
+Alright! Here’s a bite-size summary, with more details below.
+
+Complete 20 Unrated matches to unlock Competitive mode
+8 ranks, 3 tiers each, except the top rank, VALORANT
+Queue with up to 5-player parties, must be within 2 ranks
+Rank isn’t displayed if competitive matches aren’t played within 14 days, but your rank doesn’t decay behind the scenes.
+Closed beta rank does not carry over to launch
+ENTER THE RANKS
+VALORANT_RANK_ASSET.jpg
+The option to enter Competitive matchmaking will open once you’ve completed 20 Unrated matches. Consider this a necessary warmup before the sweat starts.
+
+There are eight levels of rank, each divided into three tiers: Iron, Bronze, Silver, Gold, Platinum, Diamond, Immortal, and our highest rank — VALORANT. Winning games is the most important factor in gaining rank, but if you perform exceptionally well, your rank can go up faster. Inversely, losing games and performing well below expectations (deduced from your previous matches) will reduce your rank.
+
+Your personal performance will have a greater impact on the early evaluation of your skill, but will decrease in importance when compared to wins, as we hone in on your skill over time. Competitive mode also measures how decisively you win or lose. We figure, if there is a benefit to your rank that comes from playing your best for the entire match, it will incentivize you to stay in the fight and not throw games.
+
+For those at the VALORANT rank level, winning and how decisive games are won or lost will be the only factor we measure, because at the highest levels of competitive play, we trust you and your teammates have earned your way there.
+
+COMPETITIVE INTEGRITY
+Our rank and competitive matchmaking system is meant to deliver a balanced fight and keep the disruption to a minimum.
+
+Factoring in your total performance also helps us better detect smurfs, prevent rank boosting, and get to an accurate display of your skill (rank) much quicker. This way you’ll have more trust that you're playing in balanced matches with players that have actually earned their ranks.
+
+Planting the Spike can be more fun with friends, so you can queue into competitive matchmaking with a party of up to 5 people. We want players to feel supported when playing in a team of up to 5, because we see it as a key part of competitive play in VALORANT. But whoever you party with must be within 2 ranks (6 tiers) from you. This requirement is to help ensure that there isn’t a huge skill disparity in games where one player is clearly above or below the average skill of other players in the match.
+
+We’ve also taken steps to ensure that you’re on a level playing field regardless of your queue size. Our competitive matchmaking takes into account your pre-made party size, and automatically optimizes your match to favor similar premade sizes on the opposing team.
+
+Rank inactivity will also be tracked. If you haven't played a competitive match in 14 days, then your account will be considered “inactive” and your rank will be hidden. Don’t worry, your rank will be displayed again after your first match back. We want to be confident that when others see your rank, it's an accurate reflection of your skill. After 14 inactive days, we don’t have as high of confidence in displaying your rank. However, we won’t decay your rank artificially in the background, so don’t sweat it if you're one of those players that is always on top of their game.
+
+COMPETITIVE PROGRESSION, AND BEYOND
+The VALORANT community will lead the way on how our team evolves competitive mode and the rank systems during closed beta and especially after launch. We’re currently tinkering with how to add an element of persistent rank progression that recognizes your competitive accomplishments for all ranks outside of just the match rank display.
+
+Expect to hear more on this and other improvements on VALORANT’s competitive mode and rank as we get closer to launch.
+Hello we are Chris Stone. Senior Weapons Artist, and Sean Bigham, Senior Concept Artist, here to tell and show you how the Glitchpop skins were born out of a misunderstanding and grew into one of VALORANT’s most loud, colorful and bold designs.
+
+Glitchpop is heavy on the visual elements that bring out the futuristic fantasy for players. The muzzle flash, glitch equip, holographic projector, and stickers were all elements that we could clearly theme in the cyberpunk genre, while offering a great first-person visual experience.
+
+A MEGA-MISUNDERSTANDING
+Article_GPoP_1.jpg
+While working on a completely unrelated skin line, we gave some feedback to our concept artist that was (thankfully) misunderstood and led to a very unique design we dubbed “Megapunk.” The rest of the team saw the design and raved. We knew we had something special, but it needed the right kind of push. 
+
+THE THEMATIC GOAL
+Glitchpop was an opportunity to offer our fresh take on a favorite science fiction subgenre, cyberpunk.
+
+With so many amazing representations of all things cyberpunk, we didn’t want to lean too heavily towards any one of them. We had an opportunity to take inspiration from the cyberpunk genre but offer our own fresh take on it. We pulled inspiration from Akira, Ghost in the Shell, Cowboy Bebop, Love Death and Robots, Josan Gonzalez, Altered Carbon, Deus Ex, Ruiner, and many others. Ultimately, we wanted to focus instead on how to push this skin line towards a more fun and punk aesthetic vs. the classic gloomy and grounded dystopian representation we often see. To keep ourselves oriented towards this thematic goal, we coined the term “Playful but Deadly.” 
+
+The term branched into the product pillars for this line: Bold. Colorful. Playful. Graphic. These were established before we cemented the VALORANT Brand Tones. Turns out, they line up very well (even if accidentally!).
+
+Article_GPoP_9.jpg
+Still, we of course did reference some classic cyberpunk themes:
+
+The world is a futuristic Corporatocracy. Everything appears happy through corporate imagery and advertisements but has an underlying dystopian twist.
+Corporations are specifically targeting younger audiences with fun characters, brighter colors, and are trying to be less overtly megacorp.
+The stickers on these guns are all corporate branding that appears counter-culture to consumers.
+Overall, we loved the juxtaposition of a lethal weapon paired with happy colors and playful stickers.
+We’re creating a lifestyle and casualness around something that’s anything but.
+Weaving the narrative ties in every facet of Glitchpop were important to give it the feel as if pulled from an alt-universe. We relied on the genuine but less familiar cyberpunk themes to be the forefront of our design, with hopes to avoid cliches.
+
+CONCEPT EVOLUTION
+There’s no delusion that we all have a very North American perspective of how we view Cyberpunk. That’s why one of our other concept artists, who’s from Russia, brought a lot of elements that Western players are not typically used to seeing. His initial idea with the Bulldog set the foundation of how we would approach the design—create the stock version and add the punk attitude.
+
+01
+02
+Our concept artist Sean Bigham worked with our external partner to help guide the concepts that were used to make the models you see in game today. 
+
+Early development of the gun focused on designing a factory fresh, stock version of the weapon which had a modular aspect to it built upon many recognizable hallmarks found in sci fi and cyberpunk: grey plastics, emissive lights and copper elements. Once the base design was resolved, we began experimenting with various ways to push the personalization of the weapons in order to have a fresher take on the genre.
+
+Initially, we had our concept partner go very far with a bunch of different ideas. Each one felt very different from the next but hit certain cyberpunk thematics we had established. Ultimately, we wanted the partner to focus on creating guns that appeared like they could be purchased off the shelf and then upgraded with aftermarket parts to suit their needs and style.
+
+This is where the “upgrade” with a holographic logo projector, a digital glitch muzzle flash, and a glitch equip effect came in. We didn’t want to simply slap on these elements though, we wanted to find a way to integrate them into the gun with some sort of functionality in order to solidify the design. Looking at the Bulldog, the copper cable runs from the battery on the right side to the holographic projector seen in first person, which then runs down the gun towards the barrel for the digital muzzle flash.
+
+01
+02
+From a design standpoint, we thought it would be good to allow for the stickers, glitch effect, and projector to stand on their own. From a color standpoint, simplifying the gun to a color gradient that has a contrast with carbon fiber and copper trim helped the stickers pop a lot on the gun.
+
+Our partner was able to contribute a wide variety of ideas without explicit guidance every step of the way. They were excited about working on the skin line and brought ideas to the table through their explorations, which ended up benefiting and improving the initial idea.
+
+LOGO EVOLUTION (AKA BRING ON SEAN BIGHAM)
+01
+02
+Memorable logos are always a challenge. Now try creating ones that someone wants to decorate their weapon with.
+
+We knew that we wanted to deepen the fantasy by thinking about how the weapon would be personalized with stickers and holographic elements that reference “real” brands in a cyberpunk alternate universe.These needed to target a mixture of happy and serious tones that are both corporate feeling and somehow punk.
+
+The logos should interact nicely with the company name from a design standpoint and should not feel like a company just slapped their logo onto a cool image. Also, we didn’t want any logos that were too on-the-nose cyberpunk. Remember, less cliche the better.
+
+Finally, we wanted to have a fun mix of food, beverage, security, and other random brands. Unico Pomade ended up being one of the favorites (a hair care brand). Other favorites are NSSDLE, Mons Pain, and Monster Burger. Yummy.
+
+Our first round of logos were way too corporate—a hand-made feel was missing. So then, we moved to the other end of the spectrum. The revisions appeared very hand crafted, but no longer evoked any corporate imagery or feelings. Eventually, we hit the sweet spot. Logos that have a corporate touch but feel very playful and fun.
+
+NOW, THE FUTURE
+Article_GPoP_6.jpg
+With Glitchpop, we think we made a VALORANT skinline that glimpses into a dystopian future, where death has no consequence but it’s life breathes through bright, colorful skins, and a playful but deadly attitude. 
+
+We hope you enjoy them!
+Hi, VALORANT community! Preeti Khanolkar (Producer) and Sean Marino (Art Lead) are back! Last time, we talked to you about the design for the base arsenal and how our team develops skin fantasies within the bounds of competitive integrity. Today, we’re ready to delve into the details of how the Premium Content team built our most ambitious skin yet: Elderflame.
+
+Editor’s Note: Before we named it Elderflame, the entire team called the skin line by the code name “Dragon” for over a year. You’ll see us call it Dragon throughout this article because it’s the best way to tell the Elderflame story.
+
+Dragon is a skin line that’s been close to our hearts as far back as 2015. It’s a testament to our love of VALORANT, our dreams of what a skin in VALORANT could be even before the base weapons existed, and our aspirational barometer. For us, Dragon was precisely about its unexpectedness—no picture or concept could fully convey our vision: a living, breathing creature.
+
+
+“WE’RE NOT READY TO MAKE DRAGON”
+
+In 2018, our senior concept artist, Timur Mutsaev, designed the very first Dragon concept, then known as “Elemental Dragon.” Although it showed incredible potential and hyped the team, there was no world where we could start working on it. That is, we didn’t have a grasp of the VALORANT skins art style, or even know what the game’s skins could be. We hadn’t even finished making all of the base weapons!
+
+When anyone asked when we’d make that badass Dragon skin, the answer was a consistent “We are not ready to make Dragon,” usually heard from Marino.
+
+“ARE WE DOING THIS?”
+
+By 2019, we had made our first few evolving skins and making Dragon a reality began to sound more plausible.
+
+But before solving art and design questions (there were many), first we had to decide if we should even make it. There were some doubts on the team about whether players would even want dragon skins at all, especially given VALORANT’s more grounded tone.
+
+In the meantime, we kicked off brainstorming for new skin ideas but Dragon still remained in the back of our minds. To no one’s surprise, Preeti snuck it onto the team’s brainstorm whiteboard and several team members voted for it.
+
+Worldwide skin concept testing also gave us confidence that, yes, players did indeed like dragons and they wanted a dragon skin in VALORANT.
+
+ANATOMY LESSON
+
+Dragon-Operator-First-Concept-old-style.jpg
+Next, we had to think about the shape and anatomy of a dragon (yeah, gross) and how that would map to our weapons so they’d still be recognizable. The Vandal, Operator, and Judge were clear contenders but the pistol initially stumped us, as we realized a pistol Dragon skin would result in… anatomically challenging reload animations. We eventually made it work on the Frenzy, preserving both anatomy and decorum as you’ll see below.
+
+Also, could we have weapon animations that made the dragon feel alive? Would it have a negative gameplay impact? And, after all those considerations and restrictions, how far could we actually push the fantasy?
+
+With a completed concept (thanks Timur!) and strong execution idea, Preeti again asked Marino if he thought the team was ready to start creating Dragon.
+
+He demurred, “We are not ready to make Dragon.” Here’s why:
+
+We needed to develop tech, which we currently lacked
+The team needed to get a few cycles of experience making other evolving skins first
+We needed to test how long it takes us to make a skin from start to finish—we didn’t want the time cost of making the skin to sacrifice our ability to make other skins
+Our artists didn’t know if they were comfortable with hitting the bar yet—we had a team that specialized in making guns, not living creatures!
+In late summer 2019, Marino finally said “We are ready to make Dragon.” No one believed that he had changed his mind, but we went to work anyway.
+
+CREATURE FEATURE
+
+“Dragon” is kind of a loaded term that you can’t just toss around. Dragons should wield some element like fire, ice or electricity. It should draw from folklore or risk becoming just another gift shop trinket. A solid vision for Dragon meant artists would know how to execute each of their pieces and quicken overall development.
+
+This led to a fun but heated argument at Lead Designer Trevor Romleski’s desk among roughly eight developers, where we all learned a little more about the difference between dragons, wyrms, wyverns, drakes, and other mythical beasts that some of us had wrongfully assumed were all the same thing.
+
+Trevor told us we weren’t really making a dragon; we were making a drake. (Yeah okay, thanks Trevor). We didn’t pivot away from our idea, but it was an educational exercise nonetheless.
+
+Through a series of questions and imagination, we established four core pillars: Dark & Brooding, Living & Breathing, Loyal, and Lethal.
+
+Dragon’s tone would be powerful and badass. Not cute. We’ll say it again: NOT CUTE. This may sound like a trivial detail, but holding true to the “badass” vs. “cute” tone helped shape several key decisions in Dragon’s development. Our dragon is more in the realm of Game of Thrones than within the whimsy of How to Train Your Dragon.
+
+IT’S HAPPENING!
+
+Audio & Inspiration
+
+Updated_Camel_004.jpg	IMG_0024.jpg
+August 19, 2019—we officially kicked off production on the Dragon Vandal. Oddly, it didn’t start with the usual 3D blockout model, but with sound.
+
+Sound Designer Isaac Kikawa is a pretty low-key guy, and one day just casually shared several minutes of audio with the team. Eyes closed, with nothing to expect, the first few seconds made it clear that Isaac had given Dragon a voice: distinct, powerful and threatening. It inspired us.
+
+Isaac explained that he mixed all sorts of sounds to create the dragon’s roars: walruses, Bengal tigers, and of course the Yellow Backed Chattering Lory, among others. He also managed to strip audio from a video of an alligator that Marino’s mother happened to record on her cell phone.
+
+About two months before we shipped Dragon, Isaac made a few additional recordings for the Finisher, which meant befriending a very large camel.
+
+Concept & Model
+
+The first task of newly-hired senior concept artist Denis Lakhanov was a daunting one: the Dragon weapon concepts for the Frenzy, Operator, and Judge. His Frenzy design was when we realized that each of the dragons would have their own unique personalities, which would come to life through all of their components working together.
+
+Dragon-Frenzy-Personality-Exploration.jpg
+The Judge was the brute of the bunch, and all of the concepts felt like they could fit his temperament.
+
+Dragon-Judge-Personality-Exploration.jpg
+We had to make a scope somehow, which led Denis to explore the idea of a dragon with wings that would clasp its wings together to form the scope. Even with a solid tonal direction, the team almost latched onto the idea of a slightly derpy, loveable dragon (Item 1 below). We thought it was funny and endearing, but ultimately not fitting, so we opted for a mixture of 2 and 3.
+
+Dragon-Operator-Personality-Exploration.jpg
+Marino started with the 3D model for the Vandal and worked closely on the design for its face to ensure it felt badass. “Not cute,” remember? The magazine was another modeling challenge to solve. Did you know it’s easy to make a magazine made of magma rock accidentally look like poo? We didn’t either.
+
+To 3D model the rest of the dragons, Outsource Managers Hayley Chen-O’Neill and Joel Kittle enlisted support from our external partner who specializes in extremely high-quality 3D art for games. The Frenzy and Judge proved to be very challenging, but the Operator was such an unruly beast that it almost didn’t make it through development. On several occasions, we thought we had to admit to ourselves that a massive, winged Operator just would not work. But, in the end, the team made it work because they couldn’t imagine letting players down.
+
+Animation
+
+Senior Animator Sean McSheehan knew that animation was the most critical component when it came to gameplay, based in part on our earliest playtests with players.
+
+The biggest point of feedback was that it was hard to tell if a gun was ready to fire when their hands didn’t directly interact with it (we had experimented with a “summon” animation for one of our prototypes). Through these player labs and design team playtests, McSheehan learned that a character’s hand motions must match the beats of the base gun’s reload. Otherwise, there’s a risk that the reload feels slower despite literally being the same speed.
+
+McSheehan worked in lockstep with design to validate every motion and ensure that even when he pushed the assets far, it was never too far.
+
+Animation is also where Dragon’s personalities really emerged. The first test was on the Vandal that changed from a panic clawing for the magazine to an enraged beast.
+
+Dragon_Vandal_reload_exploration.gif
+Though the idea above didn’t work for the Vandal, it was perfect inspiration for the Frenzy’s reload. As the baby of the brood, a panicky “gimme gimme” reload felt just right. McSheehan also utilized the Frenzy’s tail so it felt as if it were scurrying into the player’s hands.
+
+Dragon_Frenzy_Equip.gif	Dragon_Frenzy_Equip_Alternate.gif
+For the Judge, we likened Denis’ concept design to a rhino. It’s big, brooding, and forces its way through all obstacles. He’s impatient and angry too, so he uses his mouth during the reload and crushes the magazine. This earlier animation test felt too playful, while the one that ultimately shipped better captured the Judge’s boorishness.
+
+Dragon_Judge_reload_exploration.gif
+Given the size of the Dragon Operator, we felt the weapon carried with it an elderly wisdom. Accordingly, his movements are smooth, flowy, and dramatic. He gives a little snort when you reload him. And though he’s not aggressive like the Vandal or Judge, he’s still dangerous.
+
+Keep an eye out for McSheehan’s subtle idle breathing animations that really give the dragons life.
+
+VFX
+
+Our senior VFX artist, Stefan Jevremovic, had a lot of effects to create for each of the Dragons, all within the realm of fire: smoke, embers, and flames. To give the dragons an extra menacing and lethal feel, he added idle fiery effects, which he embedded within the dragons’ bodies. As the dragons breathed, additional fire effects would ebb and flow deep within the crevices of their scales.
+
+VFX ended up being quite critical for defining not only the Dragon melee, but VALORANT melees in general. First, back to the concept. We had Denis explore a few options for what the melee could be, ranging from a dragon claw all the way to a literal baby dragon. One baby was enough.
+
+Also, it looked like the poor little guy was being choked and we felt weird about that.
+
+Dragon-Melee-explorations.jpg
+Once we’d decided that the melee wasn’t a baby dragon, we felt like it was okay to set it on fire. This was also the moment when we realized just how far we could push melees in our game compared to guns! Stefan pushed the fire effects and smoke as far as he felt he could get away with and the result was, surprisingly, very well received...well received enough that Sal Garozzo came running to us to tell us how much he loved the melee. (Sal usually doesn’t have much to say about skins, unless it negatively impacts gameplay, so when he asked “Who made that melee?” we thought we’d done something wrong.)
+
+So, Stefan pushed the melee even further, and then went back to amp up a few other melee skins he’d added effects for in the past.
+
+PENCILS DOWN, EXHALE
+
+As we write this article, we’re putting the very final touches on Elderflame (we’ll stop calling it “Dragon” now): the chroma materials, the chroma VFX, and the Finisher. And the Elderflame card, which fully evokes the idea that Elderflame is a goliath, not just a tiny beast you hold in your hands.
+
+Ares_Dragon_Wingspan_Final_V1_19June2020small.jpg
+So, why the name “Elderflame”? We wanted it to feel like a dragon breed that thrives and rules the alternate fantastical world it inhabits. Even with this clear direction, naming this skin line was difficult to say the least.
+
+Truth is, it’s indescribably hard to name something you love and have poured so much passion into—10 months of passion, to be exact—while simultaneously trying to ship a bunch of other skins and cosmetics.
+
+Oh, and the game. We shipped the game. And it has dragons in it!

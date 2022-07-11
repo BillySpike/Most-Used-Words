@@ -1,0 +1,222 @@
+Hello again! I’m Brian Chang, a member of the Competitive team on VALORANT. This article is going to be a bit different than previous ones in the Game Health series, focused on a very specific topic: map randomness. 
+
+If you’ve ever wondered how it was possible for you to play Icebox for 4 games in a row, you’ve come to the right place! 
+
+A common sentiment that we’ve seen in the past is frustration when you encounter the same map multiple games in a row. In a recent survey, over a third of VALORANT players responded that it is “Extremely Frustrating” to encounter the same map multiple times in a row.
+
+This isn’t too surprising. Playing the same map gets stale quickly, and limits the type of challenges that you face in the game. As a result, we wanted to make sure that we could improve the diversity of maps played without compromising the health of matchmaking (by influencing things like queue times or match balance). 
+
+To explain what changes we made and the results of those changes, let’s first take a look at what the old system looked like.
+
+LAUNCH (JUN. 2020) TO PATCH 1.08 (SEPT. 2020)
+When the game initially launched, map selection was truly as random as it could be. When 10 players entered a match, our matchmaker would randomly choose any of the available maps (back then, we had a total of 4 maps). All maps had an identical chance (25%) chance of being chosen, regardless of whether a player had played that map recently. 
+
+Obviously, with only 4 maps available to choose from, players were experiencing consecutive maps quite a bit. Here’s what the distribution of consecutive map streaks looked like during this time period:
+
+05302022_GameHealthSeriesPart2_MapDiversity_Chart_2_v02.jpg
+Over the course of 5 games, 26% of players saw the same map 3 or more times.
+If you played 5 games during this time period, there was a 26% chance that you’d get the same map 3 or more times in a row. Around 1% of the most unlucky (or lucky?) of you saw the same map 5 times in a row out of 5 games.
+
+PATCH 1.08 (SEPT. 2020) TO PATCH 4.04 (MAR. 2022)
+We quickly realized that “full random” selection was not ideal—no matter how much you love a map, 5 consecutive games on Ascent can get stale pretty fast. To combat this, we implemented a “pseudo-random” selection system, aimed at showing maps a player hadn’t seen in recent games. 
+
+This method favored maps that were, on aggregate, not seen by the 10 players in a game. It also heavily punished maps that any player had experienced in a streak recently. 
+
+Long story short, we aimed to reduce the number of streaks encountered, but the selection itself was still a weighted “random” choice. In other words, it was less likely for someone to get unlucky and experience a streak, but it was still very much possible to get unlucky. For instance, a game could have a handful of players who recently played games on Split. This could lead to Split having a mere 5% chance of being selected as a map. However, that 5% chance meant that some players would see the Split 4, or even 5+ times in a row.
+
+Here’s what the new distribution of consecutive streaks looked like:
+
+05302022_GameHealthSeriesPart2_MapDiversity_Chart_3_v02.jpg
+
+As you can see, the number of players experiencing a streak of 3 maps or more went down significantly (26% in the “truly random” method vs. 10% in the “pseudo-random” ticket method). 
+
+As we introduced more maps to the pool, we saw significant reductions in how often players were encountering streaks of the same map. Here’s what the streak distribution looked like as we released more maps (with no major changes to our map selection methodology): 
+
+05302022_GameHealthSeriesPart2_MapDiversity_Chart_4_v02.jpg
+Streaks became more rare as we released more maps.
+Just by increasing the number of maps possible to play, the number of 3+ streaks went from 10% to 3%, with no changes in map selection methodology!
+
+PATCH 4.04 (MAR. 2022) TO NOW:
+The results of the changes up to now led to a significant improvement, enough for us to think that our work here was done for the time being. Your feedback, however, told us there was more to be done. 
+
+In a survey sent out to players in North America around March of this year, 67% of players responded that they feel like they’re encountering the same map multiple times in a row “Often” or “Very Often.” 
+
+05302022_GameHealthSeriesPart2_MapDiversity_Chart_5_v02.jpg
+Source: NA Players, March 2022
+This was pretty alarming to the team; despite the improvements that we saw in our telemetry, the player perception was that map streaks were still pervasive in the game. On top of surveys, we were also seeing a pretty cyclical weekly “why did I get Icebox 3 times in a row?” Reddit/Twitter post. 
+
+We decided to explore improvements to the system one more time. Specifically, we realized that what you were asking for wasn’t more “random” map selection, but a more diverse one. By trying to make selection random via the old system, we weren’t fully minimizing the “bad luck” scenarios that you were experiencing. 
+
+So instead of making map selection a random process, we instead opted to create a deterministic choice that always selects the map that minimizes streaks. If a certain map showed up too often in your recent history, we would remove that map from the selection pool altogether. From there, we would always choose the map that the 10 players in the lobby had seen the least.
+
+The change was implemented in Patch 4.04, first with a regional test in LATAM, then rolled out to the rest of the world. It was important to us that these changes didn’t increase queue times or worsen match balance, since adversely affecting either of those metrics would be a much more costly tradeoff for us to make.
+
+Here are the results of the most recent changes to map streaks: 
+
+05302022_GameHealthSeriesPart2_MapDiversity_Chart_6_v02.jpg
+No player in the first week of April saw the same map 5 times in a row in Competitive queue.
+The most significant improvement thus far! The percentage of players experiencing the same map 3 times in a row has now dropped to 0.06% (1 in every 1700 or so players). What’s more is that in this week period that we looked at in Competitive queue, exactly 8 of the several million players saw the same map 4 times in a row. Fun fact, 2 out of those 8 are serial queue dodgers that avoided specific maps (for the other 6, sorry about the insanely bad luck). No player saw the same map 5 or more times in a row. This was done with zero negative impact to queue times or match balance. 
+
+There are other metrics that we tracked alongside map streaks, like how often you saw the same map frequently (not necessarily in streaks), and how long it took before you played each map at least once. Both of these metrics also improved significantly after the changes we made in Patch 4.04.
+
+AND NOW… LATER?
+As we mentioned in the most recent Ask VALORANT, we do believe that there are times when agency around map selection does make sense, specifically when it comes to coordinated, high-stakes, competitive team-play, like our planned tournament mode.
+
+At this point, we feel relatively confident that deterministic map picks alleviate much of the pain regarding diversity in map selection. Our most recent surveys also show that sentiment improved after the changes. We’ll continue to monitor our data to see if any additional changes need to be made, but so far, the changes seem good!
+INTRODUCTION - THE WAY INTO THE PROBLEM
+Comms toxicity covers what we consider unwanted behavior over in-game voice and chat communication. While we can never remove the bad conduct itself from individuals, we can work to deter behavior such as insults, threats, harassment, or offensive language through our game systems. There’s also room to encourage “pro-social” behavior.
+
+As we’ve said before, we’re dedicated to being a strong force in paving the way for a brighter future for all when it comes to comms-related toxicity in gaming. There’s been what we believe to be healthy progress in this area, however, we can see there is more to do.
+
+While there is no silver bullet, we want to walk you through some of the steps we’ve taken (and the measured results), as well as the additional steps we’re planning to take to improve the chat and voice experience in VALORANT.
+
+WHAT HAVE WE DONE SO FAR?
+First, let’s talk about the work we’ve done up to this point. When it comes to unwanted communication in our game, there are two primary forms of detection that we rely on.
+
+PLAYER FEEDBACK
+The first form of detection is player feedback—specifically reports! One of the reasons we highly encourage all of you to report bad behavior (whether that be someone abusing chat, or being AFK, or purposely throwing), is because we actively track and use that data to administer punishments.
+
+To be clear, this doesn’t mean that anyone who gets reported will get punished—we look for repeat offenders and administer escalating penalties that start from warnings and go all the way to permanent bans (when bad enough).
+
+We’ve talked before about creating player behavior “ratings” when we talked about AFKs in VALORANT. Similarly, we’ve created an internal “comms rating” for each player in VALORANT, so that those who commit repeat offenses are very quickly dealt with.
+
+On the other hand, there are some things that people type and say in our game that are what we consider “zero tolerance” offenses. These are things that make it clear that, based on what’s been said, we simply do not want a player who has committed this offense in VALORANT. When we see reports of this type of language being used, we escalate to harsh punishments immediately. (Currently, these punishments happen after the match has ended—more on that later.)
+
+MUTED WORDS LIST
+As I am sure some of you have experienced, automatic text detection isn’t perfect (players have found pretty “creative” ways to bypass our systems), so there will be times where “zero tolerance” words will get by our detection. For this reason, we recently implemented a “Muted Words List” that allows you to manually filter out words and phrases that you don’t want to see in the game.
+
+This serves two functions:
+
+First, knowing that our automatic detection systems aren’t perfect, we want to give some agency to you to filter unwanted communication in the game. Second, we plan on incorporating the words that you filtered using the Muted Words List into our automatic detection in future iterations of the system (so in a way, using the Muted Words List will improve our automatic detections in the future!).
+
+WHAT WERE THE RESULTS?
+So far, we’ve explained to you some of the things we’ve done to detect, punish, and mitigate toxicity in VALORANT. This is only the tip of the iceberg and we have a long journey ahead of us, but let’s take a look at some of the results of our actions.
+CHAT MUTES
+GS_Graph_1.jpg
+
+First are chat mutes, the most common form of initial punishment that we administer for alarming text or voice comms. In January alone, we administered over 400,000 text and voice chat restrictions in the form of a mute. These are automatically triggered when a player types something in chat that we detect as abusive, or when enough reports have accumulated over time (from different players in different games) such that we have strong confidence that a player is abusing text and/or voice.
+
+The road doesn’t end here! Please note that we are working on improving this model so we can confidently detect more words that may be currently dodging the system. We’ll continue to push for improvements on this front.
+
+GAME RESTRICTIONS
+GS_Graph_2.jpg
+
+Next up are game restrictions. These are bans that we place on accounts that commit numerous, repeated instances of toxic communication. The bans could range from a few days (for smaller violations by relatively new offenders), to year-long ( for chronic offenders). Permanent bans are reserved for if the behavior is especially egregious and/or repeated.
+
+These bans didn’t ramp up on VALORANT until around the middle of last year (we were trying to make sure bans were fully justified). In January, we dished out over 40,000 bans.
+
+One last point of data we’d like to share: the above numbers are indicators of behaviors that we caught and punished, but not necessarily an indication that toxicity in VALORANT has gone down as a result. In fact, when we surveyed players, we noticed that the frequency with which players encounter harassment in our game hasn’t meaningfully gone down. Long story short, we know that the work we’ve done up to now is, at best, foundational, and there’s a ton more to build on top of it in 2022 and beyond.
+
+We’re trying different ways to engage with the player base in the coming year to better understand where we can improve, and we’ll be sure to be transparent about where we are in terms of the tech we are building and where our head’s at/heading so we can keep the feedback loop open with you all.
+
+WHAT WORK IS PLANNED?
+To be sure, we know there is more to do. So we now want to share a bit more about what we’re currently working on:
+
+Generally harsher punishments for existing systems: For some of the existing systems today to detect and moderate toxicity, we’ve spent some time at a more “conservative” level while we gathered data (to make sure we weren’t detecting incorrectly). We feel a lot more confident in these detections, so we’ll begin to gradually increase the severity and escalation of these penalties. It should result in quicker treatment of bad actors.
+More immediate, real-time text moderation: While we currently have automatic detection of “zero tolerance” words when typed in chat, the resulting punishments don’t occur until after a game has finished. We’re looking into ways to administer punishments immediately after they happen.
+Improvements to existing voice moderation: Currently, we rely on repeated player reports on an offender to determine whether voice chat abuse has occurred. Voice chat abuse is significantly harder to detect compared to text (and often involves a more manual process), but we’ve been taking incremental steps to make improvements. Instead of keeping everything under wraps until we feel like voice moderation is “perfect” (which it will never be), we’ll post regular updates on the changes and improvements we make to the system. Keep an eye out for the next update on this around the middle of this year.
+Regional Test Pilot Program: Our Turkish team recently rolled out a local pilot program to try and better combat toxicity in their region. The long and short of it is to create a reporting line with Player Support agents—who will oversee incoming reports strictly dedicated to player behavior—and take action based on established guidelines. Consider this very beta, but if it shows enough promise, a version of it could potentially spread to other regions.
+Lastly, we talked about this when we discussed AFKs, but we’re committing to communicating both the changes we make, as well as the results of those changes, in a more regular cadence. It helps us stay accountable, and hopefully helps you stay informed!
+
+EXTRA WORD ON VOICE
+When a player experiences toxicity, especially in voice comms, we know how incredibly frustrating it is and how helpless it makes us feel both during the game, as well as post game. Not only does it undermine all the good in VALORANT, it can have lasting damage to our players and community overall. Deterring and punishing toxic behavior in voice is a combined effort that includes Riot as a whole, and we are very much invested on making this a more enjoyable experience for everyone.
+
+VOICE EVALUATION
+Last year Riot updated its Privacy Notice and Terms of Service to allow us to record and evaluate voice comms when a report for disruptive behavior is submitted, starting with VALORANT. As a complement to our ongoing game systems, we also need clear evidence to verify violations of behavioral policies before we can take action, as well as help us share with players on why a particular behavior may have resulted in a penalty.
+
+As of now, we are targeting a beta launch of the voice evaluation system in North America/English-only later this year to start, then we will move into a more global solution once we feel like we’ve got the tech in a good place to broaden those horizons. Please note that this will be an initial attempt at piloting a new idea leveraging brand new tech that is being developed, so the feature may take some time to bake and become an effective tool to use in our arsenal. We’ll update you with concrete plans about how it’ll work well before we start collecting voice data in any form.
+
+HOW YOU CAN HELP!
+The only thing we’d ask is that you stay engaged with the systems we have in place. Please continue to report toxic behavior in the game; please utilize the Muted Words List if you encounter things you don’t want to see; and please continue to leave us feedback about your experiences in-game and what you’d like to see. By doing that, you’re helping us make VALORANT a safer place to play, and for that, we’re grateful.
+
+We’ll see you in the next update! In the meantime, feel free to send any feedback or questions to members of the S&PD Team:
+INTRODUCTION - THE WAY INTO THE AFK PROBLEM
+
+Someone who is “AFK” is someone who leaves or otherwise does not participate during an ongoing game. Most multiplayer games have an issue with AFKs, and all competitive team-based multiplayer games face this issue to some degree or another.
+
+VALORANT is no exception but that doesn’t mean we can’t discourage disruptive behavior. An AFK in a game compromises the competitive integrity of the match (matches aren’t fair if it’s a 4v5), and as a result downgrades general enjoyment of the game. It’s something we knew was a must-solve for players early in the development of the Social and Player Dynamics team.
+
+Earlier this year we updated you on the work to inhibit AFKs (along with some other stuff), where we talked about some improvements that we’d already made and other work that was in progress for AFKs.
+
+When addressing AFKs, we wanted to make sure of a few things:
+
+We don’t punish you for unlucky games. Stuff happens (your cat “accidentally” kicks the power cord out) and we don’t want to punish you for rare, unfortunate circumstances that are out of your control.
+We want a scalable way to detect AFKs that avoids false positives. It would be really bad if someone was holding an angle for a while staying completely still and we flagged them as AFK.
+We want to make sure that there are clear signals that we can measure to see if our efforts are successful. Without these benchmarks, it would be hard for us to know whether our work actually made a difference, or if you’re still encountering the same amount of AFKs.
+WHAT HAVE WE DONE SO FAR?
+
+March this year was our first foray into a system to find AFKs. The simplest version of this system (which is what we started with) was to look for people who had either disconnected from the game, or stayed completely inactive for a prolonged period of time.
+
+This covers most AFKs (from internet going down, to rage-quitting, to cats), but it left us room to improve. Specifically, we didn’t yet cover the potentially more malicious AFKs: people who intentionally do not participate in the game, but stay “active” in the game so as to not get disconnected. These are often the worst to deal with—they intentionally look to ruin the experience of everyone, especially teammates.
+
+To address these situations, we set trackers to look for specific behaviors and metrics in-game that we can then tie to AFKs. We can’t get into specific detail about those trackers (since revealing how we detect AFKs would make it easier for bad actors to bypass those rules). What we can say, however, is that our focus was to make the detection process heavily scalable. When a new behavior or method of detection is identified, it is very easy to look for it in our system (and take action when we find certain behaviors).
+
+Finally, we wanted to make sure punishments for AFK were fair (forgiving for people who AFK on a rare occasion, but severe for serial leavers). To accomplish this, we created an AFK “rating” per player that tracks their AFK behavior across all of their games played. The more a player commits AFKs, the lower their rating becomes, and the harsher their punishment will be on a future violation.
+
+In other words, if you’re a player who rarely or never goes AFK, then your AFK rating will be good, which means that if you do happen to accidentally AFK in a game, you won’t be punished severely (for example, you’d receive a warning message).
+
+Conversely, if a player rage quits every other game, they’ll quickly find themselves going from receiving a warning, to XP denials, to queue restrictions, and eventually banned from playing the game as their rating tanks. Throughout the process of escalating penalties, they’ll have multiple explanations of why we took action, and what behavior they need to change...in case they come crying.
+
+We also wanted to make sure we avoided edge cases, like leaving in the middle of a Deathmatch game. If a player AFKs in Deathmatch, the harshest punishment they will receive is denial of XP for the game that they were AFK in. This is because being AFK in a Deathmatch doesn’t ruin the experience of teammates (everyone is your enemy in Deathmatch). However, we did notice a sizable number of accounts who were farming XP in Deathmatch by entering a game and going AFK.
+
+THE RESULT?
+
+None of this talk matters unless it actually improves your experience playing VALORANT. So how do we find out what worked?
+
+There’s a couple of data points that we look to measure this. We could spend a whole article talking about just the data (in terms of how we measure, potential biases, etc.), but here are some of our benchmarks:
+
+AFKs Detected Over Time
+AskVal_December_2021_Graph_1.jpg
+
+To start, here’s our detected severe AFK rate (number of AFKs per game) over time in Unrated and Competitive games. For this graph, we define “severe” AFKs as anyone who is detected as AFK for 6 or more rounds in a match.
+
+The AFK rate stays at a similar level for the first six or so months of launch, but we see detected AFKs take a dive in early 2021. This lines up with when we started implementing our improved AFK detection and penalties.
+
+Overall, the AFK rate in games has more than halved over the last year! Things have once again stabilized at a new, lower value.
+
+AFK Reports
+One problem with measuring detected violations is that we don’t really know about AFKs that our system isn’t detecting. Overall, we’re confident that AFKs have gone down, but it’s unclear how much more work there is to be done. One way that we can measure whether you truly feel like you’re experiencing fewer AFKs is to look at report counts.
+
+AskVal_December_2021_Graph_2.jpg
+
+The top graph shows AFK “Report Rate,” the number of reports we receive for AFKs, normalized for hours played. The bottom graph shows the percent change in the AFK report rate over time since the start of the year. As you can see, after a drop in March, report rates are down around 17% since January.
+
+There are some caveats: It could be the case that players “gave up” on reporting, but comparing report rates of other, non-AFK categories over time gives us confidence that this is a material change resulting from our work.
+
+BETTER DETECTION, BETTER INFORMED
+
+The good news from our work so far is that the various detections and interventions that we set in place to detect and penalize/deter AFKs seems to have made a meaningful impact on the frequency with which AFKs happen in your games.
+
+But there’s more to be done!
+
+For one, we can continue to improve detection. Since we first started work on AFKs, we broadened the different behaviors that qualify as an AFK in our system. As players get more… “creative” with how they AFK in game, so will our detection. The added bonus here is that a lot of the more clever AFK techniques tend to overlap with other unwanted behaviors in our game, such as intentionally feeding, griefing, or automated bot account farming (more on this in another article).
+
+Second, we can keep you informed. Sharing both the process and results of our work to improve VALORANT’s community is an outlook to which we are committed. It’s something that you’ve told us you want. It’s one of the reasons we wanted to write these articles in the first place.
+
+As we move ahead, we’ll continue to keep you posted on the state of the game, whether it be on the state of further reducing AFKs, or detecting and acting on some other behavior. What we ask in return is that you continue to provide questions, thoughts, feedback on what you want to see from us to make VALORANT a more safe, fun place to be.
+
+You can find us on Twitter here and here (but we’re all over!).
+
+Thanks for taking the time to read through this. Next time you hear from us, we’ll chat about toxic gameplay behaviors (friendly fire, sabotage, intentionally feeding, etc.).
+Hi!
+
+We’re devs who together work on Gameplay Systems in VALORANT—specifically the Social and Player Dynamics team (friends system, text and voice chat, and monitoring player behavior), as well as the Competitive team (competitive systems, MMR,and matchmaking)—here to lay out plans for a series of articles meant to go in-depth on some popular topics.
+
+Something that you’ve voiced to us is that you want more transparency around the Competitive and Social & Player Dynamics (SPD for short) space. Sure, patch notes provide some updates of the things we changed in VALORANT, but we think it’s important to show the impact of our work so far and what’s ahead for this space.
+
+Starting this week, we’ll begin to share a series of deep-dive articles, each of which will cover a very specific topic within our teams. Some articles will share more about the work that’s already happened (and the impact we’ve measured as a result) and some will focus more on planned or ongoing work in a certain area.
+
+Below is the list of areas that we plan to cover. All articles are meant to be a way for you to learn more about topics that you’ve told us that you want to hear more about:
+
+AFKs - Those players who stop playing in the middle of a game
+Gameplay toxicity - Such as Intentionally feeding, friendly fire, etc.
+Text/Voice chat toxicity - The people who ruin it for everybody
+Smurfs, or secondary accounts - We know, probably our most requested topic
+Matchmaking/match fairness - in Competitive queue
+As we mentioned, we’re planning on releasing these articles periodically. The first topic we’ll dive into is AFKs in VALORANT, and it’s coming out tomorrow.
+
+You can track the series as it updates by clicking the tag found at the bottom of this article.
+
+One last thing! We’ve never done something like this before, so if you have feedback, comments, thoughts, please let us know. It’s possible we don’t hit every topic that you’ve raised concerns over, so if there’s something you don’t think we’ve covered that you’d like to see get some love, please tell us.
+
+The best way is to keep posting your concerns/feedback on your favorite places (Discord, Reddit, etc.) and we’ll see them. Or find the authors of the respective articles above (when they post, we’ll include a link!). You can also always tag the comms team and they can share it right away.

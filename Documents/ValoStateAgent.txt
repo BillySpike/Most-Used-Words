@@ -1,0 +1,242 @@
+It’s been a minute since the last time I typed words into a Google Doc–but here we are. Patch 4.04 brought the great wave of Controller balance changes, Yoru’s Rework created the craziest of fakeouts, and we had some … unfortunate bugs here and there. We are still monitoring how the landscape of VALORANT is settling after these changes, so I don’t want to comment prematurely, but there are definitely some fun new plays happening.
+
+I wanted to give a quick note around future balance updates/ongoing conversations. Whether it be a future State of the Agents, Dev Diaries, or any other location, you will see the rest of the design and balance team speaking towards those topics in various channels.
+
+Most of my updates will be focused on New Agents… so with that said, let's get into the next Agent!
+
+Remember, new Agents take 12–15 months to develop, and we focus on questions like:
+
+What is missing from current, core playstyles?
+Are there thematics that present big opportunities?
+What’s needed for game health?
+…and more.
+You can also get a better idea about our development priorities (and see us talk) in the latest Neon Dev Diary.
+
+There have been a lot of conversations within the Characters team around Initiators, specifically Sova. His Initiation tools are unique in that they rely on reconnaissance and information gathering to give you and the team tools to decide your next step. So much of VALORANT’s tactical loop revolves around information. Knowing where enemies are/are not and exploiting that info to execute during that sliver of a window is key to many successful wins.
+
+So the notion of another Agent that revolves around the information gathering aspect of the tactical loop has, for a while, been top of mind for us.
+
+Within that space we had a dream for something new, so when “NickWu”joined the team (previously part of Premium Content) we put his expert eyes on this opportunity. Our focus early on was identifying unique gameplay differences within the realm of recon/info, and landed in a space that has more “localized” Initiation and recon tools.
+
+This next Agent should give you a more…intimate feeling when hunting down enemies. Of course, there is our theme—but the thought of giving away too much frightens me so I’ll leave that out.
+
+Well friends, I’ve searched my thoughts for all the words to type here, and that's all I got. I keep having this recurring nightmare that I won’t finish the Act II Battlepass (THE BP IS SO GOOD I NEED TIER 48). I’m scared of the grind, but hey “Herkesin bir korkusu var.”
+Welcome back into 2022. This is the Characters Team’s Part 2 of the Yoru Update article from last year. Right upfront, we are aiming to launch the Yoru rework during Episode 4 Act II.
+
+Before we get there, we want to show which way the design direction is headed, our concept explorations to pair with the gameplay changes, and work-in-progress art in-game. Our time as of writing this is focused on bringing these changes to life—these always take quite a bit of time!
+
+The loop of creating art to match gameplay, playtest, and iterate based on feedback always takes a bit of time, but ultimately, it’s what leads to VALORANT’s consistent, tactical gameplay.
+
+Let’s kick this off with a chunky change.
+
+Ep1_a1_article_Divider_yoru.jpg
+
+FAKEOUT
+
+Fakeout—an ability that currently directionally mimics the sound of Yoru’s footsteps to mislead enemies—is now a full copy of Yoru, that runs forward, and when damaged, explodes and debuffs enemies.
+
+As added flavor, when the copy is shot, it faces the direction of the person that fired the shot and flashes towards their position in a conal direction. A change like this requires the most in terms of new art, so we explored how to visualize these changes early on. We expect you have some questions:
+
+How do I decoy, without confusing my team?
+
+Given the fast-paced, millisecond reaction speed nature of VALORANT gameplay, we needed to clearly differentiate:
+
+As an ally of Yoru, you will be to tell that it is his copy, and not the real Yoru. This is so that Yoru is not accidentally confusing his allies between who the real one is, and who the copy is.
+As an enemy of Yoru, they will see an identical copy of Yoru.
+During playtests we found that the copy was effective at disrupting an enemies moment-to-moment gameplay—which is awesome—but not when your team gets confused. Below are some of the early explorations for how to visualize the ally Yoru copy.Decoy_Material_Thumbnails_2.jpg
+How do I look when exploding?!
+
+There needs to be cohesion with what the decoy looks like, how it looks when starting to explode (so that you know something is about to happen) and finally the effect. All of these come together to create a thematically cohesive moment that also communicates the gameplay clearly. Some early explorations down that route.
+
+Flash_States_Pose_Presentation_2.jpg
+
+
+GATECRASH
+
+Not much has changed with this one since the last post, aside from the team creating the additional art elements needed to bring this portion of Yoru’s update to life. The big thing here is the “puddle” left on the ground after a fake teleport. While the goal of the fake teleport is to create confusion about Yoru’s location, you should be able to go to where the fake teleport occurred, and then understand whether the real Yoru is around, or was it a misdirection?
+
+
+DIMENSIONAL DRIFT
+
+OK, prepare for a text dump. Here’s a summary of the changes during Yoru’s ult:
+
+Yoru is no longer revealed to enemies
+Yoru is able to cast all utility while in Dimensional Drift
+Enemies can hear Yoru’s footsteps
+Nearsighted is removed
+Unequip delay time is increased slightly
+Cast delay added when casting Dimensional Drift, preventing the invulnerability frame on cast.
+So what were the goals here?
+
+
+When looking at updating Yoru’s ultimate, we wanted to fix some of the unintended play patterns that have shown up in-game, and instead give Yoru the tools to gain ground on enemies using stealth and initiate the rest of his team to follow.
+
+Reducing the amount of time he can stay invisible should also stop the “invincible” Yoru from simply dancing in his enemy’s face. The new unequip time is meant to hinder the combo of blasting Shorty right after switching to visible. An added delay to his invulnerability stops Yoru from relying too much on running around with his mask in his hand and jamming it on at the first sight of danger.
+
+Instead, Yoru can now see the battlefield unhindered, allowing him to enter enemy zones, take in the state of the map and mastermind a play— based around Yoru’s change that allows abilities during his ult.
+
+Imagine a Yoru that can send teleporters into new places—deep behind enemy lines, place flashes to move enemies off angles for his team, or possibly land the perfect blind to mask his “de-stealth” and claim a frag. We think this update unlocks a lot of new possibilities for a Drifting Yoru, and we hope that it helps bring some of his fantasy of stealth infiltration to life.
+With 2021 wrapping ( ;_; where did the year go?) I wanted to send out one more update and give some insight into next year. But first, thank you to everyone who has played VALORANT over this past year. It’s been a wild ride, the fan art, cosplay, memes, hype af plays—all have been more than we could have ever imagined.
+
+I mean we hoped for it, but to actually have it happen blew us away. Hopping into a match and getting to frag out with y’all has been a blast, it’s a once in a lifetime opportunity and we’re looking forward to making more dope stuff next year.
+
+AGENTS YEAR IN REVIEW
+Consider this: Within one hour of launching an Agent, they get more total hours of play than all the months of internal playtesting combined.
+
+Yoru tore his way into games, but for some of you, he fell flat on his promise (catch up on those plans in our Yoru article!). Astra map control saw heavy presence in coordinated play. KAY/O suppressed everyone in his path, while at the same time the Patch 3.0 econ changes shook up who and what was played across the board. Viper created some sharp meta shifts, giving her a more prominent home on maps like Icebox and Breeze. Currently, Breach is seeing refreshed life on Fracture as well.
+
+Chamber appeared to close out the year, holding down sites with extreme precision. We have seen many players from different playstyles pick him up, and stick with him. He’s currently settling into his own spot within the roster, and we're excited to see how he evolves and shakes up pro play in the coming year.
+
+Y’all are adapting in new and amazing ways and it’s what keeps VALORANT evolving. We can’t wait to see how you use what we have planned for you in 2022 :)
+
+Speaking of which...
+
+EARLY 2022 BALANCE
+Since Patch 3.0, we know things on the Agent balance side have been lighter than our previous Episodes, and going into 2022, we’re looking to change that. We spent a lot of time towards the end of 2021 looking at how we work, restructuring some of the team, re prioritizing work, and welcoming many new members to the team.
+
+What does all of this mean to you? Throughout 2022 you should see a bigger focus on Agent balance. Y’all should be seeing updates to various Agents across the board throughout the first six months of the year, additionally we will be focusing more on addressing emergent balance issues faster than we did in 2021. As those updates are locked down, we will share that information with y’all before they go live. Keep your eyes peeled throughout the year!
+
+THE NEXT AGENT
+Mga kaibigan ko,
+
+I’m not sure if this is tradition at this point, but I know many of you immediately scroll to the bottom just to see what is on the horizon. Hopefully all of us are going into next year with renewed energy, ready to take on new and unexpected challenges. Kicking off next year is an Agent who can outpace the rest of the roster, shocking the competition, and sliding straight into the fight.
+
+Before they arrive, we are going to take our usual winter break, recharge, and amp ourselves up for next year.
+Ryan “Rycoux” Cousart, game/character designer, is here with me (John Goscicki, character producer) to be upfront with where Yoru is at and where he’s headed. But before we dig into some of the details of what we are looking to do, we wanted to outline our thought process going into Yoru’s update.
+
+It’s fair to say that when Yoru launched there was a TON of excitement around this boyo, but as y’all experimented with him, many of you hit the conclusion that his outputs were not on par with the rest of the roster. We took the time to really look at what Yoru should be offering, and give him more/different tools to bring to life an effective version of the fantasy y’all have latched onto.
+
+So without me blabbering on more, let's hand this over to the person behind the recent design work on Yoru. He has videos!
+
+Ep1_a1_article_Divider_yoru.jpg
+
+DESIGN GOALS: WHAT’S CHANGING?
+Hello, again everyone :D
+
+I’m usually constrained to 280 characters when talking about Yoru, so I’m excited to use infinite space to talk about what we’ve been cooking. As John mentioned, we were floored by the excitement for Yoru and our vision for what he could offer to the roster—but felt there were some gaps we needed to address.
+
+Your feedback along with the gameplay from those of you that have tried to make Yoru work has sparked a vision we are hoping to ignite: Yoru becomes a master of deception through an increased output of disinformation from round to round.
+
+So what does this mean?
+
+We’ve learned that in addition to our duelists needing to offer something unique to the field, they also need to have a strong baseline value that any team at any round can rely on in order to maintain strong viability on any team composition. Yoru’s payoff “dream plays” seem to only happen after rounds of conditioning the enemy, which can leave him ineffective for longer than we’d like.
+
+In short, the aim is for Yoru to have better tools to trick opponents, a stronger baseline value across his kit, and higher impact per round. But what does this all look like? Please consider everything below a work in progress and not final change notes.
+
+IT GO RIGHT FOOT UP, LEFT FOOT FAKEOUT
+The first ability to look at is Fakeout, the footsteps decoy that drove a lot of the deceptive plays that we loved to see. To help with Yoru’s mind games, we’ve decided to replace the footsteps with a new visual: a carbon copy of Yoru that runs forward, and upon getting shot, will wind up and explode, debuffing enemies.
+
+BLACK LEATHER GLOVES, NEW SEQUENCE
+With Gatecrash, we’ve lowered the range at which enemies can see and hear the tether on the map while it travels. We’ve also increased its travel speed by 20%. In addition to these quality of life improvements, Yoru can now activate the tether from a distance to trigger a fake teleport, playing the same audio and visuals as if he were teleporting.
+
+
+EITHER WAY, WE ‘BOUT TO DRIFT
+We're not ready to share all the changes we're testing internally on Yoru right now, but we're confident our rework will help unlock Yoru's potential. This may include testing a few changes to Dimensional Drift help Yoru break sites wide open.
+
+THE NEXT UPDATE
+Although we’re confident these changes will help Yoru get to a better state, when he drops early next year, we’ll continue to monitor them to ensure we can quickly make adjustments accordingly. I know you’ve been waiting, but we hope you all end up having as much fun as we’ve had with Yoru (internally) and I’m stoked to see everything you can soon teach us about Yoru and his fresh gear.
+
+Thank you for sticking with us through this journey, we hope this visibility helps bridge the gap between now, and when he (re)launches. We'll post probably just one more of these Yoru specials before his rework drops early next year. In that article, expect to see art updates that go into supporting these changes.
+
+THE VIPER EXPERIMENT
+
+Per the last State of the Agents, Viper’s recent balance was a test of a new approach where we go all-in with Agents that are struggling. Now that the newest version of Viper has been out for a while, we’ve had enough time to evaluate whether this first attempt worked. 
+
+We’re noticing that Viper’s niche is more distinctly carved out across all skill bands. Now that we’re seeing her playrate increase, we’ll monitor to see if she’s still too oppressive post-nerf, as both sides are playing against her utility. 
+
+Y’all should be able to appreciate and succeed within the unique playspace that each Agent occupies, and this approach for Viper is a nudge in that direction. That said, there are some rough edges here we may need to smooth out. 
+
+FUTURE BALANCE
+
+We are looking into releasing updates to Breach, Skye, Yoru, and Astra. 
+
+Breach / Skye
+The goal here is to provide Breach and Skye with more self-sufficiency, to do so, we’re looking to remove their ability to dish out 3 consecutive flashes.
+For Breach we are looking to balance power across his kit, instead of it all sitting on his flash.
+Yoru
+We’re exploring an increase to the power within his unique playspace.
+One of the big opportunities here is to make “Fakeout” a more impactful ability.
+Astra
+The galaxy brain Agent provides a specific playstyle to the game, but we’re looking to take some steps to add more counterplay to some of her play patterns that are too oppressive in coordinated play.
+Barring resource constraints or development hiccups, you should start to see these changes roll out around Patch 3.0, and hopefully no later than 3.02.
+
+NEW AGENTS
+
+As you saw the latest Act, there was no new Agent bundled with the launch of Breeze. To reiterate; this is because we're prioritizing quality over speed—VALORANT is a game played on the slimmest of margins and we want to make sure everything we put out has the level of refinement you expect.
+
+That said, expect a new Agent for Patch 3.0 :) 
+
+This time around we are throwing in some abilities that should feel familiar to folks who’ve played traditional FPS games their whole lives, but with added elements that will make those recognizable abilities unique within our roster. This is an Agent who’s utility can create moments where you must rely on your gunplay.
+
+Our hope is that the @*&#*&!(&H! #$ &*! *%# &@! *U&^A! “@*!!*(@@*&^” (@&* ^@!^& &@! *&# &^C#^ANG W*^@ $O )(E&# *N@! S!T#$
+
+Huh, I’m sorry my keyboard just stopped working there… oh well. The new Agent is coming soon enough, and we’re looking forward to seeing what you think when they finally say hello! 
+VIPER
+
+There’ve been quite a few explorations on Viper over the past few months. After many iterations, we've decided on a direction that should sharpen the ways in which she is uniquely powerful without homogenizing her with other Controllers—and in other ways, push her thematic fantasy.
+
+Her Poison Cloud is unique to her zonal control gameplay and thematic, but feels like it lacks the impact we’d want on her base abilities round over round. Amping up that damage threat is our main goal this time around.
+
+We believe that part of what sets Viper apart is that she makes big bets with her map control. She picks a location, gets set, and dares opponents to take the fight in her world. With that in mind, the Patch 2.06 changes are aimed at increasing that threat to a new level. Internally these changes have been very strong, and we’re excited to see how Viper performs with this buff out in the wild. The team also feels like we’re well positioned to tune her as needed moving forward.
+
+Yoru-banner.png
+
+YORU
+
+Our first update to Yoru in 2.03 was aimed mainly at quality of life improvements, but this time around we’re hoping to move the needle on his power and overall impact.
+
+We think the updates to Gatecrash unlock numerous new play patterns for Yoru and should allow him to apply more of the pressure and mind games he promised at launch. We’re excited to see how this pairs with the buff to Blindside and the added ability to escape bad situations during Dimensional Drift with a little proactive setup.
+
+Given Yoru’s unique space in the game, we’re going to keep a close eye on him and learn how the balance levers he provides affect his impact in the live game.
+APPROACH TO BALANCE
+
+VALORANT is now nine months post launch (omg it's been nine months o_o). In that span we’ve learned alot about the impact of our approach to Agent balance. Our previous method was to make small, targeted changes to Agents in hopes that we’d see incremental impact.
+
+Ultimately this approach has not panned out like we hoped. Starting with 2.06, we’re taking a more aggressive approach with our updates, so that we see a larger impact to Agents with each one. This is because we know seeing your Agent in the patch notes over and over can be frustrating, especially when they do not move the needle, so to speak.
+
+As much as we want to get Agent updates out, we also highly value stability in esports and don’t want the entire game meta to shift under our pros’ feet leading into events like Masters and Champions.
+
+With Masters 1 behind us you’re going to see us try out a few things. Viper is up first. Then, as Masters 2 approaches, we’ll evaluate the changes and stabilize versus making large changes as we feel is necessary. Throughout 2021, you should see this pattern: Once a large tourney concludes, we’ll release some larger impact buffs/nerfs, and as the next large one approaches, slow down and focus on stabilization.
+It’s John Gosicki, character producer here for another look at our Agents today and tomorrow. We skipped January, but we’re here now! Let's go into it. Last time we hit two big topics: Controllers and hinting at Yoru…who well, isn’t a secret anymore, he’s here, in the game now, shooting people o_o
+
+With Brimstone and Omen changes live since 2.0, we’re seeing them settle into some healthier places. Right now, there is a more even choice competition between the two of them that highlight their respective strengths.
+
+That leaves us with one more Controller though.
+
+viper-banner.png
+
+VIPER
+Many of you have been perusing the patch notes, waiting for some larger updates to address issues that Viper’s run into. I’m gonna be the bearer of bad news that the next patch is not when you’ll see that update. We need to spend more time really defining where she fits within the choice competition among Brimstone and Omen.
+
+She has a really unique spot within the roster, and we want to make sure that any work we do goes towards highlighting the specific play patterns she represents, in conjunction with her power fantasy.
+
+Yoru-banner.png
+
+YORU
+Yoru tore his way into the fight this year, and we’re stoked to see how excited y’all have been to play him. (I personally may have already bought Yoru stickers for my notebook :P thank you for the fan art!).
+
+It’s only been a few weeks since he launched but we’ve noticed that mastery of his infiltration tools are not leading to the level of success we’d hoped for. So, given the current state of Yoru, we’re looking into some near future buffs.
+
+WHAT YOU’RE ALL HERE FOR
+So….um, this leaves us with the future. Y’all have been asking for another Controller, and well, that’s what you’re getting next!
+
+As we’ve discussed before, we’re trying to push the boundaries when it comes to Agent abilities in VALORANT, and so far, everything we’ve thrown at you has been less disruptive than we thought they’d be. That said, our next Controller is a cosmic shift from the play patterns you’ve grown accustomed to. This one is for all you “galaxy brain” players out there that like to study everything that happens on a map.
+
+There are still a few topics we’d like to dive into, but that will come in a different article. So keep and eye out over the coming weeks for some deep discussions on VALORANT Agents.
+Howdy friends, with 2020 almost behind us we wanted to take a moment to talk about our current, high level thoughts around Agents, and a bit about how we are thinking of the future.
+
+When the game launched we were focused on getting all the extreme outliers into a reasonable place. Right now things are fairly stable, but there are still some Agents/Classes that need some deeper thought put into them.
+
+
+CONTROLLER POWER, DUELISTS VS INITIATORS
+In particular, we have some plans to address the total power of Controllers (Omen, Viper, Brimstone) and to better differentiate the roles of Duelists and Initiators. At a high level, we want to encourage people to play with their teammates as much as possible and we believe that giving our Initiator and Controller roles a bit more team-focused power will help achieve that end. We are aiming to have our first set of changes to Controllers launching with Episode 2 and additional changes to Initiators and Duelists throughout Q1 of 2021.
+
+With the release of Killjoy we felt that the Agents within Valorant have a good range of abilities to either augment, or enhance our core Tac Loop (Someday we will make a post about this). Even before the game launched we were feeling that there were some gaps within the abilities/tools Agents provided, this was evident due to there only being two Agents (Sova and Breach) with tools to break onto sites, the class known as Initiators. With all of that in mind, we quickly got to work on another Initiator, Skye. She not only provides crucial tools to break onto sites, but also per-round healing choice competition with Sage.
+
+
+NEW AGENTS, MORE RISKS
+From the start our goal with Agents is that they have a unique spot within the roster. Whenever a new Agent drops it keeps the game feeling fresh, making you rethink all of your current tactics, and form new ones that build on all the skills you have learned so far. Now that the basics are in place, we are going to take more risks with what each Agent introduces to the game, pushing some boundaries, and evolving what is possible in an ability based tac shooter.
+
+For now we are keeping these boundary-pushing ideas a secret.
+
+That said, we wanted to sneak some insight into the future here. The year will tear open with a Duelist for all you “lurkers” out there, who will keep you on your toes around which angles are truly safe.

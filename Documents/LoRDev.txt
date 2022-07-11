@@ -1,0 +1,1626 @@
+Set in the world of League of Legends, Legends of Runeterra is the strategy card game where skill, creativity, and cleverness determine your success.
+
+In LoR, you can:
+
+Build decks with your favorite League champions (and new characters) from the regions of Runeterra, each with their own style and strategic advantage.
+Face off in dynamic, alternating combat full of opportunities for outplay.
+Earn cards for free as you play or buy exactly what you want in the store—you’re in control of your collection.
+But that’s just the beginning—check out this video for an in-depth look.
+
+What platforms is LoR available for? Is it cross-platform?
+LoR is being developed for both PC and mobile (coming at launch), and will be playable cross-platform.
+
+How can I get access to LoR now?
+You can pre-register right now for a chance to play on PC during a special preview patch and during the closed beta in early 2020. The Announce Preview Patch will be open from October 15 (7 PM PT) to October 20 (7 PM PT), and will be followed by another preview patch in November.
+
+You can also watch LoR live on YouTube and Twitch for a chance to get instant access.
+
+YouTube:
+Link your Riot (or existing LoL) account to your YouTube account. You MUST do this in order to get a chance at instant access.
+Watch LoR live streams on the Riot Games, Legends of Runeterra, and League of Legends channels.
+If you get access, you’ll be notified via the email associated with your linked Riot account.
+Twitch:
+Link your Riot (or existing LoL) account to your Twitch account. You MUST do this in order to get a chance at access.
+Watch LoR on any Twitch Channel.
+If you get access, you’ll be notified via the Twitch notifications panel and the email associated with your linked Riot account.
+When will LoR release?
+You can pre-register right now for a chance to play on PC during a special preview patch and during the closed beta in early 2020. The full launch, including mobile, will be sometime in 2020—as soon as we’ve landed on an exact date, we’ll let you know.
+
+Roadmap_Comp_v13_small.jpg
+What languages does LoR support?
+LoR currently supports English, Korean, Japanese, French, Italian, German, and Spanish (Spain). We’re working on additional languages for launch and beyond—more info to come!
+
+Is there a pre-registration reward?
+All pre-registered accounts will receive an exclusive Moonstruck Poro Guardian once Legends of Runeterra fully launches in 2020. To redeem this variant for the Poro Guardian, you’ll just need to login once during beta (though you won’t get the variant until LoR launches) or within seven days after LoR launches. Don’t worry, your poro pal will wait for you.
+
+Why is Riot making a card game?
+A lot of us have been playing card games since we were kids, so we know the issues with the genre: Spending an entire paycheck just to try another deck. Over-the-top randomness deciding which player wins. Playing against the same decks over and over, and cards that stay broken way too long.
+
+So we asked ourselves: what if we could change all that?
+
+Basically, we’ve spent a lot of time thinking about what we’d do differently. And now we have a chance to shake up the genre by keeping what’s great, improving what’s not, and adding some new twists of our own.
+
+So we’ve been hard at work making the best card game we can imagine—one that we hope players everywhere will love. We’re pretty excited to show players what we’ve got so far, and we can’t wait to hear what you think!
+
+What’s different in LoR?
+Beyond bringing the world of League of Legends—including the champions, characters, creatures, and regions of Runeterra—to a totally new game, there are three big things we aim to do differently with LoR:
+
+Strike the right balance between accessibility and strategic depth.
+Give players more choice and control when it comes to getting cards.
+Support a diverse meta and endless experimentation with frequent releases and balance updates.
+That’s really just scratching the surface—check out this video for all the details.
+
+Who is LoR for?
+League players who love strategy and card game players looking for something different should feel right at home with LoR, but we hope players of all types can find something they love about our take on the card game genre.
+
+Do I have to pay to get started in the game or to unlock certain things?
+Legends of Runeterra is free to play. There are two in-game currencies: Shards you earn through play, and Coins you can purchase anytime.
+
+Here’s how unlocking stuff works in LoR:
+As you play, you’ll complete quests and earn experience to advance and automatically unlock new cards, but which region you unlock first is totally up to you. You decide where your cards come from, and can switch regions whenever you want, which makes assembling your dream deck a whole lot easier.
+
+Once a week, you’ll also unlock chests from the Vault. The Vault levels up as you play and upgrades the chests inside, which increases the number of cards you get from each. Individually, both the cards and chests have a chance to upgrade into something even better, and at level 10 and above, you’re guaranteed a champion.
+
+Sometimes you’ll encounter wildcards, which can be turned into any card you want—no guessing required. A limited number of additional wildcards are available in the store, which is replenished with a new stock each week.
+
+We know that sometimes you just want a guaranteed way to get specific cards. So instead of waiting for the right drop, you can unlock cards for your collection using the Shards you’ve earned or the wildcards you’ve acquired through play or purchase.
+
+Bottom line: In Legends of Runeterra, you will never pay for randomized packs, and you have a bunch of different ways to get the cards you actually want and build multiple decks for both casual duels and the competitive meta.
+
+When it comes to cosmetics, there are free base options that every player starts with: the Summoner’s Rift Board and the Poro Guardian. Stay tuned for more details on other ways to personalize your LoR experience in the future.
+
+Why are you limiting how much players can spend on cards?
+It’s a good question, with a slightly complicated answer.
+
+The summary version is that we want to ensure you always have something you’re looking forward to unlocking, and that you’re constantly discovering new cards and strategies. Slowing down how quickly the entire set of cards can be unlocked is one method for helping us accomplish that goal. There’s a lot more to it than that, so expect to see an article soon that dives deep into how card acquisition will work in LoR.
+
+Does LoR include all the champions and factions from League of Legends?
+Currently, LoR features six major regions of Runeterra—Demacia, Noxus, Ionia, Piltover & Zaun, Freljord, and the Shadow Isles—and 24 champions (four from each of those regions). League players will probably notice that there’s a lot more of Runeterra to still be explored...
+
+Will LoR have its own story and champions or will it co-exist within current League lore? Will there be any new and unique champions in LoR?
+Every character and card in the game comes from a region of Runeterra, the same world that the champions from League of Legends hail from. You’ll encounter some familiar faces and discover completely new ones.
+
+Will there be a ranked system?
+Absolutely—it’s currently in development.
+
+Will there be a “limited” or draft-based game mode?
+Definitely—we plan on sharing some details very soon.
+
+Can I play with my friends?
+We’re still working on the friends list and a friend challenge feature—both are currently set to be ready for closed beta in early 2020.
+
+What are LoR’s minimum specs and supported operating systems?
+Windows
+64-bit Windows 7, 8.1 or 10
+3 GHz processor
+4 GB RAM
+GPU with 512MB+ VRAM
+Mac OS
+Not supported.
+Mobile (iOS & Android)
+Specs coming once we release LoR for mobile.
+Is LoR going to be an esport?
+We believe that wherever there’s dedicated competition, there’s an esport in the making. However, this isn’t something we’re aggressively pushing to happen. For now, our focus is entirely on building the best card game we can imagine—one that we hope players everywhere will love.
+
+How long has Riot been developing this game?
+The idea of a League card game has been around for a while at Riot (what can we say, we’re fans). We’ve had several prototypes over the years, but Legends of Runeterra itself was largely built over the last couple years.
+
+Is LoR finished? What’s a preview patch?
+LoR is still in active development, but we’re gearing up for beta in early 2020. However, the League Ten Year Anniversary was just too good an opportunity to pass up for sharing an early preview with League players. From October 15 (7 PM PT) to October 20 (7 PM PT), we’re inviting players to join us for a special “preview patch,” to be followed by another in November.
+
+These preview patches are a way for us to give you an early look at the game while it’s still in development, showcase new features as we go... and squash some bugs in the process.
+
+This first one is all about the core experience—which includes getting cards, building decks, and playing games—so you can try out the fundamentals before we add more stuff. And, as a bonus for this Preview Patch, we’re giving you a bunch of wildcards up front to help jump-start your deckbuilding experience.
+
+Can I spend money during the preview patches?
+Yup! The preview patches are a great opportunity to get early player feedback on what we’ve built so far, and LoR’s business model is something we’re particularly excited to show you. We're really excited we get to focus less on selling packs and more on the things that make a card game great: deep, interactive strategy; frequent releases and balance updates; and endless experimentation.
+
+Any money you spend during the preview patches will be carried through any pre-launch account resets in the form of Coins (with any purchased content refunded to Coins).
+
+We want LoR’s progression to feel great for players regardless of how much they spend, so let us know what you think about it!
+
+Will there be account resets?
+Yes, at least one prior to launch. You’ll keep any Coins you’ve purchased and get back any you’ve spent during the preview patches or closed beta when LoR launches.
+
+Is Riot working with anyone to make LoR?
+LoR is mostly being developed at Riot, but we’re working with three fantastic art partners: SIXMOREVODKA, Kudos3d (partner studios for card art) and Beyond-FX (partner studio for VFX). Working closely with our veteran, in-house art team, our partners are playing a critical role in making LoR a game that lives up to Riot’s high artistic standard, and takes players deeper than ever before into the world of Runeterra.
+
+We also work with several external parties who provide functional QA, localization QA, and compatibility testing services that help ensure LoR hits the quality bar players deserve.
+
+Why doesn’t LoR use Riot Points (League of Legends’ paid currency)?
+There are two main reasons. First, Riot is working on multiple mobile games (LoR and League of Legends: Wild Rift), and, as it turns out, both the Google Play Store and Apple App Store actually don’t allow games to share currencies (for a bunch of good reasons). This restriction and other eccentricities of cross-platform currencies pushed us towards an independent paid currency (Coins) for LoR.
+
+Second, we’re trying some interesting new stuff with LoR’s business model (see earlier questions for more info on that), and plan to actively fine-tune our system prior to launch as we gather data and hear what you think. An independent paid currency will give us the freedom to make any necessary changes in the run up to launch, without worrying about cross-game ripple effects.
+
+Do I need the League of Legends client or a LoL account to play LoR?
+No to both! Legends of Runeterra is a standalone download. If you have an existing LoL account, you can use it to pre-register, but those without one can easily make a Riot account while pre-registering.
+
+How do I choose a game name in LoR? Will LoR use my League of Legends summoner name?
+If you don’t have an existing League of Legends account, you’ll be asked to create a game name. You can’t change this name in the LoR client once you’ve created it (for now), so pick a good one.
+
+If you have an existing LoL account, your LoL summoner name will be used to create your LoR game name and tagline. If you change your summoner name in LoL, it will change your name in LoR.
+
+We’re still working on game names in LoR, so expect updates once we implement the friends list and social panel during closed beta in early 2020.
+
+How can I contact player support?
+Head to https://support-legendsofruneterra.riotgames.com.
+
+How long does one game of LoR usually take?
+Games take around 10 to 15 minutes to finish, but we’re warning you now: you may end up playing all night.
+
+How are you handling cheaters?
+Riot is deeply committed to competitive integrity in all our products. We have detection and protection services in place on LoR, and will take any and all necessary measures to preserve a level battlefield.
+
+I’m interested in creating a website, app, bot, etc. for LoR, how can I get started?
+Head to the LoR section of our Riot Developer Portal.
+
+I’m a member of the press or a content creator and interested in covering LoR or making LoR content, how can I get started?
+Head to www.riotgames.com/en/press for starter assets or contact us with inquiries at media@riotgames.com.
+Now that Legends of Runeterra has officially been announced, we want to share how our approach to making a card game is different from what you may have seen before. If you’re the kind of player that wants the full picture straight from the source, this deep dive into LoR’s design is for you.
+
+This Thing We Call Progression
+When it comes to card games, how you get the cards is almost as important as what you do with them.
+
+Yet even with the move from paper to digital, the genre continues to be built on a foundation of randomized card packs. The typical systems for card acquisition—what we call “progression”—are notorious for prioritizing business over experience. It’s common to require players to make repeated purchases with little to no control over the outcome, and the best stuff is often far out of reach. For a genre that’s all about having choices and making decisions when building a deck or dueling an opponent, some players find that kind of card acquisition pretty frustrating.
+
+Ok, we’re those players. We find that frustrating. But we know we’re not alone.
+
+So if you’re someone that has felt the pain of paying for random packs and not having control over your collection, the way we’re designing progression in Legends of Runeterra might be exactly what you’ve been waiting for.
+
+Here’s how we’re trying to build a better card game.
+
+Mad Scientists and the Wild West
+Let’s start where every good game should: the fun. Make no mistake, we wouldn’t be developing a card game if we didn’t love the genre. And despite the flaws in typical progression systems, we still believe the most fun happens whenever you get new cards.
+
+It’s not just the thrill of seeing what you pulled. It's the possibility of what you can do with it. Even after you collect the cards for the perfect deck and master playing it against every matchup, odds are you’ll seek out another. For those more familiar with League, it’s a lot like when you decide to go all-in on a new main. Something draws us to beginning the process all over again, to that initial period of imagining and crafting a new strategy.
+
+BKIT19_Client_SS_08_en_US.MOV.Still001.png
+The deckbuilder
+The best example of this happens right after a new release. There’s a huge batch of new stuff you get to try. Everyone’s developing their strategies in real time and figuring out how they fit into the evolving meta. Most of all, no one is completely sure of what works just yet. Anything goes in the post-expansion wild west, and we’re all in it together.
+
+It’s an amazing time of experimentation and discovery... and it’s over in almost no time at all. Mere days, in some cases. And if the next set of cards is a long way out, you could be chewing on that stale meta for a while.
+
+In a perfect world, that moment of experimentation never ends. Just as the meta is becoming predictable, something new appears and the surprises start again. Likewise, just as you’re settling into a routine with a strategy you’ve mastered, a new card catches your eye and you start dreaming up a totally different deck.
+
+In our experience, that’s some of the best fun card games have to offer. So that’s the challenge we’re choosing with Legends of Runeterra: how to create a constant, meaningful sense of progression and foster greater periods of experimentation and discovery.
+
+01PZ051_Funsmith.png
+Let's Get Technical
+To extend that experience, we have to ensure you’re still discovering new cards and reasons to experiment for a while after the latest release. And therein lies the problem.
+
+Let’s say you have the option to unlock every card. In that “total access” scenario, you have a ton of stuff to experiment with, but there’s no more discovering new cards (you’ve got the whole set already). Ironically, by having access to all the cards, the experimental time ends up being cut short—even for players who might not have that access. Once some players have unlocked everything and figured out how it fits together, the meta for everyone rapidly finds its final form and stays that way until something new comes along.
+
+(In theory, we could counter this effect by releasing new cards nonstop. In reality, devs need to sleep at some point.)
+
+Even if you don’t care about “the meta,” once you have everything unlocked, there’s not really… progression anymore. Sure, you’ll probably have a blast in the first few days as you try everything out. But with no new cards to discover and nothing to look forward to, the appeal fades fast. You don’t have a reason to keep coming back, and likely won’t until the next big release.
+
+01PZ017_Used_Cask_Salesman.png
+On the other end of the progression spectrum, there’s the classic card game scheme that was first made popular on paper: Make it all random. But if “total access” was a dead end for our goal, this one is even more of a brick wall.
+
+“Random packs” as a model can be decent at ensuring you have new cards to discover, but it’s better at delivering temporary spikes of excitement than consistent progression. Assuming you can’t instantly buy as many packs as you want (which is just a more complicated version of “total access”), getting cards at random has the opposite problem. The experimental time is increased as everyone works toward the full set one pack at a time, but now you personally are stuck with a limited, arbitrary card pool.
+
+If you don’t unlock cards that really get your imagination going, it’s better luck next time. And if you’re dropping cash for pack after pack? It’s basically pay and pray. That may be the standard (and most lucrative) model, but it’s far from ideal as a way for players to make progress.
+
+01NX003_Arena_Bookie.png
+It all comes down to this concept of agency: You need to have some ability to control your progression, or the experience is more frustrating than fun. But given unlimited agency—like being able to get everything immediately—progression falls flat. There’s nothing to discover, and the meta stagnates. The challenge is finding the balance of controlled and random elements that add up to the right amount of agency.
+
+You can think about it in terms of two competing rates: The time it takes to build the deck you want (short = good), and the time it takes for the meta to stop evolving (long = good).
+
+The catch is that both rates are determined by exactly the same variable—how quickly you unlock cards. And this problem is only compounded by the two ways in which players can invest: with time or money. If you can spend money to get cards and buy everything outright, that makes the time-to-deck zero (great!), but also time-to-meta much shorter (not as great). Conversely, if you only spend time to unlock cards, it makes for a much longer meta evolution, but also a much longer time to actually get the deck you want.
+
+That’s the fundamental tension of making a card game: How do we ensure you’re constantly getting cool new cards, but always have more to look forward to? How do we fairly balance investing time and investing money? How do we extend the experimental period without punishing players who want to go further, faster?
+
+Heimerdinger_Emote.png
+Careful calculations are Heimerdinger’s speciality.
+PROBLEM, MEET SOLUTION
+We’ve thought about this a lot. What we’ve come up with (at least to start) is a four-part system for progression. We think it gives you good choices in how you expand your collection, strikes the right balance for both agency and investment, and (most importantly) supports the discovery and experimentation that make card games fun in the first place.  
+
+Quests. Daily quests are another way to earn experience and give you something to do every time you log in (don’t worry if you miss a day or two—you hold up to three quests at a time). Since any experience you gain goes toward the Vault and region rewards, quests are an easy way for every player to accelerate their next reward. 
+BKIT19_Client_SS_09_en_US.MOV.Still001.png
+Complete daily quests.
+The Vault. All the fun of cracking packs, without paying for ’em. On Vault Day, everyone gets an influx of new cards and a reason to hit the deckbuilder. It’s a weekly opportunity to share your pulls and brew something new.
+Because Vault rewards are random, we can give you a bunch of cards and increase the number you get based on how much you played the previous week. Players that spend a lot of time in Runeterra will be rewarded with a leveled up Vault containing upgraded chests with more cards inside—not to mention a guaranteed champion at level 10 and above.
+
+VaultChests1.png
+Get chests and cards from the Vault.
+Region rewards. This is the main way to expand your collection and get the staples you need for any deck you can imagine. You choose which region you unlock cards from, so you’re not stuck building a deck with whatever you happened to get first. You can switch regions to chase other cards whenever you like, and soon you’ll unlock a solid set of options capable of supporting decks from every part of Runeterra. Regions.png
+Select a region to explore.
+Shards and wildcards. Get exactly what you want, no guessing required. Both shards and wildcards can be used to directly unlock any card in the game, which means the keystone cards for any deck you might want to build—like a certain champion—are always within reach.
+You’ll get some shards and wildcards just by playing, but you can also buy additional wildcards from the store, which replenishes its stock weekly. While the Vault and region rewards are geared more toward the periods when you prefer to spend time over money, the wildcard stock in store is designed for those scenarios when you would rather invest your cash than your hours.
+
+BGPT19_CentralBacon_enUS_05m40s.mov.Still001.png
+Get cards with either shards or wildcards.
+
+Finally, there’s one more thing to be aware of: Any chest or card you get, whether from the Vault or region rewards, has the chance to upgrade into something even better.
+
+Altogether, we’re optimistic about the potential of this system to do all the things we need it to do: accelerate how fast you get the deck you want and slow down how soon the meta settles; make getting cards feel good for all players, no matter how you choose to invest in the game; and ensure there’s always a reason to play, without restricting what you can play.
+
+Work in Progress-ion
+We spent much of LoR’s development testing the limits of what a card game can be—even trying to reinvent the formula in some ways. And you know what? That shit is hard. There’s a reason things like random packs have dominated progression (and business) models for so long.
+
+But we don’t want to settle for the tried-and-true and just do what’s been done before. We’re stubborn enough to keep trying new things and crazy enough to think we can do it better. Like we said above—this is the challenge we’ve chosen.
+
+But in no way is this the final state of progression in LoR. In fact, we’re still actively figuring some parts of this version out. We’re committed to carefully analyzing what’s working and what isn’t.
+
+One of the big things we’re still debating is the fact that players are ultimately limited by time: There’s only one new quest a day, the Vault has a level cap, and wildcards in the store have a limited stock each week. It’s the tradeoff we’ve chosen in order to emphasize your agency—you have a clear way to get exactly you want, but it'll take some time to get it. Is that ultimately better? We think so, but you’re about to show us.
+
+WildcardStock.png
+Wildcards are in stock at the store.
+
+As we monitor how it plays out, we’re keeping in mind other changes we can potentially make, like a different quantity of wildcards in the store, more or less rewards from the Vault, or how much experience you earn with each game and quest. We’ve specifically designed progression in Legends of Runeterra as a flexible system, so we can adjust as needed if something isn’t quite adding up.
+
+PostMatch.png
+Victory or defeat, each match earns your experience that goes toward rewards.
+
+And we’re not even playing with the full deck yet. On the horizon are new champions, card expansions, and yes—more regions. As we add more cards and features to the game, progression will need to evolve with it.
+
+For example, you can expect to see more region rewards with each new one added, plus ways to go deeper into the regions you love most, with an “endless” reward system for playing as much as you want.
+
+Progression can be about more than rewards, too. For those of you that prefer to measure your progress in terms of skill and competition, Ranked is coming soon. Alternatively, Expeditions will challenge a different set of skills—and provide a one-of-a-kind way to experiment with new decks.
+
+And Away We Go
+Getting rid of paying for random packs was just the start. Between shards and wildcards, the Vault, and region rewards, there’s a lot going on with progression in LoR.
+
+We don’t know that it’s going to work. But we believe it will. We’re committed to seeing where this goes and communicating with you all along the way.
+
+Let’s see if we can build a better card game together.
+Hello! I’m Ryan “RyscG” Giuliany, the design lead for progression in Legends of Runeterra.
+
+This article is a bit of a combo piece: part followup to the original one outlining our goals for LoR’s progression systems, part response to what we heard from you about your experience during the first preview patch. We’d also like to clarify some details about how the system works now that you’ve seen it in action.
+
+It’s important for us to be extra transparent about what you get for investing your time and/or money. We’ve seen some players trying to estimate, but we think you should have the exact numbers—no guesswork required.
+
+Cards, Capsules, and Chests
+First, let’s talk about the different rewards you’ll encounter in LoR, like in the weekly Vault or the region rewards. Here’s a breakdown:
+
+infographic-caps-and-chests_V5.jpg
+First row: Capsule, Epic Capsule, Champion Capsule, Wild Capsule
+
+Second row: Bronze Chest, Silver Chest, Gold Chest, Platinum Chest, Diamond Chest
+
+Keep in mind that pretty much everything has a chance to upgrade: Capsules can upgrade to Epic or Wild Capsules, chests can upgrade to the next tier, cards can upgrade to the next rarity up or turn into a wildcard. Upgrades can even chain to increase your reward more than once, though we don’t think we’ve made this as clear of a hype moment as we’d like it to be (yet).
+
+Also, you’ll never get a fourth copy of any card in LoR, since three is the max you can use. If it’s a Common or Rare, it’ll be replaced with Shards (25 and 75, respectively). If it’s an Epic or Champion, it will be rerolled into another card of the same rarity. Once you’ve unlocked ALL Epics and Champions, extra copies will also be rerolled into Shards (300 and 1000, respectively).
+
+Region Rewards
+We’re super excited at how positively the region rewards system has been received overall. That said, there have been some questions about exactly what you get, how efficient your XP is later in each region, and just how much XP it takes to complete a region.
+
+Here’s a full region-worth of rewards, which you get just by playing:
+
+1 Rare Wildcard
+1 Epic Wildcard
+1 Champion Wildcard
+2 Random Epics
+1 Bronze Chest
+1 Silver Chest
+2 Golden Chests
+2 Platinum Chests
+1 Diamond Chest
+2 Capsules
+2 Wild Capsules
+2 Epic Capsules
+2 Champion Capsules
+To unlock all those sweet, sweet rewards, you need to reach Level 20 in a region with a total of 52,500 XP. The first level takes 250 XP, and each subsequent level takes 250 XP more than the last, but the value of the rewards also increases (on average) with each level.
+The Vault
+It was AWESOME to see all the clips of players cracking huge Vaults. For those wondering just how the Vault works, here’s another one of those infographics with the details for each level.
+
+LoR_Vault_Graphicv1.jpg
+For someone who completes all their daily quests, a level 10 Vault should be well within reach, which guarantees a champion card along with other goodies.
+
+Once upon a time, level 10 is where the Vault maxed out. However, feedback from testers who found themselves at level 10 early on in the week led us to add three more levels as stretch goals. They aren’t nearly as XP efficient as earlier levels, but it adds some extras for those who spend a lot of time playing the game.
+
+XP and Progression
+Progression in the first preview patch worked pretty similarly to how we intend it to moving forward, but there are some exceptions:
+
+No bonus wildcards to start. These wildcards are intended for preview patch players to immediately build any deck and showcase the full range of possibilities in LoR within a week. We plan to reset progression—including a wipe of those wildcards—at some point between now and launch.
+One daily quest per day. The first preview patch had a pretty widespread bug where players were able to get WAY more than the usual amount of quests per day. This bug has now been fixed.
+XP for a loss will be much higher. This could potentially change, but for closed beta next year PvP losses will grant 100 XP and AI losses will grant 50 XP, up from 25 XP for either like it is in these preview patches.
+More XP rewards. We’re not ready to share the details just yet, but we have some features in development that will add a bit more XP to the progression system in general.
+Now that you have the numbers, let’s talk about how we landed on them.
+
+Our Goals
+One of our most important goals is that being “set complete” before the launch of the next set is achievable without spending a Coin, even if you’re not a streamer or a pro.
+
+Exactly how much you need to play will depend on the size of the set. The first one is pretty big, but even this set hopefully won’t feel out of reach for a highly engaged player (about 7 to 10 games per day on average). If you don’t play quite that much, you’ll still have a ton of cards unlocked; for the first set, if you get your level 10 Vault each week, you’ll have at least 75% of the set before the next release.
+
+Speaking of Coins, there’s another major goal for us: create a game where how much money you spend is NOT the deciding factor in your success as a player.
+
+Believe it or not, we only recently added the ability to get wildcards with Coins as a result of strong feedback from early testers. When we had a version of the current system without the ability to directly purchase a card, we found that players who had less time to spend on the game felt totally left out. So we added the option to unlock cards by purchasing them, but kept it limited so players who prefer to spend time don’t get left in the dust either. Ultimately, we think the limited stock of wildcards each week strikes the right balance. If it turns out it doesn’t, we’ll keep looking for what does.
+
+The Future
+The progression system we have now is close to hitting many of the goals we set out to accomplish, but we’ve only seen it in action for one week, so we’re not celebrating victory just yet. While we’re likely going to tweak the numbers and make changes as we go, this has been a very promising start and we’re excited to see even more players get their hands on it in the next preview patch on November 14. We hope you are too.
+What is LoR? I have so many questions!
+We have so many answers! Check out our Announce FAQ for a bunch more info.
+
+What is the Expeditions Preview Patch?
+LoR is still in active development, but we’re gearing up for beta in early 2020. In the meantime, we’re granting limited access for a couple preview patches (this is the second of the two). The Expeditions Preview Patch runs from 8 AM PT on November 14 through 8 AM PT on November 19.
+
+These patches are a way for us to give you an early look at the game while it’s still in development, showcase new features as we go... and squash some bugs in the process. And as a bonus for playing in these preview patches, we’re giving you a bunch of wildcards up front to help jump-start your deckbuilding experience.
+
+This preview patch is all about the new Expeditions mode, so we’re also providing some new bonuses to get you started on your runs—one Expeditions Token and 8000 shards. Your Expeditions this week are on us!
+
+What are Expeditions?
+In the Expeditions mode, you draft a deck as you go, overcoming as many opponents as you can with an evolving set of cards. Check out this video for the full details:
+
+
+
+(And here’s the text version for you readers out there.)
+
+So you've found your favorite champs and learned the art of battle. But there's more than one way to play Legends of Runeterra, and different skills you can master.
+
+Like building a deck from scratch and crafting your strategy on the fly. Can you navigate the unknown, adapting to new cards—and new foes—and still come out victorious?
+
+In the Expeditions mode, you draft a deck as you go, overcoming as many opponents as you can with an evolving set of cards. The farther you journey, the greater the challenge; but when you're on an Expedition, it’s not over til it’s over.
+
+Unlike other modes, in Expeditions you don’t use any of the cards from your collection. Instead, you build a deck as you go with a series of picks and trades.
+
+Every pick offers a different, random combination of champions, units, and spells. The cards in each pick are bundled together based on deck archetypes: You might select Disruption to add stuns and recalls to your arsenal, or Scrapheap for ways to cycle through your cards in search of the perfect play. There are over 20 archetypes to pick from, but over time you’ll create a strategy that’s entirely your own.
+
+You start by choosing a couple of champions. As you continue drafting your deck, you’ll alternate between two types of picks: synergy and wild.
+
+Synergy picks are based on the archetypes you chose previously; the cards in each pick are random, but they’re sure to work well with what you’ve drafted so far.
+
+On the other hand, wild picks offer archetypes that may be totally different from what you’ve selected before. You might pick up a great option for enhancing what you already have, or change course after encountering an unexpected gem. You can even combine cards from three regions of Runeterra for a deck that can only be created in an Expedition.
+
+No matter what you choose during the initial draft, you’re guaranteed to come across more cards to support your strategy—but you’ll never know which ones you’ll find.
+
+The draft doesn’t end when the matches begin. After each match you get another chance to upgrade your deck, including additional champion picks to fill out your roster with more heavy hitters. But it’s the trade picks where your deckbuilding skill can really shine.
+
+Trade what you have for what you need, refining your strategy with every swap. You can smooth out your mana curve, pick up some much needed spell support, or double down with multiple tried-and-true cards—even breaking the normal limit of 3 copies. You’ll continue to evolve and improve your deck all the way to the final match.
+
+Your trial continues until you either win seven matches or lose two consecutive ones. Even if you fumble a match, one victory is all it takes to get back in the game.
+
+If you’re skilled enough to reach six wins, you’ll enter sudden death. The next match decides it all—will you get the coveted seventh win, or end your trial right then and there?
+
+If your first trial doesn’t work out the way you want, don’t worry—every Expedition consists of two trials, and the better performance determines your rewards. That means you have an extra chance to make it to seven wins, or a free pass to try a completely wild strategy.
+
+After you’ve completed both trials (or retired early), it’s time to collect your winnings. The rewards can be bountiful, and the more you win, the better they’ll be. No matter how you do, you’ll always receive at least one champion; but win enough matches, and your rewards can fully fund your next Expedition as well!
+
+You can embark on three new Expeditions each week using Shards, Coins, or Expedition Tokens. After completing these, die-hard explorers who seek adventure purely for the experience can continue their trials in Open Play.
+
+Whether it’s your first time drafting a deck or a glorious return to the seven-win Expedition, there are always more strategies to explore and another chance to claim victory. Pick your path, adapt your deck, and see how far you can go.
+
+What’s different about Expeditions from other “draft” type formats?
+We believe a draft mode is a great way to experiment with new strategies—some that you might never try otherwise—based on the different cards available to you each time. The downside is that it’s riskier than other formats—what happens if you get a weak selection of cards, or end a run early after an unfortunate loss at the beginning?
+
+As with everything else in Legends of Runeterra, we’ve tried to keep what’s great and improve what’s not. Here’s what we came up with for Expeditions:
+
+Embark once, play twice. With two trials in every Expedition, you’re essentially playing two drafts every time. You can use it as a second chance after a bust, or an opportunity to build something crazy before try-harding your way to seven wins.
+Less stress losses. In a traditional draft, an early loss puts a crazy amount of pressure on you to not screw up. By changing it so a given trial ends after two consecutive losses, there’s a lot less stress and much more of a chance to continue on to victory.
+Strategic support. In other draft modes, the cards you get are completely arbitrary, which means you could work toward a cool strategy early, but then get no good options for it later. In Expeditions, the cards you encounter are still random, but if you start drafting a certain strategy early, you’re guaranteed to come across at least some options for it later as well. You’ll never know which cards you’ll get, but you’ll never be totally out of luck either.
+Accessible & competitive. While we’ve made changes to make our version of drafting more accessible, it’s still a challenge for those that want to compete. Sudden death means seven wins is a real accomplishment (less than 10% of players will succeed).
+And of course, there’s the potential to combine three regions in your deck, compared to two in a normal game. We don’t want to give anything away, but we’re excited to see what new combinations you come up with.
+
+To sum it up, Expeditions is a great mode for players who want to try out new regions, champions, and strategies in a real game without committing to unlocking them. It’s also a great way to challenge a different set of skills, especially your ability to adapt and evolve a deck over time. Whether you’re just starting out or simply looking for something fresh, each draft is a chance to explore Legends of Runeterra in a totally new way.
+
+What else has changed since the last preview patch?
+Expeditions is the big headline, but we’re also updating a bunch of cards and making a variety of improvements—look for the full patch notes on November 13.
+
+Some things we think are important to call out for this patch:
+
+As a thank you for playing this preview patch, we’re giving you a ton of bonus wildcards up front to help jump-start your deckbuilding experience (if you were in the first preview patch, you’ve already received these).
+We’re also giving you an Expedition Token and 8000 Shards, so you can play all three Expeditions for free during this preview patch!
+The Vault opens Sunday, 11/17 at 12:00 PM GMT.
+Has my progress from the last preview patch been reset?
+No! All of your progress (and those bonus wildcards) has been retained.
+
+There will be at least one reset prior to launch in 2020. When we do reset, you’ll keep any Coins you’ve purchased and get back any you’ve spent during the preview patches or closed beta.
+
+Do I keep my access from the last preview patch?
+Yes! If you get access during the preview patches or later on in closed beta, you’ll retain it all the way through launch.
+
+How can I get access if I don’t have it already?
+You can pre-register right now for a chance to play on PC during this preview patch and the closed beta in early 2020. The Expeditions Preview Patch will be open from November 14 (8 AM PT) to November 19 (8 AM PT).
+
+You can also watch LoR live on Twitch for a chance to get instant access:
+
+Link your Riot (or existing LoL) account to your Twitch account. You MUST do this in order to get a chance at access.
+Watch LoR on any Twitch Channel.
+If you get access, you’ll be notified via the Twitch notifications panel and the email associated with your linked Riot account.
+When will LoR release?
+As soon as we’ve landed on an exact date for launch, we’ll let you know, but you can pre-register right now on both PC and mobile.
+
+Pre-registering on PC gives you a chance to play in the closed beta on PC in early 2020, as well as during this preview patch right now!
+Legends of what now?
+Set in the world of League of Legends, Legends of Runeterra is the strategy card game where skill, creativity, and cleverness determine your success.
+
+If you’re new here, check out our Announce FAQ for a bunch more info, or just watch this:
+
+
+Wait, does that title say OPEN beta? When can I play?
+Yup, you read it right. We learned a ton during last year’s limited-access preview patches, especially that a lot more of you wanted to play than we were able to let in. So, we took a look at our timeline, hit the gas, and focused on getting LoR ready for open access. Here’s the new plan:
+
+At 11 AM PT on January 23, LoR service will be back online. Anyone who played during the preview patches OR has pre-registered on PC by 11:59 PM PT on January 19 will gain access on 1/23. Pre-registered folks who did not play in the preview patches should look for an invite email—some of these may take a few hours to roll out, so don’t stress if you don’t have access right at 11 AM.
+
+Note that only those who’ve pre-registered on PC (not mobile) will get access on 1/23. If you’ve only pre-registered on mobile, you’ll need to also do so on PC at https://playruneterra.com in order to get access on 1/23.
+
+The next day, at 11 AM PT on January 24, open beta officially begins and LoR will go completely open access—anyone will be able to immediately create an account, download, and play for free.
+
+As a bonus for being part of the inaugural Beta Season, anyone who plays during open beta will receive an exclusive Moonstruck Poro Guardian once Legends of Runeterra fully launches. To redeem this variant for the Poro Guardian, you’ll just need to login once during beta (though you won’t get the variant until LoR launches) or within seven days after LoR launches. Don’t worry, your poro pal will wait for you.
+
+
+Will there be any more account resets?
+Nope! We’ve reset accounts that played during the preview patches, but there will be no further account resets—anything you earn once open beta starts is yours to keep.
+
+If you purchased coins during the preview patch, check out the question below for some more important context. 
+
+
+What’s changed since the last preview patch?
+Glad you asked. We’ve added a new Ranked mode, three new guardians and six new boards to personalize your gameplay, and a social panel and friend challenge feature. You’ll be able to friend anyone on all three current LoR shards (Americas, Asia, and Europe), though challenges are within-shard only. We’re also updating 20+ cards—including a major update to Anivia—and making a bunch of general improvements. You can check out the full patch notes right here on https://playruneterra.com at 11 AM PT on January 22.
+
+For a less wordy, more visual update of what’s arriving with open beta (including some adorable guardian animations), check out this video preview: 
+
+
+We’ve also made a variety of changes to the overall economy, impacting everything from the relative cost of coins to how much experience you’ll receive from wins. These changes deserve an article of their own—keep an eye out for it the same day as the patch notes. 
+
+Lastly, an early note for anyone who spent money during the preview patches: as part of the overall account reset, we’ve reset any content you purchased with coins and returned that value back to your coin balance. Your exact number of coins has changed as part of the economy changes mentioned above, but you’ll have at least as much purchasing power as you did before (i.e. prices have changed too).
+
+
+How does Ranked work?
+Our goal from the start was to create a card game with enough strategic depth and interaction to support skilled competition. Now it’s time to see where you stand among the best players in Runeterra: Ranked will be live in the beta!
+
+You'll see some similarities to League, like earning LP to advance through divisions and climbing from Iron all the way to Master. There are no promotion series; once you hit 100 LP, you’ll automatically move to the next division (or if you’re in division I, the next tier’s division IV).
+
+But we’ve also made some changes based on Legends of Runeterra’s 1-on-1 Ranked experience. For example: one problem we’ve seen in card games is that you can feel like you’re locked into playing a proven meta deck if you want to climb, versus trying different strategies to get to the top.
+
+We want you to be able to test different competitive decks without sacrificing progress. So when you reach a tier in Legends of Runeterra, you’ll hold that rank for the rest of the season—you’ve earned it.
+
+Your rise through the ranks starts with the Beta Season, which will last until launch. At the end of the season, you’ll earn an icon reward based on your highest tier reached to commemorate your first climb in Ranked LoR.
+
+Good luck (not that you need it)!
+
+
+When will LoR officially launch?
+Later this year. When we know more, you’ll know more!
+
+
+When will LoR release on mobile?
+Mobile is coming when we officially launch later this year, at which point LoR will be fully playable cross-platform. 
+
+
+What should I expect from open beta versus full launch?
+It’s not a perfect science, but open beta is essentially an experimental period where we’re still tuning the overall game experience. You may see sizable adjustments to cards, systems, and the economy, but we’ll always communicate these as they happen. We still need to complete a few major features before we’ll consider LoR ready to launch—specifically, mobile and new card content.
+
+
+Do I need the League of Legends client or a LoL account to play LoR?
+No to both—Legends of Runeterra is a standalone download. If you have an existing LoL account, you can use it to pre-register or play, but those without one can easily make a new Riot account while pre-registering or playing for the first time.
+
+
+I’m confused about the recent updates to Riot account usernames.
+You’re not the only one. Check out the support article for a detailed breakdown.
+
+
+What languages and regions does LoR support?
+LoR currently supports English, Korean, Japanese, French, Italian, German, and Spanish (Spain).
+
+By launch, we also plan to support Turkish, Russian, Spanish (Latin America), and Portuguese (Brazil). We’re also working on Polish, but currently do not expect to have it ready for launch. We’ll provide further info on languages and timing as it becomes available throughout the year.
+
+Please note that Southeast Asia is unfortunately not included in the PC open beta. For more information, head to the LoR Southeast Asia Facebook page.
+LoR is headed to open beta with a whole bundle of updates and changes. In this article, we’d like to elaborate on some key changes to the underlying economy, but you can also check out the full patch notes for info on card updates, new features, and so on.
+
+Since last year’s preview patches, we’ve reset all account progression (for the last time!) and made a variety of wide-ranging changes to LoR’s overall economy, impacting everything from the relative cost of coins to how much experience you’ll receive from wins. We outlined our goals for progression when we announced LoR last year, then elaborated on them when we made some updates for the second preview patch. The specific design of the economy is based on these goals, so we’d like to recap before getting into all the updates.
+
+With LoR’s progression systems, we aim to:
+
+Create a game where how much money you spend is NOT the deciding factor in your success as a player.
+Give players meaningful choices in how to expand their collections, and support the discovery and experimentation that make card games fun in the first place.
+Ensure being “set complete” before the launch of the next set is achievable without spending a Coin, even if you’re not a streamer or a pro.
+Alright, let’s dive in.
+
+Final account reset
+All account progression and content acquired during the preview patches has been reset. There will be no further account resets—anything you earn once open beta starts is yours to keep!
+
+If you purchased content using Coins during the preview patches, we’ve reset any content you purchased returned that value back to your Coin balance. Your exact number of Coins has changed (more info in the next section), but we’ve made sure you’ll have at least as much purchasing power as you did before (i.e., prices have changed too).
+
+Coin pricing
+As those of you who played during the preview patches may have noticed, our store initially used League of Legends’ RP price points as placeholders. That worked fine for a preview, but LoR is headed to mobile once we launch later this year, which means we need to establish our own price structure that aligns with standards on the Play Store and the App Store.
+
+In designing LoR’s price structure, we also reviewed regional pricing comparisons (particularly between countries on the same shard), which means the degree of these changes varies quite a bit depending on your local currency—some will see relatively similar prices (e.g., US dollar, Euro), while others will see relatively higher prices (e.g., Turkish lira, Brazilian real) or relatively lower (e.g., Japanese yen).
+
+Overall, you’ll now receive fewer coins when purchasing them, but content prices have also gone down. Here’s an example (in USD):
+
+Previous values
+$10 = 1380 Coins
+Champion Wildcard = 400 Coins
+New values
+$10 = 1000 Coins
+Champion Wildcard = 300 Coins
+Effective change
+Purchasing Champion Wildcards with Coins now requires ~3.5% more when using USD (varying slightly depending on the number of Coins purchased).
+LoR currently operates with ~25 currencies, and the exact price changes vary further depending on content (e.g., Common Wildcards are relatively cheaper, Epics relatively more expensive). Rather than try to exhaustively document all the different percentages, we encourage you to head to the store once the open beta starts and check out the various new price points for Coins and content in your local currency. Volume discounts (bonus Coins for larger purchases) have also changed (again, varies by currency), so make sure to check those out as well.
+
+Finally, it’s important to note that price point standards on the Play Store and App Store are periodically updated by Google and Apple, so we expect to have to review and adjust our own structure over time. Whenever that’s necessary, we’ll share details as soon as we have them.
+
+Shard values
+The Coin pricing overhaul required that we also adjust Shard values and rewards to preserve the 10:1 ratio between Shard and Coin costs for content. While we were at it, we also made some minor tweaks to relative Shard values (e.g. Rare & Epic 4th copies are worth a bit more, Common 4th copies a bit less).
+
+Content pricing (Shards & Coins)
+We’ve adjusted content prices in both Shards & Coins to align with the above changes, though again there’s some minor variation (e.g. Common Wildcards are relatively cheaper, Epic Wildcards relatively more expensive).
+
+Rewards (chests, expeditions, and the vault)
+Vault, Expedition, Prologue, and general chest rewards have all been updated. Much of this is tied to the above changes, but we’re also aiming to make Expeditions more accessible for everyone by adding an Expedition Token to level 10 Vaults and making Shards a greater proportion of the rewards you get from your Expeditions. Here are the highlights:
+
+Vault
+Expedition Token added to level 10+ Vaults.
+Random champion card removed from level 10+ Vaults.
+Expedition rewards
+Now grant greater value in Shards at all levels.
+Now provide less value in chests and capsules at all levels.
+Prologue rewards
+Expedition Token added to the 10th Prologue level.
+Chests
+Higher level chests now contain fewer Shards (keep in mind individual Shards are now worth more, so the difference is smaller than it appears at first glance).
+With these changes, players should be able to more consistently finish their Expeditions trials and reach open play, and get a greater chunk of their Expeditions rewards in raw Shards they can put towards specific cards or more trials.
+
+XP rewards
+Finally, we're shifting the spread of XP across your games to help you make progress without the grind. The most noticeable change is bonus XP for your first few wins of the day. By frontloading the biggest chunk of your daily XP, we hope you'll play as many games as you want, not as many games as you have to. We've also buffed the XP you get from losses, because even LoR masters can't win all the time.
+
+This shift gives you more XP up front and over both wins and losses by taking it from later games, which means eventually your XP gains will tail off as you reach many hours of LoR in a given day. Check out the exact numbers below:
+
+Constructed XP
+
+First-wins bonus XP
+400 bonus XP for your first PVP win each day, 200 for the 2nd, and 100 for the 3rd.
+Base PVP win XP now 200 (from 250).
+More XP from PVP losses
+Base PVP loss XP now 100 (from 25).
+Diminishing XP rewards over many hours
+PVP Wins (per day)
+Wins 11-15 (in one day) reward 150 XP.
+Wins 16-20 reward 100 XP.
+Wins 21-30 reward 50 XP.
+Wins 31+ reward 0 XP. Get some sleep and come back tomorrow you maniac.
+PVP Losses
+Losses 5-10 (in one day) reward 50 XP.
+Losses 11+ (in one day) reward 0 XP.
+Vs AI Wins (per day)
+Wins 5-10 reward 75 XP.
+Wins 11-20 reward 50 XP.
+Wins 21+ reward 0 XP.
+Vs AI Losses
+Base XP reward is 50 XP.
+Losses 5-10 reward 25 XP.
+Losses 11+ reward 0 XP.
+Comparison to old values (PVP)
+Reduced win XP doesn’t set in until 11 wins in a day, which is on average about 20 games or 3 hours and 20 minutes of daily play.
+Overall win XP is higher until 14 wins in one day (where it evens out), then lower.
+Losses grant more XP until 21+ (where they now grant 0)
+Generally, we don’t expect players to reach comparatively lower XP until they play for about 7-9 hours straight in one day.
+Expeditions XP
+
+Base Expeditions wins = 100 XP, Base Expeditions losses = 50 XP (unchanged but included for reference).
+Per-game XP for Expeditions shares the same PVP tracks for Constructed play outlined above, but will diminish to 0 more quickly due to lower base values.
+Expeditions grant a bonus burst of XP (0-2000 XP depending on wins) upon completing a trial (unchanged but included for reference). This end-of-run burst XP is not subject to diminishing XP rewards, and will always be granted at full value.
+It’s been a little over a month since Legends of Runeterra entered Open Beta, and we wanted to share thoughts on the state of our game: reflect on what we’ve seen, recap some feedback we’ve heard, and finally, share a bit about our priorities this year.
+
+long-divider.png
+Open Beta
+We released LoR into Open Beta early because we believed that was the best thing we could do for players. We launched with the intent to see what you discovered, found delightful, and found painful, and couldn’t wait to start the process of improving the game with the community. While we’ve learned a lot along the way, the overall response has been extremely positive, and we’re super glad we kicked off the journey with you this January!
+
+Many of the thoughts we have about Legends of Runeterra are informed by more than the numbers—they come directly from players in communities across forums, social media, streams, and even DMs. It’s impossible to walk the floor at Riot without seeing a LoR stream on a monitor. We appreciate the early support and hope you see this article and continuous improvements to the game as a signal that we’re listening and committed to improving the game with you.
+
+Now, prepare for a deep dive—let’s get into it!
+
+long-divider.png
+The Game
+Our goal is to bring deep, interactive strategy to the genre through a combination of back-and-forth gameplay, indirect attacking, “skillshot” spells that provide reaction windows, and exciting champions that level up through smart play. All this, optimized for PC and mobile.
+
+We’ve heard tons of positive feedback in this area, but also see some opportunities to do better.
+
+The good:
+
+Champions: Champion level-ups are slick and champs often feel like their League counterpart, even down to obnoxiously-effective ones like Teemo and Ezreal. With the update to displaying champions at match start and whenever their level-up makes progress, champions are even more present and active throughout games.
+Interactive Strategy: The back and forth gameplay combined with fast and slow spells allow for lots of strategy and outplay moments; we’ll probably never get tired of screenshots like this:
+Stack_Alt.jpg
+
+The stuff we’re improving:
+
+Clarity: So far, we’ve improved clarity via card text and other updates, like the action log now including discarded cards. Given the huge combinatorial nature of the game, we suspect we’ll never be “done” here, and intend to continue improving clarity over time.
+In addition to card clarity, UI and Deckbuilder improvements are also top of mind. We’ve received a ton of feedback on the client, deckbuilder and collection management in particular, and we hear you about how annoying certain parts can be. We’ve already made some improvements (like updating the way deckbuilder shows card counts), and you can look forward to similar improvements for other parts of the general out-of-game experience over the course of the year, such as currency management and crafting cards and decks.
+The Timer: Getting timed-out round over round or due to a barrage of burst spells sucks. You can look forward to timer adjustments for burst spells in one of the next two patches.
+FPS Lock: Some players were disappointed when they discovered our FPS options. This was a feature we misjudged the value of, and a great example of the type of feedback we were excited to get by jumping into Open Beta earlier. We added several FPS options in 0.9.0, so now players everywhere can warm themselves with the heat of their rigs.
+Animation speed and input blocking: Finally, In 0.9.1, we began reducing both animation time and input block-time for common actions like playing units, drawing, and start of round. Our priority is to make a game that is as much fun to interact with as it is to look at. Once this baseline is good, we’ll continue on to the more egregious single-card examples, while updating our internal guidelines to ensure these lessons get applied to new content too—no more multi-second chained axes from Draven.
+long-divider.png
+The Meta
+We think that great card games offer endlessly interesting and interactive puzzles—chief among them a healthy metagame waiting to be cracked. From the beginning, we believed bringing the Riot “live service” mentality to bear would help keep LoR fresh and ever-evolving. Our strategies to accomplish this include:
+
+No bad cards, so even a modest initial card pool could yield lots of interesting decks.
+Monthly card updates that empower the developers to keep the meta healthy (and awesome to play) between sets.
+New cards and content to exponentially expand the possibilities of our mix-and-match deckbuilding.
+And finally, slow and steady progression, so the meta isn’t solved day one.
+How We’re Doing
+
+Overall, we’ve been blown away by the variety of decks we’ve seen at all levels of play. It’s felt like there was a new “OP deck” meme each week: Dawnspeakers, Elusives, Fearsome... Elnuks?
+
+But we also see room to improve. We focus on a few key indicators to inform our overall understanding and where we should look to make changes:
+
+Card play rate, especially Champions: As RubinZoo mentioned in the Patch 0.9.0 notes, our aspiration is that every card has a role and every champion’s dream is realizable for every player. It’s a never-ending task in general, but simply put, some of our champions aren’t hitting the bar here currently.
+Card win rate: As opposed to our champion play rate metrics, for card win rate we look specifically at Platinum and above ranked matches. We do look at all levels of ranked play, but our hard metrics for “must-change” cards are indicated by higher ranked matches. Here, we have thresholds for how high of a win rate any given card can have before warranting a change. We specifically look at a card’s ideal region combination for these metrics, as opposed to overall win rate (for instance, Shen has a much higher win rate in a Demacia/Ionia deck than in other region combinations).
+Deck win rate: Deck win rate is folded into our card win rate metrics. While we’re looking at how cards perform in their best region combinations, we get to see how card clusters, archetypes, or specific decks are performing. This helps us isolate problems with certain matchups and determine what changes should be made (if any).
+These metrics combine to provide other ways to look at health as well, such as region prevalence. With these metrics in mind, here are some key areas we’re looking to improve:
+
+Healthy patterns: While the core gameplay provides a ton of opportunities for interaction, players have been able to push the boundaries of minimal interactivity a lot with certain decks. We’ve mentioned Fearsome and Elusive decks before, but we’re keeping an eye on things like Ezreal Frostbite decks as well. Here we need to walk a fine line between satisfaction, interaction, and games actually ending. Certain regions will be better or worse at different aspects of interaction, but we want players to have tools available to combat certain strategies if need be. We’ll continue looking at ways to provide those tools in addition to keeping low interaction with decks in check.
+RNG: We’ve always held the opinion that games should feel decided by players and not cards. RNG has a place, but it shouldn’t take the lead, and good RNG design creates novel circumstances that players can adapt to. We’re always watching how these designs are received (looking at you, Elnuks), and will make tweaks where needed to bring them in line.
+Shadow Isles: Shadow Isles has been performing as the best region holistically by a decent margin. This is partially due to Shadow Isles having a ton of outright power, but also because it’s incredibly strong at doing what it’s good at compared to other regions and their respective strengths. And on the flipside, Shadow Isles’ intended weaknesses—such as frail units and the inability to protect its units—are too easily mitigated by cards like Mark of the Isles and Frenzied Skitterer. While we’re making adjustments over time to address these issues, the biggest change is from a development standpoint: we’re going to focus on ensuring regions have clear, distinct weaknesses (and therefore challenges for you to build around) earlier in the design process.
+Champion Updates: Some of our Champions such as Vlad, Shen and Kalista have low play\rates that we want to improve. Some of the lowest playrate champions have very narrow archetypes (Vladimir, Shen). For these champions, we look to make their narrow decks a bit more meta or make tweaks to their supporting cast of followers before we outright change the champion itself. Others, like Kalista, not only don’t have a clear home but struggle by simply not being effective or having an unrealizable gameplay dream. For this type of problem, we generally look more at updating the champion itself. And then there are what we call “consumptive” champions, whose level-up dreams involve… destroying your opponents’ dreams (looking at you, Yasuo and Ezreal). While we aren’t planning to rework either of those champs in the near future, we’re being careful about how we design champs like that going forward, and are keeping a close eye on existing champs that fall into this category.
+long-divider.png
+The Economy and Progression
+From the inception of LoR, we knew we wanted a progression system that proved to players why card games could be awesome: imaginative new decks, endless tinkering, and fierce competition. We anticipated having to get creative to accomplish this, even if that meant throwing away the traditional pack model.
+
+And for the most part, we feel very good about the bets we’ve made so far. We’ve seen a bunch of anecdotal evidence, but we don’t want to rely on just what we see on various forums (or god forbid, social media comments), so we’ve also been conducting surveys to get a more data-driven indication of how we’re doing. So far, 75% of Open Beta players are saying they’re satisfied with the progression system, while 18% are dissatisfied (7% neutral). That’s pretty solid, but we think there are some key areas where LoR can do better:
+
+Collection agency: While collections are building up at a great rate on average, that’s not the only way we measure success. We think a critical measure is how well players can achieve their shorter term goals, like completing a particular deck. Looking at that data again, we see about 1/3 players saying the decks they want to play feel unattainable, likely from getting left behind due to poor RNG in their Vaults (particularly for Champions). So, we’re planning to update reward distributions to tilt toward more agency and less randomness before launch.
+
+Experimentation: We also see that some players are uneasy experimenting because wildcards feel too precious and it’s too unpredictable when you’ll get more. Instead of experimenting, we’re seeing stockpiling, which is definitely the less fun thing to do (and sort of defeats some of the “progression” you would otherwise have if you were using them). Before launch, we’re planning updates to our progression system to increase predictability and encourage using wildcards, so players are more excited to experiment. There’s no way to capture the exact same experience as Open Beta and the first set of cards, but we’re thinking hard about how to make the next set (and every future set) an equally exciting experience.
+
+Welcome to All Players: At the end of the day, we want LoR to be a welcoming game for anyone interested in its strategic core gameplay. The results we’ve seen so far in Open Beta have shown us we can do better to accommodate all the kinds of players who want to engage with LoR: those who can’t play much outside weekends, those who want to grind all night, new players just joining the community, and would-be players who might have passed on LoR initially because of the higher time barrier to entry. We want everyone to feel like they have multiple options for picking up the cards and decks they want, and we think we can make the game more accessible to a broader swath of CCG fans.
+
+long-divider.png
+Personalization
+Finally, personalization. We’ve been delighted by the response of the initial batch of guardians and boards (T-Hex FTW), but we’re just getting started. We’re investigating ways to add more features to guardians and boards, but we also can’t wait to expand into new cosmetic lines as well, such as card backs, emotes, and card styles—expect to hear more details about these after launch.
+
+long-divider.png
+On the Horizon
+Besides these updates, in the short term the team is focused on mobile, global launch, and the next set of cards. We think it's critical for us to hit the commitments we’ve already made and establish our baseline of new content and updates.
+
+But what’s next after that?
+
+We’ve already talked about some of our plans to increase player expression in the form of new cosmetic lines, boards, and pets. But there’s something else we haven’t mentioned yet: modes and formats.
+
+One thing that has always kept us coming back to card games is the infinite number of ways they can be played; many of our favorite formats were even made by the community, in lieu of the original designers pursuing them. We believe that it’s when tons of cards meet an equally wide variety of modes that our game will truly shine, and we’re excited to start down that path this year. You can look forward to new ways to play with your collection, compete, and be recognized.
+
+Thanks for reading this long article on the state of the Open Beta. As we head towards launch, we’ll be back with more info about ongoing work, a date for the official launch of LoR (both PC and mobile!)—and maybe even sneak peeks at the next set of cards.
+After two preview patches, six weeks of open beta, and a whole lot of data and feedback from all of you awesome open beta players, we’re making a big update to progression and the in-game economy of Legends of Runeterra. There’s a lot to cover, so let’s get right to the point and then dive into the rationale behind it all afterwards.
+
+long-divider.png
+HERE’S THE DEAL
+As design director Andrew “Umbrage” Yip talked about in his State of the Beta article, we’re seeing lots of positive results overall from the progression system. However, some of the methods we chose to achieve certain goals—like ensuring the meta continues to evolve and supporting the different ways players invest their time & money—aren’t doing the job as well as we’d like. So we’re adding more agency to your progression: a Champion Wildcard each week from a Vault that can now level up infinitely, no daily XP cap, and unlimited direct purchase of any card, among other things.
+
+Our goal is to give you the ability to get what you want, how you want, in a game where players can compete regardless of how much they spend. We think this set of changes will maximize your ability to experiment with different cards, ensure a faster and more reliable “time-to-deck”, and will keep things accessible for every LoR player.
+
+Effective starting Patch 0.9.3, you’ll be able to:
+
+Earn unlimited (and improved) Vault rewards
+Level 2+ includes an Expedition Token (previously awarded at level 10).
+Level 5+ includes a random Champion card (you can Braum Wave goodbye to bad luck Vaults with no Champions)
+Level 10+ includes a Champion Wildcard (replaces level 5 random Champion card).
+Beyond Level 13, unlock additional, unlimited capsules, each of which contains at least 3 Rares and 2 Commons, with a chance to upgrade to an Epic or Champion Capsule
+Earn unlimited XP
+PVP wins in Normal / Ranked and Expeditions net you at least 200 and 100 base XP (respectively), every time. Play as much as you want!
+AI wins will always provide at least 50 XP going forward
+Purchase unlimited wildcards
+No more weekly stock in the store
+Alternatively, you can directly purchase cards in the Collection tab using Coins (cost is identical to the equivalent wildcard)
+Easily and consistently play Expeditions
+Entry is 2000 Shards or 200 Coins. Combined with the Token in level 2 Vaults, those who love the mode will be able to play Expeditions more easily and less expensively. (Note that rewards have been reduced to compensate, and the guaranteed random champion has been moved to the Vault. Additionally, you’ll be reimbursed some of the value lost from existing Tokens in your inventory, and Expeditions started before the change goes live will receive the previous set of rewards.)
+
+Additionally, along with the first new set of cards—and new region—later this year, we’ll deliver the following feature:
+
+XP Boost levels on Region Roads. These levels will increase any XP you gain toward unlocking them, accelerating your progress through the earlier part of the road and allowing new + returning players to catch up quickly.
+The above changes (excluding the XP Boost levels) will be live on March 31 with Patch 0.9.3. We’re giving you early notice because we take changes to progression and the economy seriously, and know that you do too. Like our previous progression articles, we also want to provide as much transparency as possible and take the opportunity to talk about our broader goals, so read on for all the details that led to this update.
+
+(2)-01FR037_Avarosan-Outriders.jpg long-divider.png
+WHERE WE STARTED...
+When we set out to build a better card game, we focused on a particular challenge: How to create a meaningful sense of progression while fostering greater periods of experimentation and discovery. Given this ambition, we knew going into the preview patches (before Open Beta even started) that we had more work to do to get to the final state of progression in LoR.
+
+In our first article about progression, we said that: One of the big things we’re still debating is the fact that players are ultimately limited by time: There’s only one new quest a day, the Vault has a level cap, and wildcards in the store have a limited stock each week. It’s the tradeoff we’ve chosen in order to emphasize your agency—you have a clear way to get exactly what you want, but it'll take some time to get it. Is that ultimately better? We think so, but you’re about to show us.
+
+And show us you did.
+
+long-divider.png
+...WHERE WE ENDED UP
+While many players were very satisfied with the amount of agency they had at the outset, others were struggling with the limits. One of the most obvious examples was the randomness of the Vault, specifically when it came to Champion cards. Given how critical champs are to the “time-to-deck”—an important way in which we measure progression in LoR—that was a big deal. The randomness was especially punishing for players who were relying on the Vault (versus the store) to get the champs they needed.
+
+And while parts of the progression system—like limited stock in the store and a max level on the Vault—did seem to help the meta evolve more slowly, that benefit was overshadowed by notable downsides, like not being able to fully experiment with a majority of the cards. For some players, this made the meta stale in its own way, and for other players—those that have the most fun when being innovative and experimental—it was a real limitation that made LoR harder to enjoy playing altogether. While we love the idea of a meta that keeps evolving, we aren’t willing to keep constraining players in order to force a certain pace.
+
+(3)-01SI048_Cursed-Keeper.jpg
+We also saw a less-than-awesome optimization happening: stockpiling wildcards (and to a lesser extent, shards). We see this as a problem for two reasons: First, it indicates to us that players feel it’s ultimately more valuable to hold onto wildcards instead of using them to regularly acquire and try out new cards, which directly contradicts our goals of progression, experimentation, and discovery. Second, stockpiling wildcards effectively eliminates the possibility of a “slow-evolution meta” for the next set, as players can use all those wildcards to unlock the majority of new cards instantly (an issue which would likely repeat going forward). Regardless of any other changes, we’d need to eventually do something to improve this, if only because new players would be hopelessly behind the well-resourced veteran players.
+
+With all these problems clearly in view, we had essentially two options: keep the current course and accept that some players would have significant advantages over others (along with very different progression experiences), or make some big changes.
+
+long-divider.png
+PROGRESSION 2.0
+Our goal hasn’t changed—we still want to create a game with satisfying progression while fostering greater periods of experimentation and discovery—but we also don’t want the second half of that goal to come at the expense of the first.
+
+Trying to maintain a meta that evolves slowly would lead to some things that just straight up feel bad. For example, one solution would be to limit not just how many wildcards you can purchase each week, but how many you can actually use each week. Another would be to establish set-based wildcards, so that none of the current wildcards would be applicable toward the next set’s cards.
+
+It would sure slow things down, but there’s no way we’re doing any of that crap. (And even if we did, it wouldn’t necessarily lead to the kind of evolving meta we saw in Open Beta. There’s a high chance the community would default to playing existing top-tier decks rather than experiment with the latest cards in less-powerful decks, choosing to wait until a complete, competitive version of a new deck is possible before investing in playing it.)
+
+(4)-01PZ014T1_Illegal-Contraption.jpg
+Which brings us to big change #1: we’re making wildcards, or essentially direct purchase of cards, unlimited. Once we decided against the feels-bad methods necessary to make an Open Beta-style meta experience happen again, this became a simple way to improve three key things simultaneously: ensure new players weren’t forever behind those who stocked up earlier, enable players who wanted access to the full set of cards for experimentation, and eliminate the implicit pressure to make purchases because of the limited weekly stock.
+
+That’s probably the bigger headline, but it isn’t the one we started with. Another goal we’ve been committed to since the beginning of LoR is to make a game where how much money you spend is NOT the deciding factor in your success as a player. So before we could get to the question of wildcards, we had to first figure out how to give players who invest time, rather than money, more agency. Turns out, it was a similarly simple solution: make XP gains and the Vault unlimited as well, and ensure players had more access to (and control over) Champion cards. That manifests as a Vault with a random Champion at level 5 or a Champion Wildcard at level 10, and continuous leveling for as many bonus capsules as you can get.
+
+Together, these changes do a lot to increase agency across the board. But while they might be great for players that heavily invest with either time or money, they don’t do as much for another kind of player: those who don’t (or simply can’t) invest that way.
+
+(5)-01NX003_Arena-Bookie.jpg
+We never want anyone to feel like LoR is only playable if you’re grinding out games or dropping a bunch of cash. We’re also personally familiar with the fear of missing out and falling behind when you dip out of a game for a little while. So along with the now-consistent Champions from level 5 Vaults (which is designed to be virtually guaranteed just by completing your daily quests), we’re adding XP Boost levels that will accelerate anyone who’s far behind into a reasonable range.
+
+Over time, additional XP Boost levels will be added based on how long and how quickly active players have been progressing to ensure there isn’t a huge disparity in card collections. If a significant part of the community ends up rocketing way ahead of the pack, the rest of the community can draft off them to catch up. We want coming back after a break to be easy and appealing, and ensure that it’s always a good time to start playing LoR.
+
+That rounds out the major changes you can expect to see soon. Whatever struggle you were having with your progression, this update aims to fix it. You wanted less barriers? Unlimited XP gains, Vault levels, and direct purchases are yours. Needed more accessibility? Better rewards from the Vault, more Expeditions, and XP Boost levels are here. Were you praying every week for a Champion? You got ’em, no problem. The meta may evolve more quickly now, but your progression will keep up, and you’ll have more agency than ever before.
+
+(6)-01DE043_War-Chefs.jpg long-divider.png
+AND AWAY WE GO (AGAIN)
+We’ll be watching carefully over the next few weeks to see how you all respond to these changes, and how it impacts the game overall. We’re determined to develop the best progression system we can for LoR while finding other ways to keep the meta fresh in an unlimited world.
+
+We’ve given this update a lot of thought, and are striving to make it the last major change to LoR’s core progression and economy. As always, we’ll keep communicating along the way.
+
+Thank you to everyone playing in the Open Beta for helping us see what still needed fixing. With launch not too far away, we’re more excited than ever for what you’ll help us create next.
+
+Let’s keep building a better card game together.
+SETTING SAIL TO BILGEWATER
+Yes Hello Hi! I’m Alexzandros “Careless Whisper” Lee, the design lead for the Rising Tides expansion. Rising Tides adds a new region—Bilgewater—and a bunch of new keywords and mechanics.
+
+In Bilgewater, fortune favors the bold and life always comes with a little risk. We’re excited to bring that flavor to a fresh design space and introduce new kinds of cards to LoR—like this one:
+
+02BW045.png
+Make It Rain is a card that can play out a few different ways, which is what we think makes it exciting and fun. But we’re also aware that there’s a word in the rules text fraught with a lot of potential hazards: random. So before we cover Make It Rain (and a few other fun cards from the Rising Tides set), let’s dive in and talk about how we think about randomness in Legends of Runeterra. Beware—here be jargons.
+
+long-divider.png
+RANDOM, THE DOUBLE-EDGED SWORD
+Random is a spicy word in the card game genre. Some players aren’t fans of the implied inconsistency and reliance on “luck.” Others welcome the excitement and unpredictability it brings. On the LoR team, we believe there is a way to include random elements that is fun for all types of players, and healthy for the game overall. But to show you why we think that, first we need to define two other ideas: variance and uncertainty.
+
+We use variance to mean the range of results you might get from an action, while we refer to uncertainty as the lack of knowledge of which results you may get. Both of these together create what we colloquially call “randomness.” They are individual levers designers can use to tune a random game element, but it’s tricky to tweak one aspect without affecting the other, as high variance can cause a lot of uncertainty.
+
+There are some elements of variance and uncertainty that exist inherently in the rules of LoR, and some that are common to the whole card game genre. For example:
+
+Your deck is shuffled, so what you draw is uncertain.
+Who you play against and the deck they’re playing with has high variance.
+The uncertainty of what you’re going to draw is important because it helps create game-to-game variety and exciting moments each round start; the games when you get the perfect hand are much different than the games when you only get half of your combo. It pushes you to adapt and seek out other avenues to tip the game in your favor.
+
+Designers can use these two elements as levers to create more exciting, edge-of-your-seat experiences, but we have to be careful: randomness is a double-edged sword.
+
+01DE011_Laurent_Protege.jpg
+Without enough, LoR would feel deterministic and flat—plays would have strictly correct choices, because you know the entire outcome beforehand. Too much randomness, on the other hand, and you can feel like you have no control over your own game—the choices you make ultimately don’t matter, because who wins is left up to chance.
+
+At the same time, variance and uncertainty are also often the unsung heroes that help make every game feel exciting and different, no matter how many games you’ve played before. They’re the catalysts for unique strategies and exciting top-decks that let you blow out your opponent when you draw the right card, at the right time.
+
+As with so many things, it all comes down to striking a balance. And when done right, randomness doesn’t replace skill, but actively creates new ways to showcase it.
+
+01DE045T1_Fiora2.png
+THE ART OF ADAPTABILITY
+One of the principles of LoR design is Skillful Plays Matter. Skill, in this context, is a combination of three pillars:
+
+Planning
+The ability to come up with a plan beforehand (or figure out one on the fly) in order to win a game. It can be anything from “yeti deck, smash!” to “against this opponent, I need to do X, Y, and Z to win.”
+
+Interpretation
+The ability to read a situation and make the correct play, at the correct time. These are the big brain moments: saving that Deny for the right spell, or attacking into an opponent with full mana because you already know they don’t have a response.
+
+Adaptability
+The ability to adjust to new situations, especially ones where some information is unknown. Situations like “my opponent is playing a deck I’ve never seen before,” and “I only have half my combo, how do I survive until I get the rest?”
+
+The adaptability pillar is where randomness comes in: to deal with variance and uncertainty, you’ll need to adapt and improvise.
+
+Earlier I mentioned that LoR already has some elements of randomness built into the game rules. They’re examples of what we would call “healthy” randomness, where you can change your tactics based on the outcome and still have a shot at success—not getting a one-drop in your aggro deck’s opening hand isn’t awesome, but it’s not an instant loss, either. This is compared to something like winning the game on a coin flip, which would be “unhealthy” randomness—there’s nothing you can do to change the outcome of what is essentially pure luck, and the entire game is riding on it, not just your first attack. We enjoy dramatic game ends (and we’re sure many of you do too); we just prefer they come from a top-deck that could be anticipated versus completely unexpected.
+
+Even for the person favored by a random outcome, unhealthy randomness steals the skillful play from you with a feeling of “I got lucky.” It can also make it difficult for you to improve as a player if there’s not much you could have done differently.
+
+01PZ018_Academy_Prodigy.png
+So one of the main ways we decide whether a random element is a healthy one for LoR is how much agency a player has to adapt to it: What information can you leverage and what do you control that can affect the variance and uncertainty?
+
+Let’s revisit the fundamental randomness of card games:
+
+Your deck is shuffled, so what you draw is uncertain. But when you build your deck, you can control some of the variance.
+Who you play against and the deck they’re playing with has high variance, but knowing how much mana they have left and what cards they can use can reduce your uncertainty.
+If there isn’t some way for a player to adapt to variance or uncertainty, then we’re less excited about putting it in the game, because it’s less exciting for you as a player.
+
+Another way we look at whether something random is healthy involves its impact. Generally the more impact something has, the bigger outcome or effect it has on the game, and the more work we’re going to ask of a player to get the result they want. Cards like Warmother’s Call are incredible when you can pull ’em off, but it shouldn’t be too easy or too frequent.
+
+01NX020_Draven.png
+“But what about X? That card breaks these guidelines!”
+
+It definitely might. These are guidelines we (and now you!) can use when evaluating cards, not hard and fast rules. Sometimes we’ll try to push the boundaries for cool effects, and we won’t always get it right at first (hello Elnuks!). What’s important to us is that when you run into situations where you feel you’ve hit unhealthy randomness and there isn’t a way to tip the game back into your favor, you call it out.
+
+Now with all that in mind, let’s talk about the bets we’ve made in Rising Tides to bring what we think is healthy randomness—and the risky, roguish charm Bilgewater is known for— to LoR.
+
+BACK TO BILGEWATER
+The randomness you’ll find in Bilgewater operates on a pretty simple idea: “I’m making a bet I know I’ve already won.” It’s a region that’s unafraid to stack the deck and finesse the board to make sure a hail of bullets hits the right targets.
+
+02BW045.png
+At first glance, it may look like Make it Rain is completely random. But we’ve used those levers of variance and uncertainty to make it more nuanced (and more healthy) than a coin flip.
+
+First, it can’t hit the same enemy twice, meaning if your opponent has two units on the board, you’re guaranteed to hit both (and chip their Nexus, too!). You get to challenge your ability to adapt and execute to set up the board for the perfect cast of it, using Bilgewater’s removal effects to help you do so. (Alternatively, if you’re on the receiving end, you can predict it’s about to rain if your opponent focuses on getting your units to 1 health. Or if your bad knee starts aching.)
+
+Second—and this is important—it’s only random for the player casting it. Once you commit Make it Rain, the targets are finalized and indicated. The opposing player gets to see exactly what is going to happen, and has a chance to effectively respond using that concrete information.
+
+Let’s take a look at another card with built-in randomness:
+
+02BW049.png
+Like Make it Rain, there are a couple reasons why we believe this card will introduce healthy randomness:
+
+Including this card in your deck is opting in to a playstyle that forces you to adapt a lot every game; you’ve made a choice to lean on that pillar of your skill.
+Your opponent has a good idea of what the outcome can be, because they know all the cards in their deck and what you might have stolen.
+Here’s one more example that brings randomness to both your play-by-play tactics (like Make It Rain) as well as the overall style of a deck (like Pilfered Goods):
+
+02BW038.png
+Our buddy Zap is an awesome example of the sort of variance and uncertainty we like to have in LoR:
+
+It rewards you for constructing your deck in a way that lets you control the variance, and therefore the uncertainty.
+Your opponent is rewarded for their knowledge of the different regions you’re playing, because the more awareness they have of all cards in that cost range, the better they can predict what you might have drawn.
+DIVE IN
+The true test of whether we’ve struck the right balance of randomness is how it feels to play, so we’re excited to see what you all think now that the cards are out in the wild. You can discover the rest of the Rising Tides set and the Bilgewater region right now (on both PC and mobile, by the way!) and try your hand at making randomness work for you. 
+
+We hope you enjoyed this design dive; let us know what you think of it and if you’d like to see more in the future! Until then, may you always find fortune’s favor.
+FROM CHAMP SELECT TO YOUR DECK
+From a celestial dragon who forged the very stars to a literal tree (actually, there are two trees), League of Legends has a wide range of champions. And when it came to bringing them to Legends of Runeterra, we had a lot to work with: four (or more) abilities, a backstory, in-game dialogue, art, player feedback... You get it. Sometimes we had a little too much.
+
+We’ve faced all that (and more) throughout development, and we want to talk about it. So here’s how we adapted a few of Set 1’s champs from League to LoR.
+
+long-divider.png
+Elise, the Spider Lady from... Somewhere
+02_Elise.png
+“Champions in League typically have ‘known properties,’ or basically thematic and gameplay,” shares game design manager Shaun “UNCONKABLE” Rivera. “We also get data—thanks to the insights team—about what players think. One of the things we do with that data is turn it into a word cloud to see if we’re going in the right direction.”
+
+But sometimes the things champion mains say make their champion unique doesn’t quite match where the team is heading.
+
+Early on, the team wanted to lean into Elise’s “Spider Queen” thematic by giving her spider-like attacks, an army of spiderlings, and an ascended Spider Queen form. You know, the standard kill-it-with-fire stuff. Initial internal playtests were positive, and the team felt they were landing the cocoon. So when the data from player surveys came in, they were a little surprised.
+
+“Junglers had a very different view of Elise than we did,” product manager (then-insights analyst) Travis “Riot Dovagedys” Boese recalls. “They basically unanimously said, ‘When I’m Elise I’m going to shoot you with that cocoon skillshot, spider form it up, repel, and then bite the s*&^ out of you.’”
+
+Players didn’t seem to care about the creepy crawly spider queen thing that the team thought made Elise, Elise. So... what now? Could they make Elise’s League AP jungler assassin gameplay work in LoR?
+
+“While we were trying to figure out how to make Elise’s gameplay feel good to players, we were working with narrative to figure out where in Runeterra to even place her,” UNCONKABLE says.
+
+03_Frenzied_Skitterer.jpg
+For a quick narrative rundown, Elise is a former-mortal-Noxian-noblewoman-turned-spider-lady-from-demigod-bite who now lures Noxian noblemen to their deaths on the Shadow Isles so she can eat them to retain her youth and beauty (pro tip for all the skin care enthusiasts out there, btw). And while the differentiation between Noxus and Shadow Isles as a native region might not seem like it matters much, it informed the direction the team could take Elise.
+
+“We made Elise from Shadow Isles, so we decided to double down on the spider-queen-surrounded-by-lots-of-spiderlings thing because it made sense for that region,” UNCONKABLE explains. “But we still wanted to pay homage to the players who like her cocoon-and-repel playstyle. And that’s where realization came in.”
+
+LoR has a team dedicated to “champion realization.” Basically it’s the devs who make the art, sound, and effects that bring champions to life—all of the pretty things that make you say “ooh” and “aah” with the occasional “wait, what?” It was these devs who brought Elise’s gameplay player fantasy to life in LoR.
+
+04_Elise_Leveled.jpg
+But sometimes leaning heavily into a champ’s thematic gets a little... confusing.
+
+long-divider.png
+Ezreal, the... Space Cowboy?
+05_Ezreal.jpg
+The team did a lot of exploration with Ezreal. And while his League gameplay is iconic with tons of spells and high mobility, what if—and just hear us out—we leaned into his really cool explorer thematic?
+
+06_Gauntlet.jpg	
+In his earliest design, five artifacts would shuffle into your deck at the start of the game. And if you drew three of the five, Ezreal’s gauntlet would upgrade and he’d become incredibly strong. That’s Ezreal, right? Well...
+
+“A lot of Ezreal mains at Riot didn’t understand what was happening,” UNCONKABLE says. “So we had to go back to the drawing board.”
+
+“I remember during one of these feedback sessions a Rioter—who I won’t name—said they didn’t know what Ezreal’s deal was,” laughs Riot Dovagedys. “I have a very vivid memory of them asking, ‘Is hesupposed to be a space cowboy?’ And I was standing outside of the room going, ‘What the f*&^?’ So, yeah, we needed to keep trying.”
+
+Have you ever seen the questionnaire that pops up in the corner of League at the end of a game asking for feedback? That’s what the insights team used to propagate word clouds for each champion.
+
+“The methodology we were using at that time asked Ezreal players what his most identifiable trait was,” Riot Dovagedys explains. “The top answers were things like ‘high skill,’ ‘Mystic Shot,’ ‘Q spam,’ and stuff like that. We then gave those answers to the designers.”
+
+So the dev team decided to reel back the thematics and listen to the players: Mystic Shot spam it would be!
+
+07_Ezreal_Leveled.jpg
+But sometimes player League fantasies are a bit more difficult to bring into a card game.
+
+long-divider.png
+Hecarim, the Really Fast Horse
+08_Hecarim.jpg
+“Hecarim was a difficult champ to bring to LoR,” says Riot Dovagedys. “The overwhelming sentiment we got from players was, ‘He’s a horse and he runs really fast.’ Which... Cool. But how do you make something run really fast in a card game?”
+
+Luckily the realization team was up for the task.
+
+Sometimes you get really lucky and get something right the first time. Making Hecarim was one of those times. When the team brought Hecarim mains in to test the Spectral-Rider summoning, Overwhelm Hecarim card and saw the build up of him casting his ultimate and moving really fast, that was it. Got ‘em. Time to call it a day.
+
+Or was it?
+
+“We were really interested in exploring Runeterra, and adding Followers was an interesting way to add depth to the world around the champions we knew from League,” says narrative lead Mel “Melell” Li. “League has a spotlight on champions, and LoR is like, ‘Who’s in your crew? If they’re at a bar, who does this champ talk to?’”
+
+So if Hecarim was at a bar, who would he talk to?
+
+“The majority of our card art was done by the incredible team at SIXMOREVODKA in Berlin,” says art director Greg “GiantArtist” Faillace. “We encouraged them to do a lot of exploration and to let their imaginations run wild.”
+
+09_Shark_Chariot.jpg
+“I came into the office one day and there were a bunch of explorations on the wall, and I saw this dude on a chariot with these three ghostly sharks. And it made such little sense that I was immediately in,” laughs UNCONKABLE. “One person on our team at the time absolutely hated it. They said it was the stupidest thing they’d ever seen. And I kept trying to convince them that we had to make it. And then we did! It’s so ridiculous. I love it.”
+
+10_Hecarim_Leveled.jpg long-divider.png
+Darius, the Big Hatchet Man
+11_Darius_ALT.jpg
+Some of LoR’s core mechanics didn’t exist in the beginning of development, including champion level up. Instead, in an effort to make champs feel like their League counterparts, they came with various spells when added to your deck.
+
+“At one point Darius was a 5-cost 5|5, and when he attacked he’d do 1 damage to all enemies that weren’t in combat,” shares UNCONKABLE. “We wanted to give him a ‘punish the weak’ feeling to match that oppressive juggernaut fantasy. And he had his Noxian Guillotine spell that kills a damaged unit and lets you keep killing. They paired really well together.”
+
+Then Darius mains at Riot got their hands on their beloved beefcake brute and delivered an overwhelming onslaught of feedback.
+
+“Everyone said the light AoE damage felt more like Katarina than Darius,” says UNCONKABLE. “I tried to remind them there would be bleed effect visuals added, but they didn’t budge. I remember one person said to me, ‘No! I play Darius because I want to be big hatchet man!’”
+
+So that version of big hatchet man went to the chopping block.
+
+The next version of Darius leaned more heavily into his ultimate reset mechanics from League. When the enemy Nexus hits 10 or less health, he becomes a 10|5 with Overwhelm, similar to his current state.
+
+12_Noxian_Guillotine.jpg
+“It was around this time that we started to explore the level-up mechanic for champions,” shares Riot Dovagedys. “Shawn ‘smnoshoes’ Main and James ‘Bokurp’ Hata pitched the idea, and Darius was the first example they shared. It was a really elegant design. He leveled up and then boom, you’ve triggered this huge monster that’s going to kill you. It felt like Darius hitting level 6 in League.”
+
+“Darius’ level up animation was the first one we completed,” adds senior software engineer Patrick “Riot Crowtaro” Conaboy. “I really wasn’t sold on the idea of playing a cutscene in the middle of the game. And then I saw him yoink the camera down with his E and I changed my mind. It was really exciting and made the game feel more dynamic.”
+
+The new mechanic gave the narrative and art teams the ability to tell a deeper story as well.
+
+“Writers on LoR work a lot on describing the scene: What’s the moment that expresses the gameplay? What’s the character experiencing at that exact instance? And then we give those prompts to the artists,” explains Melell.
+
+The champion level ups made it easier to tell a story.
+
+13_Darius_Leveled.jpg
+“We try to give them each a quiet moment before the high action moment,” says Melell. “We want to make the cards feel like a storybook so players feel like they’re experiencing a real moment in these characters’ lives.”
+
+But art prompts aren’t the only way the narrative team can make the cards feel more alive.
+
+long-divider.png
+Garen, the Hopeless Romantic
+14_Garen.jpg
+The Might of Demacia’s gameplay design was relatively straightforward. He protec, he attac, but… how does he interac? Aside from shouting “DEMACIAAAA” at the top of his lungs, who is Garen Crownguard?
+
+“We knew way back in the day that we wanted to expand on voiceover work. We saw it in other card games, and it was already in League, but we wanted to take a closer look at the characters, especially champions,” Melell shares. “League has so many cool VO interactions, but there’s so much going on in the game. You need to stand right next to them to interact, and it’s usually hard to hear over the actual gameplay.”
+
+So, what’s Garen like at a party? How is he different when talking to his aunt vs when he’s bantering with Katarina? You’ll have to play them together to see.
+
+15_Garen_Leveled.jpg long-divider.png
+Katarina, the Meat Grinder
+16_Katarina.jpg
+Katarina fell into the Hecarim “gotta go fast in a card game” bubble. But unlike Hecarim, it took numerous iterations to get it right. As a hyper-mobile assassin whose kit revolves around jumping all over the place, it wasn’t exactly an easy translation from Rift to deck.
+
+“When we’re exploring cards early, we’re playing on paper so we can make changes faster,” explains UNCONKABLE. “We have to ask the playtesters to imagine all of the things like animations, sound effects, and visual flair. It can be challenging to get feedback on cards at this point because a lot of the game is all of the realization we add later.”
+
+Before landing on her final quick-strike-and-return-to-hand gameplay, Katarina saw one iteration that was clearly wrong: the meat grinder.
+
+Any time you resolved a spell, Katarina would do 1 damage to everyone in combat. The deck became Katarina, a bunch of Challengers, and as many spells as possible. But the team quickly realized that meat grinder Katarina was past its expiration date. It was time to try something else: Focus on her Death Lotus.
+
+17_Blade_s_Edge.jpg	
+“We gave Katarina her Blade’s Edge, and every time you resolved one, it’d shuffle two more into your deck. In theory it was just a hail of blades coming at you, but in reality no one played all of the blades at once,” recalls UNCONKABLE.
+
+This meant that you’d have to physically press “Okay” every time someone played one of these cards. So if your opponent played 10, you’d just sit there, slowly accepting your inevitable defeat.
+
+“That build lasted a day. And then Alexz ‘Careless Whisper’ Lee, one of the other designers, came over to my desk and said, ‘This is literally the worst time I’ve ever had in my life. I will f&^%ing destroy you if this stays,’” laughs UNCONKABLE. “Point is, you just have to try a bunch of stuff. And people will tell you right away if they’re having a good time or not.”
+
+18_Katarina_Leveled.png
+But where do you start when a champ has six (seven?) abilities to choose from?
+
+long-divider.png
+Karma, the Dragon Lady?
+19_Karma.jpg
+Karma holds a unique spot in League. She’s a support who provides powerful shields to her allies... and runs down her enemies with terrifying speed, snares them in spot, and blows them up with a massive burst of damage. So how do you translate all that to a single card?
+
+20_Scaled_Snapper.jpg
+“We used Karma’s creation as a reason to explore Ionia in more depth and establish its identity,” explains Melell. “Karma herself is a living embodiment of Ionia, so we wanted to see that natural world expressed through the design of her followers.”
+Before we get into the specifics of Karma’s tumultuous design process, it’s important to call out some of the key differences between League and LoR. In League, a lot of the high points (often ults) for champions are AoE or crowd control—stuns, knockups, etc.—which is difficult to bring to a card game. And, unfortunately, that’s a big chunk of Karma’s kit.
+
+The next problem is her Mantra-empowered Q, Inner Flame. If you’ve ever laned against her, you know it deals a shocking amount of damage. But in LoR, the team wanted to generally keep huge damage with champions it fits with thematically, so they decided to leave that to things like Jinx’s Super Mega Death Rocket.
+
+That leaves barriers. Great. Cool. Ionia is a region that really likes barriers. But there was one problem: Shen.
+
+21_Shen_Leveled.png
+“When we were working on Karma, we knew we wanted Shen in the game. And his most iconic spell is his ult, Stand United,” UNCONKABLE explains. “At that point Shen literally was his ultimate. He was just a spell card. So we couldn’t give Karma these powerful shields, because it would diminish Shen.”
+
+“We decided to look into her backstory, and there was one story where she staved off a Noxian invasion by summoning these two spirit dragons, which basically are the Mantra,” says UNCONKABLE. “We thought it was really cool, so we created a version of her where she’d summon two dragons. But no one understood what we were doing. Everyone said she felt like Annie summoning two Tibbers.”
+
+That’s when game designer Noah “Riot DefaultChar” Selzer recommended exploring her Enlightenment thematic. The team loved the idea, and—unlike the dragon lady design—so did the Karma players.
+
+22_Karma_Leveled.png
+Sometimes the designers know what kind of design they want, just not the champion it goes with.
+
+long-divider.png
+Fiora, the Win Condition
+23_Fiora.png
+“I’m a big fan of Yu-Gi-Oh,” says UNCONKABLE. “As the initial design lead for LoR’s first set of cards, I knew that I wanted to add a card like Exodia to the game. And originally I wanted Heimerdinger to be the alternate win-con, but Andrew ‘Riot Umbrage’ Yip, LoR’s design director, had a really cool concept where Fiora won the game through combat. And it was just so good.”
+
+As a nod to Fiora’s “casual pentakill” playstyle in League, in her original LoR version the “I win the game” mechanic required that she kill four units. But there was one problem: Sometimes you didn’t actually win the game.
+
+“The card originally did 99 damage to the enemy Nexus,” explains Riot Dovagedys. “We didn’t have the tech yet to just win the game, so it had to do damage. But because of that there was a way you could not die.”
+
+At the time Barriers could be cast on your Nexus, which is precisely what happened during one of Fiora’s playtest matches. The resulting press-F-to-pay-respects moment resulted in the engineers ensuring Fiora had the tech necessary to make sure no one else had to go through the pain of not winning when playing Fiora, the Win Condition.
+
+24_Fiora_Leveled.png
+But when it came to engineering challenges, Fiora was far from winning that game.
+
+long-divider.png
+Teemo, the Engineering Nightmare
+25_Teemo.png
+Teemo is... a controversial champion. He’s either someone you hate because he’s a sick, twisted sadist. Or he’s someone you love because you’re a sick, twisted sadist. Love him or hate him, Teemo changed the game for the better.
+
+“Originally Teemo put a couple of mushrooms in your deck whenever he attacked. But unlike now, they did two or three damage each. When one hit you, it hurt SO MUCH,” says UNCONKABLE. “A lot of people on the team thought it felt bad.”
+
+That’s when Riot DefaultChar suggested making Teemo a 1|1 Elusive who didn’t just plant shrooms in the opponent’s deck, he doubled them. By making Teemo a low-cost champ, he could be played early and start building the garden. And doubling the shrooms each time? There’s nothing quite like slapping your opponent in the face with a handful of mushrooms while spamming the Braum emote.
+
+But there was one tiny problem: Teemo broke the game.
+
+“In engineering, as you go further along in the development process, you build tools for yourself to use later,” explains Riot Crowtaro. “And since this was early, our toolbox wasn’t as well stocked. So in order to solve unique problems—like Teemo’s shrooms literally crashing the servers—sometimes you need to take the tools you have and turn them into the ones you need. Say you need to hammer in a nail, but you only have a saw. You just take the saw, turn it sideways, and bash it into the nail.”
+
+Initially Teemo inserted actual mushroom cards into your deck for each mushroom he made. In his initial build where you’d have one or two, it wasn’t so bad. But the new double-the-count build from Riot DefaultChar meant instead of having 40-60 shrooms in a deck, you’d have a couple thousand.
+
+26_Mushroom_Burst.png	
+On top of that, cards that buff the others in your deck with +1|+1 (for example) meant going through all the shroom cards to make sure they didn’t need buffs too. When you’re talking about 40 vs 40,000, that makes a pretty big difference.
+
+Beyond the engineering feat, there was a feelsbad situation for individual shroom cards. Each time you drew one, you’d have to sit through the entire animation, one at a time. In some cases, this meant sitting through hundreds of card draws as you watched yourself become more and more dead.
+
+“So we made a few adjustments to the game. From an engineering standpoint, we made it so the mushrooms would attach themselves to a card, instead of being individual cards,” Riot Crowtaro says. “And we swapped from a one-at-a-time mushroom explosion animation to a single ticker animation, so it would count up really fast as you drew mushrooms. And we made changes to the animation system so animations can overlap.”
+
+“Even recently we changed the way we calculated how mushrooms are doubled,” Melell adds. “We went through a variety of methods to calculate how many mushrooms were on each card because of the insane numbers of mushrooms some people were putting into their decks, which would then slow the game down considerably.”
+
+In short: Players being so dead set on pushing and breaking rules caused the team to refactor mushroom calculations multiple times. So, bravo. You did it. You almost broke LoR. And for once, Teemo did something good.
+
+“It’s been several years since all of this went down, and at this point we have a much more mature codebase,” Riot Crowtaro says. “We’re able to do a lot more ludicrous things without having to pretzel ourselves to make it happen. And because of Teemo, we can do a lot more in the future.”
+
+27_Poison_Puffcap.png
+
+And Teemo’s not the only Yordle to waddle his way into LoR.
+
+long-divider.png
+Heimerdinger, the Big-Brained Turret Man
+28_Heimerdinger.png
+“Heimerdinger was a lot of fun to figure out,” says UNCONKABLE. “In one of his earliest iterations, he built a turret and it just got bigger and crazier as you went. It was really cool, so Riot Umbrage wanted to lean further into the crazy inventor thing, where Heimer makes a bunch of turrets whenever you cast a spell and that mana is the turret’s power.”
+
+So here’s Heimerdinger with all of these turrets. But what exactly is he planning on doing with them? What’s his pinnacle of brilliance? His magnum opus?
+
+30_T-Hex.png
+“I walked into the office one day and saw that someone had printed out a bunch of art and hung it on the wall. And T-Hex was up there,” laughs UNCONKABLE. “And I was like, well, obviously this is going to be a card. And someone told me that dinosaurs don’t exist in Runeterra.”
+
+“I was that person!” GiantArtist interjects.
+
+“Melell! It exists, right?” UNCONKABLE asks.
+
+“All of the cards and ‘pieces’ that players interact with exist,” Melell laughs. “How they’re used, and how (if at all) they ever encounter each other is entirely up to the player.”
+
+“I just hope players feel like we did him well,” adds UNCONKABLE. “I hope Heimerdinger players feel like they can make the crazy, big brain plays to go along with the crazy, big brain inventor.”
+
+29_Heimerdinger_Leveled.png long-divider.png
+Lux the It’s-Not-Just-A-Phase-Mom-I-Really-Don’t-Belong-Here Demacian Mage
+31_Lux.png
+“We have a goal for every champion to have a deck that they’re best fit for,” Riot Dovagedys shares. “And for a while, Lux broke that rule. She made a Final Spark that did 10 damage and cost 0 mana for a long time.”
+
+“Yeah, her original intent was to be paired with Heimer. It was supposed to be a big spell deck,” UNCONKABLE offers.
+
+But Heimer’s from Piltover and Lux is from Demacia. Big spells felt at home in Piltover, but since Demacia has that whole “persecute the mages” thing going on, it left Lux in a bit of a bind.
+
+“She was difficult to do thematically,” adds Melell. “Her whole tagline is that she doesn’t fit in Demacia. So how do you do that while also making her cohesive with the cards from that region? We needed to figure out the relationship between Lux and Demacia. And I think we managed to do that when we found Mageseekers.”
+
+32_Mageseeker_Investigator.png
+As the team worked on Lux and the Mageseekers for LoR, other parts of Riot took notice.
+
+“As we were fleshing out the backstory for these characters, someone mentioned how cool it would be to make a Lux comic,” Melell recalls. “The resulting comic with the Mageseekers came out before we announced LoR. It’s really cool seeing world building cross over to other mediums.”
+
+33_Lux_Leveled.png
+How would you feel if we told you Lux and Draven actually have a lot in common?
+
+long-divider.png
+Draven, the Foul-Mouthed Funnyman
+34_.png
+Noxus is a hyper-militaristic society. With champions like Swain, Darius, and Katarina calling it home, at first glance it’d be easy to confuse Noxus with a gathering of edgelords and tryhards. And then you have Draven, a bombastic showman with an inflated ego.
+
+“We ran into similar problems with Draven that we had with Lux,” Melell says. “He just didn’t really fit in with Noxus—he’s fun-loving and over-the-top, which isn’t Noxus’ deal. So we looked at who he’d surround himself with. And that’s how we found the Reckoners.”
+
+35_Kato.png
+But a group of loud gladiators with a wrestling showmanship vibe wasn’t the only way the team was able to capture some of Draven’s... unique charm.
+
+“There are these awesome moments where we’re able to show that you’re in the world of Runeterra and not on Summoner’s Rift,” Riot Dovagedys says. “I really love that when you have Draven in play and your opponent plays Teemo, Draven literally goes, ‘What the f*&^ is that?’”
+
+“Woah, woah. It’s bleeped out! We don’t know what he’s actually saying,” Melell interjects. “You’d have to ask Conor ‘FizzNChips’ Sheehy what he meant when he wrote that line.”
+
+“All right. All right. Well, we know it at least started with an f,” laughs Riot Dovagedys. “Anyway, it’s my favorite piece of VO because it feels like that’s how Draven would actually react if he saw Teemo. It’s so good! And everyone—well Greg sits far from me, so he doesn’t hear it but—everyone around me can attest to the fact that I yell our VO on the daily.”
+
+“I can hear you,” GiantArtist smiles. “You’re yelling.”
+
+“The point is, the VO makes these champions feel alive. And I just think it’s really cool to be able to see and hear that,” Riot Dovagedys clarifies.
+
+36_Draven_Leveled.png long-divider.png
+[Champion], the ???
+“I feel like every champ just has some insane story. Early on we were trying tons of stuff, but we really just wanted to make sure players liked it—that we exceeded any expectations they might have,” says UNCONKABLE. “I’m really proud of what everyone did, and I hope players feel like we got it right for their champs. I’m excited to see what they think about future sets.”
+
+While we weren’t able to share the stories ofevery champ that’s out so far, rest assured they all had their own unique quirks and challenges. We can’t wait to see what you think of the new ones, and we hope to share their stories in the future.
+On this towering mountain, cosmic beings lend their might to mortals. Astral dragons soar beyond the sky. Tribes of the faithful devote themselves to the sun, moon, and stars.
+
+Welcome to Targon and Legend of Runeterra’s next expansion: Call of the Mountain.
+
+
+But Call of the Mountain isn’t just an expansion—it’s also a set, with two more expansions to come.
+
+long-divider.png
+What’s the Difference?
+When Call of the Mountain drops on August 26, it kicks off a whole new structure for LoR card releases. We mentioned in What’s Next for Runeterra that we’d be doing card releases a little differently after launch, but now it’s time for specifics. Stay with us for a few paragraphs, and we promise it’ll make more sense.
+
+Let’s start with some quick definitions:
+
+An expansion is all the cards, champions, cosmetics, and game modes released with a major patch (roughly every two months). Each expansion will have a unique name; this next one is Call of the Mountain!
+A set is a thematically and mechanically cohesive group of cards released over one or more expansions. The set shares its name with the first of these expansions—for example, the cards released in August, October, and December will all be part of the Call of the Mountain set. (This will matter down the line when it comes to deckbuilding rules for different formats and modes!)
+Lastly, a new Ranked season starts whenever a new expansion is released and shares its name (so in this case, the Call of the Mountain Ranked season). Each Ranked season has a unique icon for you to earn based on which tier you reach.
+In this article, we’ll be talking about the 3 expansions that make up the Call of the Mountain set. We’ll get into some of the “why” next, but first, here are the major points:
+
+Starting with Call of the Mountain, we’ll release new cards roughly every two months (and maybe a few surprises here and there). Each three-expansion set will focus on a new region (in this case, Targon).
+The first expansion in a set will be larger (for Call of the Mountain, you’re looking at 89 collectible cards with 7 champions), containing all the cards needed to introduce the new region’s major themes and multiple viable decks featuring that region.
+The second and third expansions will each be about half that size (for CotM, that’s 40 cards with 3 champs in both the October and December expansions). These expansions will have a mix of new themes, new mechanics, and evolutions of strategies you encountered in the first expansion.
+Going forward, every set will add a new champion to each region, and every expansion will contain new cards for each region; however, in a given expansion, some regions will have more cards than others, including champions. By the time the third expansion is released and the set is complete, all regions will have an equal share of champions and near-equal share of other cards.
+Even when we aren’t adding a new champ to your favorite region, each expansion will offer cards to support classic strategies or introduce new twists on old favorites.
+SetSplitGraphic_v2.jpg
+That’s a lot to digest! It’s all a bit abstract right now, but it’ll become more clear as cards release. That said, you’re probably asking: why switch to this?
+
+long-divider.png
+Rising Tides and the New Wave
+Since the start of LoR, we’ve been looking for ways to maximize experimentation and support strategic variety. We had some ideas that worked well, and others that needed some tinkering. But one thing we hadn’t yet talked about in-depth was how we thought future card releases could impact this goal.
+
+We knew we wanted an expansion right at launch: It meant a bunch of new champs and cards for those playing since beta, while new players could come in at a moment where everyone was discovering new content together. That expansion became Rising Tides, which introduced Bilgewater and 120 new cards. Rising Tides was an effective way to kick off launch, but that didn’t mean we needed to do future expansions the same way—and in fact, many devs had been talking about another method for some time.
+
+Page_Break.jpg
+We spend a lot of effort trying to keep LoR's metagame fresh for as long as possible—to stay in that sweet spot where there’s an array of decks and nothing feels solved. This leads to design decisions like establishing a tighter range for card power level, building strategies around champs so they'll all have a home in at least one deck, and investing in a “live design” team that actively works to maintain the environment.
+
+Another decision the design team had considered since very early in the game's development was—you guessed it—more overall card releases. One of the simplest (and exciting) ways to shake up a meta is to just add more cards, more frequently; but that comes with a cascade of additional design decisions and tradeoffs. Call of the Mountain was our first opportunity to explore how a full set could fit into different expansions, and how that new structure might work for future sets.
+
+The core idea was to create more frequent points of strategy discovery and meta disruption; instead of one big launch party that slowly fizzled out, what if we had multiple expansions and months of energizing twists and turns?
+
+long-divider.png
+The Shape of Targon
+Like in any card game, we start designing LoR sets way in advance. That’s because the design is just the first step in a long process where we playtest, balance, iterate on the design, playtest, illustrate, record voice lines, add in a few more cards, playtest, polish, playtest, and bug-squash (not to mention prepping a little marketing pizzazz as well).
+
+We’d already started developing the Targon region and its set before we even announced the existence of Legends of Runeterra. Once we locked in the three expansions approach, we introduced new questions into the design process: Which themes and mechanics interact with one another? Which champions and followers should go into each expansion? And how do we batch together cards to support deck archetypes across the entire set?
+
+By the time the Call of the Mountain cards were ready, so was the plan—which begins tomorrow with the first card reveals.
+
+All of the design decisions that went into making the first Call of the Mountain expansion could be an article of their own—so that’s what we’re going to do! We’ll be back after Call of the Mountain releases with Set Lead Shawn Main to break down the themes you’ll see in this expansion and how they create a foundation for the set as a whole. Keep an eye out for it!
+
+Page_Break.jpg
+Expanding Expansions
+We hope you’ll find your first experience with Targon all the more awesome as you discover the beginning of new archetypes and potential for revamping classic ones, and only get more excited as supporting tools and evolving strategies are revealed in the expansions to follow.
+
+While Call of the Mountain is the template for three-expansion sets, future sets will continue to build on that template and possibly shake things up further. This is partly because we have more time and opportunity to really make them shine in this new structure, but also because every region we add will require more and more cards in the expansions to ensure ALL regions have an equal amount of cards at the end of a new set.
+
+But once again, we’ll be looking to you, the community, to see how this plays out and what we can keep improving. Thanks for playing, and as always, let’s build a better card game together.
+It’s sometimes difficult to tell the story of how something was designed, especially when there are a lot of moving pieces. It’s rarely a straightforward journey from point A to point B. You start with one set of ideas, but these sometimes shift as you discover something unexpected that demands more support, or when a solution to one problem offers a new path towards another. Legends of Runeterra’s design process is one of rapid prototyping and testing ideas early, starting first from core design pillars. We then shift our focus to champions and deck strategies, then to cards and mechanics, and finally to balance and polish.
+
+All of this design work needs to be guided by a strong, central vision. For Targon, the team laid out our design pillars very early, informed by the themes of Targon and the champion roster: cosmic power, day and night, and the journey up the mountain. The challenge for design was figuring out how to translate these into cards and other gameplay experiences—and across not one, but three expansions.
+
+In this article, we’re going to take a look at how we developed the core gameplay identity of Targon, and how the first expansion for Call of the Mountain introduces it with various cards. We’ll also look at how champions from other regions bring their own crew to support Targon’s gameplay, and give you an idea of how it will evolve in the next two expansions. And lastly, we’ve packed in some anecdotes from the design process we hope you enjoy reading about.
+
+Let’s head up the mountain!
+
+Arbiter_900x300.jpg
+Invoking Cosmic Power with Celestials
+The highest peak of Mount Targon serves as a gate to the Celestial realm, said to be the home of Aspects who are abstract and beyond mortal comprehension. This flavor is key to Targon and its champions, so we knew we had to find a way to represent this cosmic power and divine aid from the stars.
+
+In the early stages of design, we do a lot of our testing in paper—cards hastily written out so we can try ideas quickly, without investing in coding strange new abilities. During this time, we explored a few mechanics in the cosmic power vein—space gods that required spending multiple rounds worth of mana to summon, and aspects that possessed your existing units. Eventually, it was a deceptively simple idea from Mark “G-Major” Sassenrath that played the best.
+
+
+He proposed Celestials shouldn’t be cards that could go in your deck, but instead be a special pool of cards that could only be summoned inconsistently through other actions. This led to the Invoke mechanic, nicknamed “Divinate” initially. With Celestial cards existing outside your deck, they could be stronger than comparably costed collectible cards within your deck, because the cost would be budgeted into the price of the Invoke. This would make the Celestial cards feel powerful and serve our design goal of variety, while also rewarding skillful play and fitting thematically into the unknowability and capriciousness of the cosmos.
+
+When it came to the Celestial cards themselves, we quickly latched onto the overall shape: each cost from 0-10 mana would have both a unit and a spell. Mechanically, this served variety, kept the cards relevant throughout the game, and made the mechanic valuable to different decks in different ways. An aggressive deck could Invoke early to set up Nightfall activations, while a more midrange deck might Invoke for removal or cards to help close out a game. Flavorfully, having so many Celestials offered a cosmic hierarchy that could simultaneously contain an adorable puppy constellation and a terrifying stellar Baron Nashor
+
+
+
+Keeping the mechanic relevant at multiple costs would also prove to be the trickiest part to balance. Throughout design, we had a constant see-sawing back and forth. First the early cards were too strong and no one would ever pick the expensive Celestials; then we’d balance them and the expensive Celestials would be game breaking, and people would stop including win conditions in their decks. It went back and forth for months. We discussed some radical solutions like not letting players pick expensive Celestials unless they had invoked a certain number of times, making the powerful end game options only available to players with dedicated Invoke decks. I was nervous about a solution that layered more complexity onto a system that already had a high knowledge burden. But eventually, Xian “Riot Xaenya” Li would address this balance challenge with an elegant solution, giving expensive Celestials more power based on how many Celestial cards you’d played. This way anyone could take them, but it would only be the dedicated Invoke deck that could unlock their full power.
+
+
+The Center of the Universe: Aurelion Sol
+That’s the story of Invoke as a mechanic, but let’s back up and get Aurelion Sol into the picture.
+
+Aurelion Sol was a champion that I knew I wanted in this set from the beginning. Partly it was the strong visuals and concept—a cosmic space dragon with an enormous personality—but I also knew that the nature of a card game gave us an opportunity to do something League of Legends couldn’t. League needs to put every champion on roughly even footing, so even Teemo has to be able to directly compete with Aurelion Sol. But LoR doesn't need to do that. We have cost (and level up conditions) to distinguish the power of champions.So in LoR, Teemo can be an efficient, exciting card on round 1, while we can make Aurelion Sol a game-dominating 10 mana card and truly deliver his godlike majesty.
+
+Once the Invoke mechanic was in place, ASol’s general shape followed—he would Invoke and he would make Celestials; he would have Spell Shield to help protect your enormous investment; he would require immense power from you to level up, and his level 2 would be as over-the-top powerful as we could make it. There are cards that take many iterations to get right, but we had the rough shape of the Star Forger from fairly early in design.
+
+
+
+Matching Cosmic Might with Trolls
+When adding a champion to a set, we like to look at the mechanical and thematic hooks that could connect them to other champions, particularly those in other regions. We ideally want a deck for every 2-region pairing, so look for both natural pairings as well as where we need to work to seed in connections.
+
+With Aurelion Sol so expensive and Invoke potentially so mana hungry, we knew he would naturally pair with Freljord for its ramp cards, but it wasn’t immediately obvious which Freljord champ we should choose. Initially, we were excited by Trundle’s ice pillar as a potential stall tool that might offer sideways support to ASol in a slow deck. But unlike ASol, Trundle took a LOT of iterations to figure out and would evolve considerably from our first drafts.
+
+
+
+At different points, Trundle and his trolls cared about 0 power (rewarding cards like Faces of the Old Ones and Frostbite effects), regeneration (rewarding Avalanche and Challenger), and even generating lots of mini Wyrding Stones, but he never clicked into place, especially as something you might consider playing in the same deck as ASol. Dave Guskin would solve this, asking “What if he just wanted you to play really expensive cards?” This would lead directly to using “if you Behold an 8+ cost card” and the notion of trolls worshipping the mighty. Everything clicked into place from there.The trolls had a unique identity that fit with Freljord and could connect with a lot of potential decks, including the mana hungry ones in Targon, and we could design a Trundle that was true to his League persona as a giant, bullying brute.
+
+This is one of those places where I get nervous pulling back the curtain because it’s possible no one will want to play Trundle in the same deck as Aurelion Sol. The reality is that’s perfectly fine and fits within our goals. As designers, we care most that the game supports a high variety of different decks with different playstyles, that every champion card feels thematic to the champion character, and that they all have a home in a deck. To achieve this, we seed in certain mechanical connections. For some strategies and champs, we think it’s valuable for these to be loud and obvious (like playing Diana and Nocturne together for the shared Nightfall synergies). Other times, it will be subtle or open-ended. In these cases, we’ve explored potential decks internally, but know that we can’t match the collective brainpower of players. That’s even more exciting! As long as we’ve built sturdy enough tools, players will surprise us and there’s no more satisfying feeling than that as a designer.
+
+
+
+The Cycle of Day and Night
+The human inhabitants of the mountain are a people known as the Rakkor. Most are sun-worshippers, but there is a secret heretic sect of moon worshippers. To put it mildly, the two groups do not get along. Editor’s note: Shawn’s characterization of the noble Lunari as “heretics” is his own opinion and does not reflect that of the entire LoR dev team.
+
+This duality—day and night, sun and moon, Solari and Lunari—is the essential conflict of the people of Targon and something we knew we needed to reflect in the cards.
+
+We explored a LOT of angles, particularly around the notion that the whole game would shift between a state of day and night, either automatically every other round or as you played cards that changed the time of day. These mechanics proved really interesting, but ONLY when both players were using them and on opposite sides—a day deck vs a night deck in a tug of war over the sky. We explored ways to get non-day/night decks to engage in the cycle, but it pulled so much focus that we reframed and tried to isolate the mechanics to rewarding actions a player could control.
+
+Noah “Riot DefaultChar” Selzer proposed the mechanics that became Daybreak and Nightfall. Daybreak would reward the first play of the round and Nightfall every card after it. We thought this was perfect—not only did it succeed as a reflection of the Targonian conflict, but each mechanic gave its cards a unique quality. Day was deliberate, in your face, and unsubtle, while night rewarded waiting and careful setup through banking mana, only to unleash a big round where you might play multiple Nightfall cards in a flurry. Plus, I liked that the mechanics were open-ended and could be used in any deck (and could even complement one another), but we could also create “build around cards” like Leona and Diana or Rahvun and Duskrider that would encourage you to play dedicated Day or Night decks.
+
+
+
+Embracing the Darkness
+The Solari and Lunari are deeply connected to Targon, but, as mentioned with Trundle, we like to find those cross-champion/cross-region mechanical connections where possible, so we searched for who else might play into these themes of sun/moon, day/night, light/dark. Nocturne stood out with his penchant for casting Summoner’s Rift into darkness and fit the Nightfall pattern of lying in wait only to spring suddenly on you.
+
+With a champion like Nocturne who doesn’t have a specific region connection, we try to find a home that makes sense either thematically or mechanically (and ideally both). Thematically, we liked Nightfall in Shadow Isles with its literal connections to shadow and darkness, but we also had a nice base of aggressive Shadow Isles cards that could complement the mechanic. Typically, Nightfall rewards early rounds spent banking mana, getting ready, then springing cards on you in a single round. We knew this could have an almost horror movie feel and allowed the team to build out creatures that jumped out of the shadows (or even were composed of shadow), a nice contrast to stealthy Lunari assassins.
+
+
+
+The Journey Up the Mountain
+Mount Targon is itself a crucible—a towering, impossibly tall mountain that calls to travelers who dare to ascend it. It is a journey and a physical trial that rewards strength and allies who have your back.
+
+This design pillar wouldn’t inspire a keyword in the same way as the other pillars (Shawn looks around, leans in, and whispers: at least not one I can talk about for this release), but it did lead us to consider the suite of abilities that would define Targon’s region identity. We asked ourselves: Which mechanics and champions could play into this journey motif?
+
+Simultaneous to exploring the design pillars, as we introduce a new region, we consider the needs of its full roster of champions—are there common mechanics we should make sure the region contains? This includes considering champions that we won’t introduce until future releases. In the case of Targon, it stood out that the region has a relatively high number of support champs.
+
+
+
+Leaning into LoR’s support mechanic itself would imply certain other needs for the region’s cards. Supports obviously protect or buff your units, so it would require units that wanted to be protected or buffed (such as those with keywords like Overwhelm) and also would require tools to protect your supports so they wouldn’t always die on attack.
+
+Thematically, this fit the journey motif beautifully: Weak heroes begin the journey, but through cooperation and hardship they grow stronger until they reach the top of the mountain (and end of the game) as powerful heroes.
+
+Mechanically, though, it turned out that having a lot of support units could be problematic. First, the mechanic rewards offense, making them terrible on defensive rounds. We solved this by making Targon’s support bonuses permanent. Now if you are able to attack, you’ll be stronger and more able to block. This also made their support units naturally powerful in a long game, and fit Targon’s spells leaning more on “grant” type buffs. Second, sequencing your attack can become very challenging when you have a lot of support units. We tried to address this at both ends, having obvious targets (you see this the loudest in the second support region, Ionia, with cards like Flower Child) and having cards that encourage you to sequence them in a certain way (such as Mountain Sojourners).
+
+Unlike Aurelion Sol, Leona, and Diana, it wasn’t immediately obvious that Taric needed to be in Call of the Mountain, but when we considered the theme of journeying, the support mechanic, and a region defined in part by buffs, he became the natural choice to fill out the roster. We were especially excited that his followers in particular could tell the tale of journeying up the mountain.
+
+
+
+More Support With Lulu and Friends
+I’ll be honest with you: when I wrote the first draft of this article, I didn’t mention Lulu. It wasn’t that I forgot her, but simply didn’t have any particular stories to tell, mostly because she fit so neatly into all our work on the set. We chose her initially to build out the support themes and because we liked the contrast she provided to some of the more serious themes of the set. Her League abilities translated really well into card mechanics and her support cards mostly struck a balance of being open-ended, while also playing nicely together. The main challenges were that, in their final versions, Lulu and Taric didn’t necessarily want to go in the same deck, but as I mentioned with Trundle, that was hardly a problem. They both had decks that were really excited to play them, and we even added a few extra support cards to Ionia (Pix and Fuzzy Caretaker) to round things out, but, all told, Lulu and friends saw the least iteration among cards in the set. Sometimes you get lucky and get more time to devote to designing space dragons.
+
+
+
+The Climb Continues
+So that’s how we ended up with the mechanics and champions in the first expansion for Call of the Mountain. But that’s just the first of three, and the next two need to continue fleshing out the gameplay identity of Targon.
+
+We’re designing Targon and the Call of the Mountain set as a whole, which means there are more pieces to the gameplay puzzle coming in the following expansions. There are some aspects of the region identity we haven’t even touched on yet, and will bring with them new cards / keywords. Others, like Dragons or healing, are present already, but could use additional support to really make the strategy shine. Additionally, our hope is that the introduction of these new twists on Targon’s gameplay keeps the meta feeling fresh throughout the entire set.
+
+That’s All, Folks
+Thanks for reading through this and letting me share our experience in designing Call of the Mountain! We hope you love the expansion, and can’t wait to see what strategies you discover on your way to the top of Targon.
+This article has been updated from the original Seasonal Tournaments announcement FAQ published on 10/15. We’ve made a few minor updates to original questions, and added or significantly updated a few (marked [NEW]) covering things like the tournament waitlist, game timers, and prizing.
+
+If you’re looking for an exact schedule for the Monuments of Power Seasonal Tournament, or info on how to watch the Playoffs stage, check out the dedicated schedule & broadcast article.
+
+If you’re looking for the official legal details or complete tournament ruleset, head to the comprehensive Global Player Policy—warning, it’s lengthy.
+
+What are seasonal tournaments?
+Seasonal tournaments are the apex of competition in Legends of Runeterra, exclusively for the best of the best, and supported fully in-game.
+
+How often will there be a tournament?
+There will be a seasonal tournament at the end of each season (makes sense, right?), so roughly every two months.
+
+How many players can compete in each tournament?
+At the end of every season, 1024 qualifying players on each of LoR’s four regional shards—Americas, Asia, Europe, and Southeast Asia—will be able to compete for pride, glory, and a cash prize.
+
+How do I qualify?
+There are two ways to qualify for a seasonal tournament: Ranked and Gauntlets.
+
+Be one of the top 700 Ranked players on your regional shard at the end of the season and you’ll automatically qualify for the tournament.
+
+324 more players can qualify by being the first to achieve 7 wins on their first attempt in the high stakes Last Chance Gauntlet, which takes into account your performance in previous Gauntlets throughout the season. The Last Chance Gauntlet will take place shortly after the end of the Ranked season.
+
+How does the Last Chance Gauntlet work?
+Get 7 wins on your first attempt at a weekly Gauntlet to achieve a Prime Glory. Again, only your first attempt of the week is eligible.
+Each Prime Glory you earn throughout the season, up to 5, counts as an automatic win in the Last Chance Gauntlet.
+Be one of the first to complete the Last Chance Gauntlet with 7 wins to earn that final Prime Glory and qualify for the tournament.
+The more Prime Glories you have, the more likely you’ll be one of the first 324 players to finish —so make sure to compete in a Gauntlet each week!
+
+What’s the tournament structure?
+Each seasonal tournament takes place across two stages—the Open Rounds, and Playoffs. The Open Rounds consist of 5 Swiss Rounds of Best of Three matches to determine the top 32 players. These finalists advance to the Playoffs, a week later, to compete in a single elimination bracket. The victor will be crowned Season Champion and win the grand prize.
+
+When will the first tournament take place?
+The first tournament will take place at the end of the Monuments of Power season. The competition takes place over two days, with 1024 players competing in the Open Rounds on December 6, 2020, and 32 finalists competing in the Playoffs on December 13, 2020.
+
+How will tournament matches work?
+On Day 1, players will compete in Best of Three matches using a combination of rules. For Seasonal Tournaments 2020, the following rules will be in effect:
+
+Players bring three different decks with no duplicated champions, no duplicated region combination, and no more than one deck without any champions at all.
+40 cards to a deck, from up to 2 regions; up to 3 copies of any individual card, and up to 6 champions total.
+Players ban one of their opponent’s decks before the matches begin.
+Players cannot use a deck again after winning a game with it.
+[NEW] How long will each tournament round last?
+Each tournament round lasts for 70 minutes maximum, with a 5 minute break between rounds. Each round includes the following:
+
+Game 1
+
+5 minute preparation phase
+1 minute ban phase
+30 second pick phase
+Game 2+
+
+1 minute pick phase
+Round durations will be tightly controlled by a persistent 60-minute round timer shared by both players. The round timer starts counting down once the Ban phase starts, and new games can only start while Round Time is active, otherwise the current game results are used to declare a victor.
+
+Each player, in each game, will have an individual game time of 7 minutes, 30 seconds. Overtime kicks in for either an individual player who has used all their Game Time, or both players for 5 minutes after the round timer has expired. Players will only have 20 seconds for their turn during Overtime, and will no longer be able to bank additional time.
+
+A tournament-wide “hard stop” will terminate any ongoing games 5 minutes after the round timer for a given round has expired. In the case of an unfinished game, victory will be awarded to the player with the most game time remaining.
+
+How does matchmaking work for the Open Rounds?
+Players will initially be matched based off their season Rank. After that, the Swiss-style rounds will match players based on their current scores. After five rounds, the top 32 players will advance to the next day, with an additional 15 allocated to the Playoffs waitlist (based on result and seed).
+
+For those doing the math, a single loss effectively means you’re out of contention for the Playoffs. However, you can continue competing to earn an exclusive card back only available to those who reach 3 wins in the tournament.
+
+[NEW] What happens if qualifying players decline to participate? Could I take their place?
+Yes! We’ll have a per-shard waitlist for players that missed the cut, comprised of Masters-ranked players and additional players who earned a Prime Glory in the Last Chance Gauntlet.
+
+The Open Rounds waitlist will be an ordered list starting with the next 300 Master-tier players who missed the top 700 cut for the tournament, followed by the next 700 players who earned a Prime Glory in the Last Chance Gauntlet after the 324 LCQ qualifiers.
+
+If you’re on the waitlist, you’ll sign in at the start of the tournament, just like the qualifying players. If a player drops out and you’re next on the list, your lobby will update accordingly and you’ll be in the tournament!
+
+How is the bracket determined for the Playoffs?
+The bracket will use a standard seeding system, where the highest seed players from the Open Rounds are placed into a matchup, which are then filled by the lowest seed players (players that have the same record from the Open Rounds of the tournament will be seeded according to their season Rank). Any byes due to an uneven number of competitors will be given to the highest seeded players.
+
+Please note that those who qualify for this stage of Seasonal Tournaments will need to validate their country of residence in order to participate—make sure to check your email if you make it to the top 32 (or are on the Playoffs waitlist)!
+
+[NEW] What’s the grand prize? Are there other prizes for participation?
+The grand prize for winning the entire tournament is $10,000 USD, with smaller cash prizes for the rest of the top 32.All competitors will receive an exclusive icon and have a chance to earn an exclusive card back by reaching 3 wins in any tournament. The icon and card back will be awarded to players at the end of the Open Rounds.
+
+Full prizing details:
+
+1st: $10,000 (USD)
+2nd: $3,500 (USD)
+3rd & 4th: $800 (USD)
+5-8th: $400 (USD)
+9-32nd: $150 (USD)
+3+ wins in Open Rounds: Card Back
+All Competitors: Player Icon
+All tournament cash prizes will be distributed by local publishers and be awarded as per countries’ tax laws depending on country of residency, so exact payment amounts may vary (again, based on local tax laws).
+
+Can competitors use different decks for the Open Rounds and Playoffs?
+
+Players will submit their three decks during sign-in for each of the two stages of the tournament, so it will be possible for the final 32 to use different decks than they did during the Open Rounds.
+
+[NEW] How can I watch the tournament?
+We plan to broadcast the entire Playoffs stage (the top 32 player single elimination bracket) of each tournament on local channels around the world—you can find full current details in our dedicated schedule & broadcast article.
+
+Will seasonal tournaments be a path to pro? How do tournaments connect to esports?
+We want tournaments to be one path to going pro, and have more plans to support those taking that path. It’s still a bit too soon to talk about, so stay tuned for more info in the future.
+
+World Championship when?
+We’re working on some competitions that are even bigger than seasonal tournaments, but nothing to share just yet.
+
+Can I participate in tournaments on multiple shards at the same time? What about using a VPN to participate on another shard?
+Both of these are a “definitely not.” The goal of seasonal tournaments is for players to compete on their shard within their country of residence. In order to preserve the integrity of per-shard tournaments, we will disqualify anyone found to be using a VPN to obfuscate their location or otherwise competing in a shard outside their country of residence. That includes any players who manage to qualify for multiple tournaments—we’ll ask you to decline for any shards that do not include your country of residence. Sorry, but we’re taking a hard line on this one.
+
+Can anyone participate in Seasonal Tournaments?
+Not necessarily—participation in the tournament is potentially subject to local stipulations, restrictions, or exclusions based on where you live.
+
+Can Rioters participate in seasonal tournaments?
+No Rioters will participate in a seasonal tournament, and if there’s a mistake, we’ll correct it. That also means if a Rioter would qualify by being one of the top 700 Ranked players, they will drop out of the tournament and leave their spot open for a player on the waitlist.
+
+Will a Tournament mode be available for custom tournaments?
+For now we’re focused squarely on preparation for the first Seasonal Tournament, but long-term we’d like to make more tournament features available to players in game—we'll have more detail to share next year.
+
+[NEW] Can I add-ons like a deck tracker?
+Normally permitted add-ons such as deck trackers may be used during Seasonal Tournaments.
+
+Of course, the use of any kind of cheating device and/or cheat program is not permitted and will result in disqualification and possible account action.
+
+What about X? I have more questions!
+We’re still working on some things and will provide additional updates as new details become available. Some of the details above may also change or end up varying based on where you live—look for more on local stipulations or expectations on your local Legends of Runeterra channels leading up to the tournament.
+Hey folks. I’m Exis, though I think some of you know me better by my profile picture. Officially speaking I’m LoR’s Gameplay Engineering Lead, but I also run the Labs team. I’d like to talk a bit about where Labs came from, what Labs is, and how it’s changing in 2021!
+
+
+INTRO: LIVE AIN’T EASY
+When a game finally gets released to players like LoR did last year, there’s a pretty significant gear change toward live operations. Suddenly you’ve got a living, breathing game you need to keep running 24/7, a bunch of bugs you need to fix, and a ton of new players eager for more: more cards, more events, more boards, more emotes, more everything!
+
+It’s incredibly exciting, but it can also make it hard to try new things. You’ve created expectations with players (and with yourself) about the quality and polish of your game. If you want to add something new and different, like a new feature, card mechanic, or game mode, it takes a really long time to get that new thing up to the same level of quality and polish to meet those expectations. Even if you can find all that time, what if your new thing… doesn’t quite hit the mark? Even worse, what if your new thing is… well… bad?
+
+All that cost and all that risk can be paralyzing. It can make a game much slower to try new things once it goes live, or even stop it from evolving entirely! Enter: Labs.
+
+LABS: DOING IT LIVE
+We knew that once LoR went live, we’d have our hands full. But we also wanted LoR to keep growing and changing, and that’s where the idea for Labs came from: what if we could make it really easy (relatively speaking) to try new stuff in our live game?
+
+The Labs proposal was simple. Let’s rope off a corner of our game, put giant “UNDER CONSTRUCTION” signs around it, and make it really clear to players that this is a section of LoR dedicated to experimentation. Let’s trust players to understand that not everything will be perfect, and take them on that R&D journey with us. Rather than feeling like we have to meet their expectations, let’s embrace our live playerbase as a huge resource for feedback, positive and otherwise!
+
+The Labs team was officially formed almost exactly a year ago, in April 2020, with a mission to deliver on that model for live R&D. It’s a surprisingly small team that focuses on executing really fast, building experiences centered around very specific goals that will prove (or disprove) theories about where our game might go next.
+
+Sometimes we're testing a whole new game mode. Sometimes it's as narrow as a new type of card content, or as nuanced as a style of play. Whatever the experiment, it's always performed with the same mindset: we're going to try lots of things, knowing that not all of them will be winners, and some will be awful. But a few will be great. And when we find those especially promising threads, we'll listen to what players think about them and start to follow them wherever they may lead!
+
+Last year we wanted to get really good at this model, so we practiced a lot with smaller experiments. We released a new Lab every single patch, and learned a ton about the tools and skills we need to build Labs well. Now, in 2021, we feel like we’re ready to focus our efforts into some bigger Labs, and a pair of bigger challenges: PVE and 2v2.
+
+PVE: FEELING POWERFUL
+PVE_Roadmap_5_18_21_v1.jpg
+
+There are some player experiences LoR doesn’t provide today, though we believe it could. One of the foremost examples is that you don’t get to feel like you’re growing stronger over time. No matter how much you succeed with your deck, it doesn’t get any more powerful when you take it into your next match, even though you may be improving as a player. You don’t get to level up and earn a new skill, or gain higher stats for the next fight. You don’t get to feel the satisfaction of equipping a new item, seeing how badass it looks on your character, and wielding it to your advantage. That experience of power progression is one that lots of games provide in one form or another, because it can be satisfying and exciting as a player. But you don’t quite have it in LoR. Yet.
+
+Now, the constraints of LoR’s carefully balanced PVP ecosystem make it a challenge to express power progression. But ever since the Journey to the Peak Lab last year, we’ve been excited to explore it through PVE modes instead. The AI doesn’t care about balance. I can come into the match with a totally busted deck, and my PVE opponent won’t mind… in fact, it may have a few unfair tricks up its own sleeve. And PVE modes let us create lower-stress play experiences, tell more stories about Runeterra and its inhabitants, and more.
+
+The question we want to answer: Can we use LoR’s existing gameplay rules and existing cards to create a compelling PVE experience that satisfies those needs? And could that experience be a permanent mode someday, with regular content updates just like our VS modes?
+
+PVE EXPERIMENT 1: JOURNEY TO THE PEAK
+Journey_to_the_peak_mode_image_5_18_21_v1.png
+
+HIT THE MARK
+Resounding enthusiasm for PVE
+Low-stress environment to learn
+Powers are exciting
+Opportunities for storytelling
+AREAS TO IMPROVE
+Way too short
+Not enough champion options
+Adding cards isn’t as exciting
+Our first foray into PVE was a really focused, simple proof of concept. We wanted to see if there might be some promise in a more roguelike LoR experience.
+
+The feedback we got from the community was mostly what we wanted to hear: “More, please!” We knew the runs were short, and that choosing new cards between battles wasn’t as exciting as the initial power selection players got to make. But the focused feedback from players helped us start to zoom in on power progression as something uniquely valuable for our next experiment.
+
+
+PVE EXPERIMENT 2: LAB OF LEGENDS
+Lab_of_Legends_mode_image_5_18_21_v1.png
+
+HIT THE MARK
+It feels good to grow your power
+Items really change the game
+Each run feels different
+Players still want more
+AREAS TO IMPROVE
+
+Enemies get repetitive
+No progression between runs
+The AI could use some work
+Poor Taliyah
+The response to Lab of Legends has been staggering. We enjoyed the mode internally, but we weren’t sure what to expect from players.
+
+What we got was a lot of people loving the mode for very different reasons, and putting a ton of hours into it. Whether players like Lab of Legends because it’s a lower-stress environment to enjoy LoR’s gameplay and content, because it can feel good to roll the dice once in a while, or because they love that feeling of getting more powerful over time… the Lab has been a hit with existing and new LoR players alike.
+
+long-divider.png
+
+It’s clear to us that the Lab of Legends formula deserves to be elaborated on. We’re going to keep exploring incremental improvements to the existing Lab, like the ones we made a few patches ago to add difficulty tiers, rerolls, and run summaries. But we also think there are more parts of the power progression and PVE space that LoR can (and should) explore, so stay tuned for another major step forward coming in the next few months. We’re on a journey with a clear goal: we want to create a permanent experience that players can keep coming back to for years to come.
+
+2V2: A MORE SOCIAL LOR
+Social_Roadmap_5_18_21_v1.jpg
+
+The second half of our exploration this year is focused on giving LoR players ways to play together.
+
+I have all these amazing moments in our game: nail-biting wins and heartbreaking losses, cunning outplays and (more) facepalm-inducing misplays. But sharing any of those moments with a friend can be tough, unless they're watching over my shoulder or I happen to be streaming. Being able to play a game with my friends has become more and more important to me over time; sharing the game’s highs and lows with someone not only satisfies my social side, it amplifies all the most exciting moments for me. Luckily, we believe there are plenty of ways we could make the game more social, and LoR will be exploring a few of them this year.
+
+Labs is contributing to that social effort by exploring multiplayer game modes. Now, multiplayer is a big space, with a lot of options for a card game. What if you could bring a friend with you into ranked, and grind together? Or should we recreate a MOBA-style 5v5, spread across a bunch of lanes? Or should LoR be the world’s first true battle royale card game?! Actually, the 5v5 thing sounds pretty cool. But for now, we’re focusing our efforts on 2v2 modes.
+
+We think 2v2 hits a sort of “sweet spot.” It’s a closely cooperative experience where we can be invested in one another’s success. It’s not too hard to organize and find time for, since I just need one friend to jump into queue with me. And it’s something the Labs team can get up and running (and iterate on) pretty quickly, letting us take in feedback and make improvements much faster than a more complex co-op more right out of the gate..
+
+2V2 EXPERIMENT 1: UNITED FRONT & UNITED FRONT PVP
+2v2_United_Front_Mode_image_5_18_21_v1.png
+
+HIT THE MARK
+Clear excitement for social modes
+Novelty of sharing a board
+Close cooperation
+Unique multi-region strategies
+AREAS TO IMPROVE
+Premade decks get repetitive
+Pacing can feel way too slow
+Clogged boards due to card flow
+Hard to balance
+This was our first attempt at a teamplay mode, and it took a ton of underlying tech work to make possible. Despite the Lab’s rough edges, players could see the potential and expressed a lot of eagerness for more social modes!
+
+In the co-op vs AI version of the Lab, players wanted more variety: a wider range of enemy decks, and more deck options. The PVP sequel started to address some of that variation concern by pitting players against unpredictable humans, but swapping control between four individual players made the games slow.
+
+
+2V2 EXPERIMENT 2: DUO QUEUE: SHARED SPOILS
+2v2_Duo_Queue_Mode_image_5_18_21_v1.png
+
+HIT THE MARK… WE THINK!
+I care about my duo’s lane
+Competitive potential
+Try out new decks by borrowing
+Builds on & improves 1v1 skills
+AREAS TO IMPROVE… WE THINK!
+Teammate comms tools
+Onboarding & clarity
+Less-integrated teamwork
+Downtime between games
+Duo Queue takes 2v2 in a very different direction, with each player fighting their own game of nearly-typical 1v1 LoR. While there are a few twists, that means the mode benefits from most of the competitive balance and strategic depth of the standard game. We think Duo Queue could have long-term, evergreen potential… and it could even provide a foundation for a ranked 2v2 mode someday! We’ll see if players agree. Duo Queue hasn’t gone live yet, so we don’t have a definitive list of its strengths and weaknesses. I’ll tell you our best guesses below, but as always we won’t know until we try it with real players in just a few days!
+
+long-divider.png
+
+We’ve already learned a lot about how our game translates into a 2v2 world, and we think we’re on the right trail. Playing LoR with a friend or three is fun, in the way we hoped it would be when we started theorizing about social gameplay. There’s a bunch of work to do to find the right set of mechanics and player dynamics, but we’re optimistic that with the right recipe, LoR could be just as engaging (and competitive) with a friend as it is solo.
+
+OUTRO
+These are big challenges for a game that’s been built around 1v1 PVP competitive for so long,but we believe in the Labs formula to create the best PVE and 2v2 experiences possible. We’re committed to moving fast, trying ambitious stuff, and listening eagerly to input from you all as we charge forward. We can’t be sure exactly where we’ll land, but we’re excited for the destination and the journey.
+
+I’ll end with a quick thank you to the talented developers on the Labs team who let me coax them onto this wild ride, and whose hard work and creativity fuels every single Lab we make. And a less-quick thank you to the players, for playing LoR, for playing Labs, and for joining us in shaping this game we’re building together. We’re lucky to have such an exceptional community traveling with us, and we hope you’ll love where we head next.
+It’s been an incredible year of competition for Legends of Runeterra. With five Seasonal Tournaments, LoR Masters Europe, countless regional and community tournaments, and now a World Championship under our belt, it’s time to take a look back and categorize - what’s worked, what has room for opportunity & improvement, what to set aside and evaluate, and finally, look forward to where we go from here.
+
+Let’s Talk About Worlds
+It’s hard to believe that our first Seasonal Tournament was less than a year ago, and now we have a World Championship in the books. We believe Worlds accomplished its core mission: bringing together our best players from around the world for a high-stakes, high-skill tournament, and created a climactic moment in LoR competition history for players, casters, spectators, and our own team to look back on with pride.
+
+Outside of that core mission, though, it’s clear we have a lot of work to do. We’ve seen a lot of passionate feedback around the communication and execution of the tournament’s rules, format, timing, general expectation-setting, and broadcasts, and we’ve taken it all to heart.
+
+With all that being said, we’re currently evaluating what the peak competitive experience will look like for Legends of Runeterra moving forward. We’ve learned a lot from our first World Championship, and we believe we need to evolve the competitive experience overall. For the immediate future, Seasonal Tournament and Ranked performance will not directly factor into a championship tournament. If this changes at any point, we’ll clearly inform the competitive community to allow time to plan ahead.
+
+We have a lot of learnings to sift through, so it might be a while until we have a solid update here, but look forward to more information in early 2022.
+
+Thoughts on Ranked
+Right now, ranked serves as our main competitive queue - it’s an always-available, accessible mode to jump into a quick 1v1 match with someone of similar skill. One of the goals with ranked is to provide a clear path to higher levels of competition, but there’s a clear disconnect between Ranked as a BO1 blind queue vs. a tournament setting, where you need a different type of proficiency in scouting, deckbuilding, as well as picks & bans.
+
+That’s all being considered as we evaluate the competitive experience overall, but for now, we’re not planning on making any changes to Ranked.
+
+Seasonal Tournaments, Gauntlets, & In-Client Competition
+We’re happy with the level of competition that Seasonal Tournaments have been bringing to LoR, and running them online entirely through the client has made it accessible to a wide range of players around the world. Seasonal Tournaments will continue under this same structure for the remainder of the Beyond the Bandlewood set (encompassing all 4 expansions under the set, beginning with Beyond the Bandlewood).
+
+However, as we move forward with evaluating the competitive experience for LoR, we’ll also be looking at how Seasonal Tournaments factor into that experience. That could mean a change in scope, format, cadence, and prizing to ensure it remains a sustainable feature that supports the growth and longevity of LoR for years to come. We’ll keep everyone updated on our plans for Seasonal Tournaments, Gauntlets and other forms of in-client competition as they come into shape.
+
+GGs
+Thanks so much to the players, community tournament organizers, casters, analysts, and co-streamers who have helped build Legends of Runeterra’s competitive community to what it is today, and a huge congratulations to all of our Seasonal Tournament and World Championship competitors. Nothing would be the same without you. We’re honored by your contributions, caught up in your hype, and while there’s more work to do, we’re excited for the road ahead with you all.
+Udyr and the powerful spirits of the Freljord are making their journey to Legends of Runeterra in A Curious Journey on February 16! With his announcement, we wanted to take the opportunity to share a bit more background on his development and inspiration.
+
+When we add new champions to Legends of Runeterra from League of Legends PC, our designers generally have their work cut out for them. It takes a lot of work to translate a well-established champion’s identity, narrative, appearance, and abilities to an entirely different format, but there’s a source of truth to work off of in LoL PC.
+
+2122022_32Set5CUdyrContextArticle_Udyr_05FR013.jpg
+
+However, Udyr is in the process of receiving a visual and gameplay update (VGU) in LoL PC that we knew wouldn’t be finished by the time A Curious Journey released. When that became apparent, our team was faced with a unique need and opportunity: we had to take a fresh look at the champion and figure out how we might be able to reimagine him in the period leading up to his VGU. We didn’t want to release a 1:1 version of him with the existing version of Udyr since he’s about to have a shiny new VGU, but due to development timelines it wasn’t possible to develop a version that’s going to be 1:1 with his post-VGU design, so we decided on somewhere in between the two.
+
+2122022_32Set5CUdyrContextArticle_Udyr2_05FR013T4.jpg
+
+As with his VGU, Legends of Runeterra’s version of Udyr focuses on his ties to the Freljord, but carries some additional inspiration from our established group of shamanistic Freljordian followers - you’ll see a lot of blue in Udyr decks.
+
+2122022_32Set5CUdyrContextArticle_01FR040_Rimetusk-Shaman.jpg
+
+2122022_32Set5CUdyrContextArticle_FRELJORD_UNIT_Ursine-Spiritwalker.jpg
+
+His iconic stance changes are preserved in his Legends of Runeterra iteration, but they also have an identity of their own here. While his LoL PC VGU has nods to Freljordian demigods, in Legends of Runeterra we see him drawing strength from the various animals that make their home in the frozen tundra - some of which you might recognize from earlier expansions!
+
+2122022_32Set5CUdyrContextArticle_01FR026_Alpha-Wildclaw.jpg
+
+We’re excited to finally be able to share this look at Udyr in Legends of Runeterra, and we hope you’ll enjoy stance dancing and clawing your way through the competition when he launches in the A Curious Journey expansion on February 16!
+Tl;dr - Starting in patch 3.2.0, we’re beginning to sunset Expeditions by removing the weekly cap on fully-rewarded runs, which also means Free Play is no longer available due to the lack of a weekly cap. Expedition Tokens are also being removed from the Weekly Vault and the new player 7-day login bonus. In May, with the release of patch 3.8.0, Expeditions will no longer be accessible, so be sure to spend your remaining Expedition Tokens before then.
+
+We designed Expeditions as Legends of Runeterra’s take on a draft-based PvP experience; as a way to experiment with new strategies on the fly with a less-predictable card pool.
+
+We were thrilled to see that some players ended up loving Expeditions, but the player count was lower than we had hoped for. As the game has continued to evolve, other modes have ended up competing for the same type of feeling that Expeditions offers, with greater success. The Path of Champions competes with Expeditions to provide a similar draft-like experience, and currently accounts for a majority of the total play hours spent in LoR, while Ranked PvP provides a competitive landscape for players to flex their skill & creativity in deckbuilding.
+
+We still think there’s room in Legends of Runeterra for a competitive draft experience, but it’s become clear that Expeditions isn’t it. So as of patch 3.8.0 in May, we’re removing Expeditions to make room for the resources and creative space we need so that we can reimagine a truly compelling competitive draft experience in the future. Right now though, our resources are focused in other areas like The Path of Champions & future expansions, so we likely won’t have another update on this until next year.
+
+Until then, there’s still time to get more Expeditions runs in before the mode’s removal. Draft buckets are being added for the new champions added in A Curious Journey, and starting in patch 3.2.0 on February 16, we’re removing the weekly cap on fully-rewarded runs so you can spend any Expedition Tokens you’ve been holding on to, or you can continue to enter as many times as you’d like using Shards or Coins. Once patch 3.8.0 goes live, Expeditions will no longer be accessible, and Expedition Tokens will no longer be usable or transferable for other in-game items or currency, so be sure to use them all before then.
+
+Whether you went 7-7, 0-0, or anything in between, we want to thank everyone who enjoyed Expeditions. It might be a while as we go back to the drawing board, but we’ll keep you all updated on our plans for a draft PvP experience as they come into shape.
+It’s a big year ahead for Legends of Runeterra! Before getting into the details of our early 2022 roadmap, we’d highly recommend checking out the video above to get a look behind the curtain at just a few of the updates coming this year.
+
+LoR_6A2022_2022-RoadmapGraphic_1920X1080_PCruz_V002.jpg
+
+The Path of Champions 2.0, Runeterra Champions, Worlds 2022, free Arcane Jinx & Vi skins, quality of life updates to existing skins, Pulsefire, highly-requested reworks to older champions, and more! With the exception of Worlds 2022, which is coming later this year, you can expect all that in just the first half of 2022. We won’t be going over every single item here, but let’s dive into the details of some of the bigger topics at hand.
+
+Our Next Expansion Arrives in May!
+
+First, let’s address timelines - A Curious Journey has an extended season leading up to the release of our next expansion in May. We had originally planned to follow the same 2-month cadence for expansion releases, which would have placed it in April, but it became apparent that we needed a bit more development time for everything coming in the next expansion. We’re releasing quite a bit more new content & experimental gameplay systems than past expansions, so we’re targeting May for that release. We’ll keep everyone informed of our progress and share more details as we get closer to the expansion!
+
+The Path of Champions 2.0
+
+Champion_Overview_TPOC_JPG.jpg
+
+When we released The Path of Champions last November, we were confident we were shipping something that players would enjoy, but we were blown away by the scale of the mode’s popularity. Since its release, players have been consistently spending more time in The Path of Champions than all other game modes combined. What we did know, however, was that this was just the start of our journey into PvE, and we know we can do so much more with the experience.
+
+We’re colloquially referring to this update as The Path of Champions 2.0: more adventures that tell new stories, a large-scale progression revamp, as well as new regions, relics, and more! Look forward to more information about The Path of Champions 2.0 as we head towards May.
+
+Expansions Over Sets
+
+Timeline-Graph.jpg
+
+With this next expansion, we’re changing the definition of “expansions” in Legends of Runeterra.
+
+We’re no longer grouping releases by “sets” as we did for previous releases - i.e. Call of the Mountain, Empires of the Ascended, and Beyond the Bandlewood were all “sets” broken into 3 “expansion” releases revolving primarily around the newest region added to the game.
+
+Moving forward, expansions are now standalone releases that expand content for both PvP & PvE. This approach allows more freedom to explore adding new champions & storyful PvE adventures on a more regular basis. We love our Yordles, but it’ll be nice to be able to explore more of Runeterra as a whole with each expansion.
+
+Runeterra Champions
+
+Jhin_1920x1080_Header.jpg
+
+Speaking of Runeterra, you just got a sneak peek at Jhin, our first Runeterra champion. Rather than being tied to a single region, Runeterra champions tend to wander around the world, or have conflicting allegiances across several regions. Adding one to your deck completely alters your deck-building rules. For example, adding Jhin to your deck allows you to add cards with skills from all other regions. Runeterra champions bring a ton of potential for creative decks that have never been seen before, and we’re excited to see what players do with them!
+
+April Champion Adjustments
+
+04FR015_Fabled_Poro_JPG.jpg
+
+While we’re excited for our next expansions, we haven’t forgotten about our existing roster. We’re taking a look at some champions who could use some attention to make their game plans smoother to execute and bring them up to a more competitive level.
+
+Events & Cosmetic Improvements
+
+Arcane_Vi_JPG.jpg
+
+Lastly, over the past year we’ve gotten a lot of great feedback from players who have wanted to see more, and higher-quality offerings from events and cosmetics, including champion skins. Additionally, we’ll be granting all players free Arcane Jinx & Vi skins for Legends of Runeterra’s second anniversary in April.
+
+Miss_Fortune_Arcade_Make_it_Rain_Spell.png
+
+You may have noticed that Arcade Anivia & Arcade Miss Fortune have new skins for their champion spells. In April, we’re going back to all previously-released Epic-tier champion skins and giving them the same treatment. We’ll also be looking for additional ways to continue improving our champion skin features in the future, so keep the feedback coming!
+
+For events, much like with the Final Boss Veigar boss battles in the Arcade Battle Event, we’re going to continue exploring ways to innovate and improve events moving forward. Starting with the Pulsefire Event, you’ll also see more free reward nodes on the Event Pass than in previous passes to provide more ways to improve your collection - whether you choose to buy the Premium Event Pass or not.
+
+We’re excited to continue exploring new ways for Legends of Runeterra to level up in the coming year. Stay tuned for more information about The Path of Champions 2.0, our next expansion, and so much more in the coming weeks and months!
+Hey Players - I’m Dave Guskin and I have been on the LoR team since 2018, previously serving as Game Director and Design Director. Recently, I’ve moved into the Executive Producer role for LoR and we are in the midst of some changes with the game that we wanted to get you up to speed on.
+
+The LoR team has regularly explored new game-play options and settings, leading to a number of insights into what you, the players, enjoy most. One of the things we’ve learned is that while The Path of Champions mode currently provides a fun and solid experience, it’s going to require significant investment to expand it to fully become what we envisioned.
+
+So after a lot of conversations and reflection, we’ve decided that rather than continuing to split the game’s focus between core PvP gameplay and The Path of Champions game mode, we want to focus on hyper serving our core PvP player base. This will include more consistent & well-tuned card updates, and exciting new expansions that we hope you all will enjoy. At its core, LoR is a CCG with a passionate community and PvP is where we believe our team can best serve players and deliver an experience that you all will continue to enjoy. The Path of Champions game mode will remain playable but will receive fewer updates for now.
+
+At the same time that we are refocusing on PvP and slowing down our efforts on the Path of Champions game mode, Riot has so many projects that could benefit from all we have learned with you in our experiments so far. Without any spoilers I can say that we’re planning to share the love by redeploying a few of our game developers who have learned a lot from you to support some other projects around Riot, some of which are already live and playable, and some of which are in our R&D pipeline which I know you’re excited to get your hands on. So if you are one of our players who loves LoR, and especially the Path of Champions, you can look forward to seeing glimmers of LoR’s influence in other games from Riot soon.
+
+Though we are proud of some of the critical acclaim we’ve received since launch, what gives us the most pride is how committed our players are to this community we have built together. Riot is also committed to continuing to support our game and our community. This pivot will allow us to serve the core LoR players and hyper-focus on our core audience, while also turbocharging other great games from Riot by lending a few talented LoR devs to their awesome teams.
+
+We are excited about what the future holds for LoR and what that means for you, our players. The competitiveness of the game, our engagement with the community, and our frequent updates are the heartbeat of LoR, and those things will remain intact so we can build upon them as we work on further defining our future vision.
+
+We’ll be back by the end of the summer to give an updated look at our new focused roadmap, and we’re excited to see how you like Worldwalker & future expansions in the meantime.
+
+Finally, I want to thank JJ and Brett for their support in this new role. I can’t wait to see what they do next here at Riot!
+
+Dave
