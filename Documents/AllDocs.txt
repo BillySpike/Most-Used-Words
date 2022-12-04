@@ -11526,3 +11526,119 @@ We also learned a lot about player damage and game pacing. When we launched, gam
 Finally with our Ranked system, we’ve seen some things that work and some that don’t. We’re going to continue to make adjustments to the system as we move forward, but one change coming in Set 2 is that, no matter the conditions, getting 4th or higher should feel like a win. Losing LP when getting 4th (or in extremely rare cases, 3rd) feels real bad. So we’re changing it so that no matter what, you can’t lose LP if you place 4th or higher.
 
 So there ya go. We learned a lot in our Set 1, and we’re so excited for you to get your hands on Set 2: Rise of the Elements!
+The most recent additions to the League roster have been, how do you say… big meanies.
+
+Earlier this year, we released Renata Glasc, the manipulative and powerful Chem-Baroness, and Bel’Veth, the monstrous manta mommy Void Empress.
+
+But we’re breaking the cycle with a surge of joy named Nilah ("Nee-lah").
+
+Her Waters Cut Deep
+Nilah’s development started with a core gameplay idea: a melee skirmisher ADC. The goal was to create a new experience not only for bot laners, but also for Yasuo or Yone mains who might want to try their hand (sword?) at another position. We know, we know... before you bot and support mains turn caps lock on, keep reading.
+
+The team really didn’t want to create another sad Ionian sword boi. With this in mind, concept artist Nancy “Riot Sojyoo” Kim began looking into weapons that might fit the bill and stumbled upon the urumi, a flexible whip-like sword with South Asian origins. This worked out beautifully, as the team wanted to increase South Asian representation in League. Similar to how we've approached champions like Samira, Akshan, or Zeri, we want players from everywhere to see reflections of themselves in League, and we were lacking South Asian representation, especially for women.
+
+062222_01_Whip_Concepts.jpg
+
+The urumi fit Nilah’s intended background, her melee gameplay, and is just really, really cool. Plus, whips were essentially missing in League. The idea had been floated before, but never quite made it onto the Rift.
+
+“When Nancy’s first group of concepts came back, there was one with, like, six arms and one with a more traditional talwar (curved sword),” says principal narrative writer Jared “Carnival Knights” Rosen. “But when we saw the concept with the urumi we were like ‘Oh my god, do we not have a whip champion? There has to be one. Maybe Zyra? No, she’s a plant lady. Anybody else?’ And there just wasn’t anyone.”
+
+“It felt like the perfect time to finally create a whip-wielding champion because the urumi is a good nod to her South Asian inspiration and it fits her gameplay,” Riot Sojyoo adds.
+
+062222_02_Nilah_Concepts.jpg
+
+But making a whip-sword look realistic and feel good in game was a challenge. Have you ever seen an urumi in action? Recreating the snappy yet flowing movements was a challenge for the animation team.
+
+“We spent extra time early on to determine if a fluid, satisfying whip was a weapon we could achieve with the tools we usually use,” says lead animator Drew “sandwichtown” Morgan. “We tried a few different approaches to help sell the physics, but ended up landing on a mostly hand-animated style, with some different technical tricks layered in there.”
+
+Before continuing, we should talk about the difference between tool-based animation and hand animation. A lot of modern games utilize physics and simulation with engine tools, but Nilah’s whip needed to be custom animated just for her. This meant sandwichtown set all the keys and animated every frame of motion.
+
+“I think the most challenging part was just how many attack animations that were required to make all the motions feel directionally appropriate, at different distances with different conditions,” sandwichtown explains.
+
+062222_03_Animation.gif
+
+Animation testing of Nilah’s basic attack.
+
+But Nilah’s whip isn’t just any old whip. It’s a two-pronged, flexible water-sword that she unsheathes from a magical jar that sits on her hip. Honestly, it’s pretty cracked. So obviously it needed some extra visual attention.
+
+“To convey a joyfulness to her visual effects and not have it look like ‘just water,’ I added a sense of iridescence and rainbow to her abilities,” explains VFX artist Megan “Fairy Flan” Bayona. “In a way it's as if the influence of the demon of joy refracts outwards and Nilah uses it as her strength.”
+
+062222_04_Ability.gif
+
+Nilah’s water whip hits with the force of a rogue wave, only sharp.
+
+Joy Unbound
+Yep, you heard Fairy Flan right. Nilah channels the power of a demon of joy to slay mythical beasts and defeat her enemies. She’s an epic, monster-slaying hero who’s building out her own legend day by day. (Editor’s note: Let’s be real, would this be a Carnival Knights champ without demons?)
+
+An ascetic warrior, Nilah practices a strict code of rite and ritual that gives her power over Ashlesh, an ancient demon of joy who was sealed away eons ago.
+
+Ashlesh is a member of The Ten, the oldest and most powerful demons in existence. It pushes joy to its hideous extremes, feeding on the dark, inverted aspects of the emotion, like delirium and obsession. But Nilah has harnessed Ashlesh’s power to do good.
+
+Nilah didn’t always have these otherworldly powers. Once upon a time, she was a normal girl with a normal life—until she wasn’t.
+
+“She goes beneath her home city and disappears for a decade. When she emerges, she immediately starts putting down demi-gods and giant dragons that are bigger than mountains. She’s fighting creatures that should not be able to be defeated,” explains Carnival Knights.
+
+But wielding Ashlesh’s immense power comes with a heavy burden: Nilah is erased from living memory. There is no record of her ever being born. She is a stranger to all she ever knew, even her own family.
+
+062222_05_Full_Nilah.jpg
+
+“She returns not as this bookworm, but as a wiry stranger with heroic strength. She has no past and her future is unwritten. She’s literally lost herself to joy,” says Carnival Knights, noting that Nilah’s unflinching positivity is completely involuntary. “Ashlesh annihilates her entire emotional spectrum besides joy. She can observe that she is feeling other things, or that she wants to feel other things. There’s a lot of sadness and loss in her life, but she can’t feel anything but positive towards it, which is conflicting.”
+
+She’s truly living her best life… whether she likes it or not.
+
+“Very much like a hero from the Ramayana, she has given up everything for this incredible power and uses it to protect the world from ancient threats that have been long thought invincible,” Carnival Knights explains.
+
+062222_06_Portrait.jpg
+
+Nilah originates from Kathkan, a country southeast of (and once rival of) ancient Camavor. Based on South and Southeast Asia, it is a place of dazzling colors, rich history, and ancient myths—legends of heroes, gods, demons and monsters abound in Kathkan.
+
+There, Nilah is pledged to a powerful organization called “The Seventh Layer.” This group of heroes guards Ashlesh’s spiritual prison and protects the Kathkani people, who have long lived in peace. These heroes, who all have a connection to Ashlesh, help to keep the joy demon weak so it can’t escape its prison.
+
+In honor of the Seventh Layer, seven is a motif you’ll see a lot with Nilah, both in her look and in her abilities.
+
+“Some of the design elements that we tried to put in her outfit were the seven hands that represent the Seventh Layer. You can see it in the jewelry that she has…One of them is engraved in her kneepad,” says Riot Sojyoo, noting that the art team wanted to convey Nilah’s ascetic warrior identity, while keeping her clothing practical for slaying mythical beasts. “Because she’s a very nimble character, we wanted to make sure her outfit wasn’t restricting and it was light and it allowed her to do a lot of jumps and tricks.”
+
+062222_07_Seven_Hands.png
+
+Legend has it Ashlesh has seven arms and is trapped in the seventh layer of an underworld.
+
+Now, the wider world of Runeterra will bear witness to Nilah's legendary powers.
+
+After the Ruination, Nilah leaves Kathkan and decides to cross the ocean to Bilgewater to seek information on Viego—who is now imprisoned on her home continent—and The Ten. And she might as well hang around Oyster Bill’s Oyster Bar and slay some sea serpents who are rampaging around the docks while she’s at it.
+
+062222_08_Nilah_Splash.jpg
+
+Nilah’s goal is to do good wherever she goes, expanding the epic tale of her life—and to keep up with her ritual prayers so she stays in full control of Ashlesh.
+
+“This is one of the most powerful women on the planet, and she spends almost all of every day sitting around in the dark, reading books or reciting prayers to make sure that she’s not possessed by a demon. And then occasionally she gets up, kills like a 40-story tall sea serpent and then goes back to doing the thing she was doing before,” says Carnival Knights. “In the parlance of our time, she gives no f*&^s.”
+
+The Star of the Show
+Outside of being an absolute monster-slaying badass possessed by an ancient joy demon, Nilah is designed to be a hypercarry—but she can’t go it alone. Just like her pledge to the Seventh Layer, Nilah’s allegiance to your team will help it reach its full potential.
+
+While she has the weaknesses you’d expect to find in a melee bot laner (like being susceptible to every single spell from the enemy “support” mage), she makes up for them when her allies rally around her. When there’s an ally nearby, she has tools that relieve some of the burden of CS’ing well and managing laning phase without any CC.
+
+Her passive, for example, allows her to amplify and share healing and shielding that’s done to her or that her nearby allies do to themselves.
+
+062222_09_Heal_Sharing.gif
+
+Yasuo mains, now you can stop begging your team to pick knock-up champs and start begging them to pick enchanters.
+
+“If she is with a character who has some sort of shield or heal, then she’s making them better. And at the same time, she’s sort of selfishly taking more for herself too,” explains senior game designer Blake “Squad5” Smith.
+
+Nilah’s passive also includes an XP bonus that she shares with a nearby ally—but she has to last-hit minions to get it. So stay off her wave, Zyra mains.
+
+“Her passive basically says, if you support me, I will make us win,” Squad5 laughs. But even though sharing is caring, she’s perfect for the player who wants to show off a little. “More so than almost every other character in the game, Nilah says put the spotlight on me. There’s a lot of pressure that goes along with playing her. But if you want to be the star, and you want to kill everybody, this is a great character to pick.”
+
+062222_10_Final_Concept.jpg
+
+The killing everybody part doesn’t come easily though. Nilah isn’t the type of champ that will simply snowball and dominate lane.
+
+“We wanted to make sure she was not like a Jarvan or Pantheon lane where they’re just repeatedly killing you over and over and over again ‘cause that’s all they can do,” Squad5 says. “She actually needs to function in a way that feels familiar to bot lane players in that she wants to farm and is more oriented around trading. She’s not constantly going for those all-ins like other melee bot laners.”
+
+062222_11_Whirlpool.gif
+
+The rest of Nilah’s kit shows off the true splendor of her magical water weapon. She can strike out in a line with her urumi, veil herself in mist, dash as though sliding over iridescent water, and pull enemies into her wake with her ultimate, an effervescent whirlpool.
+
+“The idea is that she can lash out with the whip, dash into enemy targets, do her whirlpool ultimate, pull everybody in, hit them with the Q, and then just be sweeping auto attacks on all of them at the same time,” Squad5 laughs. “Her sustained area of effect damage is extremely good and should hopefully mean that she’s a top tier team fighter.”
+
+Basically, get Nilah in a teamfight in late game and all bets are off. She’ll be demoralizing the enemy team in no time—with a smile and a laugh.
